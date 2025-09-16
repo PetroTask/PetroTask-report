@@ -936,6 +936,8 @@ Para tomar decisiones estratégicas basadas en datos
 
 ## 4.1. Style Guidelines
 
+Un "style guideline" o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software, o cualquier otro tipo de trabajo creativo. A continuación, se detallan los parámetros implementados en la estructura visual y conceptual del proyecto PetroTask.
+
 ### 4.1.1. General Style Guidelines
 
 ### 4.1.2. Web Style Guidelines
