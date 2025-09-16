@@ -940,6 +940,95 @@ Un "style guideline" o guía de estilo es un conjunto de reglas y pautas que est
 
 ### 4.1.1. General Style Guidelines
 
+**Logo**
+
+El logo de PetroTask refleja la unión entre la industria petrolera y la innovación tecnológica aplicada a la gestión de operaciones de campo. La gota verde con el check naranja simboliza tanto la energía como la eficiencia en la ejecución de tareas críticas. La “T” de Task convertida en una torre de perforación petrolera conecta directamente con el sector energético, reforzando la identidad de la marca y su enfoque en operaciones de campo.
+
+<div align="center">
+  <img src="images/Logos/PetroTask_LogoSmaller.png" alt="PetroTask logo"/>
+</div>
+
+**Tipografía**
+
+La tipografías seleccionadas son Montserrat para los títulos e Inter para los párrafos. Ambas tipografías se eligieron por su modernidad, buena legibilidad y consistencia en entornos móviles y se aplicarán de forma jerarquizada en los siguientes niveles:
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center;">Nivel</th>
+        <th style="text-align: center;">Uso principal</th>
+        <th style="text-align: center;">Estilo</th>
+        <th style="text-align: center;">Tamaño</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Heading 01</strong></td>
+        <td>Títulos principales, encabezados generales</td>
+        <td>Montserrat Bold</td>
+        <td>48 px</td>
+      </tr>
+      <tr>
+        <td><strong>Heading 02</strong></td>
+        <td>Secciones destacadas y subtítulos</td>
+        <td>Montserrat Medium</td>
+        <td>28 px</td>
+      </tr>
+      <tr>
+        <td><strong>Body Text</strong></td>
+        <td>Descripciones, formularios, etiquetas</td>
+        <td>Inter Regular</td>
+        <td>16 px</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div align="center">
+  <img src="images/Fonts/Montserrat.png" alt="Montserrat font" width="400px"/>
+
+  <img src="images/Fonts/Inter.png" alt="Inter font" width="400px"/>
+</div>
+
+**Colores**
+
+1. Verde Petróleo (#008B64): representa la energía y el vínculo con la industria petrolera. También transmite adaptabilidad y un enfoque en la sostenibilidad dentro de un sector tradicionalmente robusto.
+
+<div align="center">
+  <img src="images/Colors/Petrol-Green.png" alt="Petrol Green"/>
+</div>
+
+2. Naranja (#ff5c11): es el color de la acción y la alerta, ideal para destacar llamados a la acción (CTA) y elementos dinámicos. Simboliza movimiento, pro-actividad y eficiencia operativa.
+
+<div align="center">
+  <img src="images/Colors/Orange.png" alt="Orange"/>
+</div>
+
+3. Blanco (#ffffff): evoca claridad, transparencia y simplicidad, reforzando la idea de una plataforma intuitiva y accesible. Sirve como base para equilibrar los contrastes.
+
+<div align="center">
+  <img src="images/Colors/White.png" alt="White"/>
+</div>
+
+4. Azul Marino (#14305b): transmite seguridad, confianza y solidez corporativa. Es el color que ancla la identidad de la marca, reflejando profesionalismo y estabilidad tecnológica.
+
+<div align="center">
+  <img src="images/Colors/Navy-Blue.png" alt="Navy Blue"/>
+</div>
+
+5. Gris Medio (#6b7280): aporta neutralidad y balance en la interfaz, usado principalmente para tipografía secundaria o elementos de soporte. Refuerza la legibilidad sin competir con los colores principales.
+
+<div align="center">
+  <img src="images/Colors/Mid-Gray.png" alt="Mid Gray"/>
+</div>
+
+6. Gris Claro (#9ca3af): simboliza modernidad y limpieza visual, ayudando a jerarquizar la información y mantener un diseño minimalista. Perfecto para backgrounds suaves y elementos de interfaz discretos.
+
+<div align="center">
+  <img src="images/Colors/Light-Gray.png" alt="Light Gray"/>
+</div>
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
