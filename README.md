@@ -754,9 +754,183 @@ Esto muestra un punto de encuentro claro: una herramienta que **conecte ambos ni
 
 ## 3.2. User Stories
 
+### EPIC 1: Gestión de Tareas y Operaciones
+
+**Como supervisor de campo**  
+Quiero poder crear, asignar y reprogramar tareas operativas  
+Para optimizar la planificación y ejecución de actividades petroleras
+
+**User Stories:**
+
+- Como supervisor  
+  Quiero crear tareas con descripción, prioridad y recursos asignados  
+  Para organizar las operaciones diarias
+
+- Como supervisor  
+  Quiero asignar tareas a técnicos específicos o equipos  
+  Para distribuir eficientemente la carga de trabajo
+
+- Como supervisor  
+  Quiero reprogramar tareas en tiempo real ante imprevistos  
+  Para mantener la continuidad operativa
+
+- Como supervisor  
+  Quiero visualizar el estado de todas las tareas en un dashboard  
+  Para tener visibilidad completa de las operaciones
+
+---
+
+### EPIC 2: Registro y Evidencias en Campo
+
+**Como técnico de campo**  
+Quiero registrar el avance de mis tareas con evidencias fotográficas  
+Para documentar el cumplimiento y las condiciones de trabajo
+
+**User Stories:**
+
+- Como técnico  
+  Quiero acceder a mis tareas asignadas sin necesidad de conexión a internet  
+  Para trabajar en zonas remotas
+
+- Como técnico  
+  Quiero registrar el inicio y fin de cada tarea  
+  Para documentar los tiempos de ejecución
+
+- Como técnico  
+  Quiero adjuntar fotografías como evidencia del trabajo realizado  
+  Para validar el cumplimiento de las actividades
+
+- Como técnico  
+  Quiero reportar incidencias durante la ejecución de tareas  
+  Para alertar sobre problemas operativos
+
+---
+
+### EPIC 3: Sistema de Alertas y Seguridad
+
+**Como personal operativo**  
+Quiero recibir alertas automáticas sobre riesgos y emergencias  
+Para actuar rápidamente ante situaciones peligrosas
+
+**User Stories:**
+
+- Como supervisor  
+  Quiero configurar alertas automáticas basadas en condiciones específicas  
+  Para prevenir incidentes operativos
+
+- Como técnico  
+  Quiero recibir notificaciones push sobre alertas de seguridad  
+  Para tomar medidas preventivas inmediatas
+
+- Como supervisor  
+  Quiero visualizar el historial de alertas y respuestas  
+  Para analizar patrones y mejorar la seguridad
+
+---
+
+### EPIC 4: Funcionalidad Offline y Sincronización
+
+**Como usuario de campo**  
+Quiero que la aplicación funcione sin conexión y se sincronice automáticamente  
+Para trabajar en zonas con conectividad limitada
+
+**User Stories:**
+
+- Como técnico  
+  Quiero poder usar todas las funciones esenciales sin conexión a internet  
+  Para operar en plataformas remotas
+
+- Como técnico  
+  Quiero que mis datos se sincronicen automáticamente cuando recupere conexión  
+  Para mantener la información actualizada
+
+---
+
+### EPIC 5: Reportes y Analytics
+
+**Como gerente**  
+Quiero acceder a reportes analíticos del desempeño operativo  
+Para tomar decisiones estratégicas basadas en datos
+
+**User Stories:**
+
+- Como gerente  
+  Quiero generar reportes personalizados de productividad operativa  
+  Para identificar áreas de mejora
+
+- Como supervisor  
+  Quiero visualizar métricas de cumplimiento de tareas  
+  Para evaluar el desempeño del equipo
+
+- Como auditor  
+  Quiero acceder al historial completo de operaciones con evidencias  
+  Para realizar verificaciones y cumplir con normativas
+
+---
+
 ## 3.3. Impact Mapping
 
+   <img src="images/Maps/Impact/Impact.png"/>
+
 ## 3.4. Product Backlog
+
+### Prioridad Alta (Must Have)
+
+| ID    | User Story                                                                                | Estimación (Story Points) | Sprint Objetivo |
+| ----- | ----------------------------------------------------------------------------------------- | ------------------------- | --------------- |
+| US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos asignados      | 5                         | Sprint 1        |
+| US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de conexión a internet  | 8                         | Sprint 1        |
+| US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea                              | 3                         | Sprint 1        |
+| US-12 | Como técnico, quiero poder usar todas las funciones esenciales sin conexión a internet    | 13                        | Sprint 2        |
+| US-09 | Como supervisor, quiero configurar alertas automáticas basadas en condiciones específicas | 8                         | Sprint 2        |
+| US-10 | Como técnico, quiero recibir notificaciones push sobre alertas de seguridad               | 5                         | Sprint 2        |
+
+---
+
+### Prioridad Media (Should Have)
+
+| ID    | User Story                                                                                 | Estimación (Story Points) | Sprint Objetivo |
+| ----- | ------------------------------------------------------------------------------------------ | ------------------------- | --------------- |
+| US-02 | Como supervisor, quiero asignar tareas a técnicos específicos o equipos                    | 5                         | Sprint 3        |
+| US-03 | Como supervisor, quiero reprogramar tareas en tiempo real ante imprevistos                 | 8                         | Sprint 3        |
+| US-04 | Como supervisor, quiero visualizar el estado de todas las tareas en un dashboard           | 8                         | Sprint 3        |
+| US-07 | Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado             | 5                         | Sprint 4        |
+| US-13 | Como técnico, quiero que mis datos se sincronicen automáticamente cuando recupere conexión | 8                         | Sprint 4        |
+| US-15 | Como supervisor, quiero visualizar métricas de cumplimiento de tareas                      | 5                         | Sprint 4        |
+
+---
+
+### Prioridad Baja (Could Have)
+
+| ID    | User Story                                                                       | Estimación (Story Points) | Sprint Objetivo |
+| ----- | -------------------------------------------------------------------------------- | ------------------------- | --------------- |
+| US-08 | Como técnico, quiero reportar incidencias durante la ejecución de tareas         | 3                         | Sprint 5        |
+| US-11 | Como supervisor, quiero visualizar el historial de alertas y respuestas          | 5                         | Sprint 5        |
+| US-14 | Como gerente, quiero generar reportes personalizados de productividad operativa  | 8                         | Sprint 5        |
+| US-16 | Como auditor, quiero acceder al historial completo de operaciones con evidencias | 8                         | Sprint 6        |
+
+---
+
+### Criterios de Aceptación Generales:
+
+- Funcionamiento en condiciones de conectividad limitada
+- Interfaz intuitiva y fácil de usar para personal técnico
+- Cumplimiento de normativas de seguridad petrolera
+- Sincronización bidireccional de datos
+- Escalabilidad para múltiples ubicaciones operativas
+- Seguridad de datos y autenticación robusta
+
+---
+
+### Definición de Terminado (DoD):
+
+- Código desarrollado y revisado
+- Pruebas unitarias implementadas (cobertura >80%)
+- Pruebas de integración completadas
+- Funcionalidad probada en entorno offline
+- Documentación técnica actualizada
+- Cumplimiento de estándares de seguridad
+- Aprobación por parte del product owner
 
 # Capítulo IV: Product Design
 
