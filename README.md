@@ -284,3 +284,339 @@ El personal de campo en la industria petrolera enfrenta condiciones ambientales 
 __Necesidad__
 
 Contar con una herramienta que facilite la consulta de tareas, el registro de datos reales (como hora de ejecución, cambios de recursos o incidencias) y la recepción de alertas rápidas, incluso en entornos sin conectividad.
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+#### Segmento objetivo #1: Planificadores de actividades de campo
+
+Actividades actuales  
+
+- ¿Cómo organizas las actividades que tu equipo realiza en campo?  
+- ¿Qué herramientas usas para planificar y asignar tareas?  
+- ¿Tienes algún proceso estándar para reagendar o modificar tareas?  
+- ¿Cuánto tiempo te toma asignar tareas para un día o semana?  
+
+Monitoreo y control  
+
+- ¿Cómo haces seguimiento a la ejecución de las tareas?  
+- ¿Cómo sabes si una actividad se completó correctamente?  
+- ¿Con qué frecuencia ocurren imprevistos o desviaciones?  
+- ¿Qué tan importante es para ti contar con reportes o estadísticas?  
+
+Tecnología y digitalización  
+
+- ¿Has usado alguna solución digital (app, sistema web) para estas tareas?  
+- ¿Qué te gustó o no te gustó de esas herramientas?  
+- ¿Qué funcionalidades consideras más importantes en un sistema de planificación y monitoreo?  
+
+Dolores y frustraciones  
+
+- ¿Qué es lo que más te complica en la planificación de campo?  
+- ¿Te resulta difícil coordinar con los operarios durante el día?  
+- ¿Qué consecuencias tiene una mala planificación en tu equipo?  
+
+Expectativas  
+
+- Si pudieras tener una herramienta ideal, ¿qué haría por ti?  
+
+---
+
+#### Segmento objetivo #2: Operarios de campo
+
+Flujo de trabajo  
+
+- ¿Cómo sabes qué tareas debes hacer cada día?  
+- ¿Recibes instrucciones claras sobre lo que se espera de ti?  
+- ¿Qué tipo de tareas haces normalmente?  
+
+Herramientas y comunicación  
+
+- ¿Qué dispositivos usas durante el trabajo? (celular, radio, tablet, etc.)  
+- ¿Cómo reportas que una tarea ya fue completada?  
+- ¿Te ha pasado que no sabes cómo proceder en una tarea? ¿Qué haces?  
+
+Seguimiento y ubicación  
+
+- ¿Alguna vez han rastreado tu ubicación mientras trabajas?  
+- ¿Estás de acuerdo con que se monitoree tu ubicación por razones de seguridad u operación?  
+
+Problemas frecuentes  
+
+- ¿Qué es lo más difícil de tu trabajo diario?  
+- ¿Qué pasa cuando hay un cambio de último minuto o problema en el campo?  
+- ¿Cómo te sientes con la forma actual en que se te asignan tareas?  
+
+Experiencia digital  
+
+- ¿Has usado alguna aplicación para recibir o reportar tareas?  
+- ¿Te parece fácil usar tecnología para trabajar o prefieres métodos tradicionales?  
+
+Mejoras posibles  
+
+- ¿Qué haría más fácil tu día a día en el campo?  
+- Si una aplicación pudiera ayudarte, ¿qué te gustaría que hiciera?  
+
+---
+
+### 2.2.2. Registro de entrevistas
+
+[**URL del video en Microsoft Stream:** ]()
+
+#### Segmento objetivo #1: Supervisores y Planificadores de Campo
+
+##### Entrevista 1: Supervisor de planta
+- **Edad:** 30 años  
+- **Distrito:** —  
+- **Marcas de tiempo de entrevista:**  
+- **Duración:**
+- **Screenshot del video:**  
+![Entrevista 1 captura de pantalla](assets/md-images/Entrevista1_SupervisorPlanta.png)
+
+##### Resumen descriptivo de la entrevista:
+El entrevistado se desempeña como **supervisor de planta** y organiza las actividades de su equipo en campo mediante **Excel** y reuniones rápidas al inicio del turno. Entrega planes impresos diariamente, aunque reconoce que los **imprevistos obligan a reprogramar casi todos los días**. El seguimiento se realiza por **WhatsApp o radio**, lo que a menudo genera **retrasos en la información**. Señala como mayor frustración la **falta de visibilidad en tiempo real** y considera clave contar con un **tablero digital que muestre el estado de las tareas al momento**.
+
+##### Características objetivas:
+- **Rol:** Supervisor de planta  
+- **Herramientas de trabajo:** Excel, impresiones, radio, WhatsApp  
+- **Canal de comunicación:** Reuniones diarias, mensajes digitales  
+- **Tecnología usada:** Básica (Excel, mensajería), sin sistemas especializados  
+- **Flujo de trabajo:** Planificación diaria, asignación manual, seguimiento reactivo  
+
+##### Características subjetivas:
+- **Personalidad:** Práctico, resolutivo, busca eficiencia  
+- **Influencias:** Cambios operativos diarios, presión por cumplimiento  
+- **Necesidades:** Visibilidad en tiempo real, mejor comunicación, reducción de imprevistos  
+- **Disposición a adoptar tecnología:** Alta, busca soluciones simples y ágiles  
+
+
+---
+
+##### Entrevista 2: Planificador de mantenimiento
+- **Edad:** 30 años  
+- **Distrito:** —  
+- **Marcas de tiempo de entrevista:**  
+- **Duración:**
+- **Screenshot del video:**  
+![Entrevista 2 captura de pantalla](assets/md-images/Entrevista2_PlanificadorMantenimiento.png)
+
+##### Resumen descriptivo de la entrevista:
+Este planificador realiza **cronogramas semanales en Excel** que ajusta manualmente con frecuencia. La validación de tareas se realiza mediante **fotos enviadas por WhatsApp**, aunque expresa dudas sobre su **autenticidad y trazabilidad**. Comenta que en su empresa probaron un **software de gestión**, pero fue descartado porque **no funcionaba sin conexión**. Considera que su mayor dificultad es la **falta de trazabilidad y control centralizado**, lo cual consume gran parte de su tiempo. Sugiere como ideal un sistema que **integre ubicación, hora y evidencia en un solo paso**.
+
+##### Características objetivas:
+- **Rol:** Planificador de mantenimiento  
+- **Herramientas de trabajo:** Excel, WhatsApp  
+- **Canal de comunicación:** Mensajes digitales, reportes manuales  
+- **Tecnología usada:** Software de proyectos fallido por falta de modo offline  
+- **Flujo de trabajo:** Planificación semanal, ajustes manuales, evidencias dispersas  
+
+##### Características subjetivas:
+- **Personalidad:** Analítico, estructurado, crítico con herramientas poco prácticas  
+- **Influencias:** Necesidad de trazabilidad, presión por validación de resultados  
+- **Necesidades:** Centralización de evidencias, confiabilidad en los reportes  
+- **Disposición a adoptar tecnología:** Alta, siempre que funcione offline  
+
+
+---
+
+##### Entrevista 3: Coordinador de operaciones
+- **Edad:** 33 años  
+- **Distrito:** —  
+- **Marcas de tiempo de entrevista:** 
+- **Duración:**
+- **Screenshot del video:**  
+![Entrevista 3 captura de pantalla](assets/md-images/Entrevista3_CoordinadorOperaciones.png)
+
+##### Resumen descriptivo de la entrevista:
+El coordinador organiza las órdenes mediante un **calendario impreso en la oficina** y depende de los **supervisores de turno** para ejecutar las actividades. Reconoce que los **retrasos y problemas se informan al final del día**, lo cual limita la posibilidad de reaccionar a tiempo. Los reportes llegan en **distintos formatos** (papel, correos, WhatsApp), generando dispersión de información. Aunque está abierto al uso de apps, admite que los **más jóvenes las dominan mejor que él**. Señala que una **plataforma unificada y operativa sin conexión** sería la herramienta ideal.
+
+##### Características objetivas:
+- **Rol:** Coordinador de operaciones  
+- **Herramientas de trabajo:** Calendario impreso, correos, WhatsApp, papeles  
+- **Canal de comunicación:** Supervisores de turno  
+- **Tecnología usada:** Básica, sin integración  
+- **Flujo de trabajo:** Planificación manual, comunicación indirecta, reportes fragmentados  
+
+##### Características subjetivas:
+- **Personalidad:** Abierto al cambio, pero conservador en métodos actuales  
+- **Influencias:** Flujo de información disperso, dependencia de supervisores  
+- **Necesidades:** Centralización de reportes, alertas en tiempo real  
+- **Disposición a adoptar tecnología:** Media-alta, condicionado a facilidad de uso  
+
+
+---
+
+#### Segmento objetivo #2: Operarios de Campo
+
+##### Entrevista 4: Técnico de mantenimiento
+- **Edad:** 24 años  
+- **Distrito:** —  
+- **Marcas de tiempo de entrevista:** 
+- **Duración:**  
+- **Screenshot del video:**  
+![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4_TecnicoMantenimiento.png)
+
+##### Resumen descriptivo de la entrevista:
+Este técnico recibe instrucciones de su jefe al inicio de la jornada mediante **papel o radio**. Cuando hay cambios, depende de la comunicación por radio, lo que genera **demoras**. Usa **celular y radio**, aunque no siempre hay señal confiable. Indica que en ocasiones **no sabe si sus reportes fueron registrados**. Plantea que lo más útil sería una **aplicación en la que pueda marcar tareas completadas y adjuntar fotos fácilmente**.
+
+##### Características objetivas:
+- **Rol:** Técnico de mantenimiento  
+- **Herramientas de trabajo:** Papel, radio, celular  
+- **Canal de comunicación:** Instrucciones verbales, radio  
+- **Tecnología usada:** Ninguna aplicación formal  
+- **Flujo de trabajo:** Planificación diaria, reporte manual o verbal  
+
+##### Características subjetivas:
+- **Personalidad:** Responsable, busca claridad en procesos  
+- **Influencias:** Limitaciones de señal, dependencia del supervisor  
+- **Necesidades:** Confirmación de tareas registradas, trazabilidad  
+- **Disposición a adoptar tecnología:** Alta, con enfoque en simplicidad  
+
+
+---
+
+##### Entrevista 5: Operario de extracción
+- **Edad:** 26 años  
+- **Distrito:** —  
+- **Marcas de tiempo de entrevista:**   
+- **Duración:**  
+- **Screenshot del video:**  
+![Entrevista 5 captura de pantalla](assets/md-images/Entrevista5_OperarioExtraccion.png)
+
+##### Resumen descriptivo de la entrevista:
+El operario recibe instrucciones del **capataz**, aunque muchas veces **no son claras en cuanto a responsabilidades específicas**. Su comunicación principal es **radio y WhatsApp** cuando hay señal disponible. Indica que los problemas más frecuentes se dan cuando ocurre una **falla técnica y nadie sabe cómo proceder**, generando **tiempos muertos**. Probó una **aplicación de inspecciones**, pero la abandonaron porque era **lenta y compleja**. Considera que la herramienta ideal sería una **app que guíe paso a paso y permita enviar fotos de las actividades**.
+
+##### Características objetivas:
+- **Rol:** Operario de extracción  
+- **Herramientas de trabajo:** Radio, WhatsApp  
+- **Canal de comunicación:** Capataz, mensajes  
+- **Tecnología usada:** App de inspecciones (abandonada)  
+- **Flujo de trabajo:** Instrucciones generales, resolución improvisada de problemas  
+
+##### Características subjetivas:
+- **Personalidad:** Proactivo, adaptable, pragmático  
+- **Influencias:** Claridad en las órdenes, fallas técnicas imprevistas  
+- **Necesidades:** Guías claras paso a paso, comunicación efectiva  
+- **Disposición a adoptar tecnología:** Alta, con preferencia por apps simples y rápidas  
+
+
+---
+
+##### Entrevista 6: Técnico de transporte
+- **Edad:** 29 años  
+- **Distrito:** —  
+- **Marcas de tiempo de entrevista:** 
+- **Duración:**   
+- **Screenshot del video:**  
+![Entrevista 6 captura de pantalla](assets/md-images/Entrevista6_TecnicoTransporte.png)
+
+##### Resumen descriptivo de la entrevista:
+Este técnico recibe su **hoja de rutas al inicio de cada turno**. Cuando hay cambios, suele enterarse tarde, lo que le hace perder tiempo en viajes innecesarios. Reconoce que su camión ya cuenta con **GPS**, pero este solo refleja la ubicación del vehículo y **no las actividades realizadas**. Está de acuerdo con un **sistema de rastreo personal** si se justifica por razones de seguridad. Su principal problema es llegar a recoger equipos que aún **no están listos**. Considera clave una **aplicación que le notifique cambios en tiempo real y evite desplazamientos inútiles**.
+
+##### Características objetivas:
+- **Rol:** Técnico de transporte  
+- **Herramientas de trabajo:** Hoja impresa, camión con GPS  
+- **Canal de comunicación:** Jefe de turno, llamadas, radio  
+- **Tecnología usada:** GPS de vehículo, sin apps  
+- **Flujo de trabajo:** Planificación diaria, rutas fijas, cambios tardíos  
+
+##### Características subjetivas:
+- **Personalidad:** Responsable, orientado a resultados, paciente  
+- **Influencias:** Logística de materiales, coordinación de equipos  
+- **Necesidades:** Notificaciones en tiempo real, integración con rutas  
+- **Disposición a adoptar tecnología:** Media-alta, siempre que sea simple y práctica  
+
+---
+
+### 2.2.3. Análisis de entrevistas
+
+**Segmento objetivo #1: Supervisores y Planificadores de Campo**
+
+#### Características Objetivas:
+1. **Herramientas utilizadas**:
+   - Todos los entrevistados usan **Excel** como principal medio de planificación y ajustes (100%).  
+   - La comunicación depende de **WhatsApp**, **radio** y **correos**; los reportes llegan en diferentes formatos (papel, fotos, mensajes).  
+   - No cuentan con un **software unificado ni especializado**.  
+   - Intentos previos de usar herramientas digitales fracasaron por **no contar con funcionalidad offline**.  
+
+2. **Tiempo dedicado**:
+   - La planificación se realiza de manera **diaria o semanal**; en promedio, se invierte entre **1–3 horas por día** en ajustar planes.  
+   - Entre un **30% y 40%** de las tareas planificadas sufren desviaciones por imprevistos logísticos, técnicos o climáticos.  
+
+3. **Reportes y métricas**:
+   - El seguimiento se hace de manera **reactiva**: validación con fotos enviadas por WhatsApp o llamadas.  
+   - Las métricas más relevantes son: **tareas completadas vs. planificadas**, **retrasos** y **evidencias de campo**.  
+   - No existe **trazabilidad formal** ni un sistema de consolidación de reportes en tiempo real.  
+
+#### Características Subjetivas:
+1. **Desafíos en la planificación**:
+   - Los imprevistos constantes (clima, fallas de equipos, cambios de última hora) obligan a **rehacer los planes con frecuencia**.  
+   - La falta de **información en tiempo real** genera retrasos y pérdida de control.  
+   - La dispersión de reportes (papel, fotos, WhatsApp, correos) **aumenta la carga administrativa**.  
+
+2. **Satisfacción con el sistema actual**:
+   - **Baja**. Consideran que el sistema manual no les da seguridad ni eficiencia.  
+   - Los supervisores sienten que siempre **“corren detrás de los problemas”** en lugar de anticiparse.  
+
+3. **Expectativas de tecnologías emergentes**:
+   - Existe **alta disposición** a usar nuevas herramientas, siempre que sean **simples, intuitivas y funcionen offline**.  
+   - Esperan un sistema que **centralice la planificación, ejecución y evidencias**, con **tableros de seguimiento en tiempo real**.  
+
+
+---
+
+**Segmento objetivo #2: Operarios de Campo**
+
+#### Características Objetivas:
+1. **Herramientas utilizadas**:
+   - El flujo de trabajo inicia con **órdenes verbales, hojas impresas o radios**.  
+   - El **celular** y **WhatsApp** se usan como soporte, aunque dependen de la señal.  
+   - Algunos probaron **apps**, pero fueron descartadas por ser **lentas o complicadas**.  
+
+2. **Tiempo dedicado**:
+   - El trabajo no involucra tiempo de planificación, sino de **ejecución**; sin embargo, los operarios **pierden tiempo** cuando:  
+     - Reciben **órdenes tardías o poco claras**.  
+     - Deben **esperar materiales o instrucciones**.  
+   - Los retrasos se estiman en **30–40%** de las actividades diarias.  
+
+3. **Reportes y métricas**:
+   - El registro de tareas se hace **verbalmente o enviando fotos al supervisor**.  
+   - El **GPS solo rastrea vehículos**, no actividades ni personas.  
+   - No existe **confirmación clara** de que el reporte fue registrado.  
+
+#### Características Subjetivas:
+1. **Desafíos operativos**:
+   - La falta de **claridad en las instrucciones** genera confusión.  
+   - Los **cambios de último minuto** y la ausencia de **protocolos digitales** ralentizan el trabajo.  
+   - Problemas frecuentes:  
+     - No saber si una tarea fue registrada.  
+     - Esperar por materiales no listos.  
+     - Recibir notificaciones tardías.  
+
+2. **Satisfacción con el sistema actual**:
+   - **Baja a media**. Valoran los métodos tradicionales por su simplicidad, pero reconocen que generan **retrasos y falta de control**.  
+   - Existe frustración cuando sienten que **“trabajan sin guía”** o que sus reportes **“se pierden”**.  
+
+3. **Expectativas de tecnologías emergentes**:
+   - Muestran **alta disposición** a usar apps si son **rápidas, simples y con mínimos pasos**.  
+   - Esperan soluciones como:  
+     - **Checklists digitales**.  
+     - **Subida de fotos y evidencias directas**.  
+     - **Notificaciones en tiempo real** para cambios de tareas o rutas.  
+
+
+---
+
+### Conclusión del Análisis General
+
+1. **Falta de digitalización**: Ambos segmentos dependen fuertemente de métodos manuales (**Excel, papel, radio, WhatsApp**). Esto genera **duplicidad de trabajo, retrasos y pérdida de trazabilidad**.  
+2. **Alta frecuencia de imprevistos**: Entre un **30–40%** de las actividades planificadas sufren cambios no anticipados. Esto impacta directamente en **eficiencia y tiempos de respuesta**.  
+3. **Problemas de comunicación**: La comunicación fragmentada (radio, mensajes, papel) hace difícil **coordinar en tiempo real**. Supervisores pierden visibilidad y operarios se sienten sin guía.  
+4. **Receptividad a la tecnología**: Tanto supervisores como operarios están abiertos a soluciones digitales, pero condicionan su uso a que sean **intuitivas, rápidas, offline y con integración de fotos/evidencias**.  
+5. **Necesidad compartida**:  
+   - Supervisores quieren **tableros en tiempo real y centralización de reportes**.  
+   - Operarios quieren **simplicidad, claridad de tareas y confirmación inmediata de sus reportes**.  
+
+Esto muestra un punto de encuentro claro: una herramienta que **conecte ambos niveles (planificación ↔ ejecución)** mediante una **plataforma digital ligera, integrada y offline**.  
+
