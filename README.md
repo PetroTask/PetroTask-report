@@ -1,7 +1,7 @@
 # Informe del Trabajo Final
 
 <div>
-  <p align="center"><img src="assets/md-images/upc-logo.png" alt="Logo UPC" width="150px" /></p>
+  <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC" width="150px" /></p>
   <p align="center"><b>Informe de Trabajo Final</b></p>
   <p align="center">Facultad de Ingeniería</p>
   <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
@@ -45,6 +45,104 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.3. [Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.4. [Lean UX Canvas](#1224-lean-ux-canvas)  
 &nbsp;&nbsp;&nbsp;&nbsp;1.3. [Segmentos objetivos](#13-segmentos-objetivos)
+
+2. __[Capítulo II: Requirements Elicitation & Analysis](#2-capítulo-ii-requirements-elicitation--analysis)__  
+&nbsp;&nbsp;&nbsp;&nbsp;2.1. [Competidores](#21-competidores)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1. [Análisis competitivo](#211-análisis-competitivo)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2. [Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.2. [Entrevistas](#22-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1. [Diseño de entrevistas](#221-diseño-de-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2. [Registro de entrevistas](#222-registro-de-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3. [Análisis de entrevistas](#223-análisis-de-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.3. [Needfinding](#23-needfinding)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1. [User Personas](#231-user-personas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2. [User Task Matrix](#232-user-task-matrix)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3. [User Journey Mapping](#233-user-journey-mapping)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.4. [Empathy Mapping](#234-empathy-mapping)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.4. [Big Picture Event Storming](#24-big-picture-event-storming)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.5. [Ubiquitous Language](#25-ubiquitous-language)  
+
+3. __[Capítulo III: Requirements Specification](#3-capítulo-iii-requirements-specification)__  
+&nbsp;&nbsp;&nbsp;&nbsp;3.1. [User Stories](#31-user-stories)  
+&nbsp;&nbsp;&nbsp;&nbsp;3.2. [Impact Mapping](#32-impact-mapping)  
+&nbsp;&nbsp;&nbsp;&nbsp;3.3. [Product Backlog](#33-product-backlog)  
+
+4. __[Capítulo IV: Product Design](#4-capítulo-iv-product-design)__  
+&nbsp;&nbsp;&nbsp;&nbsp;4.1. [Style Guidelines](#41-style-guidelines)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1. [General Style Guidelines](#411-general-style-guidelines)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2. [Web Style Guidelines](#412-web-style-guidelines)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.2. [Information Architecture](#42-information-architecture)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1. [Organization Systems](#421-organization-systems)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2. [Labeling Systems](#422-labeling-systems)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.3. [SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.4. [Searching Systems](#424-searching-systems)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.5. [Navigation Systems](#425-navigation-systems)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.3. [Landing Page UI Design](#43-landing-page-ui-design)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.1. [Landing Page Wireframe](#431-landing-page-wireframe)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.2. [Landing Page Mock-up](#432-landing-page-mock-up)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.4. [Web Applications UX/UI Design](#44-web-applications-uxui-design)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1. [Web Applications Wireframes](#441-web-applications-wireframes)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.2. [Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.3. [Web Applications Mock-ups](#443-web-applications-mock-ups)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.4. [Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.5. [Web Applications Prototyping](#45-web-applications-prototyping)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.6. [Domain-Driven Software Architecture](#46-domain-driven-software-architecture)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.1. [Design-Level Event Storming](#461-design-level-event-storming)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.2. [Software Architecture Context Diagram](#462-software-architecture-context-diagram)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.3. [Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.4. [Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.7. [Software Object-Oriented Design](#47-software-object-oriented-design)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1. [Class Diagrams](#471-class-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.8. [Database Design](#48-database-design)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8.1. [Database Diagrams](#481-database-diagrams)  
+
+5. __[Capítulo V: Product Implementation, Validation & Deployment](#5-capítulo-v-product-implementation-validation--deployment)__  
+&nbsp;&nbsp;&nbsp;&nbsp;5.1. [Software Configuration Management](#51-software-configuration-management)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.1. [Software Development Environment Configuration](#511-software-development-environment-configuration)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.2. [Source Code Management](#512-source-code-management)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.3. [Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.4. [Software Deployment Configuration](#514-software-deployment-configuration)  
+&nbsp;&nbsp;&nbsp;&nbsp;5.2. [Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1. [Sprint 1](#521-sprint-1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.1. [Sprint Planning 1](#5211-sprint-planning-1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2. [Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.3. [Sprint Backlog 1](#5213-sprint-backlog-1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.4. [Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.5. [Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.6. [Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2. [Sprint 2](#522-sprint-2)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.1. [Sprint Planning 2](#5221-sprint-planning-2)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.2. [Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.3. [Sprint Backlog 2](#5223-sprint-backlog-2)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.4. [Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.5. [Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.6. [Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.7. [Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.8. [Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3. [Sprint 3](#523-sprint-3)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.1. [Sprint Planning 3](#5231-sprint-planning-3)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.2. [Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.3. [Sprint Backlog 3](#5233-sprint-backlog-3)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.4. [Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.5. [Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)  
+&nbsp;&nbsp;&nbsp;&nbsp;5.3. [Validation Interviews](#53-validation-interviews)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.1. [Diseño de Entrevistas](#531-diseño-de-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.2. [Registro de Entrevistas](#532-registro-de-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.3. [Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)  
+&nbsp;&nbsp;&nbsp;&nbsp;5.4. [Video About-the-Product](#54-video-about-the-product)  
+
+6. __[Conclusiones](#6-conclusiones)__  
+&nbsp;&nbsp;&nbsp;&nbsp;6.1. [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)  
+&nbsp;&nbsp;&nbsp;&nbsp;6.2. [Video About-the-Team](#62-video-about-the-team)  
+
+7. __[Bibliografía](#7-bibliografía)__  
+
+8. __[Anexos](#8-anexos)__
 
 # 1. Capítulo I: Introducción  
 
@@ -284,3 +382,279 @@ El personal de campo en la industria petrolera enfrenta condiciones ambientales 
 __Necesidad__
 
 Contar con una herramienta que facilite la consulta de tareas, el registro de datos reales (como hora de ejecución, cambios de recursos o incidencias) y la recepción de alertas rápidas, incluso en entornos sin conectividad.
+
+# 2. Capítulo II: Requirements Elicitation & Analysis  
+
+## 2.1. Competidores  
+
+### 2.1.1. Análisis competitivo  
+### 2.1.2. Estrategias y tácticas frente a competidores  
+
+## 2.2. Entrevistas  
+
+### 2.2.1. Diseño de entrevistas  
+### 2.2.2. Registro de entrevistas  
+### 2.2.3. Análisis de entrevistas  
+
+## 2.3. Needfinding  
+
+### 2.3.1. User Personas  
+### 2.3.2. User Task Matrix  
+### 2.3.3. User Journey Mapping  
+### 2.3.4. Empathy Mapping  
+
+## 2.4. Big Picture Event Storming  
+## 2.5. Ubiquitous Language  
+
+
+# 3. Capítulo III: Requirements Specification  
+
+## 3.1. User Stories  
+
+
+### EPIC 1: Gestión de Tareas y Operaciones  
+**Como supervisor de campo**  
+Quiero poder crear, asignar y reprogramar tareas operativas  
+Para optimizar la planificación y ejecución de actividades petroleras  
+
+**User Stories:**  
+- Como supervisor  
+  Quiero crear tareas con descripción, prioridad y recursos asignados  
+  Para organizar las operaciones diarias  
+
+- Como supervisor  
+  Quiero asignar tareas a técnicos específicos o equipos  
+  Para distribuir eficientemente la carga de trabajo  
+
+- Como supervisor  
+  Quiero reprogramar tareas en tiempo real ante imprevistos  
+  Para mantener la continuidad operativa  
+
+- Como supervisor  
+  Quiero visualizar el estado de todas las tareas en un dashboard  
+  Para tener visibilidad completa de las operaciones  
+
+---
+
+### EPIC 2: Registro y Evidencias en Campo  
+**Como técnico de campo**  
+Quiero registrar el avance de mis tareas con evidencias fotográficas  
+Para documentar el cumplimiento y las condiciones de trabajo  
+
+**User Stories:**  
+- Como técnico  
+  Quiero acceder a mis tareas asignadas sin necesidad de conexión a internet  
+  Para trabajar en zonas remotas  
+
+- Como técnico  
+  Quiero registrar el inicio y fin de cada tarea  
+  Para documentar los tiempos de ejecución  
+
+- Como técnico  
+  Quiero adjuntar fotografías como evidencia del trabajo realizado  
+  Para validar el cumplimiento de las actividades  
+
+- Como técnico  
+  Quiero reportar incidencias durante la ejecución de tareas  
+  Para alertar sobre problemas operativos  
+
+---
+
+### EPIC 3: Sistema de Alertas y Seguridad  
+**Como personal operativo**  
+Quiero recibir alertas automáticas sobre riesgos y emergencias  
+Para actuar rápidamente ante situaciones peligrosas  
+
+**User Stories:**  
+- Como supervisor  
+  Quiero configurar alertas automáticas basadas en condiciones específicas  
+  Para prevenir incidentes operativos  
+
+- Como técnico  
+  Quiero recibir notificaciones push sobre alertas de seguridad  
+  Para tomar medidas preventivas inmediatas  
+
+- Como supervisor  
+  Quiero visualizar el historial de alertas y respuestas  
+  Para analizar patrones y mejorar la seguridad  
+
+---
+
+### EPIC 4: Funcionalidad Offline y Sincronización  
+**Como usuario de campo**  
+Quiero que la aplicación funcione sin conexión y se sincronice automáticamente  
+Para trabajar en zonas con conectividad limitada  
+
+**User Stories:**  
+- Como técnico  
+  Quiero poder usar todas las funciones esenciales sin conexión a internet  
+  Para operar en plataformas remotas  
+
+- Como técnico  
+  Quiero que mis datos se sincronicen automáticamente cuando recupere conexión  
+  Para mantener la información actualizada  
+
+---
+
+### EPIC 5: Reportes y Analytics  
+**Como gerente**  
+Quiero acceder a reportes analíticos del desempeño operativo  
+Para tomar decisiones estratégicas basadas en datos  
+
+**User Stories:**  
+- Como gerente  
+  Quiero generar reportes personalizados de productividad operativa  
+  Para identificar áreas de mejora  
+
+- Como supervisor  
+  Quiero visualizar métricas de cumplimiento de tareas  
+  Para evaluar el desempeño del equipo  
+
+- Como auditor  
+  Quiero acceder al historial completo de operaciones con evidencias  
+  Para realizar verificaciones y cumplir con normativas  
+
+---
+
+## 3.2. Impact Mapping  
+
+<img src="https://github.com/Rodri2712/TaskOil/blob/9994e81b0bfde7ee3b12050245f902ca9ffc3eb9/img/Impact%20Mapping.png"/>
+
+## 3.3. Product Backlog  
+
+### Prioridad Alta (Must Have)  
+| ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |
+|-------|----------------------------------------------------------------------------|----------------------------|-----------------|
+| US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos asignados | 5 | Sprint 1 |
+| US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de conexión a internet | 8 | Sprint 1 |
+| US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea | 3 | Sprint 1 |
+| US-12 | Como técnico, quiero poder usar todas las funciones esenciales sin conexión a internet | 13 | Sprint 2 |
+| US-09 | Como supervisor, quiero configurar alertas automáticas basadas en condiciones específicas | 8 | Sprint 2 |
+| US-10 | Como técnico, quiero recibir notificaciones push sobre alertas de seguridad | 5 | Sprint 2 |
+
+---
+
+### Prioridad Media (Should Have)  
+| ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |
+|-------|----------------------------------------------------------------------------|----------------------------|-----------------|
+| US-02 | Como supervisor, quiero asignar tareas a técnicos específicos o equipos    | 5 | Sprint 3 |
+| US-03 | Como supervisor, quiero reprogramar tareas en tiempo real ante imprevistos | 8 | Sprint 3 |
+| US-04 | Como supervisor, quiero visualizar el estado de todas las tareas en un dashboard | 8 | Sprint 3 |
+| US-07 | Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado | 5 | Sprint 4 |
+| US-13 | Como técnico, quiero que mis datos se sincronicen automáticamente cuando recupere conexión | 8 | Sprint 4 |
+| US-15 | Como supervisor, quiero visualizar métricas de cumplimiento de tareas      | 5 | Sprint 4 |
+
+---
+
+### Prioridad Baja (Could Have)  
+| ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |
+|-------|----------------------------------------------------------------------------|----------------------------|-----------------|
+| US-08 | Como técnico, quiero reportar incidencias durante la ejecución de tareas   | 3 | Sprint 5 |
+| US-11 | Como supervisor, quiero visualizar el historial de alertas y respuestas    | 5 | Sprint 5 |
+| US-14 | Como gerente, quiero generar reportes personalizados de productividad operativa | 8 | Sprint 5 |
+| US-16 | Como auditor, quiero acceder al historial completo de operaciones con evidencias | 8 | Sprint 6 |
+
+---
+
+### Criterios de Aceptación Generales:  
+- Funcionamiento en condiciones de conectividad limitada  
+- Interfaz intuitiva y fácil de usar para personal técnico  
+- Cumplimiento de normativas de seguridad petrolera  
+- Sincronización bidireccional de datos  
+- Escalabilidad para múltiples ubicaciones operativas  
+- Seguridad de datos y autenticación robusta  
+
+---
+
+### Definición de Terminado (DoD):  
+- Código desarrollado y revisado  
+- Pruebas unitarias implementadas (cobertura >80%)  
+- Pruebas de integración completadas  
+- Funcionalidad probada en entorno offline  
+- Documentación técnica actualizada  
+- Cumplimiento de estándares de seguridad  
+- Aprobación por parte del product owner  
+
+# 4. Capítulo IV: Product Design  
+
+## 4.1. Style Guidelines  
+
+### 4.1.1. General Style Guidelines  
+### 4.1.2. Web Style Guidelines  
+
+## 4.2. Information Architecture  
+
+### 4.2.1. Organization Systems  
+### 4.2.2. Labeling Systems  
+### 4.2.3. SEO Tags and Meta Tags  
+### 4.2.4. Searching Systems  
+### 4.2.5. Navigation Systems  
+
+## 4.3. Landing Page UI Design  
+
+### 4.3.1. Landing Page Wireframe  
+### 4.3.2. Landing Page Mock-up  
+
+## 4.4. Web Applications UX/UI Design  
+
+### 4.4.1. Web Applications Wireframes  
+### 4.4.2. Web Applications Wireflow Diagrams  
+### 4.4.3. Web Applications Mock-ups  
+### 4.4.4. Web Applications User Flow Diagrams  
+
+## 4.5. Web Applications Prototyping  
+
+## 4.6. Domain-Driven Software Architecture  
+
+### 4.6.1. Design-Level Event Storming  
+### 4.6.2. Software Architecture Context Diagram  
+### 4.6.3. Software Architecture Container Diagrams  
+### 4.6.4. Software Architecture Components Diagrams  
+
+## 4.7. Software Object-Oriented Design  
+
+### 4.7.1. Class Diagrams  
+
+## 4.8. Database Design  
+
+### 4.8.1. Database Diagrams  
+
+
+# 5. Capítulo V: Product Implementation, Validation & Deployment  
+
+## 5.1. Software Configuration Management  
+
+### 5.1.1. Software Development Environment Configuration  
+### 5.1.2. Source Code Management  
+### 5.1.3. Source Code Style Guide & Conventions  
+### 5.1.4. Software Deployment Configuration  
+
+## 5.2. Landing Page, Services & Applications Implementation  
+
+### 5.2.X. Sprint n  
+
+#### 5.2.X.1. Sprint Planning n  
+#### 5.2.X.2. Aspect Leaders and Collaborators  
+#### 5.2.X.3. Sprint Backlog n  
+#### 5.2.X.4. Development Evidence for Sprint Review  
+#### 5.2.X.5. Execution Evidence for Sprint Review  
+#### 5.2.X.6. Services Documentation Evidence for Sprint Review  
+#### 5.2.X.7. Software Deployment Evidence for Sprint Review  
+#### 5.2.X.8. Team Collaboration Insights during Sprint  
+
+## 5.3. Validation Interviews  
+
+### 5.3.1. Diseño de Entrevistas  
+### 5.3.2. Registro de Entrevistas  
+### 5.3.3. Evaluaciones según heurísticas  
+
+## 5.4. Video About-the-Product  
+
+
+# Conclusiones  
+
+## Conclusiones y recomendaciones  
+## Video About-the-Team  
+
+# Bibliografía  
+# Anexos  
