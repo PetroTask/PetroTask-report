@@ -139,8 +139,9 @@ La solución busca resolver la falta de trazabilidad, coordinación y control en
 
 Una de las principales fortalezas del sistema es su capacidad para adaptarse a la realidad de las operaciones petroleras: contempla la ejecución en entornos con conectividad limitada, la sincronización de datos cuando la red está disponible, y dashboards especializados que reflejan el avance, desempeño y cumplimiento de tareas en tiempo real. Esta solución aporta un valor diferencial tanto para los supervisores que planifican como para el personal que ejecuta tareas en terreno.
 
-Misión: Optimizar la planificación, ejecución y trazabilidad de actividades de campo en la industria petrolera mediante una plataforma inteligente, segura y adaptable a entornos operativos remotos.
-Visión: PetroTask aspira a convertirse en el aliado tecnológico preferido por empresas petroleras en Latinoamérica, facilitando operaciones más eficientes, seguras y trazables a través de la innovación digital aplicada al sector energético.
+**Misión:** Optimizar la planificación, ejecución y trazabilidad de actividades de campo en la industria petrolera mediante una plataforma inteligente, segura y adaptable a entornos operativos remotos.
+
+**Visión:** PetroTask aspira a convertirse en el aliado tecnológico preferido por empresas petroleras en Latinoamérica, facilitando operaciones más eficientes, seguras y trazables a través de la innovación digital aplicada al sector energético.
 
 ### 1.1.2. Perfiles de los integrantes del equipo
 
@@ -1071,7 +1072,7 @@ Las pantallas emergentes (pop-ups) confirman acciones importantes. Aparecen al c
 
 **Dashboards y fases**
 
-El dashboard visualiza las tareas asignadas y su progreso. Las fases (Fase 1 a Fase 4) se presentan con etiquetas de colores (gris, amarillo, verde) y se integran mapas en tiempo real con marcadores de posición. Este diseño permite a los supervisores identificar tareas en curso y tomar decisiones rápidas.
+El dashboard visualiza las tareas asignadas y su progreso. Las fases se presentan con etiquetas de colores (gris, amarillo, verde) y se integran mapas en tiempo real con marcadores de posición. Este diseño permite a los supervisores identificar tareas en curso y tomar decisiones rápidas.
 
 **Estilo general de la web**
 
@@ -1081,13 +1082,78 @@ El estilo de PetroTask en web prioriza eficiencia, robustez y control visual. Ut
 
 ### 4.2.1. Organization Systems
 
+La organización que presentamos en pantalla se encuentra distribuida de distintas formas acorde con la sección y cantidad de información presentada en la misma. En términos generales, puede mencionarse una organización jerárquica que busca dar a resaltar los elementos principales como opciones que ayuden al usuario a navegar entre pantallas y funcionalidad, o títulos que le aclaren la sección en la que se encuentra.
+
+Comenzando con la landing page, esta está dividida en secciones que se diferencian por título y color de fondo, de forma que sean distinguibles y que cada una explique un aspecto particular de nuestro proyecto. Dentro de estas, se incluyen elementos más pequeños con un espacio razonable entre ellos para permitir su visualización clara, así como para evitar recargar la vista del usuario. En algunas de las secciones se ha optado por dividir los dos lados de la misma, colocando la información a un lado y una imagen o ícono referencial al otro, de forma que puedan apreciarse ambas partes en simultáneo mientras se hace un buen uso del espacio total.
+
 ### 4.2.2. Labeling Systems
+
+Para el nombramiento en general, estamos optando por palabras del uso diario en el ámbito que se está trabajando, es decir, el sector petrolero. En este sentido, podemos estar seguros de que nuestros usuarios comprenderán las opciones que se les presentan. Cabe resaltar que siempre se incluyen títulos o subtítulos que mencionan el propósito de la sección en que el usuario se encuentra. Ejemplo de esto pueden ser los subtítulos “Alertas” o “Nueva tarea”. De la misma forma, los botones mencionan con verbos en la mayoría de los casos, y sustantivos en unos pocos, la funcionalidad que implican. Esto puede verse en botones como “Iniciar”, “Crear” o “Ver”. Así, el usuario puede estar seguro de lo que hará al seleccionar el botón. En cuanto al nombramiento de opciones de navegación, se usan palabras claves y puntuales para indicar al usuario la sección a la que se dirigirá.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Los Meta Tags o SEO Tags son etiquetas ubicadas en la cabecera del sitio web que brindan información a los navegadores y motores de búsqueda. Aunque no son visibles para el usuario final, cumplen un rol fundamental en el posicionamiento, visibilidad y accesibilidad de la plataforma PetroTask.
+
+- **Título (<title>)**
+
+Establece el nombre visible en la pestaña del navegador y en los resultados de búsqueda.
+
+<title>PetroTask - Optimiza tus Operaciones de Campo</title>
+
+- **Descripción (<meta name="description">)**
+Aparece debajo del título en los resultados de Google, describiendo el propósito del sitio.
+<meta name="description" content="PetroTask es una plataforma para gestionar y monitorear tareas logísticas en campo en tiempo real.">
+
+- **Codificación (<meta charset="utf-8">)**
+
+Garantiza que los caracteres especiales se rendericen correctamente en todos los navegadores.
+
+<meta charset="utf-8">
+
+- **Palabras clave (<meta name="keywords">)**
+
+Mejora la relación entre los términos buscados y el contenido del sitio.
+
+<meta name="keywords" content="PetroTask, logística, tareas, monitoreo, trazabilidad, campo, IoT">
+
+- **Autor y copyright**
+
+<meta name="author" content="PetroTask" />
+<meta name="copyright" content="Copyright PetroTask 2025" />
+
+- **Robots y Open Graph**
+
+Permiten que el contenido sea indexado por buscadores y compartido correctamente en redes sociales.
+
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="PetroTask - Optimiza tus Operaciones de Campo"/>
+<meta property="og:description" content="Gestiona operaciones logísticas con visibilidad en tiempo real"/>
+<meta property="og:image" content="url-del-logo.png"/>
+<meta property="og:url" content="https://petrotask.com"/>
+
 ### 4.2.4. Searching Systems
 
+El sistema de búsqueda de PetroTask está diseñado para ser práctico y útil en contextos logísticos reales. Su objetivo es permitir a los usuarios encontrar tareas, incidencias o fases específicas sin necesidad de navegar por múltiples pantallas.
+
+Características principales:
+
+- **Barra de búsqueda** visible en vistas clave como "Listado de Tareas" o "Fases por zona".
+
+- **Búsqueda por palabra clave** que incluye códigos, títulos, zonas o estados.
+
+- **Coincidencias resaltadas** para facilitar la lectura en tiempo real.
+
+- **Mensajes de resultado** que indican claramente si no se encontraron coincidencias.
+
+- **Funcionamiento offline parcial**, permitiendo búsquedas sobre datos almacenados localmente.
+
+- **Sin complejidad técnica**, pensado para usuarios de nivel básico o intermedio.
+
+Gracias a estas funcionalidades comunes, los supervisores y técnicos pueden acceder rápidamente a la información que necesitan en medio de sus tareas operativas.
+
 ### 4.2.5. Navigation Systems
+
+En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para facilitar el acceso a las funcionalidades principales de la plataforma. Desde la página de inicio, los usuarios pueden iniciar sesión en su cuenta personal, siempre que tengan una sesión contratada. Una vez autenticados, ya sea desde un dispositivo móvil o de escritorio, pueden acceder fácilmente a las secciones clave a través de un menú desplegable ubicado en la parte lateral de la interfaz. Este menú incluye opciones como "Inicio", "Tareas", "Fases", "Incidencias" y "Dashboard", permitiendo una navegación fluida y sin complicaciones. Además, se han incorporado botones visibles y accesibles que guían al usuario hacia la información o funcionalidad deseada en pocos pasos, mejorando así la experiencia de uso y eficiencia en la gestión logística.
 
 ## 4.3. Landing Page UI Design
 
