@@ -1101,8 +1101,10 @@ Establece el nombre visible en la pestaña del navegador y en los resultados de 
 `<title>PetroTask - Optimiza tus Operaciones de Campo</title>`
 
 - **Descripción (`<meta name="description">`)**
-  Aparece debajo del título en los resultados de Google, describiendo el propósito del sitio.
-  `<meta name="description" content="PetroTask es una plataforma para gestionar y monitorear tareas logísticas en campo en tiempo real.">`
+
+Aparece debajo del título en los resultados de Google, describiendo el propósito del sitio.
+
+`<meta name="description" content="PetroTask es una plataforma para gestionar y monitorear tareas logísticas en campo en tiempo real.">`
 
 - **Codificación (`<meta charset="utf-8">`)**
 
