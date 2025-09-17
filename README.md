@@ -1127,9 +1127,13 @@ Mejora la relación entre los términos buscados y el contenido del sitio.
 Permiten que el contenido sea indexado por buscadores y compartido correctamente en redes sociales.
 
 `<meta name="robots" content="index, follow">`
+
 `<meta property="og:title" content="PetroTask - Optimiza tus Operaciones de Campo"/>`
+
 `<meta property="og:description" content="Gestiona operaciones logísticas con visibilidad en tiempo real"/>`
+
 `<meta property="og:image" content="url-del-logo.png"/>`
+
 `<meta property="og:url" content="https://petrotask.com"/>`
 
 ### 4.2.4. Searching Systems
