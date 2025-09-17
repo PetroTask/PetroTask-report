@@ -1,7 +1,7 @@
 # Informe del Trabajo Final
 
 <div>
-  <p align="center"><img src="assets/md-images/upc-logo.png" alt="Logo UPC" width="150px" /></p>
+  <p align="center"><img src="images/upc-logo.png" alt="Logo UPC" width="150px" /></p>
   <p align="center"><b>Informe de Trabajo Final</b></p>
   <p align="center">Facultad de Ingeniería</p>
   <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
