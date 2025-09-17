@@ -1029,7 +1029,53 @@ La tipografías seleccionadas son Montserrat para los títulos e Inter para los 
   <img src="images/Colors/Light-Gray.png" alt="Light Gray"/>
 </div>
 
+7. Verde Mantis (#66BB6A): se usa para representar estados positivos, avance o tareas completadas. Es un verde vibrante que transmite energía, frescura y éxito. Ideal para etiquetas de progreso, indicadores de cumplimiento y elementos que refuercen la idea de logro.
+
+<div align="center">
+  <img src="images/Colors/Mantis.png" alt="Mantis"/>
+</div>
+
+8. Amarillo (#FFF176): representa importancia, advertencia o tareas prioritarias. Es un color cálido y visible, útil para destacar información relevante, alertas importantes y fases que requieren atención especial. En tarjetas, indica tareas importantes pero no urgentes.
+
+<div align="center">
+  <img src="images/Colors/Yellow.png" alt="Yellow"/>
+</div>
+
+9. Rojo (#FF7976): se utiliza para estados urgentes, alertas críticas o incidencias. Es un color de alto impacto visual, asociado a urgencia, peligro o necesidad de acción inmediata. En la interfaz, sirve para resaltar problemas, errores o tareas que requieren intervención rápida.
+
+<div align="center">
+  <img src="images/Colors/Red.png" alt="Red"/>
+</div>
+
 ### 4.1.2. Web Style Guidelines
+
+**Tarjetas**
+
+Las tarjetas se utilizan para representar tareas, alertas y fases logísticas. Estas se presentan en bloques verticales, diferenciadas por colores de fondo que indican prioridad o estado (rojo para urgente, amarillo para importante, gris medio para estándar). Cada tarjeta incluye un título en jerarquía destacada, una breve descripción y botones para realizar acciones operativas como asignar, ver o editar. Son esenciales para las vistas "Home", "Planificación" e "Incidencias".
+
+**Imágenes**
+
+Las imágenes tienen un uso funcional. Por ejemplo, en las incidencias se pueden subir evidencias fotográficas de fallas o condiciones adversas. También se utilizan íconos climáticos, mapas y representaciones visuales de ubicación y avance de tareas. No se emplean imágenes decorativas para evitar distracción y mantener una estética profesional.
+
+**Botones**
+
+Los botones están diseñados con esquinas redondeadas, alto contraste y etiquetas claras. El naranja representa acciones principales como "Guardar" o "Asignar", mientras que el azul marino se usa para funciones secundarias como "Volver" o "Editar". Todos los botones tienen tipografía Inter centrada y están ubicados estratégicamente al pie de formularios o tarjetas.
+
+**Tablas y formularios**
+
+El sistema incluye formularios para planificar tareas, asignar zonas, registrar incidencias y modificar fases. Estos formularios están organizados en columnas y campos verticales, con etiquetas visibles y validaciones básicas. Las tablas, cuando se utilizan, muestran información clave como fecha, responsable, ubicación y estado.
+
+**Pantallas emergentes**
+
+Las pantallas emergentes (pop-ups) confirman acciones importantes. Aparecen al centro de la pantalla y oscurecen el fondo para enfocar la atención del usuario. Incluyen texto explicativo, botones diferenciados por color y, ocasionalmente, íconos o advertencias visuales.
+
+**Dashboards y fases**
+
+El dashboard visualiza las tareas asignadas y su progreso. Las fases (Fase 1 a Fase 4) se presentan con etiquetas de colores (gris, amarillo, verde) y se integran mapas en tiempo real con marcadores de posición. Este diseño permite a los supervisores identificar tareas en curso y tomar decisiones rápidas.
+
+**Estilo general de la web**
+
+El estilo de PetroTask en web prioriza eficiencia, robustez y control visual. Utiliza los colores institucionales (verde petróleo, azul marino y naranja). La tipografía Montserrat para los títulos e Inter para el contenido y la UI, los íconos grandes y elementos bien jerarquizados además del diseño modular y adaptable transmiten tecnología y confiabilidad.
 
 ## 4.2. Information Architecture
 
