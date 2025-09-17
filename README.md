@@ -1094,42 +1094,43 @@ Para el nombramiento en general, estamos optando por palabras del uso diario en 
 
 Los Meta Tags o SEO Tags son etiquetas ubicadas en la cabecera del sitio web que brindan información a los navegadores y motores de búsqueda. Aunque no son visibles para el usuario final, cumplen un rol fundamental en el posicionamiento, visibilidad y accesibilidad de la plataforma PetroTask.
 
-- **Título (<title>)**
+- **Título (`<title>`)**
 
 Establece el nombre visible en la pestaña del navegador y en los resultados de búsqueda.
 
-<title>PetroTask - Optimiza tus Operaciones de Campo</title>
+`<title>PetroTask - Optimiza tus Operaciones de Campo</title>`
 
-- **Descripción (<meta name="description">)**
-Aparece debajo del título en los resultados de Google, describiendo el propósito del sitio.
-<meta name="description" content="PetroTask es una plataforma para gestionar y monitorear tareas logísticas en campo en tiempo real.">
+- **Descripción (`<meta name="description">`)**
+  Aparece debajo del título en los resultados de Google, describiendo el propósito del sitio.
+  `<meta name="description" content="PetroTask es una plataforma para gestionar y monitorear tareas logísticas en campo en tiempo real.">`
 
-- **Codificación (<meta charset="utf-8">)**
+- **Codificación (`<meta charset="utf-8">`)**
 
 Garantiza que los caracteres especiales se rendericen correctamente en todos los navegadores.
 
-<meta charset="utf-8">
+`<meta charset="utf-8">`
 
-- **Palabras clave (<meta name="keywords">)**
+- **Palabras clave (`<meta name="keywords">`)**
 
 Mejora la relación entre los términos buscados y el contenido del sitio.
 
-<meta name="keywords" content="PetroTask, logística, tareas, monitoreo, trazabilidad, campo, IoT">
+`<meta name="keywords" content="PetroTask, logística, tareas, monitoreo, trazabilidad, campo, IoT">`
 
 - **Autor y copyright**
 
-<meta name="author" content="PetroTask" />
-<meta name="copyright" content="Copyright PetroTask 2025" />
+`<meta name="author" content="PetroTask" />`
+
+`<meta name="copyright" content="Copyright PetroTask 2025" />`
 
 - **Robots y Open Graph**
 
 Permiten que el contenido sea indexado por buscadores y compartido correctamente en redes sociales.
 
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="PetroTask - Optimiza tus Operaciones de Campo"/>
-<meta property="og:description" content="Gestiona operaciones logísticas con visibilidad en tiempo real"/>
-<meta property="og:image" content="url-del-logo.png"/>
-<meta property="og:url" content="https://petrotask.com"/>
+`<meta name="robots" content="index, follow">`
+`<meta property="og:title" content="PetroTask - Optimiza tus Operaciones de Campo"/>`
+`<meta property="og:description" content="Gestiona operaciones logísticas con visibilidad en tiempo real"/>`
+`<meta property="og:image" content="url-del-logo.png"/>`
+`<meta property="og:url" content="https://petrotask.com"/>`
 
 ### 4.2.4. Searching Systems
 
