@@ -770,6 +770,75 @@ Esto muestra un punto de encuentro claro: una herramienta que **conecte ambos ni
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+---
+
+### 3.1.1. Supervisor Logístico — TO BE
+
+<table>
+  <tr>
+    <th style="background-color:#d1fae5;">Phases</th>
+    <td style="background-color:#d1fae5;">Recepción y validación</td>
+    <td style="background-color:#d1fae5;">Asignación digital</td>
+    <td style="background-color:#d1fae5;">Monitoreo en tiempo real</td>
+    <td style="background-color:#d1fae5;">Cierre & reporte</td>
+  </tr>
+  <tr>
+    <th style="background-color:#fef9c3;">Doing</th>
+    <td style="background-color:#fef9c3;">Valida pedidos con reglas y datos completos</td>
+    <td style="background-color:#fef9c3;">Asigna por skills, turnos y disponibilidad</td>
+    <td style="background-color:#fef9c3;">Revisa estado, bloqueos y SLA</td>
+    <td style="background-color:#fef9c3;">Aprueba evidencias y genera KPIs</td>
+  </tr>
+  <tr>
+    <th style="background-color:#e0f2fe;">Thinking</th>
+    <td style="background-color:#e0f2fe;">“Todo queda centralizado y trazable.”</td>
+    <td style="background-color:#e0f2fe;">“El sistema me avisa los cambios.”</td>
+    <td style="background-color:#e0f2fe;">“Puedo priorizar por riesgo sin llamadas.”</td>
+    <td style="background-color:#e0f2fe;">“Tengo historial sólido para auditorías.”</td>
+  </tr>
+  <tr>
+    <th style="background-color:#ffe4e6;">Feeling</th>
+    <td style="background-color:#ffe4e6;">Alivio: menos Excel/WhatsApp perdidos</td>
+    <td style="background-color:#ffe4e6;">Seguridad: evidencias confiables</td>
+    <td style="background-color:#ffe4e6;">Control: tablero en vivo</td>
+    <td style="background-color:#ffe4e6;">Orgullo: operación predecible</td>
+  </tr>
+</table>
+
+---
+
+### 3.1.2. Operario Logístico — TO BE
+
+<table>
+  <tr>
+    <th style="background-color:#d1fae5;">Phases</th>
+    <td style="background-color:#d1fae5;">Recepción de tareas</td>
+    <td style="background-color:#d1fae5;">Ejecución</td>
+    <td style="background-color:#d1fae5;">Monitoreo</td>
+    <td style="background-color:#d1fae5;">Cierre</td>
+  </tr>
+  <tr>
+    <th style="background-color:#fef9c3;">Doing</th>
+    <td style="background-color:#fef9c3;">Consulta “Mis tareas” incluso offline</td>
+    <td style="background-color:#fef9c3;">Inicia/Finaliza con un toque y captura fotos</td>
+    <td style="background-color:#fef9c3;">Registra timestamps y ubicación segura</td>
+    <td style="background-color:#fef9c3;">Carga firmas y sincroniza automático</td>
+  </tr>
+  <tr>
+    <th style="background-color:#e0f2fe;">Thinking</th>
+    <td style="background-color:#e0f2fe;">“Sé qué hacer y dónde.”</td>
+    <td style="background-color:#e0f2fe;">“Mi trabajo queda registrado.”</td>
+    <td style="background-color:#e0f2fe;">“Si cambia algo, me entero al toque.”</td>
+    <td style="background-color:#e0f2fe;">“Sin señal igual guarda todo.”</td>
+  </tr>
+  <tr>
+    <th style="background-color:#ffe4e6;">Feeling</th>
+    <td style="background-color:#ffe4e6;">Tranquilidad por instrucciones claras</td>
+    <td style="background-color:#ffe4e6;">Motivación al ver progreso</td>
+    <td style="background-color:#ffe4e6;">Confianza en el equipo y sistema</td>
+    <td style="background-color:#ffe4e6;">Menos estrés por cambios de última hora</td>
+  </tr>
+</table>
 
 ## 3.2. User Stories
 
