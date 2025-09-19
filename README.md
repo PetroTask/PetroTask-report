@@ -1190,6 +1190,10 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.3.2. Landing Page Mock-up
 
+<div align="center">
+  <img src="images/Landing-Design/landing-mockup.png" alt="Landing page mockup"/>
+</div>
+
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
