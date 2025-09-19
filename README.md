@@ -988,6 +988,16 @@ A continuación se presentan los User Task Matrix de los segmentos objetivos def
 
 ### 2.3.3. User Journey Mapping
 
+A continuación se presentan los User Journey Mapping de los segmentos objetivos de TaskOil.
+
+#### Segmento 1: Planificadores de actividades de campo
+
+<img src="images/journey-map/Customer_journey_map_1.png">
+
+
+#### Segmento 2: Operarios de campo
+<img src="images/journey-map/Customer_journey_map_2.png">
+
 ### 2.3.4. Empathy Mapping
 
 ### 2.3.5. As-is Scenario Mapping
