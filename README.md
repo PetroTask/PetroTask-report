@@ -1184,6 +1184,10 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.3.1. Landing Page Wireframe
 
+<div align="center">
+  <img src="images/Landing-Design/landing-wireframe.png" alt="Landing page wireframe"/>
+</div>
+
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
