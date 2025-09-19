@@ -1015,6 +1015,18 @@ A continuación se presentan los Empathy Mapping de los segmentos objetivos de T
 
 ### 2.3.5. As-is Scenario Mapping
 
+A continuación se presentan los escenarios actuales As-is de los segmentos objetivos, donde se refleja cómo llevan a cabo sus tareas en la situación actual antes de la implementación de TaskOil.
+
+---
+
+#### Segmento 1: Planificadores de actividades de campo
+<img src="images/as-is/As-is_Scenario_Mapping_1.png" width="850px">
+
+---
+
+#### Segmento 2: Operarios de campo
+<img src="images/as-is/As-is_Scenario_Mapping_2.png" width="850px">
+
 ## 2.4. Ubiquitous Language
 
 # Capítulo III: Requirements Specification
