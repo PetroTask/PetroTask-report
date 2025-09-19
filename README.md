@@ -1000,6 +1000,19 @@ A continuación se presentan los User Journey Mapping de los segmentos objetivos
 
 ### 2.3.4. Empathy Mapping
 
+A continuación se presentan los Empathy Mapping de los segmentos objetivos de TaskOil.
+
+---
+
+#### Segmento 1: Planificadores de actividades de campo
+<img src="images/empathy-map/Empathy_Mapping_2.png" width="800px">
+
+---
+
+#### Segmento 2: Operarios de campo
+<img src="images/empathy-map/Empathy_Mapping_1.png" width="800px">
+
+
 ### 2.3.5. As-is Scenario Mapping
 
 ## 2.4. Ubiquitous Language
