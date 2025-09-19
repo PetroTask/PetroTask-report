@@ -1029,6 +1029,36 @@ A continuación se presentan los escenarios actuales As-is de los segmentos obje
 
 ## 2.4. Ubiquitous Language
 
+- **Usuario**: Persona registrada en la plataforma, ya sea planificador, supervisor u operario de campo, que interactúa con TaskOil para la gestión de tareas.
+
+- **Planificador**: Profesional encargado de crear, asignar y supervisar órdenes de trabajo, gestionando cuadrillas, recursos y cumplimiento de normativas.
+
+- **Operario de campo**: Trabajador que ejecuta directamente las órdenes de trabajo en locaciones, realiza inspecciones, llena checklists y reporta incidentes.
+
+- **Orden de Trabajo (OT)**: Documento digital que contiene las instrucciones detalladas de la tarea a ejecutar, los responsables asignados, plazos y requisitos de seguridad.
+
+- **Checklists HSE**: Formularios digitales estandarizados que garantizan el cumplimiento de protocolos de **Health, Safety & Environment (HSE)** durante la ejecución de una tarea.
+
+- **Inventario de recursos**: Registro digital de repuestos, herramientas y equipos disponibles para la ejecución de órdenes de trabajo.
+
+- **Incidente**: Evento no planificado que afecta o puede afectar la seguridad, operación o integridad de las personas, equipos o procesos, registrado en la plataforma.
+
+- **Dashboard**: Panel visual de indicadores (KPIs) que muestra en tiempo real métricas clave como cumplimiento de órdenes, incidentes reportados, SLA, MTTR, entre otros.
+
+- **Supervisor**: Rol encargado de validar la ejecución de las tareas en campo, verificar el cumplimiento de HSE y aprobar el cierre de órdenes de trabajo.
+
+- **Notificación**: Comunicación enviada por el sistema a usuarios (planificador, supervisor u operario) para informar sobre asignaciones, actualizaciones o alertas de seguridad.
+
+- **Cierre de OT**: Proceso mediante el cual un operario finaliza la tarea y el supervisor valida su correcta ejecución con base en reportes y checklists.
+
+- **Reporte de Incidencia**: Registro generado por un operario o supervisor ante condiciones inseguras, fallas técnicas o accidentes durante la operación.
+
+- **Geocerca**: Área delimitada digitalmente que permite monitorear en tiempo real la ubicación de cuadrillas o equipos de campo.
+
+- **Módulos de TaskOil**: Componentes escalables del sistema, como: Gestión de Órdenes, HSE Pack, Inventario, Geocercas y Analytics Pro.
+
+---
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
