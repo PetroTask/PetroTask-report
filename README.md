@@ -577,12 +577,6 @@ El modelo de precios se basa en **suscripción SaaS escalable**, con módulos qu
 
 De esta manera, un cliente puede empezar pequeño y escalar según crezcan sus operaciones.
 
-
-
-### 2.1.1. Análisis competitivo
-
-### 2.1.2. Estrategias y tácticas frente a competidores
-
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
@@ -950,6 +944,16 @@ Esto muestra un punto de encuentro claro: una herramienta que **conecte ambos ni
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
+
+#### *Planificador de actividades de campo*
+
+<img src="images/user-persona/Segmento_1_Planificador_Actividades_Campo.png" width="800px">
+
+#### *Operario de campo*  
+
+<img src="images/user-persona/Segmento_2_Operario_de_campo.png" width="800px">
+
+---
 
 ### 2.3.2. User Task Matrix
 
