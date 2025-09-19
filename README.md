@@ -957,6 +957,35 @@ Esto muestra un punto de encuentro claro: una herramienta que **conecte ambos ni
 
 ### 2.3.2. User Task Matrix
 
+A continuación se presentan los User Task Matrix de los segmentos objetivos definidos para TaskOil.
+
+#### *Segmento Objetivo: Planificadores de actividades de campo*
+
+| **Task**                                                | **Frequency** | **Importance** |
+|---------------------------------------------------------|---------------|----------------|
+| Crear y asignar órdenes de trabajo                      | High          | High           |
+| Planificar cronogramas de mantenimiento preventivo      | High          | High           |
+| Coordinar recursos (cuadrillas, herramientas, insumos)  | High          | High           |
+| Verificar disponibilidad de inventario de repuestos     | Medium        | High           |
+| Revisar reportes de campo y ajustar planificación       | Medium        | High           |
+| Asegurar cumplimiento de normativas de seguridad (OSHA/ISO) | High      | High           |
+| Generar reportes para la gerencia                       | Medium        | Medium         |
+| Resolver conflictos de programación                     | Medium        | High           |
+
+#### *Segmento Objetivo: Operarios de campo*
+
+| **Task**                                              | **Frequency** | **Importance** |
+|-------------------------------------------------------|---------------|----------------|
+| Ejecutar órdenes de trabajo asignadas                 | High          | High           |
+| Realizar inspecciones de equipos                      | High          | High           |
+| Completar checklists de seguridad                     | High          | High           |
+| Reportar incidentes y condiciones inseguras           | Medium        | High           |
+| Registrar horas de trabajo y progreso de tareas       | Medium        | High           |
+| Solicitar repuestos o herramientas faltantes          | Medium        | Medium         |
+| Coordinar con supervisores y planificadores           | High          | High           |
+| Dar feedback sobre procedimientos y condiciones       | Low           | Medium         |
+
+
 ### 2.3.3. User Journey Mapping
 
 ### 2.3.4. Empathy Mapping
