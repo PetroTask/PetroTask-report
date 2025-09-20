@@ -466,7 +466,7 @@ Mejoras posibles
 
 ### 2.2.2. Registro de entrevistas
 
-[**URL del video en Microsoft Stream:** ]()
+[**URL del video en Microsoft Stream:** ](https://upcedupe-my.sharepoint.com/personal/u202319881_upc_edu_pe/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu202319881%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20open%20source&ga=1)
 
 #### Segmento objetivo #1: Supervisores y Planificadores de Campo
 
@@ -477,7 +477,7 @@ Mejoras posibles
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 1 captura de pantalla](assets/md-images/Entrevista1_SupervisorPlanta.png)
+  ![Entrevista 1 captura de pantalla](assets/md-images/Entrevista1.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -507,7 +507,7 @@ El entrevistado se desempeña como **supervisor de planta** y organiza las activ
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 2 captura de pantalla](assets/md-images/Entrevista2_PlanificadorMantenimiento.png)
+  ![Entrevista 2 captura de pantalla](assets/md-images/Entrevista2.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -537,7 +537,7 @@ Este planificador realiza **cronogramas semanales en Excel** que ajusta manualme
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 3 captura de pantalla](assets/md-images/Entrevista3_CoordinadorOperaciones.png)
+  ![Entrevista 3 captura de pantalla](assets/md-images/Entrevista3.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -569,7 +569,7 @@ El coordinador organiza las órdenes mediante un **calendario impreso en la ofic
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4_TecnicoMantenimiento.png)
+  ![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -599,7 +599,7 @@ Este técnico recibe instrucciones de su jefe al inicio de la jornada mediante *
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 5 captura de pantalla](assets/md-images/Entrevista5_OperarioExtraccion.png)
+  ![Entrevista 5 captura de pantalla](assets/md-images/Entrevista5.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -629,7 +629,7 @@ El operario recibe instrucciones del **capataz**, aunque muchas veces **no son c
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 6 captura de pantalla](assets/md-images/Entrevista6_TecnicoTransporte.png)
+  ![Entrevista 6 captura de pantalla](assets/md-images/Entrevista6.png)
 
 ##### Resumen descriptivo de la entrevista:
 
