@@ -577,9 +577,197 @@ Contar con una herramienta que facilite la consulta de tareas, el registro de da
 
 ## 2.1. Competidores
 
+### IBM Maximo
+Es un sistema **EAM (Enterprise Asset Management)** robusto y líder en la industria, utilizado en sectores complejos como petróleo, gas y minería. Su fortaleza radica en la gestión integral de activos, mantenimiento predictivo e integración con IoT. Sin embargo, requiere implementaciones costosas y tiempos prolongados de despliegue.
+
+### Infor EAM
+Una plataforma **EAM de clase empresarial** que ofrece gestión avanzada de activos, mantenimiento e inventario. Destaca en integraciones con ERP y analítica de alto nivel. Su debilidad está en la curva de aprendizaje elevada y en la falta de flexibilidad para operaciones pequeñas o medianas.
+
+### UpKeep
+Es una solución **CMMS moderna basada en la nube**, centrada en la facilidad de uso y la movilidad. Permite crear órdenes de trabajo, gestionar activos y reportar incidentes desde dispositivos móviles. Es muy adoptada por pymes, pero carece de funciones profundas de cumplimiento normativo HSE.
+
+### SafetyCulture (iAuditor)
+Una herramienta especializada en **inspecciones, checklists y reportes HSE**. Es muy ágil para el registro de incidentes y auditorías de campo. Sin embargo, no cubre gestión de activos ni inventario, lo que puede fragmentar procesos si se requiere una solución integral.
+
+### Soluciones ad-hoc locales (Excel/WhatsApp/Forms)
+Muchas compañías aún gestionan sus operaciones con **herramientas informales** (Excel, WhatsApp, formularios digitales). Su ventaja es el bajo costo inicial, pero generan problemas de trazabilidad, auditoría y consistencia de datos.
+
 ### 2.1.1. Análisis competitivo
 
+<table>
+  <tr>
+    <th colspan="7" valign="top"><b>Competitive Analysis Landscape</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5">
+      Este análisis permite a TaskOil identificar fortalezas y debilidades propias frente a soluciones
+      consolidadas en el mercado de gestión de mantenimiento e HSE. Al analizar competidores globales
+      y locales, podemos anticipar amenazas, aprovechar oportunidades y encontrar un posicionamiento
+      único que combine agilidad, cumplimiento y accesibilidad para el sector Oil & Gas.
+    </td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td colspan="3">Competidores y logos</td>
+    <td valign="top" style="font-weight: bold;">
+      TaskOil
+      <div style="text-align: center; margin-top: 10px;">
+        <img src="images/Logos/PetroTask_Drop.png" alt="TaskOil" width="100px">
+      </div>
+    </td>
+    <td valign="top" style="font-weight: bold;">
+      IBM Maximo
+      <div style="text-align: center; margin-top: 10px;">
+        <img src="images/competitors/maximo.png" alt="IBM Maximo" width="100px">
+      </div>
+    </td>
+    <td valign="top" style="font-weight: bold;">
+      Infor EAM
+      <div style="text-align: center; margin-top: 10px;">
+        <img src="images/competitors/infor.png" alt="Infor EAM" width="100px">
+      </div>
+    </td>
+    <td valign="top" style="font-weight: bold;">
+      UpKeep
+      <div style="text-align: center; margin-top: 10px;">
+        <img src="images/competitors/upkeep.jpeg" alt="UpKeep" width="100px">
+      </div>
+    </td>
+  </tr>
+
+  <!-- Perfil general -->
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td colspan="2">Overview</td>
+    <td valign="top">Plataforma SaaS diseñada para Oil & Gas con foco en gestión de tareas de campo, OT, HSE e inventario en un mismo flujo.</td>
+    <td valign="top">Sistema EAM líder, muy robusto, con integración a IoT y mantenimiento predictivo.</td>
+    <td valign="top">Solución EAM empresarial con fuerte orientación a grandes corporaciones.</td>
+    <td valign="top">CMMS moderno en la nube, ágil y muy usado en pymes de mantenimiento.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ventaja competitiva</td>
+    <td valign="top">Cumplimiento normativo HSE integrado + operación offline-first.</td>
+    <td valign="top">Cobertura global y soporte corporativo.</td>
+    <td valign="top">Analítica avanzada y escalabilidad internacional.</td>
+    <td valign="top">Facilidad de adopción, bajo costo y excelente UX móvil.</td>
+  </tr>
+
+  <!-- Marketing -->
+  <tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td colspan="2">Mercado objetivo</td>
+    <td valign="top">Operadoras de petróleo, gas y contratistas que requieren trazabilidad y cumplimiento en campo.</td>
+    <td valign="top">Grandes empresas globales con operaciones masivas y presupuestos altos.</td>
+    <td valign="top">Corporaciones en industrias reguladas que requieren control de activos.</td>
+    <td valign="top">Pymes y medianas industrias que buscan digitalizar el mantenimiento.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Estrategias de marketing</td>
+    <td valign="top">B2B especializado en Oil & Gas, pilotos rápidos, casos de éxito con KPIs de seguridad y costos.</td>
+    <td valign="top">Eventos globales, consultoría premium y marketing enterprise.</td>
+    <td valign="top">Paquetes verticales, fuerte presencia en ERP y analítica ROI.</td>
+    <td valign="top">Inbound marketing, pricing freemium y expansión digital.</td>
+  </tr>
+
+  <!-- Producto -->
+  <tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td colspan="2">Productos & Servicios</td>
+    <td valign="top">Gestión de OT, inventario, checklists OSHA/ISO, geocercas, reporting en tiempo real.</td>
+    <td valign="top">EAM integral con IoT, mantenimiento predictivo y analítica avanzada.</td>
+    <td valign="top">Gestión de activos, almacenes, integraciones ERP.</td>
+    <td valign="top">Órdenes de trabajo, reportes móviles, inventario básico.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Precios & Costos</td>
+    <td valign="top">Modelo SaaS modular escalable, accesible para medianas empresas.</td>
+    <td valign="top">Licencias enterprise de alto costo más consultoría.</td>
+    <td valign="top">Costos altos de integración y mantenimiento.</td>
+    <td valign="top">Suscripción SaaS económica y simple.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Canales de distribución</td>
+    <td valign="top">Web y móvil, app offline, partners en Oil & Gas.</td>
+    <td valign="top">Canales enterprise y consultoras globales.</td>
+    <td valign="top">Alianzas con ERP, venta enterprise directa.</td>
+    <td valign="top">App stores y venta directa SaaS.</td>
+  </tr>
+
+  <!-- Soporte e innovación -->
+  <tr>
+    <td rowspan="2">Soporte & Innovación</td>
+    <td colspan="2">Soporte al cliente</td>
+    <td valign="top">Soporte cercano, enfoque en customer success, onboarding rápido.</td>
+    <td valign="top">Soporte global, consultoría premium.</td>
+    <td valign="top">Soporte enterprise con SLA.</td>
+    <td valign="top">Soporte básico en línea y comunidad.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Innovación</td>
+    <td valign="top">Plantillas HSE listas, workflows low-code, analítica predictiva en roadmap.</td>
+    <td valign="top">IoT, IA predictiva avanzada.</td>
+    <td valign="top">Integración con analítica y ERP.</td>
+    <td valign="top">Mejoras constantes en movilidad.</td>
+  </tr>
+
+  <!-- SWOT -->
+  <tr>
+    <td rowspan="4">Análisis SWOT</td>
+    <td colspan="2">Fortalezas</td>
+    <td valign="top">Especialización Oil & Gas, offline-first, cumplimiento normativo.</td>
+    <td valign="top">Cobertura global y reputación consolidada.</td>
+    <td valign="top">Escalabilidad y fuerte analítica empresarial.</td>
+    <td valign="top">Facilidad de uso y adopción masiva.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Debilidades</td>
+    <td valign="top">Startup emergente con menor reconocimiento de marca.</td>
+    <td valign="top">Implementación lenta y costosa.</td>
+    <td valign="top">Rigidez y curva de aprendizaje larga.</td>
+    <td valign="top">Cobertura HSE limitada.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Oportunidades</td>
+    <td valign="top">Mayor presión regulatoria en seguridad industrial, digitalización del campo.</td>
+    <td valign="top">Crecimiento en digitalización industrial.</td>
+    <td valign="top">Integraciones con IA/IoT.</td>
+    <td valign="top">Adopción masiva en pymes globales.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Amenazas</td>
+    <td valign="top">Competidores enterprise con más recursos.</td>
+    <td valign="top">Alta competencia global consolidada.</td>
+    <td valign="top">Cambios regulatorios inesperados.</td>
+    <td valign="top">Saturación de apps de mantenimiento.</td>
+  </tr>
+</table>
+
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+**Diferenciación del producto:**  
+TaskOil se diferencia al unir **gestión operativa (OT, cuadrillas, inventario)** y **HSE** en un solo flujo. Mientras que Maximo e Infor apuntan a grandes corporaciones y UpKeep a pymes, TaskOil cubre un espacio intermedio con enfoque sectorial. Nuestro valor está en combinar **cumplimiento normativo** (OSHA, ISO) con **agilidad en campo**, incluso offline.
+
+**Go-to-market ágil:**  
+En lugar de despliegues que tardan meses, TaskOil ofrece **pilotos rápidos de 30–60 días** que permiten validar ROI en terreno: reducción de tiempos de reporte, mejora en el cumplimiento de checklists y mayor trazabilidad en incidentes. Esto nos permite cerrar contratos más rápido y generar confianza en empresas que temen inversiones largas y riesgosas.
+
+**Especialización sectorial:**  
+A diferencia de competidores generalistas, TaskOil se posiciona exclusivamente en **Oil & Gas**. Con plantillas preconfiguradas para permisos de trabajo, bloqueos de seguridad (lockout/tagout), inspecciones y KPIs propios de la industria, reducimos la curva de adopción y generamos valor inmediato.
+
+**Estrategias de marketing:**  
+Nuestro marketing estará enfocado en **B2B directo**, **alianzas con consultoras de seguridad industrial** y **presencia en ferias de petróleo y gas**. Resaltaremos casos de éxito con métricas claras: reducción de incidentes, mejora en SLA y optimización de recursos de mantenimiento.
+
+**Monetización modular:**  
+El modelo de precios se basa en **suscripción SaaS escalable**, con módulos que el cliente puede añadir según madurez:  
+- Core (OT + móvil offline).  
+- HSE Pack (checklists OSHA/ISO, permisos de trabajo).  
+- Inventario & Almacén.  
+- Geocercas y telemetría.  
+- Analytics Pro (KPIs avanzados, MTTR/MTBF, cumplimiento normativo).  
+
+De esta manera, un cliente puede empezar pequeño y escalar según crezcan sus operaciones.
 
 ## 2.2. Entrevistas
 
