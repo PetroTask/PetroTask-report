@@ -1350,21 +1350,90 @@ Por otro lado, el backend y los servicios web serán desplegados en Azure Web Ap
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
+> ### Sprint Planning Background  
+> **Date:** 2025-09-05  
+> **Time:** 10:00 AM  
+> **Location:** Reunión virtual  
+> **Prepared by:** Johan Cuba  
+> **Attendees:** Integrantes del grupo  
 
+---
+
+> ### Sprint 0 Review Summary  
+> Durante el Sprint 0 se realizaron las configuraciones iniciales del entorno de desarrollo,  
+> se definieron las herramientas a usar y se crearon los repositorios en GitHub.  
+> Esto permitió establecer la base para iniciar el desarrollo del producto.  
+
+---
+
+> ### Sprint 0 Retrospective Summary  
+> El equipo coincidió en que la comunicación fue efectiva y la organización clara.  
+> Como oportunidad de mejora se destacó la necesidad de documentar de forma más detallada  
+> las decisiones técnicas para futuras referencias.  
+
+---
+
+> ### Sprint 1 Goal  
+> Nuestro enfoque está en implementar las funciones esenciales para la creación y gestión  
+> de tareas en la aplicación PetroTask. Creemos que esto permite a supervisores y técnicos  
+> empezar a interactuar con la plataforma en sus aspectos básicos.  
+> Esto se confirmará cuando los usuarios puedan crear, visualizar y marcar como completadas  
+> sus tareas, incluso en escenarios de baja conectividad.  
+
+---
+
+> ### Sprint 1 Velocity  
+> **Velocity:** 16 Story Points  
+> **Sum of Story Points:** 16  
+
+---
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+- Johan Cuba: Coordinación del equipo y revisión de código.  
+- Layum: Desarrollo del frontend inicial en Angular.  
+- Marcelo Garro: Configuración de base de datos y conexión con el backend.  
+- Gonzalo Laqui: Implementación del backend en Java con Spring Boot.  
+
+---
 #### 5.2.1.3. Sprint Backlog 1
 
+> #### Sprint 1 Backlog  
+> | ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |  
+> |-------|----------------------------------------------------------------------------|---------------------------|-----------------|  
+> | US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | 5                         | Sprint 1        |  
+> | US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | 8                         | Sprint 1        |  
+> | US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea               | 3                         | Sprint 1        |  
+
+---
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+En este sprint se trabajó en la implementación de los módulos básicos de la aplicación. Se desarrollaron las vistas iniciales de login y creación de tareas, además de la lógica de sincronización offline para el acceso de técnicos.  
+
+Ejemplos de commits registrados:  
+
+- Feat: creación de formulario de nuevas tareas  
+- Feat: implementación de almacenamiento local para tareas offline  
+- Feat: registro de inicio y fin de tareas en backend  
+
+---
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+Se realizaron pruebas internas que confirmaron el correcto funcionamiento del flujo básico de crear una tarea, asignarla a un técnico y registrar su inicio y fin. Además, se validó que las tareas pudieran visualizarse sin conexión y que se sincronizaran al recuperar internet.  
+
+---
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+En este sprint no se integraron servicios externos adicionales, ya que el enfoque estuvo en desarrollar la lógica principal de creación y gestión de tareas.  
+
+---
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+El despliegue de la Landing Page se realizó en Cloudflare Pages, con actualizaciones automáticas vinculadas al repositorio principal. Para el frontend de la aplicación se usó Netlify, permitiendo probar la versión inicial del sistema. El backend se desplegó en Azure Web App Service, facilitando el acceso a los endpoints básicos de creación y gestión de tareas.  
 
+---
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante aportó mediante ramas específicas con nombres feature/nombre-funcionalidad y realizó Pull Requests revisados por el coordinador. Se evidenció un uso constante de commits claros y bien estructurados.  
 
+---
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
