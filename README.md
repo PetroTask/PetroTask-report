@@ -1302,6 +1302,7 @@ Si el usuario necesita aclaraciones adicionales, tiene la posibilidad de consult
 El prototipo integra los wireframes y mockups en una experiencia interactiva que simula la navegación dentro de la aplicación. Esto permite probar la usabilidad, identificar posibles mejoras en la distribución de elementos y validar la secuencia de interacción antes de pasar al desarrollo.
 
 El prototipo funciona como una representación dinámica en la que el usuario puede recorrer las pantallas tal como lo haría en la aplicación real. Esta etapa resultó clave para obtener retroalimentación temprana y asegurar que el diseño cumpla con las expectativas de los futuros usuarios.
+
 ---
 
 ## 4.6. Domain-Driven Software Architecture
