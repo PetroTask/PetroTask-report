@@ -1289,6 +1289,13 @@ Pantalla relacionada a la sección de contacto y más información.
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
+Para el desarrollo de la aplicación PetroTask se utilizará principalmente **Visual Studio Code** como entorno de desarrollo, ya que permite trabajar de manera ágil y cuenta con una amplia variedad de extensiones que facilitan la integración con herramientas modernas. En etapas posteriores, se hará uso de **IntelliJ IDEA** para la implementación y pruebas de las APIs, aprovechando su soporte especializado para entornos backend en Java.
+
+Como entorno de ejecución se usará **Node.js** en su versión LTS, acompañado de **NPM 9** como administrador de dependencias. Para el desarrollo del frontend se trabajará con el framework **React.js**, el cual se ajusta a la necesidad de modularidad y a la construcción de interfaces interactivas. Como soporte visual, se empleará **Tailwind CSS**, que permitirá construir un diseño minimalista, adaptable y fácil de mantener. Para el backend se utilizará **Java**, garantizando estabilidad y escalabilidad en operaciones críticas.
+
+En cuanto a la gestión del proyecto, se hará uso de **Trello** para la organización del backlog y el seguimiento de tareas. Para la elaboración de diagramas de procesos y arquitectura se trabajará con **LucidChart**, mientras que para la modelación de la base de datos se empleará **Vertabelo**. Finalmente, la colaboración y control de versiones del código se realizará con **GitHub**, integrando todas las ramas y repositorios del proyecto.
+
+---
 
 ### 5.1.2. Source Code Management
 
