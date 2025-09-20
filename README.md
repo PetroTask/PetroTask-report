@@ -1263,6 +1263,7 @@ Pantalla relacionada a la sección de contacto y más información.
 El recorrido planteado en los wireflows describe cómo un usuario interactúa con la aplicación desde que accede a la página de inicio hasta que navega entre las distintas secciones. El flujo inicia en el inicio de sesión, donde se valida la identidad del usuario. Después de acceder, el usuario es dirigido al menú principal que actúa como punto central de navegación.
 
 Desde allí, puede explorar la descripción del producto, revisar las funcionalidades principales, conocer los beneficios y continuar hacia la sección de planes. El flujo también contempla accesos a preguntas frecuentes y a un área de contacto, de forma que el usuario pueda resolver dudas o solicitar más información sin perder la continuidad de la experiencia. Este diseño busca que la navegación sea intuitiva y reduzca el tiempo de aprendizaje.
+
 ---
 
 ### 4.4.3. Web Applications Mock-ups
@@ -1294,6 +1295,7 @@ A continuación, se presentan los mockups de la aplicación PetroTask, los cuale
 El flujo de usuario describe las acciones que sigue un visitante dentro de la aplicación. El proceso inicia al ingresar a la página principal, donde se le muestra una vista general de la solución. A partir de ahí, puede desplazarse hacia las funcionalidades, conocer los beneficios, visualizar los pasos de uso y revisar los planes disponibles.
 
 Si el usuario necesita aclaraciones adicionales, tiene la posibilidad de consultar las preguntas frecuentes. Finalmente, si requiere una comunicación más directa, puede acceder al formulario de contacto o a la sección de más información. Este flujo busca guiar al usuario desde el interés inicial hasta la acción de contacto o suscripción, garantizando que encuentre la información relevante de manera clara y estructurada.
+
 ---
 
 ## 4.5. Web Applications Prototyping
