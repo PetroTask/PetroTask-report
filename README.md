@@ -1330,32 +1330,20 @@ En el repositorio de Web Services se incluirán las suites de pruebas: pruebas u
 ---
 ### 5.1.3. Source Code Style Guide & Conventions
 
-El equipo adoptará guías y convenciones reconocidas para mantener consistencia en el código y en los artefactos de especificación. Todos los identificadores (nombres de variables, funciones, clases, rutas) se escribirán en **inglés** para asegurar uniformidad y facilitar la colaboración internacional.
+En cuanto a las convenciones y guías de estilo, el equipo de PetroTask adoptará reglas claras para asegurar uniformidad en el desarrollo del código. Para HTML y CSS se aplicarán guías de estilo recomendadas internacionalmente, priorizando la escritura limpia y la correcta indentación del código.
 
-Para HTML y CSS se seguirán las recomendaciones de **Google HTML/CSS Style Guide** y reglas prácticas de nomenclatura BEM para clases cuando corresponda (por ejemplo `component__element--modifier`), manteniendo archivos y rutas en **kebab-case** para recursos y nombres públicos. Para JavaScript y TypeScript se usará la **Airbnb JavaScript Style Guide** como base, y se adaptarán los puntos de **Google TypeScript Style Guide** para código TypeScript estricto (uso de `strict` en `tsconfig.json`, definir tipos explícitos en API públicas, evitar `any` salvo excepciones justificadas). Se evitará `var` y se preferirá `const`/`let`.
+En el desarrollo del frontend con Angular y TypeScript se emplearán prácticas reconocidas de la comunidad, como el uso de nomenclatura en inglés, nombres significativos para clases y métodos, y estructuras modulares que faciliten la reutilización y el mantenimiento. Para el backend desarrollado en Java se seguirá la guía de estilo de Google, con énfasis en el uso de convenciones de nombres consistentes, documentación en el código y una estructura clara de paquetes.
 
-En Java se seguirá la **Google Java Style Guide** y las buenas prácticas de Spring Boot: paquetes en minúsculas, clases en `PascalCase`, métodos y variables en `camelCase`, constantes en `UPPER_SNAKE_CASE`. Se aplicarán convenciones para excepciones y manejo de logs (SLF4J) y se documentarán las APIs REST con OpenAPI/Swagger.
-
-Para las especificaciones de comportamiento legible por negocio se adoptarán las **Gherkin Conventions for Readable Specifications**, manteniendo escenarios claros y reusables (`Given/When/Then`) en archivos `.feature`.
-
-Además, se mantendrán reglas prácticas en cada repositorio, documentadas en un `CONTRIBUTING.md` y un `STYLEGUIDE.md`. Estos documentos incluirán convenciones de nombres, formato de archivos, tamaño máximo de commits, reglas para pull requests (título, descripción, referencia a issue/ticket), y checklist de revisión. Las herramientas de linting y formateo (ESLint + Prettier para frontend; Checkstyle / SpotBugs para Java) se integrarán en los pipelines CI para garantizar cumplimiento automático.
+En el manejo de control de versiones, PetroTask implementará el uso de mensajes de commits estructurados y fáciles de entender. Cada commit seguirá un formato estándar que describa el tipo de cambio realizado y un breve título del mismo. Respecto al flujo de ramas, se adoptará GitFlow, en el cual se trabajará con ramas específicas para nuevas funcionalidades, versiones de liberación y correcciones urgentes. La rama principal será main, y a partir de ella se gestionarán las versiones estables. Las ramas de características se nombrarán con la convención feature/nombre-funcionalidad, las de liberación como release/número-versión y las de corrección como hotfix/nombre-corrección. Para las versiones liberadas del software se utilizará versionado semántico, lo que permitirá identificar fácilmente la magnitud de los cambios introducidos.
 
 ---
 ### 5.1.4. Software Deployment Configuration
 
-La configuración de despliegue describe los pasos necesarios para que, a partir de los repositorios de código, se logre la publicación correcta de cada producto digital: Landing Page, Web Services y Frontend Web Applications.
+El despliegue de la solución PetroTask se ha planificado de manera que cada componente pueda actualizarse de forma automática y confiable a partir de los repositorios de código.
 
-El flujo general de despliegue parte de GitHub. Para cada repositorio se configurará un pipeline de CI/CD (se recomienda usar **GitHub Actions**) que ejecute pruebas, haga el build y publique artefactos. Las variables sensibles (strings de conexión, API keys) se almacenarán en **GitHub Secrets** y, para entornos cloud, en servicios como **Azure Key Vault**.
+La Landing Page se publicará utilizando Cloudflare Pages, lo que permitirá integrar los cambios directamente desde el repositorio y desplegar nuevas versiones con cada actualización de código. El frontend de la aplicación se desplegará en Netlify, aprovechando su integración continua para facilitar pruebas y ajustes en el diseño visual y en la interacción con los usuarios.
 
-Para la **Landing Page**, el despliegue será automático mediante **Cloudflare Pages**. El pipeline realiza: (1) trigger al hacer push en `main`, (2) ejecución de `npm ci` y `npm run build`, (3) publicación del directorio de salida en Cloudflare Pages. La integración con GitHub permite que cada commit en `main` genere un nuevo despliegue.
-
-Para el **Frontend (Web Application)**, se desplegará en **Vercel** o similar. El pipeline publicará la build (por ejemplo `npm run build`) y Vercel consumirá ese artefacto para servir la aplicación. En Vercel se configurarán variables de entorno necesarias (endpoints de API, keys públicas) y se habilitarán previews para las PRs apuntando a `deploy previews`.
-
-Para los **Web Services (APIs en Java/Spring Boot)**, el proceso será: (1) pipeline en GitHub Actions que ejecuta tests unitarios e integración; (2) build del artefacto (JAR) usando Maven/Gradle; (3) publicación en el entorno de staging; (4) despliegue a producción en **Azure App Service** tras aprobación o merge a `main`. En Azure se configurarán slots (staging/production) para permitir despliegues seguros y rollbacks rápidos. Las cadenas de conexión a MongoDB Atlas y otros secretos se configurarán en las variables de la aplicación o en Key Vault.
-
-Las migraciones o scripts iniciales de base de datos se versionarán y se ejecutarán desde los pipelines de despliegue cuando sean necesarios; para MongoDB se usarán scripts controlados en el repositorio y mecanismos seguros de ejecución en CI/CD. La observabilidad se garantizará mediante logs centralizados y métricas en el proveedor de nube, y se configurarán alertas para fallos críticos.
-
-Para cada producto se mantendrán entornos separados: `development` (pruebas rápidas), `staging` (pre-producción para validación) y `production` (entorno final). El despliegue automático a `production` solo ocurrirá desde merges a la rama `main` y después de pasar las pruebas automatizadas definidas.
+Por otro lado, el backend y los servicios web serán desplegados en Azure Web App Service, lo que garantizará la escalabilidad, la seguridad y la disponibilidad necesarias para operar en entornos críticos como la industria petrolera. Esta configuración de despliegue asegura que tanto los usuarios en campo como los administradores puedan acceder a las últimas mejoras del sistema sin interrupciones en el servicio.
 
 ---
 ## 5.2. Landing Page, Services & Applications Implementation
