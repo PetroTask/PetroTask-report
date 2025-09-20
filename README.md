@@ -1428,10 +1428,13 @@ Por otro lado, el backend y los servicios web serán desplegados en Azure Web Ap
 ---
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-- Johan Cuba: Coordinación del equipo y revisión de código.  
-- Layum: Desarrollo del frontend inicial en Angular.  
-- Marcelo Garro: Configuración de base de datos y conexión con el backend.  
-- Gonzalo Laqui: Implementación del backend en Java con Spring Boot.  
+
+- Baldeón Vivar, Santiago Armando: Coordinación del equipo y revisión de código.  
+- Sosa Soto, Oskar Rodrigo: Desarrollo del frontend inicial en Angular.  
+- Aguilar Untiveros, Rodrigo Fabrizio: Configuración de base de datos y conexión con el backend.  
+- Solis Chang, Santiago Valentino: Implementación del backend en Java con Spring Boot.  
+- Huamán Cuba, Johan Giovani: Apoyo en integración y documentación técnica.  
+
 
 ---
 #### 5.2.1.3. Sprint Backlog 1
