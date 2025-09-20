@@ -1863,7 +1863,7 @@ El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante apor
 
 ---
 
-# Conclusiones
+# 6. Conclusiones
 
 Este trabajo permitió establecer una base sólida para el desarrollo del proyecto. Se organizaron las tareas, se definieron los procesos de trabajo y se preparó el entorno técnico necesario. Esto dio claridad al equipo y facilitó la coordinación de actividades.
 
@@ -1873,7 +1873,23 @@ La implementación inicial demostró que los lineamientos planteados pueden conv
 
 En conjunto, este avance representó un paso clave para continuar el proyecto con mayor seguridad, enfoque y compromiso.
 
-# Bibliografía
+# 7. Bibliografía 
 
-# Anexos
+Microsoft. (n.d.). Azure Static Web Apps documentation. Microsoft Learn. [https://learn.microsoft.com/en-us/azure/static-web-apps/](https://learn.microsoft.com/en-us/azure/static-web-apps/)
+
+npm: json-server. (n.d.). Npm. [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
+
+Spring. (n.d.). Spring Boot documentation. [https://docs.spring.io/spring-boot/index.html](https://docs.spring.io/spring-boot/index.html)
+
+Pintado Bravo, C., & Salazar Cruzado, L. T. (2022). Los procesos logísticos y su impacto en la gestión de suministros en las empresas de transporte de carga terrestre de la ciudad de Chiclayo, período 2019 [Tesis de licenciatura, Universidad San Martín de Porres]. Repositorio Institucional USMP. [https://hdl.handle.net/20.500.12727/9912](https://hdl.handle.net/20.500.12727/9912)
+
+Conventional Commits. (2021). Conventional commits 1.0.0. [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
+
+# 8. Anexos 
+
+Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
+
+- [Video exposición TB1](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202319881_upc_edu_pe/Em7GkfmkCwlLr7oolDeOI_8B7rjhIWEcTTA7P4x74sSBTw?e=HQfRrd)
+
+
 
