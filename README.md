@@ -757,15 +757,117 @@ Esto muestra un punto de encuentro claro: una herramienta que **conecte ambos ni
 
 ### 2.3.1. User Personas
 
+#### *Planificador de actividades de campo*
+
+<img src="images/user-persona/Segmento_1_Planificador_Actividades_Campo.png" width="800px">
+
+#### *Operario de campo*  
+
+<img src="images/user-persona/Segmento_2_Operario_de_campo.png" width="800px">
+
+---
+
 ### 2.3.2. User Task Matrix
+
+A continuación se presentan los User Task Matrix de los segmentos objetivos definidos para TaskOil.
+
+#### *Segmento Objetivo: Planificadores de actividades de campo*
+
+| **Task**                                                | **Frequency** | **Importance** |
+|---------------------------------------------------------|---------------|----------------|
+| Crear y asignar órdenes de trabajo                      | High          | High           |
+| Planificar cronogramas de mantenimiento preventivo      | High          | High           |
+| Coordinar recursos (cuadrillas, herramientas, insumos)  | High          | High           |
+| Verificar disponibilidad de inventario de repuestos     | Medium        | High           |
+| Revisar reportes de campo y ajustar planificación       | Medium        | High           |
+| Asegurar cumplimiento de normativas de seguridad (OSHA/ISO) | High      | High           |
+| Generar reportes para la gerencia                       | Medium        | Medium         |
+| Resolver conflictos de programación                     | Medium        | High           |
+
+#### *Segmento Objetivo: Operarios de campo*
+
+| **Task**                                              | **Frequency** | **Importance** |
+|-------------------------------------------------------|---------------|----------------|
+| Ejecutar órdenes de trabajo asignadas                 | High          | High           |
+| Realizar inspecciones de equipos                      | High          | High           |
+| Completar checklists de seguridad                     | High          | High           |
+| Reportar incidentes y condiciones inseguras           | Medium        | High           |
+| Registrar horas de trabajo y progreso de tareas       | Medium        | High           |
+| Solicitar repuestos o herramientas faltantes          | Medium        | Medium         |
+| Coordinar con supervisores y planificadores           | High          | High           |
+| Dar feedback sobre procedimientos y condiciones       | Low           | Medium         |
+
 
 ### 2.3.3. User Journey Mapping
 
+A continuación se presentan los User Journey Mapping de los segmentos objetivos de TaskOil.
+
+#### Segmento 1: Planificadores de actividades de campo
+
+<img src="images/journey-map/Customer_journey_map_1.png">
+
+
+#### Segmento 2: Operarios de campo
+<img src="images/journey-map/Customer_journey_map_2.png">
+
 ### 2.3.4. Empathy Mapping
+
+A continuación se presentan los Empathy Mapping de los segmentos objetivos de TaskOil.
+
+---
+
+#### Segmento 1: Planificadores de actividades de campo
+<img src="images/empathy-map/Empathy_Mapping_2.png" width="800px">
+
+---
+
+#### Segmento 2: Operarios de campo
+<img src="images/empathy-map/Empathy_Mapping_1.png" width="800px">
+
 
 ### 2.3.5. As-is Scenario Mapping
 
+A continuación se presentan los escenarios actuales As-is de los segmentos objetivos, donde se refleja cómo llevan a cabo sus tareas en la situación actual antes de la implementación de TaskOil.
+
+---
+
+#### Segmento 1: Planificadores de actividades de campo
+<img src="images/as-is/As-is_Scenario_Mapping_1.png" width="850px">
+
+---
+
+#### Segmento 2: Operarios de campo
+<img src="images/as-is/As-is_Scenario_Mapping_2.png" width="850px">
+
 ## 2.4. Ubiquitous Language
+
+- **Usuario**: Persona registrada en la plataforma, ya sea planificador, supervisor u operario de campo, que interactúa con TaskOil para la gestión de tareas.
+
+- **Planificador**: Profesional encargado de crear, asignar y supervisar órdenes de trabajo, gestionando cuadrillas, recursos y cumplimiento de normativas.
+
+- **Operario de campo**: Trabajador que ejecuta directamente las órdenes de trabajo en locaciones, realiza inspecciones, llena checklists y reporta incidentes.
+
+- **Orden de Trabajo (OT)**: Documento digital que contiene las instrucciones detalladas de la tarea a ejecutar, los responsables asignados, plazos y requisitos de seguridad.
+
+- **Checklists HSE**: Formularios digitales estandarizados que garantizan el cumplimiento de protocolos de **Health, Safety & Environment (HSE)** durante la ejecución de una tarea.
+
+- **Inventario de recursos**: Registro digital de repuestos, herramientas y equipos disponibles para la ejecución de órdenes de trabajo.
+
+- **Incidente**: Evento no planificado que afecta o puede afectar la seguridad, operación o integridad de las personas, equipos o procesos, registrado en la plataforma.
+
+- **Dashboard**: Panel visual de indicadores (KPIs) que muestra en tiempo real métricas clave como cumplimiento de órdenes, incidentes reportados, SLA, MTTR, entre otros.
+
+- **Supervisor**: Rol encargado de validar la ejecución de las tareas en campo, verificar el cumplimiento de HSE y aprobar el cierre de órdenes de trabajo.
+
+- **Notificación**: Comunicación enviada por el sistema a usuarios (planificador, supervisor u operario) para informar sobre asignaciones, actualizaciones o alertas de seguridad.
+
+- **Cierre de OT**: Proceso mediante el cual un operario finaliza la tarea y el supervisor valida su correcta ejecución con base en reportes y checklists.
+
+- **Reporte de Incidencia**: Registro generado por un operario o supervisor ante condiciones inseguras, fallas técnicas o accidentes durante la operación.
+
+- **Geocerca**: Área delimitada digitalmente que permite monitorear en tiempo real la ubicación de cuadrillas o equipos de campo.
+
+- **Módulos de TaskOil**: Componentes escalables del sistema, como: Gestión de Órdenes, HSE Pack, Inventario, Geocercas y Analytics Pro.
 
 # Capítulo III: Requirements Specification
 
