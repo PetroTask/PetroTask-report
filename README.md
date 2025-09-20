@@ -1234,6 +1234,10 @@ El diagrama de clases de PetroTask organiza el sistema en cinco módulos princip
 
 ### 4.8.1. Database Diagram
 
+![Diagrama de Base de Datos](https://raw.githubusercontent.com/PetroTask/TaskOil/main/img/Diagrama%20de%20Base%20de%20Datos.png)
+
+El diagrama de base de datos de PetroTask muestra la estructura relacional que sostiene el sistema. En él destacan tablas principales como users, companies, tasks, locations y equipment, que representan los elementos centrales de la operación. A su alrededor aparecen tablas de soporte como task_evidences o reports, además de tablas de relación (user_company, task_equipment, task_locations) que permiten manejar vínculos de muchos a muchos. También se incluyen módulos críticos de seguridad y comunicación, como alerts, alert_recipients y notifications. El diseño busca garantizar integridad referencial, trazabilidad y flexibilidad en la gestión de tareas, recursos y evidencias dentro de la industria petrolera.
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
