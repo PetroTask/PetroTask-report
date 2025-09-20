@@ -1434,17 +1434,16 @@ El despliegue de la Landing Page se realizó en Cloudflare Pages, con actualizac
 El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante aportó mediante ramas específicas con nombres feature/nombre-funcionalidad y realizó Pull Requests revisados por el coordinador. Se evidenció un uso constante de commits claros y bien estructurados.  
 
 ---
-## 5.3. Validation Interviews
-
-### 5.3.1. Diseño de Entrevistas
-
-### 5.3.2. Registro de Entrevistas
-
-### 5.3.3. Evaluaciones según heurísticas
-
-## 5.4. Video About-the-Product
 
 # Conclusiones
+
+Este trabajo permitió establecer una base sólida para el desarrollo del proyecto. Se organizaron las tareas, se definieron los procesos de trabajo y se preparó el entorno técnico necesario. Esto dio claridad al equipo y facilitó la coordinación de actividades.
+
+La planificación de los sprints mostró que es posible avanzar de manera ordenada, con objetivos claros y medibles. También permitió reconocer la importancia de mantener registros de las decisiones técnicas y de dar valor a la comunicación constante dentro del equipo.
+
+La implementación inicial demostró que los lineamientos planteados pueden convertirse en resultados concretos. El despliegue de las primeras funciones abrió el camino para seguir ampliando las capacidades del sistema y asegurar que cumpla con las necesidades de los usuarios.
+
+En conjunto, este avance representó un paso clave para continuar el proyecto con mayor seguridad, enfoque y compromiso.
 
 # Bibliografía
 
