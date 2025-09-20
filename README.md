@@ -1260,11 +1260,47 @@ Pantalla relacionada a la sección de contacto y más información.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+El recorrido planteado en los wireflows describe cómo un usuario interactúa con la aplicación desde que accede a la página de inicio hasta que navega entre las distintas secciones. El flujo inicia en el inicio de sesión, donde se valida la identidad del usuario. Después de acceder, el usuario es dirigido al menú principal que actúa como punto central de navegación.
+
+Desde allí, puede explorar la descripción del producto, revisar las funcionalidades principales, conocer los beneficios y continuar hacia la sección de planes. El flujo también contempla accesos a preguntas frecuentes y a un área de contacto, de forma que el usuario pueda resolver dudas o solicitar más información sin perder la continuidad de la experiencia. Este diseño busca que la navegación sea intuitiva y reduzca el tiempo de aprendizaje.
+---
+
 ### 4.4.3. Web Applications Mock-ups
+
+A continuación, se presentan los mockups de la aplicación PetroTask, los cuales muestran de manera más cercana al diseño final cómo se verá la interfaz gráfica. Estos mockups permiten visualizar los colores, tipografías, iconografía y distribución de los elementos de la aplicación antes de pasar al desarrollo completo.
+
+1. Mockup Inicio
+<div align="center"> <img src="images/mockups/mockinicio.png" alt="Mockup Inicio PetroTask"/> </div>
+2. Mockup Descripción
+<div align="center"> <img src="images/mockups/mockdescripcion.png" alt="Mockup Descripción PetroTask"/> </div>
+3. Mockup Funcionalidades
+<div align="center"> <img src="images/mockups/mockfuncionalidades.png" alt="Mockup Funcionalidades PetroTask"/> </div>
+4. Mockup Beneficios
+<div align="center"> <img src="images/mockups/mockbeneficios.png" alt="Mockup Beneficios PetroTask"/> </div>
+5. Mockup Pasos
+<div align="center"> <img src="images/mockups/mockpasos.png" alt="Mockup Pasos PetroTask"/> </div>
+6. Mockup Planes
+<div align="center"> <img src="images/mockups/mockplanes.png" alt="Mockup Planes PetroTask"/> </div>
+7. Mockup Preguntas Frecuentes
+<div align="center"> <img src="images/mockups/mockpreguntas.png" alt="Mockup Preguntas Frecuentes PetroTask"/> </div>
+8. Mockup Contacto
+<div align="center"> <img src="images/mockups/mockcontacto.png" alt="Mockup Contacto PetroTask"/> </div>
+9. Mockup Más Información
+<div align="center"> <img src="images/mockups/mockmasinfo.png" alt="Mockup Más Información PetroTask"/> </div>
+---
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+El flujo de usuario describe las acciones que sigue un visitante dentro de la aplicación. El proceso inicia al ingresar a la página principal, donde se le muestra una vista general de la solución. A partir de ahí, puede desplazarse hacia las funcionalidades, conocer los beneficios, visualizar los pasos de uso y revisar los planes disponibles.
+
+Si el usuario necesita aclaraciones adicionales, tiene la posibilidad de consultar las preguntas frecuentes. Finalmente, si requiere una comunicación más directa, puede acceder al formulario de contacto o a la sección de más información. Este flujo busca guiar al usuario desde el interés inicial hasta la acción de contacto o suscripción, garantizando que encuentre la información relevante de manera clara y estructurada.
+---
+
 ## 4.5. Web Applications Prototyping
+El prototipo integra los wireframes y mockups en una experiencia interactiva que simula la navegación dentro de la aplicación. Esto permite probar la usabilidad, identificar posibles mejoras en la distribución de elementos y validar la secuencia de interacción antes de pasar al desarrollo.
+
+El prototipo funciona como una representación dinámica en la que el usuario puede recorrer las pantallas tal como lo haría en la aplicación real. Esta etapa resultó clave para obtener retroalimentación temprana y asegurar que el diseño cumpla con las expectativas de los futuros usuarios.
+---
 
 ## 4.6. Domain-Driven Software Architecture
 
