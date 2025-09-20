@@ -1354,9 +1354,9 @@ El seguimiento de modificaciones y la colaboración se realizará en **GitHub**.
 
 | Solución         | Nombre del Repositorio | Enlace |
 |------------------|------------------------|--------|
-| Landing Page     | PetroTask-Landing      | https://github.com/PetroTask-Developers/PetroTask-Landing |
-| Frontend         | PetroTask-Frontend     | https://github.com/PetroTask-Developers/PetroTask-Frontend |
-| Backend (Web Services) | PetroTask-Backend      | https://github.com/PetroTask-Developers/PetroTask-Backend |
+| Landing Page     | PetroTask-Landing      | https://github.com/PetroTask/TaskOil.git |
+| Frontend         | PetroTask-Frontend     | https://github.com/PetroTask/TaskOil.git |
+| Backend (Web Services) | PetroTask-Backend      | https://github.com/PetroTask/TaskOil.git |
 
 Para el workflow de control de versiones se aplicará **GitFlow** (modelo inspirado en el artículo “A successful Git branching model” de Vincent Driessen). En concreto, se mantendrán las siguientes ramas principales: `main` (rama de producción estable) y `develop` (rama de integración para la próxima versión). Cada nueva funcionalidad se trabajará en un feature branch, que luego se mergeará en `develop`; los release branches permitirán estabilizar una versión antes de fusionarla a `main`, y los hotfix branches se generarán desde `main` para correcciones urgentes.
 
