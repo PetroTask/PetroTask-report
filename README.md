@@ -770,120 +770,110 @@ Esto muestra un punto de encuentro claro: una herramienta que **conecte ambos ni
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+---
+
+### 3.1.1. Supervisor Logístico — TO BE
+
+<table>
+  <tr>
+    <th style="background-color:#d1fae5;">Phases</th>
+    <td style="background-color:#d1fae5;">Recepción y validación</td>
+    <td style="background-color:#d1fae5;">Asignación digital</td>
+    <td style="background-color:#d1fae5;">Monitoreo en tiempo real</td>
+    <td style="background-color:#d1fae5;">Cierre & reporte</td>
+  </tr>
+  <tr>
+    <th style="background-color:#fef9c3;">Doing</th>
+    <td style="background-color:#fef9c3;">Valida pedidos con reglas y datos completos</td>
+    <td style="background-color:#fef9c3;">Asigna por skills, turnos y disponibilidad</td>
+    <td style="background-color:#fef9c3;">Revisa estado, bloqueos y SLA</td>
+    <td style="background-color:#fef9c3;">Aprueba evidencias y genera KPIs</td>
+  </tr>
+  <tr>
+    <th style="background-color:#e0f2fe;">Thinking</th>
+    <td style="background-color:#e0f2fe;">“Todo queda centralizado y trazable.”</td>
+    <td style="background-color:#e0f2fe;">“El sistema me avisa los cambios.”</td>
+    <td style="background-color:#e0f2fe;">“Puedo priorizar por riesgo sin llamadas.”</td>
+    <td style="background-color:#e0f2fe;">“Tengo historial sólido para auditorías.”</td>
+  </tr>
+  <tr>
+    <th style="background-color:#ffe4e6;">Feeling</th>
+    <td style="background-color:#ffe4e6;">Alivio: menos Excel/WhatsApp perdidos</td>
+    <td style="background-color:#ffe4e6;">Seguridad: evidencias confiables</td>
+    <td style="background-color:#ffe4e6;">Control: tablero en vivo</td>
+    <td style="background-color:#ffe4e6;">Orgullo: operación predecible</td>
+  </tr>
+</table>
+
+---
+
+### 3.1.2. Operario Logístico — TO BE
+
+<table>
+  <tr>
+    <th style="background-color:#d1fae5;">Phases</th>
+    <td style="background-color:#d1fae5;">Recepción de tareas</td>
+    <td style="background-color:#d1fae5;">Ejecución</td>
+    <td style="background-color:#d1fae5;">Monitoreo</td>
+    <td style="background-color:#d1fae5;">Cierre</td>
+  </tr>
+  <tr>
+    <th style="background-color:#fef9c3;">Doing</th>
+    <td style="background-color:#fef9c3;">Consulta “Mis tareas” incluso offline</td>
+    <td style="background-color:#fef9c3;">Inicia/Finaliza con un toque y captura fotos</td>
+    <td style="background-color:#fef9c3;">Registra timestamps y ubicación segura</td>
+    <td style="background-color:#fef9c3;">Carga firmas y sincroniza automático</td>
+  </tr>
+  <tr>
+    <th style="background-color:#e0f2fe;">Thinking</th>
+    <td style="background-color:#e0f2fe;">“Sé qué hacer y dónde.”</td>
+    <td style="background-color:#e0f2fe;">“Mi trabajo queda registrado.”</td>
+    <td style="background-color:#e0f2fe;">“Si cambia algo, me entero al toque.”</td>
+    <td style="background-color:#e0f2fe;">“Sin señal igual guarda todo.”</td>
+  </tr>
+  <tr>
+    <th style="background-color:#ffe4e6;">Feeling</th>
+    <td style="background-color:#ffe4e6;">Tranquilidad por instrucciones claras</td>
+    <td style="background-color:#ffe4e6;">Motivación al ver progreso</td>
+    <td style="background-color:#ffe4e6;">Confianza en el equipo y sistema</td>
+    <td style="background-color:#ffe4e6;">Menos estrés por cambios de última hora</td>
+  </tr>
+</table>
 
 ## 3.2. User Stories
 
-### EPIC 1: Gestión de Tareas y Operaciones
+# Épicas
 
-**Como supervisor de campo**  
-Quiero poder crear, asignar y reprogramar tareas operativas  
-Para optimizar la planificación y ejecución de actividades petroleras
-
-**User Stories:**
-
-- Como supervisor  
-  Quiero crear tareas con descripción, prioridad y recursos asignados  
-  Para organizar las operaciones diarias
-
-- Como supervisor  
-  Quiero asignar tareas a técnicos específicos o equipos  
-  Para distribuir eficientemente la carga de trabajo
-
-- Como supervisor  
-  Quiero reprogramar tareas en tiempo real ante imprevistos  
-  Para mantener la continuidad operativa
-
-- Como supervisor  
-  Quiero visualizar el estado de todas las tareas en un dashboard  
-  Para tener visibilidad completa de las operaciones
+| Epic ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
+|---------|--------|-------------|-------------------------|---------------------------|
+| EP01 | Gestión de Tareas y Operaciones | Como supervisor de campo, quiero poder crear, asignar y reprogramar tareas operativas para optimizar la planificación y ejecución de actividades petroleras. | No corresponde | No corresponde |
+| EP02 | Registro y Evidencias en Campo | Como técnico de campo, quiero registrar el avance de mis tareas con evidencias fotográficas para documentar el cumplimiento y las condiciones de trabajo. | No corresponde | No corresponde |
+| EP03 | Sistema de Alertas y Seguridad | Como personal operativo, quiero recibir alertas automáticas sobre riesgos y emergencias para actuar rápidamente ante situaciones peligrosas. | No corresponde | No corresponde |
+| EP04 | Funcionalidad Offline y Sincronización | Como usuario de campo, quiero que la aplicación funcione sin conexión y se sincronice automáticamente para trabajar en zonas con conectividad limitada. | No corresponde | No corresponde |
+| EP05 | Reportes y Analytics | Como gerente, quiero acceder a reportes analíticos del desempeño operativo para tomar decisiones estratégicas basadas en datos. | No corresponde | No corresponde |
 
 ---
 
-### EPIC 2: Registro y Evidencias en Campo
+# User Stories
 
-**Como técnico de campo**  
-Quiero registrar el avance de mis tareas con evidencias fotográficas  
-Para documentar el cumplimiento y las condiciones de trabajo
-
-**User Stories:**
-
-- Como técnico  
-  Quiero acceder a mis tareas asignadas sin necesidad de conexión a internet  
-  Para trabajar en zonas remotas
-
-- Como técnico  
-  Quiero registrar el inicio y fin de cada tarea  
-  Para documentar los tiempos de ejecución
-
-- Como técnico  
-  Quiero adjuntar fotografías como evidencia del trabajo realizado  
-  Para validar el cumplimiento de las actividades
-
-- Como técnico  
-  Quiero reportar incidencias durante la ejecución de tareas  
-  Para alertar sobre problemas operativos
-
----
-
-### EPIC 3: Sistema de Alertas y Seguridad
-
-**Como personal operativo**  
-Quiero recibir alertas automáticas sobre riesgos y emergencias  
-Para actuar rápidamente ante situaciones peligrosas
-
-**User Stories:**
-
-- Como supervisor  
-  Quiero configurar alertas automáticas basadas en condiciones específicas  
-  Para prevenir incidentes operativos
-
-- Como técnico  
-  Quiero recibir notificaciones push sobre alertas de seguridad  
-  Para tomar medidas preventivas inmediatas
-
-- Como supervisor  
-  Quiero visualizar el historial de alertas y respuestas  
-  Para analizar patrones y mejorar la seguridad
-
----
-
-### EPIC 4: Funcionalidad Offline y Sincronización
-
-**Como usuario de campo**  
-Quiero que la aplicación funcione sin conexión y se sincronice automáticamente  
-Para trabajar en zonas con conectividad limitada
-
-**User Stories:**
-
-- Como técnico  
-  Quiero poder usar todas las funciones esenciales sin conexión a internet  
-  Para operar en plataformas remotas
-
-- Como técnico  
-  Quiero que mis datos se sincronicen automáticamente cuando recupere conexión  
-  Para mantener la información actualizada
-
----
-
-### EPIC 5: Reportes y Analytics
-
-**Como gerente**  
-Quiero acceder a reportes analíticos del desempeño operativo  
-Para tomar decisiones estratégicas basadas en datos
-
-**User Stories:**
-
-- Como gerente  
-  Quiero generar reportes personalizados de productividad operativa  
-  Para identificar áreas de mejora
-
-- Como supervisor  
-  Quiero visualizar métricas de cumplimiento de tareas  
-  Para evaluar el desempeño del equipo
-
-- Como auditor  
-  Quiero acceder al historial completo de operaciones con evidencias  
-  Para realizar verificaciones y cumplir con normativas
+| User Story ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
+|---------------|--------|-------------|-------------------------|---------------------------|
+| US01 | Crear tareas | Como supervisor, quiero crear tareas con descripción, prioridad y recursos asignados para organizar las operaciones diarias. | Escenario: DADO que estoy en “Nueva tarea”, CUANDO ingreso los datos obligatorios y guardo, ENTONCES la tarea se registra y aparece en la lista. | EP01 |
+| US02 | Asignar tareas | Como supervisor, quiero asignar tareas a técnicos o equipos para distribuir eficientemente la carga de trabajo. | Escenario: DADO una tarea sin responsable, CUANDO asigno un técnico/equipo disponible, ENTONCES la tarea queda “Asignada” y se notifica al responsable. | EP01 |
+| US03 | Reprogramar tareas | Como supervisor, quiero reprogramar tareas en tiempo real ante imprevistos para mantener la continuidad operativa. | Escenario: DADO una tarea programada, CUANDO modifico fecha/hora y guardo, ENTONCES se actualiza la programación y se notifica a los involucrados. | EP01 |
+| US04 | Visualizar dashboard | Como supervisor, quiero visualizar el estado de todas las tareas en un dashboard para tener visibilidad completa de las operaciones. | Escenario: DADO que accedo al dashboard, CUANDO se cargan los datos, ENTONCES veo listados y KPIs por estado (pendiente, en curso, finalizada, bloqueada). | EP01 |
+| US05 | Acceso offline a tareas | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de conexión a internet para trabajar en zonas remotas. | Escenario: DADO que no tengo conectividad, CUANDO abro “Mis tareas”, ENTONCES puedo ver tareas sincronizadas y operar en modo offline. | EP02 |
+| US06 | Registrar inicio y fin | Como técnico, quiero registrar el inicio y fin de cada tarea para documentar los tiempos de ejecución. | Escenario: DADO una tarea asignada, CUANDO marco “Iniciar” y luego “Finalizar”, ENTONCES se registran fecha y hora en el historial. | EP02 |
+| US07 | Adjuntar fotografías | Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado para validar el cumplimiento de las actividades. | Escenario: DADO una tarea en ejecución, CUANDO adjunto foto(s), ENTONCES quedan asociadas a la tarea y visibles para el supervisor. | EP02 |
+| US08 | Reportar incidencias | Como técnico, quiero reportar incidencias durante la ejecución de tareas para alertar sobre problemas operativos. | Escenario: DADO una tarea en curso, CUANDO registro una incidencia con causa y descripción, ENTONCES se crea el reporte y se notifica al supervisor. | EP02 |
+| US09 | Configurar alertas | Como supervisor, quiero configurar alertas automáticas basadas en condiciones específicas para prevenir incidentes operativos. | Escenario: DADO el módulo de alertas, CUANDO defino condición, umbral y canal, ENTONCES la regla queda activa. | EP03 |
+| US10 | Notificaciones push | Como técnico, quiero recibir notificaciones push sobre alertas de seguridad para tomar medidas preventivas inmediatas. | Escenario: DADO una alerta activa, CUANDO se cumple la condición, ENTONCES recibo notificación push con prioridad y detalle. | EP03 |
+| US11 | Historial de alertas | Como supervisor, quiero visualizar el historial de alertas y respuestas para analizar patrones y mejorar la seguridad. | Escenario: DADO el listado histórico, CUANDO filtro por fecha/tipo/severidad, ENTONCES obtengo la lista y puedo exportar. | EP03 |
+| US12 | Operación offline | Como técnico, quiero poder usar todas las funciones esenciales sin conexión a internet para operar en plataformas remotas. | Escenario: DADO modo offline, CUANDO creo o edito registros permitidos, ENTONCES quedan en cola con marca de “pendiente de sincronización”. | EP04 |
+| US13 | Sincronización automática | Como técnico, quiero que mis datos se sincronicen automáticamente cuando recupere conexión para mantener la información actualizada. | Escenario: DADO cambios en cola, CUANDO vuelve la conectividad, ENTONCES el sistema sincroniza en segundo plano y muestra estado de éxito o error. | EP04 |
+| US14 | Reportes personalizados | Como gerente, quiero generar reportes personalizados de productividad operativa para identificar áreas de mejora. | Escenario: DADO el generador de reportes, CUANDO selecciono filtros, métricas y periodo, ENTONCES obtengo el reporte y puedo exportarlo. | EP05 |
+| US15 | Métricas de cumplimiento | Como supervisor, quiero visualizar métricas de cumplimiento de tareas para evaluar el desempeño del equipo. | Escenario: DADO el panel de métricas, CUANDO selecciono rango de fechas, ENTONCES veo % cumplimiento, duración promedio y top incidencias. | EP05 |
+| US16 | Auditoría de operaciones | Como auditor, quiero acceder al historial completo de operaciones con evidencias para realizar verificaciones y cumplir con normativas. | Escenario: DADO el módulo de auditoría, CUANDO consulto una operación, ENTONCES veo trazabilidad completa (registros, fotos, usuario, timestamp). | EP05 |
 
 ---
 
