@@ -1345,45 +1345,168 @@ El diagrama de base de datos de PetroTask muestra la estructura relacional que s
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
+Para la gestión del proyecto y del backlog se empleará Trello como tablero visual para sprints, backlog y seguimiento de tareas. Para el manejo de issues y la trazabilidad ligada al código se usarán GitHub Issues integradas en la organización de repositorios.
+
+En la etapa de levantamiento y gestión de requisitos se utilizarán documentos en formato Gherkin para especificaciones legibles por negocio y pruebas BDD, almacenados en el repositorio y revisables mediante pull requests. Para documentación más amplia y pública se empleará MkDocs o Docusaurus según necesidad.
+
+Para Product UX/UI Design, los wireframes y prototipos visuales se elaborarán en Figma como herramienta SaaS principal. Para diagramas de arquitectura, procesos y diagramas adicionales se empleará Lucidchart y para el modelado de bases de datos se usará Vertabelo.
+
+Como entornos de desarrollo integrado se utilizará principalmente Visual Studio Code para frontend y scripts, y IntelliJ IDEA para el desarrollo y pruebas del backend en Java. WebStorm  puede ser alternativa para desarrolladores frontend que lo prefieran. Las descargas y versiones deberán apuntar a las páginas oficiales indicadas.
+
+Para el desarrollo de frontend se usará Node.js en su versión LTS y NPM como administrador de paquetes. El frontend se implementará con React.js y TypeScript cuando corresponda. Para el diseño de estilos se utilizará Tailwind CSS como framework de utilidades. Para transpilación y bundling se usará el ecosistema Node.
+
+Para el backend se empleará Java. Las pruebas unitarias y de integración en backend se realizarán con JUnit y herramientas del ecosistema Spring.
+
+Para control de versiones y colaboración se usará Git y la plataforma GitHub. Para CI/CD se recomienda configurar GitHub Actions en cada repositorio; las acciones se describirán en los pipelines del proyecto. Para la gestión de secretos y variables de entorno se usará GitHub Secrets y, en entornos de nube, Azure Key Vault si se requiere mayor control.
+
+Para la base de datos en la nube se utilizará MySQL. Para pruebas de API y colecciones de integración se mantendrán Postman Collections en el repositorio de Web Services.
+
+Finalmente, para la documentación de código y diagramas, se mantendrán archivos Markdown dentro de cada repositorio y se publicará documentación estática con GitHub Pages o MkDocs según el caso.
+
+---
 
 ### 5.1.2. Source Code Management
 
+El seguimiento de modificaciones y la colaboración se realizará en **GitHub**. Se ha creado la organización de ejemplo **PetroTask-Developers** que centraliza los repositorios del proyecto. En cada repositorio se incluirán los proyectos fuente y, en el caso de Web Services, tanto el proyecto como los archivos de pruebas unitarias y de integración/aceptación.
+
+| Solución         | Nombre del Repositorio | Enlace |
+|------------------|------------------------|--------|
+| Landing Page     | PetroTask-Landing      | https://github.com/PetroTask/TaskOil.git |
+| Frontend         | PetroTask-Frontend     | https://github.com/PetroTask/TaskOil.git |
+| Backend (Web Services) | PetroTask-Backend      | https://github.com/PetroTask/TaskOil.git |
+
+Para el workflow de control de versiones se aplicará **GitFlow** (modelo inspirado en el artículo “A successful Git branching model” de Vincent Driessen). En concreto, se mantendrán las siguientes ramas principales: `main` (rama de producción estable) y `develop` (rama de integración para la próxima versión). Cada nueva funcionalidad se trabajará en un feature branch, que luego se mergeará en `develop`; los release branches permitirán estabilizar una versión antes de fusionarla a `main`, y los hotfix branches se generarán desde `main` para correcciones urgentes.
+
+Las convenciones de nombres serán las siguientes: los feature branches usarán el prefijo `feature/` seguido de un identificador de ticket y una breve descripción en kebab-case, por ejemplo `feature/TPK-42-add-dynamic-scheduling`. Los release branches usarán `release/x.y.z` (por ejemplo `release/1.2.0`) y los hotfix branches usarán `hotfix/x.y.z` (por ejemplo `hotfix/1.2.1`). Al fusionar release a `main` se etiquetará la release con la versión semántica (ver abajo).
+
+Se aplicará **Semantic Versioning** para nombrar los releases (`MAJOR.MINOR.PATCH`, p. ej. `v1.0.0`) conforme a “Semantic Versioning 2.0.0”. Para los mensajes de commits y la estandarización de historia se adoptará **Conventional Commits** (por ejemplo `feat(auth): add two-factor authentication`, `fix(api): handle null reference`). Esta convención facilitará la generación automática de changelogs y la trazabilidad de cambios.
+
+En el repositorio de Web Services se incluirán las suites de pruebas: pruebas unitarias (JUnit), pruebas de integración (tests de Spring Boot con contexto y base de datos embebida o replicada) y colecciones de pruebas de aceptación en Postman. Los pipelines CI ejecutarán estas pruebas antes de permitir merges en `develop` o `main`.
+
+---
 ### 5.1.3. Source Code Style Guide & Conventions
 
+En cuanto a las convenciones y guías de estilo, el equipo de PetroTask adoptará reglas claras para asegurar uniformidad en el desarrollo del código. Para HTML y CSS se aplicarán guías de estilo recomendadas internacionalmente, priorizando la escritura limpia y la correcta indentación del código.
+
+En el desarrollo del frontend con Angular y TypeScript se emplearán prácticas reconocidas de la comunidad, como el uso de nomenclatura en inglés, nombres significativos para clases y métodos, y estructuras modulares que faciliten la reutilización y el mantenimiento. Para el backend desarrollado en Java se seguirá la guía de estilo de Google, con énfasis en el uso de convenciones de nombres consistentes, documentación en el código y una estructura clara de paquetes.
+
+En el manejo de control de versiones, PetroTask implementará el uso de mensajes de commits estructurados y fáciles de entender. Cada commit seguirá un formato estándar que describa el tipo de cambio realizado y un breve título del mismo. Respecto al flujo de ramas, se adoptará GitFlow, en el cual se trabajará con ramas específicas para nuevas funcionalidades, versiones de liberación y correcciones urgentes. La rama principal será main, y a partir de ella se gestionarán las versiones estables. Las ramas de características se nombrarán con la convención feature/nombre-funcionalidad, las de liberación como release/número-versión y las de corrección como hotfix/nombre-corrección. Para las versiones liberadas del software se utilizará versionado semántico, lo que permitirá identificar fácilmente la magnitud de los cambios introducidos.
+
+---
 ### 5.1.4. Software Deployment Configuration
 
-## 5.2. Landing Page, Services & Applications Implementation
+El despliegue de la solución PetroTask se ha planificado de manera que cada componente pueda actualizarse de forma automática y confiable a partir de los repositorios de código.
 
+La Landing Page se publicará utilizando Cloudflare Pages, lo que permitirá integrar los cambios directamente desde el repositorio y desplegar nuevas versiones con cada actualización de código. El frontend de la aplicación se desplegará en Netlify, aprovechando su integración continua para facilitar pruebas y ajustes en el diseño visual y en la interacción con los usuarios.
+
+Por otro lado, el backend y los servicios web serán desplegados en Azure Web App Service, lo que garantizará la escalabilidad, la seguridad y la disponibilidad necesarias para operar en entornos críticos como la industria petrolera. Esta configuración de despliegue asegura que tanto los usuarios en campo como los administradores puedan acceder a las últimas mejoras del sistema sin interrupciones en el servicio.
+
+---
+## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
+> ### Sprint Planning Background  
+> **Date:** 2025-09-05  
+> **Time:** 10:00 AM  
+> **Location:** Reunión virtual  
+> **Prepared by:** Johan Cuba  
+> **Attendees:** Integrantes del grupo  
 
+---
+
+> ### Sprint 0 Review Summary  
+> Durante el Sprint 0 se realizaron las configuraciones iniciales del entorno de desarrollo,  
+> se definieron las herramientas a usar y se crearon los repositorios en GitHub.  
+> Esto permitió establecer la base para iniciar el desarrollo del producto.  
+
+---
+
+> ### Sprint 0 Retrospective Summary  
+> El equipo coincidió en que la comunicación fue efectiva y la organización clara.  
+> Como oportunidad de mejora se destacó la necesidad de documentar de forma más detallada  
+> las decisiones técnicas para futuras referencias.  
+
+---
+
+> ### Sprint 1 Goal  
+> Nuestro enfoque está en implementar las funciones esenciales para la creación y gestión  
+> de tareas en la aplicación PetroTask. Creemos que esto permite a supervisores y técnicos  
+> empezar a interactuar con la plataforma en sus aspectos básicos.  
+> Esto se confirmará cuando los usuarios puedan crear, visualizar y marcar como completadas  
+> sus tareas, incluso en escenarios de baja conectividad.  
+
+---
+
+> ### Sprint 1 Velocity  
+> **Velocity:** 16 Story Points  
+> **Sum of Story Points:** 16  
+
+---
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+
+- Baldeón Vivar, Santiago Armando: Coordinación del equipo y revisión de código.  
+- Sosa Soto, Oskar Rodrigo: Desarrollo del frontend inicial en Angular.  
+- Aguilar Untiveros, Rodrigo Fabrizio: Configuración de base de datos y conexión con el backend.  
+- Solis Chang, Santiago Valentino: Implementación del backend en Java con Spring Boot.  
+- Huamán Cuba, Johan Giovani: Apoyo en integración y documentación técnica.  
+
+
+---
 #### 5.2.1.3. Sprint Backlog 1
 
+> #### Sprint 1 Backlog  
+> | ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |  
+> |-------|----------------------------------------------------------------------------|---------------------------|-----------------|  
+> | US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | 5                         | Sprint 1        |  
+> | US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | 8                         | Sprint 1        |  
+> | US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea               | 3                         | Sprint 1        |  
+
+---
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+En este sprint se trabajó en la implementación de los módulos básicos de la aplicación. Se desarrollaron las vistas iniciales de login y creación de tareas, además de la lógica de sincronización offline para el acceso de técnicos.  
+
+Ejemplos de commits registrados:  
+
+- Feat: creación de formulario de nuevas tareas  
+- Feat: implementación de almacenamiento local para tareas offline  
+- Feat: registro de inicio y fin de tareas en backend  
+
+---
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+Se realizaron pruebas internas que confirmaron el correcto funcionamiento del flujo básico de crear una tarea, asignarla a un técnico y registrar su inicio y fin. Además, se validó que las tareas pudieran visualizarse sin conexión y que se sincronizaran al recuperar internet.  
+
+---
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+En este sprint no se integraron servicios externos adicionales, ya que el enfoque estuvo en desarrollar la lógica principal de creación y gestión de tareas.  
+
+---
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+El despliegue de la Landing Page se realizó en Cloudflare Pages, con actualizaciones automáticas vinculadas al repositorio principal. Para el frontend de la aplicación se usó Netlify, permitiendo probar la versión inicial del sistema. El backend se desplegó en Azure Web App Service, facilitando el acceso a los endpoints básicos de creación y gestión de tareas.  
 
+---
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante aportó mediante ramas específicas con nombres feature/nombre-funcionalidad y realizó Pull Requests revisados por el coordinador. Se evidenció un uso constante de commits claros y bien estructurados.
 
-## 5.3. Validation Interviews
+<div align="center"> <img src="images/mockups/insightsprint1.png" alt="insight sprint 01"/> </div>
 
-### 5.3.1. Diseño de Entrevistas
-
-### 5.3.2. Registro de Entrevistas
-
-### 5.3.3. Evaluaciones según heurísticas
-
-## 5.4. Video About-the-Product
+---
 
 # Conclusiones
+
+Este trabajo permitió establecer una base sólida para el desarrollo del proyecto. Se organizaron las tareas, se definieron los procesos de trabajo y se preparó el entorno técnico necesario. Esto dio claridad al equipo y facilitó la coordinación de actividades.
+
+La planificación de los sprints mostró que es posible avanzar de manera ordenada, con objetivos claros y medibles. También permitió reconocer la importancia de mantener registros de las decisiones técnicas y de dar valor a la comunicación constante dentro del equipo.
+
+La implementación inicial demostró que los lineamientos planteados pueden convertirse en resultados concretos. El despliegue de las primeras funciones abrió el camino para seguir ampliando las capacidades del sistema y asegurar que cumpla con las necesidades de los usuarios.
+
+En conjunto, este avance representó un paso clave para continuar el proyecto con mayor seguridad, enfoque y compromiso.
 
 # Bibliografía
 
 # Anexos
+
