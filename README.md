@@ -1289,31 +1289,76 @@ Pantalla relacionada a la sección de contacto y más información.
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
-Para el desarrollo de la aplicación PetroTask se utilizará principalmente **Visual Studio Code** como entorno de desarrollo, ya que permite trabajar de manera ágil y cuenta con una amplia variedad de extensiones que facilitan la integración con herramientas modernas. En etapas posteriores, se hará uso de **IntelliJ IDEA** para la implementación y pruebas de las APIs, aprovechando su soporte especializado para entornos backend en Java.
+Para la gestión del proyecto y del backlog se empleará Trello como tablero visual para sprints, backlog y seguimiento de tareas. Para el manejo de issues y la trazabilidad ligada al código se usarán GitHub Issues integradas en la organización de repositorios.
 
-Como entorno de ejecución se usará **Node.js** en su versión LTS, acompañado de **NPM 9** como administrador de dependencias. Para el desarrollo del frontend se trabajará con el framework **React.js**, el cual se ajusta a la necesidad de modularidad y a la construcción de interfaces interactivas. Como soporte visual, se empleará **Tailwind CSS**, que permitirá construir un diseño minimalista, adaptable y fácil de mantener. Para el backend se utilizará **Java**, garantizando estabilidad y escalabilidad en operaciones críticas.
+En la etapa de levantamiento y gestión de requisitos se utilizarán documentos en formato Gherkin para especificaciones legibles por negocio y pruebas BDD, almacenados en el repositorio y revisables mediante pull requests. Para documentación más amplia y pública se empleará MkDocs o Docusaurus según necesidad.
 
-En cuanto a la gestión del proyecto, se hará uso de **Trello** para la organización del backlog y el seguimiento de tareas. Para la elaboración de diagramas de procesos y arquitectura se trabajará con **LucidChart**, mientras que para la modelación de la base de datos se empleará **Vertabelo**. Finalmente, la colaboración y control de versiones del código se realizará con **GitHub**, integrando todas las ramas y repositorios del proyecto.
+Para Product UX/UI Design, los wireframes y prototipos visuales se elaborarán en Figma como herramienta SaaS principal. Para diagramas de arquitectura, procesos y diagramas adicionales se empleará Lucidchart y para el modelado de bases de datos se usará Vertabelo.
+
+Como entornos de desarrollo integrado se utilizará principalmente Visual Studio Code para frontend y scripts, y IntelliJ IDEA para el desarrollo y pruebas del backend en Java. WebStorm  puede ser alternativa para desarrolladores frontend que lo prefieran. Las descargas y versiones deberán apuntar a las páginas oficiales indicadas.
+
+Para el desarrollo de frontend se usará Node.js en su versión LTS y NPM como administrador de paquetes. El frontend se implementará con React.js y TypeScript cuando corresponda. Para el diseño de estilos se utilizará Tailwind CSS como framework de utilidades. Para transpilación y bundling se usará el ecosistema Node.
+
+Para el backend se empleará Java. Las pruebas unitarias y de integración en backend se realizarán con JUnit y herramientas del ecosistema Spring.
+
+Para control de versiones y colaboración se usará Git y la plataforma GitHub. Para CI/CD se recomienda configurar GitHub Actions en cada repositorio; las acciones se describirán en los pipelines del proyecto. Para la gestión de secretos y variables de entorno se usará GitHub Secrets y, en entornos de nube, Azure Key Vault si se requiere mayor control.
+
+Para la base de datos en la nube se utilizará MySQL. Para pruebas de API y colecciones de integración se mantendrán Postman Collections en el repositorio de Web Services.
+
+Finalmente, para la documentación de código y diagramas, se mantendrán archivos Markdown dentro de cada repositorio y se publicará documentación estática con GitHub Pages o MkDocs según el caso.
 
 ---
 
 ### 5.1.2. Source Code Management
 
-El control de versiones del proyecto PetroTask se llevará a cabo en **GitHub**, donde se ha creado una organización denominada **PetroTask-Developers**. En ella se mantendrán organizados los repositorios de cada uno de los componentes principales de la solución. Esto permitirá trabajar de forma colaborativa y mantener un historial claro de los avances y cambios realizados durante el desarrollo.
+El seguimiento de modificaciones y la colaboración se realizará en **GitHub**. Se ha creado la organización de ejemplo **PetroTask-Developers** que centraliza los repositorios del proyecto. En cada repositorio se incluirán los proyectos fuente y, en el caso de Web Services, tanto el proyecto como los archivos de pruebas unitarias y de integración/aceptación.
 
 | Solución         | Nombre del Repositorio | Enlace |
 |------------------|------------------------|--------|
 | Landing Page     | PetroTask-Landing      | https://github.com/PetroTask-Developers/PetroTask-Landing |
 | Frontend         | PetroTask-Frontend     | https://github.com/PetroTask-Developers/PetroTask-Frontend |
-| Backend (APIs)   | PetroTask-Backend      | https://github.com/PetroTask-Developers/PetroTask-Backend |
+| Backend (Web Services) | PetroTask-Backend      | https://github.com/PetroTask-Developers/PetroTask-Backend |
+
+Para el workflow de control de versiones se aplicará **GitFlow** (modelo inspirado en el artículo “A successful Git branching model” de Vincent Driessen). En concreto, se mantendrán las siguientes ramas principales: `main` (rama de producción estable) y `develop` (rama de integración para la próxima versión). Cada nueva funcionalidad se trabajará en un feature branch, que luego se mergeará en `develop`; los release branches permitirán estabilizar una versión antes de fusionarla a `main`, y los hotfix branches se generarán desde `main` para correcciones urgentes.
+
+Las convenciones de nombres serán las siguientes: los feature branches usarán el prefijo `feature/` seguido de un identificador de ticket y una breve descripción en kebab-case, por ejemplo `feature/TPK-42-add-dynamic-scheduling`. Los release branches usarán `release/x.y.z` (por ejemplo `release/1.2.0`) y los hotfix branches usarán `hotfix/x.y.z` (por ejemplo `hotfix/1.2.1`). Al fusionar release a `main` se etiquetará la release con la versión semántica (ver abajo).
+
+Se aplicará **Semantic Versioning** para nombrar los releases (`MAJOR.MINOR.PATCH`, p. ej. `v1.0.0`) conforme a “Semantic Versioning 2.0.0”. Para los mensajes de commits y la estandarización de historia se adoptará **Conventional Commits** (por ejemplo `feat(auth): add two-factor authentication`, `fix(api): handle null reference`). Esta convención facilitará la generación automática de changelogs y la trazabilidad de cambios.
+
+En el repositorio de Web Services se incluirán las suites de pruebas: pruebas unitarias (JUnit), pruebas de integración (tests de Spring Boot con contexto y base de datos embebida o replicada) y colecciones de pruebas de aceptación en Postman. Los pipelines CI ejecutarán estas pruebas antes de permitir merges en `develop` o `main`.
 
 ---
 ### 5.1.3. Source Code Style Guide & Conventions
 
+El equipo adoptará guías y convenciones reconocidas para mantener consistencia en el código y en los artefactos de especificación. Todos los identificadores (nombres de variables, funciones, clases, rutas) se escribirán en **inglés** para asegurar uniformidad y facilitar la colaboración internacional.
+
+Para HTML y CSS se seguirán las recomendaciones de **Google HTML/CSS Style Guide** y reglas prácticas de nomenclatura BEM para clases cuando corresponda (por ejemplo `component__element--modifier`), manteniendo archivos y rutas en **kebab-case** para recursos y nombres públicos. Para JavaScript y TypeScript se usará la **Airbnb JavaScript Style Guide** como base, y se adaptarán los puntos de **Google TypeScript Style Guide** para código TypeScript estricto (uso de `strict` en `tsconfig.json`, definir tipos explícitos en API públicas, evitar `any` salvo excepciones justificadas). Se evitará `var` y se preferirá `const`/`let`.
+
+En Java se seguirá la **Google Java Style Guide** y las buenas prácticas de Spring Boot: paquetes en minúsculas, clases en `PascalCase`, métodos y variables en `camelCase`, constantes en `UPPER_SNAKE_CASE`. Se aplicarán convenciones para excepciones y manejo de logs (SLF4J) y se documentarán las APIs REST con OpenAPI/Swagger.
+
+Para las especificaciones de comportamiento legible por negocio se adoptarán las **Gherkin Conventions for Readable Specifications**, manteniendo escenarios claros y reusables (`Given/When/Then`) en archivos `.feature`.
+
+Además, se mantendrán reglas prácticas en cada repositorio, documentadas en un `CONTRIBUTING.md` y un `STYLEGUIDE.md`. Estos documentos incluirán convenciones de nombres, formato de archivos, tamaño máximo de commits, reglas para pull requests (título, descripción, referencia a issue/ticket), y checklist de revisión. Las herramientas de linting y formateo (ESLint + Prettier para frontend; Checkstyle / SpotBugs para Java) se integrarán en los pipelines CI para garantizar cumplimiento automático.
+
+---
 ### 5.1.4. Software Deployment Configuration
 
-## 5.2. Landing Page, Services & Applications Implementation
+La configuración de despliegue describe los pasos necesarios para que, a partir de los repositorios de código, se logre la publicación correcta de cada producto digital: Landing Page, Web Services y Frontend Web Applications.
 
+El flujo general de despliegue parte de GitHub. Para cada repositorio se configurará un pipeline de CI/CD (se recomienda usar **GitHub Actions**) que ejecute pruebas, haga el build y publique artefactos. Las variables sensibles (strings de conexión, API keys) se almacenarán en **GitHub Secrets** y, para entornos cloud, en servicios como **Azure Key Vault**.
+
+Para la **Landing Page**, el despliegue será automático mediante **Cloudflare Pages**. El pipeline realiza: (1) trigger al hacer push en `main`, (2) ejecución de `npm ci` y `npm run build`, (3) publicación del directorio de salida en Cloudflare Pages. La integración con GitHub permite que cada commit en `main` genere un nuevo despliegue.
+
+Para el **Frontend (Web Application)**, se desplegará en **Vercel** o similar. El pipeline publicará la build (por ejemplo `npm run build`) y Vercel consumirá ese artefacto para servir la aplicación. En Vercel se configurarán variables de entorno necesarias (endpoints de API, keys públicas) y se habilitarán previews para las PRs apuntando a `deploy previews`.
+
+Para los **Web Services (APIs en Java/Spring Boot)**, el proceso será: (1) pipeline en GitHub Actions que ejecuta tests unitarios e integración; (2) build del artefacto (JAR) usando Maven/Gradle; (3) publicación en el entorno de staging; (4) despliegue a producción en **Azure App Service** tras aprobación o merge a `main`. En Azure se configurarán slots (staging/production) para permitir despliegues seguros y rollbacks rápidos. Las cadenas de conexión a MongoDB Atlas y otros secretos se configurarán en las variables de la aplicación o en Key Vault.
+
+Las migraciones o scripts iniciales de base de datos se versionarán y se ejecutarán desde los pipelines de despliegue cuando sean necesarios; para MongoDB se usarán scripts controlados en el repositorio y mecanismos seguros de ejecución en CI/CD. La observabilidad se garantizará mediante logs centralizados y métricas en el proveedor de nube, y se configurarán alertas para fallos críticos.
+
+Para cada producto se mantendrán entornos separados: `development` (pruebas rápidas), `staging` (pre-producción para validación) y `production` (entorno final). El despliegue automático a `production` solo ocurrirá desde merges a la rama `main` y después de pasar las pruebas automatizadas definidas.
+
+---
+## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
