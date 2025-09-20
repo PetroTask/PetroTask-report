@@ -1473,7 +1473,9 @@ El despliegue de la Landing Page se realizó en Cloudflare Pages, con actualizac
 
 ---
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante aportó mediante ramas específicas con nombres feature/nombre-funcionalidad y realizó Pull Requests revisados por el coordinador. Se evidenció un uso constante de commits claros y bien estructurados.  
+El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante aportó mediante ramas específicas con nombres feature/nombre-funcionalidad y realizó Pull Requests revisados por el coordinador. Se evidenció un uso constante de commits claros y bien estructurados.
+
+<div align="center"> <img src="images/mockups/insightsprint1.png" alt="Mockup Inicio PetroTask"/> </div>
 
 ---
 
