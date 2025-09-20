@@ -33,12 +33,12 @@
 
 | _Versión_ | _Fecha_    | _Autor_ | _Descripción de modificación_ |
 | --------- | ---------- | ------- | ----------------------------- |
-| 1.0       | 06/04/2025 | Baldeon Vivar, Santiago Armando | Creación del repositorio |
-| 1.1       | 13/04/2025 |  Todos      | Completo cap 2,3,4,5 |
+| 1.0       | 11/09/2025 | Baldeon Vivar, Santiago Armando | Creación del repositorio |
+| 1.1       | 18/09/2025 |  Todos      | Completo cap 2,3,4,5 |
 
 ## Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto: https://github.com/UPC-GosTech/swiftport-report
+URL del repositorio para el reporte del proyecto: https://github.com/PetroTask/TaskOil
 
 **TB1**
 
@@ -143,7 +143,7 @@ Se puede identificar a los integrantes como:
         <li>Services Documentation Evidence for Sprint Review</li>
       </ul>
     </td>
-    <td style="border: 1px solid white; padding: 8px;">TB1: Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también ante los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto.</td>
+    <td style="border: 1px solid white; padding: 8px;">TB1: Tras finalizar la primera entrega, concluimos que conseguimos establecer una comunicación efectiva no solo mediante las grabaciones presentadas, como las entrevistas y el video de exposición, sino también a través de las consultas realizadas con los docentes para el desarrollo del trabajo, así como en la interacción entre nosotros como grupo y con nuestros demás compañeros. Esta comunicación nos permitió transmitir nuestras ideas de manera clara, comprensible, respetuosa y utilizando un lenguaje apropiado al contexto.</td>
   </tr>
   <tr>
     <td style="border: 1px solid white; padding: 8px;">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
@@ -217,7 +217,7 @@ Se puede identificar a los integrantes como:
         <li>Services Documentation Evidence for Sprint Review</li>
       </ul>
     </td>
-    <td style="border: 1px solid white; padding: 8px;">TB1: Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y el mensaje central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis y descripción de los elementos incluídos. Asimismo, logramos identificar el lenguaje correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.</td>
+    <td style="border: 1px solid white; padding: 8px;">TB1: Al concluir la TB1, podemos afirmar que conseguimos plasmar nuestras ideas y el mensaje principal de nuestro proyecto por escrito. Esto se refleja en la redacción del análisis que realizamos como punto de partida para la implementación del trabajo. Dicho avance se evidencia en las historias de usuario, el análisis y la descripción de los elementos incluidos. Además, logramos definir el lenguaje adecuado para el diseño de la landing page, asegurando que los usuarios puedan comprenderla con facilidad.</td>
   </tr>
 </table>
 
@@ -303,29 +303,6 @@ Se puede identificar a los integrantes como:
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.6. [Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2. [Sprint 2](#522-sprint-2)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.1. [Sprint Planning 2](#5221-sprint-planning-2)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.2. [Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.3. [Sprint Backlog 2](#5223-sprint-backlog-2)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.4. [Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.5. [Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.6. [Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.7. [Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.8. [Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3. [Sprint 3](#523-sprint-3)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.1. [Sprint Planning 3](#5231-sprint-planning-3)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.2. [Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.3. [Sprint Backlog 3](#5233-sprint-backlog-3)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.4. [Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.5. [Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)  
-   &nbsp;&nbsp;&nbsp;&nbsp;5.3. [Validation Interviews](#53-validation-interviews)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.1. [Diseño de Entrevistas](#531-diseño-de-entrevistas)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.2. [Registro de Entrevistas](#532-registro-de-entrevistas)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.3. [Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)  
-   &nbsp;&nbsp;&nbsp;&nbsp;5.4. [Video About-the-Product](#54-video-about-the-product)
 
 6. **[Conclusiones](#6-conclusiones)**  
    &nbsp;&nbsp;&nbsp;&nbsp;6.1. [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)  
