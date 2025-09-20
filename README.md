@@ -1224,6 +1224,10 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.7.1. Class Diagrams
 
+![Diagrama de Clases](https://raw.githubusercontent.com/PetroTask/TaskOil/46337148dd4a216fe90d5c677075006ab2f846a8/img/Diagrama%20de%20Clases.png)
+
+El diagrama de clases de PetroTask organiza el sistema en cinco módulos principales (Dominio Principal, Gestión de Tareas, Gestión de Recursos, Evidencias y Monitoreo, Ubicación y Seguridad) que contienen 24 clases especializadas para la industria petrolera, utilizando relaciones de herencia y asociación para conectar roles de usuario como Supervisores y Técnicos con entidades operativas como Tareas, Recursos y Evidencias, integrando además gestión geográfica, protocolos de seguridad y funcionalidad offline para entornos remotos.
+
 ### 4.7.2. Class Dictionary
 
 ## 4.8. Database Design
