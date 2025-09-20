@@ -1210,9 +1210,15 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.6.1. Software Architecture Context Diagram
 
+   ![Diagrama de Contexto](https://raw.githubusercontent.com/PetroTask/TaskOil/9db4191d8996b99aec393680630835fea6025bd9/img/Diagrama%20de%20Contexto.png)
+
 ### 4.6.2. Software Architecture Container Diagrams
 
+   ![Diagrama de Contenedores](https://raw.githubusercontent.com/PetroTask/TaskOil/9db4191d8996b99aec393680630835fea6025bd9/img/Diagrama%20de%20Contenedores.png)
+
 ### 4.6.3. Software Architecture Components Diagrams
+
+   ![Diagrama de Componentes](https://raw.githubusercontent.com/PetroTask/TaskOil/9db4191d8996b99aec393680630835fea6025bd9/img/Diagrama%20de%20Componentes.png)
 
 ## 4.7. Software Object-Oriented Design
 
