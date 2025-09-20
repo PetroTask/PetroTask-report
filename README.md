@@ -1299,6 +1299,15 @@ En cuanto a la gestión del proyecto, se hará uso de **Trello** para la organiz
 
 ### 5.1.2. Source Code Management
 
+El control de versiones del proyecto PetroTask se llevará a cabo en **GitHub**, donde se ha creado una organización denominada **PetroTask-Developers**. En ella se mantendrán organizados los repositorios de cada uno de los componentes principales de la solución. Esto permitirá trabajar de forma colaborativa y mantener un historial claro de los avances y cambios realizados durante el desarrollo.
+
+| Solución         | Nombre del Repositorio | Enlace |
+|------------------|------------------------|--------|
+| Landing Page     | PetroTask-Landing      | https://github.com/PetroTask-Developers/PetroTask-Landing |
+| Frontend         | PetroTask-Frontend     | https://github.com/PetroTask-Developers/PetroTask-Frontend |
+| Backend (APIs)   | PetroTask-Backend      | https://github.com/PetroTask-Developers/PetroTask-Backend |
+
+---
 ### 5.1.3. Source Code Style Guide & Conventions
 
 ### 5.1.4. Software Deployment Configuration
