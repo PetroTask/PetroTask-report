@@ -57,11 +57,11 @@ Para el desarrollo de la parte del informe correspondiente a la TB1, se dividió
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
 
 Se puede identificar a los integrantes como: 
-- Roman Cruz, Natalia Bertha: natRC2005
-- Solano Armas, Angelo Hector: Angelo5214
-- Iglesias Pérez, Sergio Sebastián: ghostrider101218
 - Baldeón Vivar, Santiago Armando: Santibal11
-- Adrianzén Flores, Carlos Arturo: Choliwys
+- Oskar Rodrigo Sosa Soto : YakuzaMeen
+- Rodrigo Fabrizio Aguilar Untiveros : Rodri2712
+- Santiago Valentino Solis Chang : TrEv0rRrRr
+- Johan Giovani Huamán Cuba : Johancuba
 
 ## Students Outcomes
 
