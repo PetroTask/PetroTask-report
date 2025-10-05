@@ -284,10 +284,12 @@ Se puede identificar a los integrantes como:
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.4. [Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)  
    &nbsp;&nbsp;&nbsp;&nbsp;4.7. [Software Object-Oriented Design](#47-software-object-oriented-design)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1. [Class Diagrams](#471-class-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1.1. [Backend Class Diagram](#4711-backend-class-diagram)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1.2. [Frontend Class Diagram](#4712-frontend-class-diagram)  
    &nbsp;&nbsp;&nbsp;&nbsp;4.8. [Database Design](#48-database-design)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8.1. [Database Diagrams](#481-database-diagrams)
 
-5. **[Capítulo V: Product Implementation, Validation & Deployment](#5-capítulo-v-product-implementation-validation--deployment)**  
+6. **[Capítulo V: Product Implementation, Validation & Deployment](#5-capítulo-v-product-implementation-validation--deployment)**  
    &nbsp;&nbsp;&nbsp;&nbsp;5.1. [Software Configuration Management](#51-software-configuration-management)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.1. [Software Development Environment Configuration](#511-software-development-environment-configuration)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.2. [Source Code Management](#512-source-code-management)  
@@ -304,13 +306,13 @@ Se puede identificar a los integrantes como:
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)  
 
-6. **[Conclusiones](#6-conclusiones)**  
+7. **[Conclusiones](#6-conclusiones)**  
    &nbsp;&nbsp;&nbsp;&nbsp;6.1. [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)  
    &nbsp;&nbsp;&nbsp;&nbsp;6.2. [Video About-the-Team](#62-video-about-the-team)
 
-7. **[Bibliografía](#7-bibliografía)**
+8. **[Bibliografía](#7-bibliografía)**
 
-8. **[Anexos](#8-anexos)**
+9. **[Anexos](#8-anexos)**
 
 ---
 
@@ -1656,23 +1658,27 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.6.1. Software Architecture Context Diagram
 
-   ![Diagrama de Contexto](https://raw.githubusercontent.com/PetroTask/TaskOil/9db4191d8996b99aec393680630835fea6025bd9/img/Diagrama%20de%20Contexto.png)
+   ![Diagrama de Contexto](https://raw.githubusercontent.com/PetroTask/PetroTask-report/d6af7f86a574a314dbc6834d8c1e21e2c00caef7/img/Diagrama%20de%20contexto.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-   ![Diagrama de Contenedores](https://raw.githubusercontent.com/PetroTask/TaskOil/9db4191d8996b99aec393680630835fea6025bd9/img/Diagrama%20de%20Contenedores.png)
+   ![Diagrama de Contenedores](https://raw.githubusercontent.com/PetroTask/PetroTask-report/d6af7f86a574a314dbc6834d8c1e21e2c00caef7/img/Diagrama%20de%20contenedores.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-   ![Diagrama de Componentes](https://raw.githubusercontent.com/PetroTask/TaskOil/9db4191d8996b99aec393680630835fea6025bd9/img/Diagrama%20de%20Componentes.png)
+   ![Diagrama de Componentes](https://raw.githubusercontent.com/PetroTask/PetroTask-report/d6af7f86a574a314dbc6834d8c1e21e2c00caef7/img/Diagrama%20de%20componentes.png)
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
-![Diagrama de Clases](https://raw.githubusercontent.com/PetroTask/TaskOil/46337148dd4a216fe90d5c677075006ab2f846a8/img/Diagrama%20de%20Clases.png)
+#### 4.7.1.1. Backend Class Diagram
 
-El diagrama de clases de PetroTask organiza el sistema en cinco módulos principales (Dominio Principal, Gestión de Tareas, Gestión de Recursos, Evidencias y Monitoreo, Ubicación y Seguridad) que contienen 24 clases especializadas para la industria petrolera, utilizando relaciones de herencia y asociación para conectar roles de usuario como Supervisores y Técnicos con entidades operativas como Tareas, Recursos y Evidencias, integrando además gestión geográfica, protocolos de seguridad y funcionalidad offline para entornos remotos.
+![Diagrama de Clases Backend](https://raw.githubusercontent.com/PetroTask/PetroTask-report/d6af7f86a574a314dbc6834d8c1e21e2c00caef7/img/Backend%20Class%20Diagram.png)
+
+#### 4.7.1.2. Frontend Class Diagram
+
+![Diagrama de Clases Frontend](https://raw.githubusercontent.com/PetroTask/PetroTask-report/d6af7f86a574a314dbc6834d8c1e21e2c00caef7/img/Frontend%20Class%20Diagram.png)
 
 ### 4.7.2. Class Dictionary
 
@@ -1680,9 +1686,7 @@ El diagrama de clases de PetroTask organiza el sistema en cinco módulos princip
 
 ### 4.8.1. Database Diagram
 
-![Diagrama de Base de Datos](https://raw.githubusercontent.com/PetroTask/TaskOil/main/img/Diagrama%20de%20Base%20de%20Datos.png)
-
-El diagrama de base de datos de PetroTask muestra la estructura relacional que sostiene el sistema. En él destacan tablas principales como users, companies, tasks, locations y equipment, que representan los elementos centrales de la operación. A su alrededor aparecen tablas de soporte como task_evidences o reports, además de tablas de relación (user_company, task_equipment, task_locations) que permiten manejar vínculos de muchos a muchos. También se incluyen módulos críticos de seguridad y comunicación, como alerts, alert_recipients y notifications. El diseño busca garantizar integridad referencial, trazabilidad y flexibilidad en la gestión de tareas, recursos y evidencias dentro de la industria petrolera.
+![Diagrama de Base de Datos](https://raw.githubusercontent.com/PetroTask/PetroTask-report/d6af7f86a574a314dbc6834d8c1e21e2c00caef7/img/Diagrama%20de%20base%20de%20datos.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
