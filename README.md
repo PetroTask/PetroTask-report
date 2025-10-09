@@ -35,7 +35,7 @@
 | --------- | ---------- | ------- | ----------------------------- |
 | 1.0       | 11/09/2025 | Baldeon Vivar, Santiago Armando | Creación del repositorio |
 | 1.1       | 18/09/2025 |  Todos      | Completo cap 2,3,4,5 |
-| 1.2       | 08/10/2025 |  Todos      | Agregar |
+| 1.2       | 08/10/2025 |  Todos      | Sprint 2 y correciones |
 
 ## Project Report Collaboration Insights
 
@@ -53,6 +53,18 @@ Para el desarrollo de la parte del informe correspondiente a la TB1, se dividió
 | Santiago Valentino Solis Chang | Descripción del Startup, segmentos objetivos, registro de entrevistas, style guidelines, wireframes, mockup, prototype, context diagram, Software Development Environment Configuration, landing page |
 | Johan Giovani Huamán Cuba | Competidores, SEO Tags and Meta Tags, User Flow Diagrams, Software Configuration Management, Services Documentation Evidence for Sprint Review |
 
+**Trabajo Parcial (TP)**
+
+Para el desarrollo del informe correspondiente al Trabajo Parcial (TP), la implementación de secciones y tareas se ha dividido de la siguiente manera entre los integrantes del grupo:
+
+| **Integrantes** | **Tareas asignadas** |
+| :--- | :--- |
+| Baldeón Vivar, Santiago Armando | **Despliegue** de Landing Page y Frontend. Elaboración y gestión del **Sprint Planning 2** y **Sprint Backlog 2**. Recopilación de **Development Evidence for Sprint Review**. |
+| Oskar Rodrigo Sosa Soto | Avance de **Conclusiones** y **Recomendaciones**. |
+| Rodrigo Fabrizio Aguilar Untiveros | Documentación **Aspect Leaders and Collaborators**. Avance de **Bibliografía**. |
+| Santiago Valentino Solis Chang | Documentación **Services Documentation Evidence for Sprint Review**. Avance de **Anexos**. |
+| Johan Giovani Huamán Cuba |Documentación **Team Collaboration Insights during Sprint**. Avance de **Conclusiones** y **Recomendaciones**. |
+
 ## Github Collaboration Insights
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
@@ -68,157 +80,157 @@ Se puede identificar a los integrantes como:
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
-    <th style="border: 1px solid white; padding: 8px;">Criterios específicos</th>
-    <th style="border: 1px solid white; padding: 8px;">Acciones realizadas</th>
-    <th style="border: 1px solid white; padding: 8px;">Conclusiones</th>
+    <th style="border: 1px solid black; padding: 8px;">Criterios específicos</th>
+    <th style="border: 1px solid black; padding: 8px;">Acciones realizadas</th>
+    <th style="border: 1px solid black; padding: 8px;">Conclusiones</th>
   </tr>
   <tr>
-    <td style="border: 1px solid white; padding: 8px;">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-    <td style="border: 1px solid white; padding: 8px;">
+    <td style="border: 1px solid black; padding: 8px;">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+    <td style="border: 1px solid black; padding: 8px;">
       <strong>Oskar Rodrigo Sosa Soto</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Antecedentes y problemática</li>
         <li>Problem Statements</li>
-        <li>Análisis de Entrevistas</li>
-        <li>Needfinding</li>
-        <li>Requirements Specification</li>
-        <li>Organization Systems</li>
-        <li>Labeling Systems</li>
-        <li>Wireflow Diagrams</li>
-        <li>Domain-Driven Software Architecture</li>
-        <li>Database Diagram</li>
-        <li>Class Diagram</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Team Collaboration Insights</li>
-        <li>Landing page</li>
         <li>Conclusiones</li>
         <li>Recomendaciones</li>
       </ul>
+      <strong>Oskar Rodrigo Sosa Soto</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Sección Team Collaboration Insights during Sprint (Exposición oral de los retos y soluciones del sprint).</li>
+        <li>Avance de Conclusiones y Recomendaciones (Preparación para la presentación oral).</li>
+      </ul>
+      <br>
       <strong>Rodrigo Fabrizio Aguilar Untiveros</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Assumptions</li>
         <li>Hypthesys Statements</li>
-        <li>Análisis de Entrevistas</li>
-        <li>Needfinding</li>
-        <li>Requirements Specification</li>
-        <li>Searching Systems</li>
-        <li>Navigation Systems</li>
-        <li>Wireframes</li>
-        <li>Domain-Driven Software Architecture</li>
-        <li>Database Diagram</li>
-        <li>Class Diagram</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Aspect Leaders and Collaborators</li>
         <li>Development Evidence for Sprint</li>
-        <li>Landing Page</li>
       </ul>
+      <strong>Rodrigo Fabrizio Aguilar Untiveros</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Recopilación de Execution Evidence for Sprint Review (Preparación de la demostración en vivo).</li>
+      </ul>
+      <br>
       <strong>Santiago Valentino Solis Chang</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Descripción del Startup</li>
         <li>Segmentos Objetivos</li>
-        <li>Registro de entrevistas</li>
-        <li>Style Guidelines</li>
-        <li>Wireframes</li>
-        <li>Mockup</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Prototype</li>
         <li>Context Diagram</li>
-        <li>Software Development Environment Configuration</li>
-        <li>Landing Page</li>
       </ul>
+      <strong>Santiago Valentino Solis Chang</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Sección Team Collaboration Insights during Sprint (Exposición oral de los retos y soluciones del sprint).</li>
+      </ul>
+      <br>
       <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
-        <li>Canvas</li>
-        <li>Diseño de entrevistas</li>
-        <li>Style Guidelines</li>
-        <li>Wireframes</li>
-        <li>Mockup</li>
-        <li>Class Dictionary</li>
-        <li>Source Code Style Guide & Conventions</li>
+        <li>Canvas, Diseño de entrevistas, edición del video</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Sprint Backlog 1</li>
-        <li>Edición del video</li>
       </ul>
+      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Gestión del Sprint Planning 2 y Sprint Backlog 2 (Coordinación y comunicación de objetivos).</li>
+        <li>Recopilación de Development Evidence for Sprint Review (Preparación de la demostración técnica).</li>
+      </ul>
+      <br>
       <strong>Johan Giovani Huamán Cuba</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Competidores</li>
         <li>SEO Tags and Meta Tags</li>
-        <li>User Flow Diagrams</li>
-        <li>Software Configuration Management</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Services Documentation Evidence for Sprint Review</li>
       </ul>
+      <strong>Johan Giovani Huamán Cuba</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Sección Aspect Leaders and Collaborators (Exposición de roles y liderazgo).</li>
+        <li>Avance de Conclusiones y Recomendaciones (Preparación para la presentación oral).</li>
+      </ul>
     </td>
-    <td style="border: 1px solid white; padding: 8px;">TB1: Tras finalizar la primera entrega, concluimos que conseguimos establecer una comunicación efectiva no solo mediante las grabaciones presentadas, como las entrevistas y el video de exposición, sino también a través de las consultas realizadas con los docentes para el desarrollo del trabajo, así como en la interacción entre nosotros como grupo y con nuestros demás compañeros. Esta comunicación nos permitió transmitir nuestras ideas de manera clara, comprensible, respetuosa y utilizando un lenguaje apropiado al contexto.</td>
+    <td style="border: 1px solid black; padding: 8px;">TB1: Tras finalizar la primera entrega, concluimos que conseguimos establecer una comunicación efectiva no solo mediante las grabaciones presentadas, como las entrevistas y el video de exposición, sino también a través de las consultas realizadas con los docentes para el desarrollo del trabajo, así como en la interacción entre nosotros como grupo y con nuestros demás compañeros. Esta comunicación nos permitió transmitir nuestras ideas de manera clara, comprensible, respetuosa y utilizando un lenguaje apropiado al contexto.<br><br>
+    <strong>TP:</strong> Al concluir el Trabajo Parcial, podemos afirmar que logramos mantener una comunicación oral clara y efectiva durante la exposición del Sprint 2. En esta presentación dimos a conocer los avances técnicos alcanzados —como el despliegue del Front y la Landing Page— y explicamos los resultados obtenidos en la ejecución de servicios y en la colaboración del equipo. Esta instancia evidenció nuestra capacidad para comunicar los logros del proyecto de forma técnica, ordenada y comprensible para la audiencia.
+    </td>
   </tr>
   <tr>
-    <td style="border: 1px solid white; padding: 8px;">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
-    <td style="border: 1px solid white; padding: 8px;">
+    <td style="border: 1px solid black; padding: 8px;">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
+    <td style="border: 1px solid black; padding: 8px;">
       <strong>Oskar Rodrigo Sosa Soto</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Antecedentes y problemática</li>
         <li>Problem Statements</li>
-        <li>Análisis de Entrevistas</li>
-        <li>Needfinding</li>
-        <li>Requirements Specification</li>
-        <li>Organization Systems</li>
-        <li>Labeling Systems</li>
-        <li>Wireflow Diagrams</li>
-        <li>Domain-Driven Software Architecture</li>
-        <li>Database Diagram</li>
-        <li>Class Diagram</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Team Collaboration Insights</li>
-        <li>Landing page</li>
         <li>Conclusiones</li>
         <li>Recomendaciones</li>
       </ul>
+      <strong>Oskar Rodrigo Sosa Soto</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Documentación de Services Documentation Evidence for Sprint Review.</li>
+        <li>Redacción del Avance de Conclusiones, Recomendaciones y Anexos.</li>
+      </ul>
+      <br>
       <strong>Rodrigo Fabrizio Aguilar Untiveros</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Assumptions</li>
         <li>Hypthesys Statements</li>
-        <li>Análisis de Entrevistas</li>
-        <li>Needfinding</li>
-        <li>Requirements Specification</li>
-        <li>Searching Systems</li>
-        <li>Navigation Systems</li>
-        <li>Wireframes</li>
-        <li>Domain-Driven Software Architecture</li>
-        <li>Database Diagram</li>
-        <li>Class Diagram</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Aspect Leaders and Collaborators</li>
         <li>Development Evidence for Sprint</li>
-        <li>Landing Page</li>
       </ul>
+      <strong>Rodrigo Fabrizio Aguilar Untiveros</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Redacción de Aspect Leaders and Collaborators.</li>
+        <li>Elaboración del Avance de Bibliografía.</li>
+      </ul>
+      <br>
       <strong>Santiago Valentino Solis Chang</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Descripción del Startup</li>
         <li>Segmentos Objetivos</li>
-        <li>Registro de entrevistas</li>
-        <li>Style Guidelines</li>
-        <li>Wireframes</li>
-        <li>Mockup</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Prototype</li>
         <li>Context Diagram</li>
-        <li>Software Development Environment Configuration</li>
-        <li>Landing Page</li>
       </ul>
+      <strong>Santiago Valentino Solis Chang</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Documentación de Software Deployment Evidence for Sprint Review.</li>
+        <li>Redacción de Team Collaboration Insights during Sprint.</li>
+      </ul>
+      <br>
       <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
-        <li>Canvas</li>
-        <li>Diseño de entrevistas</li>
-        <li>Style Guidelines</li>
-        <li>Wireframes</li>
-        <li>Mockup</li>
-        <li>Class Dictionary</li>
-        <li>Source Code Style Guide & Conventions</li>
+        <li>Canvas, Diseño de entrevistas, edición del video</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Sprint Backlog 1</li>
-        <li>Edición del video</li>
       </ul>
+      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Elaboración del Sprint Planning 2 y Sprint Backlog 2.</li>
+        <li>Documentación de Development Evidence y Execution Evidence.</li>
+      </ul>
+      <br>
       <strong>Johan Giovani Huamán Cuba</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Competidores</li>
         <li>SEO Tags and Meta Tags</li>
-        <li>User Flow Diagrams</li>
-        <li>Software Configuration Management</li>
+        <li>[...] (Tareas de TB1)</li>
         <li>Services Documentation Evidence for Sprint Review</li>
       </ul>
+      <strong>Johan Giovani Huamán Cuba</strong> <br>TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Redacción de Aspect Leaders and Collaborators.</li>
+        <li>Elaboración del Avance de Bibliografía.</li>
+      </ul>
     </td>
-    <td style="border: 1px solid white; padding: 8px;">TB1: Al concluir la TB1, podemos afirmar que conseguimos plasmar nuestras ideas y el mensaje principal de nuestro proyecto por escrito. Esto se refleja en la redacción del análisis que realizamos como punto de partida para la implementación del trabajo. Dicho avance se evidencia en las historias de usuario, el análisis y la descripción de los elementos incluidos. Además, logramos definir el lenguaje adecuado para el diseño de la landing page, asegurando que los usuarios puedan comprenderla con facilidad.</td>
+    <td style="border: 1px solid black; padding: 8px;">TB1: Al concluir la TB1, podemos afirmar que conseguimos plasmar nuestras ideas y el mensaje principal de nuestro proyecto por escrito. Esto se refleja en la redacción del análisis que realizamos como punto de partida para la implementación del trabajo. Dicho avance se evidencia en las historias de usuario, el análisis y la descripción de los elementos incluidos. Además, logramos definir el lenguaje adecuado para el diseño de la landing page, asegurando que los usuarios puedan comprenderla con facilidad.<br><br>
+    <strong>TP:</strong> Al concluir el Trabajo Parcial, podemos afirmar que logramos consolidar la documentación formal del Sprint 2, incluyendo la planificación, el backlog y las evidencias correspondientes. Este avance refleja nuestra capacidad para organizar y comunicar de manera clara el progreso del proyecto. Además, redactamos las secciones finales del informe (Conclusiones y Bibliografía), empleando un lenguaje técnico y formal que permitió presentar de forma coherente tanto los aspectos operativos como los resultados alcanzados.
+    </td>
   </tr>
 </table>
 
