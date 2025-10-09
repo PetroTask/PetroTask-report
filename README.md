@@ -2008,6 +2008,8 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 
 - [Video exposición TB1](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202319881_upc_edu_pe/Em7GkfmkCwlLr7oolDeOI_8B7rjhIWEcTTA7P4x74sSBTw?e=HQfRrd)
 
+- [Video exposición TP](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202319881_upc_edu_pe/Enywtc61-pRJiPc3UBCQKb0Bu_i0Uv-4QjiM25eypqO04A?e=6xESS8)
+
 - [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319881_upc_edu_pe/EW4KQrrighJCmiQAXLX_8IABKZluaswrEMl6zfW9DHkFyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OjHwdR)
 
 
