@@ -1815,7 +1815,7 @@ En este sprint no se integraron servicios externos adicionales, ya que el enfoqu
 Durante este sprint se efectuó exitosamente el despliegue de la landing page de PetroTask mediante el servicio Azure Static Web Apps, como parte del enfoque incremental adoptado para la entrega continua del producto.
 
 <div>
-  <p align="center"><img src="assets/md-images/deployment-1.png" alt="deployment-1.png" width="700px" /></p>
+  <p align="center"><img src="images/deployment-1.png" alt="deployment-1.png" width="700px" /></p>
 </div>
 
 ---
@@ -1899,28 +1899,28 @@ Durante este sprint se desarrollaron las principales vistas y componentes del fr
 Durante el **Sprint 2**, se completó el desarrollo de las vistas principales del frontend de **PetroTask**. A continuación se presentan capturas de las interfaces implementadas:
 
 #### Login View  
-![Login View](assets/md-images/petrotask/login-view.png)
+![Login View](images/login-view.png)
 
 #### Register View  
-![Register View](assets/md-images/petrotask/register-view.png)
+![Register View](images/register-view.png)
 
 #### Dashboard View  
-![Dashboard View](assets/md-images/petrotask/dashboard-view.png)
+![Dashboard View](images/dashboard-view.png)
 
 #### Task List View  
-![Task List View](assets/md-images/petrotask/task-list-view.png)
+![Task List View](images/task-list-view.png)
 
 #### Incident Report View  
-![Incident Report View](assets/md-images/petrotask/incident-report-view.png)
+![Incident Report View](images/incident-report-view.png)
 
 #### User Management View  
-![User Management View](assets/md-images/petrotask/user-management-view.png)
+![User Management View](images/user-management-view.png)
 
 #### Company Settings View  
-![Company Settings View](assets/md-images/petrotask/company-settings-view.png)
+![Company Settings View](images/company-settings-view.png)
 
 #### Execution History View  
-![Execution History View](assets/md-images/petrotask/execution-history-view.png)
+![Execution History View](images/execution-history-view.png)
 
 ---
 
@@ -1943,10 +1943,10 @@ Durante el Sprint 2 se logró desplegar correctamente el **frontend de PetroTask
 **Evidencias del proceso de despliegue:**
 
 1. **Creación del recurso SPA en Azure**  
-   ![Azure Resource Creation](assets/md-images/petrotask/deployment-2.png)
+   ![Azure Resource Creation](images/deployment-2.png)
 
 2. **Despliegue exitoso en entorno de producción**  
-   ![PetroTask Deployed](assets/md-images/petrotask/deployment-3.png)
+   ![PetroTask Deployed](images/deployment-3.png)
 
 ---
 
