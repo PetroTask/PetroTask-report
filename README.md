@@ -10,7 +10,7 @@
   <p align="center">NRC: 7349</p>
   <p align="center">Efraín Ricardo Bautista Ubillús</p>
   <p align="center">Startup: PetroTask</p>
-  <p align="center">Producto: TaskOil</p>
+  <p align="center">Producto: PetroTask</p>
 </div>
 
 ---
@@ -35,10 +35,11 @@
 | --------- | ---------- | ------- | ----------------------------- |
 | 1.0       | 11/09/2025 | Baldeon Vivar, Santiago Armando | Creación del repositorio |
 | 1.1       | 18/09/2025 |  Todos      | Completo cap 2,3,4,5 |
+| 1.2       | 08/10/2025 |  Todos      | Agregar |
 
 ## Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto: https://github.com/PetroTask/TaskOil
+URL del repositorio para el reporte del proyecto: https://github.com/PetroTask/PetroTask-report
 
 **TB1**
 
@@ -1978,7 +1979,7 @@ A continuación se muestran las estadísticas de colaboración del repositorio, 
 ![Colaboración GitHub - Frontend PetroTask](images/github-collab.png)
 
 **Repositorio de trabajo:**  
-🔗 [PetroTask Frontend en GitHub](https://github.com/upc-petrotask/frontend)
+🔗 [PetroTask Frontend en GitHub](https://github.com/PetroTask/petrotask-frontend-app)
 
 # 6. Conclusiones
 
