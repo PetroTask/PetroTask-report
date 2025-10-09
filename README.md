@@ -1966,7 +1966,7 @@ Durante este sprint, el equipo trabajó colaborativamente utilizando herramienta
 
 A continuación se muestran las estadísticas de colaboración del repositorio, donde se evidencia la participación activa de todos los miembros durante el Sprint 2.
 
-![Colaboración GitHub - Frontend PetroTask](assets/md-images/petrotask/github-collab.png)
+![Colaboración GitHub - Frontend PetroTask](images/github-collab.png)
 
 **Repositorio de trabajo:**  
 🔗 [PetroTask Frontend en GitHub](https://github.com/upc-petrotask/frontend)
