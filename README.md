@@ -1754,43 +1754,22 @@ Por otro lado, el backend y los servicios web serán desplegados en Azure Web Ap
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
-> ### Sprint Planning Background  
-> **Date:** 2025-09-05  
-> **Time:** 10:00 AM  
-> **Location:** Reunión virtual  
-> **Prepared by:** Johan Cuba  
-> **Attendees:** Integrantes del grupo  
 
----
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto. Se incluye información como la fecha y hora de la reunión, los participantes, el objetivo del Sprint, la estimación de la velocidad del equipo y el total de puntos de historia comprometidos para este ciclo de trabajo. A continuación, se presenta el resumen del Sprint Planning Meeting:
 
-> ### Sprint 0 Review Summary  
-> Durante el Sprint 0 se realizaron las configuraciones iniciales del entorno de desarrollo,  
-> se definieron las herramientas a usar y se crearon los repositorios en GitHub.  
-> Esto permitió establecer la base para iniciar el desarrollo del producto.  
+| Campo | Valor |
+| :--- | :--- |
+| **Sprint #** | Sprint 1 |
+| **Date** | 2025-09-05 |
+| **Time** | 10:00 AM |
+| **Location** | Reunión virtual |
+| **Prepared by** | Santiago Baldeon |
+| **Attendees (to planning meeting)** | Integrantes del grupo |
+| **Sprint n – 1 Review Summary** | No existe sprint previo |
+| **Sprint 1 Goal** | Nuestro enfoque está en **implementar las funciones esenciales para la creación y gestión de tareas** en la aplicación PetroTask. Creemos que esto permite a supervisores y técnicos empezar a interactuar con la plataforma en sus aspectos básicos. Esto se confirmará cuando los usuarios puedan crear, visualizar y marcar como completadas sus tareas, incluso en escenarios de baja conectividad. |
+| **Sprint 1 Velocity** | 16 Story Points |
+| **Sum of story points** | 16 Story Points |
 
----
-
-> ### Sprint 0 Retrospective Summary  
-> El equipo coincidió en que la comunicación fue efectiva y la organización clara.  
-> Como oportunidad de mejora se destacó la necesidad de documentar de forma más detallada  
-> las decisiones técnicas para futuras referencias.  
-
----
-
-> ### Sprint 1 Goal  
-> Nuestro enfoque está en implementar las funciones esenciales para la creación y gestión  
-> de tareas en la aplicación PetroTask. Creemos que esto permite a supervisores y técnicos  
-> empezar a interactuar con la plataforma en sus aspectos básicos.  
-> Esto se confirmará cuando los usuarios puedan crear, visualizar y marcar como completadas  
-> sus tareas, incluso en escenarios de baja conectividad.  
-
----
-
-> ### Sprint 1 Velocity  
-> **Velocity:** 16 Story Points  
-> **Sum of Story Points:** 16  
-
----
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 
@@ -1799,7 +1778,6 @@ Por otro lado, el backend y los servicios web serán desplegados en Azure Web Ap
 - Aguilar Untiveros, Rodrigo Fabrizio: Configuración de base de datos y conexión con el backend.  
 - Solis Chang, Santiago Valentino: Implementación del backend en Java con Spring Boot.  
 - Huamán Cuba, Johan Giovani: Apoyo en integración y documentación técnica.  
-
 
 ---
 #### 5.2.1.3. Sprint Backlog 1
@@ -1834,7 +1812,11 @@ En este sprint no se integraron servicios externos adicionales, ya que el enfoqu
 
 ---
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-El despliegue de la Landing Page se realizó en Cloudflare Pages, con actualizaciones automáticas vinculadas al repositorio principal. Para el frontend de la aplicación se usó Netlify, permitiendo probar la versión inicial del sistema. El backend se desplegó en Azure Web App Service, facilitando el acceso a los endpoints básicos de creación y gestión de tareas.  
+Durante este sprint se efectuó exitosamente el despliegue de la landing page de PetroTask mediante el servicio Azure Static Web Apps, como parte del enfoque incremental adoptado para la entrega continua del producto.
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-1.png" alt="deployment-1.png" width="700px" /></p>
+</div>
 
 ---
 #### 5.2.1.8. Team Collaboration Insights during Sprint
@@ -1843,6 +1825,151 @@ El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante apor
 <div align="center"> <img src="images/mockups/insightsprint1.png" alt="insight sprint 01"/> </div>
 
 ---
+
+### 5.2.1. Sprint 2
+
+### 5.2.2.1. Sprint Planning 2
+
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al **Sprint 2** del proyecto **PetroTask**. Se incluye información como la fecha y hora de la reunión, los participantes, el objetivo del sprint, la estimación de la velocidad del equipo y el total de puntos de historia comprometidos para este ciclo de trabajo. A continuación, se presenta el resumen del Sprint Planning Meeting:
+
+| Sprint # | Sprint 2 |
+|-----------|-----------|
+| Date | 2025 - 05 - 06 |
+| Time | 5:30 PM |
+| Location | Reunión virtual a través de Microsoft Teams |
+| Prepared by | Santiago Armando Baldeón Vivar |
+| Attendees (to planning meeting) | Baldeón Vivar, Santiago Armando; Sosa Soto, Oskar Rodrigo; Aguilar Untiveros, Rodrigo Fabrizio; Solis Chang, Santiago Valentino; Huamán Cuba, Johan Giovani |
+| Sprint 1 Review Summary | El Sprint 1 permitió definir la arquitectura del sistema, establecer la estructura del repositorio y desplegar la landing page base del proyecto. Se obtuvieron los primeros comentarios del equipo docente y se sentaron las bases para el desarrollo del frontend principal. |
+| Sprint 2 Goal | Desarrollar el **frontend completo de la aplicación web PetroTask** utilizando Angular, implementando las principales vistas y componentes de interacción. Este sprint busca obtener una versión navegable y funcional del sistema que permita la visualización de tareas, gestión de usuarios y paneles de control. |
+| Sprint 2 Velocity | 55 story points |
+| Sum of story points | 55 story points |
+
+---
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante este sprint, el objetivo principal es **construir el frontend completo de PetroTask** en Angular, integrando los módulos principales del sistema (autenticación, dashboard, gestión de tareas y usuarios). Para garantizar una comunicación efectiva y una adecuada división de responsabilidades, se ha elaborado la matriz de liderazgo y colaboración (LACX), que define los roles de cada integrante:
+
+| Team Member | Código | Frontend Angular | Documentación | Control de Versiones |
+|--------------|---------|-----------------|----------------|----------------------|
+| Baldeón Vivar, Santiago Armando | U202319881 | L | C | L |
+| Sosa Soto, Oskar Rodrigo | U202212214 | C | L | C |
+| Aguilar Untiveros, Rodrigo Fabrizio | U202318309 | L | C | C |
+| Solis Chang, Santiago Valentino | U20231B475 | C | L | C |
+| Huamán Cuba, Johan Giovani | U202417448 | C | C | L |
+
+---
+
+### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del **Sprint 2** es desarrollar el **frontend web de PetroTask**, implementando las funcionalidades visuales descritas en las Historias de Usuario seleccionadas.  
+Durante este sprint se implementaron las vistas principales del sistema en Angular, asegurando la navegabilidad completa del prototipo funcional.
+
+
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Descripción tarea | Estimated (hours) | Assigned To | Status | Story Points |
+|-----------|---------------|------------------|----------|-------------|-------------------|-------------------|-------------|---------|---------------|
+| Sprint 2 | **US01** | Crear tareas | T01 | Implementar vista de creación de tareas | Desarrollar la interfaz que permita al supervisor crear nuevas tareas, con campos de descripción, prioridad, fecha y recursos. | 5 | **Santiago Armando Baldeón Vivar** | Done | 4 |
+| Sprint 2 | **US02** | Asignar tareas | T02 | Desarrollar vista de asignación de tareas | Implementar la vista que permita seleccionar técnicos o equipos disponibles y asignarles tareas desde la interfaz web. | 4 | **Oskar Rodrigo Sosa Soto** | Done | 3 |
+| Sprint 2 | **US03** | Reprogramar tareas | T03 | Crear módulo visual de calendario | Desarrollar componente de calendario interactivo que permita modificar fechas de tareas mediante drag & drop. | 5 | **Santiago Valentino Solis Chang** | Done | 5 |
+| Sprint 2 | **US04** | Visualizar dashboard | T04 | Diseñar Dashboard principal | Crear dashboard con resumen de tareas, métricas de progreso y estados generales del proyecto. | 5 | **Rodrigo Fabrizio Aguilar Untiveros** | Done | 5 |
+| Sprint 2 | **US07** | Adjuntar fotografías | T05 | Crear componente de carga de archivos | Implementar componente visual para subir imágenes como evidencia de ejecución de tareas. | 3 | **Johan Giovani Huamán Cuba** | Done | 3 |
+| Sprint 2 | **US08** | Reportar incidencias | T06 | Desarrollar vista de reporte de incidencias | Crear formulario web donde el técnico pueda registrar incidencias con descripción y archivos adjuntos. | 4 | **Oskar Rodrigo Sosa Soto** | Done | 3 |
+| Sprint 2 | **US09** | Configurar alertas | T07 | Implementar vista de configuración de alertas | Crear pantalla para definir condiciones de alerta y periodicidad de notificaciones. | 4 | **Santiago Armando Baldeón Vivar** | Done | 3 |
+| Sprint 2 | **US11** | Historial de alertas | T08 | Crear vista de historial de alertas | Desarrollar una tabla dinámica que muestre las alertas generadas, atendidas y pendientes. | 3 | **Santiago Valentino Solis Chang** | Done | 3 |
+| Sprint 2 | **US14** | Reportes personalizados | T09 | Desarrollar módulo de reportes | Implementar interfaz para generar reportes filtrados por fecha, técnico o tipo de tarea. | 5 | **Rodrigo Fabrizio Aguilar Untiveros** | Done | 5 |
+| Sprint 2 | **US15** | Métricas de cumplimiento | T10 | Crear vista de métricas de productividad | Desarrollar gráficos y paneles de indicadores de desempeño utilizando librerías de visualización (Charts.js / ApexCharts). | 3 | **Johan Giovani Huamán Cuba** | Done | 3 |
+
+---
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este sprint se desarrollaron las principales vistas y componentes del frontend de **PetroTask**. A continuación, se muestran algunos de los *commits* más relevantes realizados en el repositorio del equipo:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Description | Committed on (Date) |
+|-------------|---------|-------------|----------------|---------------------|--------------|---------------------|
+| upc-petrotask/frontend | sprint2-login-view | a12f3 | feat: add login view component | Se desarrolló la vista de inicio de sesión con validaciones reactivas. | Vista funcional de Login completada. | 2025-05-07 |
+| upc-petrotask/frontend | sprint2-dashboard | b34e2 | feat: dashboard layout implemented | Se añadió estructura base y tarjetas informativas del dashboard. | Vista principal lista para integración. | 2025-05-09 |
+| upc-petrotask/frontend | sprint2-tasks | c58d1 | feat: task list and detail view | Se desarrollaron las vistas de tareas y detalle con filtrado dinámico. | Funcionalidad de gestión de tareas operativa. | 2025-05-10 |
+| upc-petrotask/frontend | sprint2-styles | d77a5 | chore: global styles and scss config | Configuración global de colores, fuentes y componentes base. | Proyecto visualmente coherente. | 2025-05-11 |
+
+---
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el **Sprint 2**, se completó el desarrollo de las vistas principales del frontend de **PetroTask**. A continuación se presentan capturas de las interfaces implementadas:
+
+#### Login View  
+![Login View](assets/md-images/petrotask/login-view.png)
+
+#### Register View  
+![Register View](assets/md-images/petrotask/register-view.png)
+
+#### Dashboard View  
+![Dashboard View](assets/md-images/petrotask/dashboard-view.png)
+
+#### Task List View  
+![Task List View](assets/md-images/petrotask/task-list-view.png)
+
+#### Incident Report View  
+![Incident Report View](assets/md-images/petrotask/incident-report-view.png)
+
+#### User Management View  
+![User Management View](assets/md-images/petrotask/user-management-view.png)
+
+#### Company Settings View  
+![Company Settings View](assets/md-images/petrotask/company-settings-view.png)
+
+#### Execution History View  
+![Execution History View](assets/md-images/petrotask/execution-history-view.png)
+
+---
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint no se desarrollaron ni documentaron servicios web, dado que el enfoque principal fue la implementación del **frontend** en Angular. La documentación de los endpoints y la estructura del backend se abordará en el **Sprint 3**, una vez establecida la API principal del proyecto.
+
+---
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se logró desplegar correctamente el **frontend de PetroTask** utilizando **Azure Static Web Apps**. El proceso de despliegue incluyó la configuración de un flujo de integración continua (CI/CD) con GitHub Actions.
+
+**Actividades realizadas:**
+- Se utilizó el grupo de recursos existente en Azure para centralizar los despliegues.
+- Se configuró un **Static Web App** enlazado al repositorio `upc-petrotask/frontend` desde la rama `main`.
+- Se definió el flujo de despliegue automático mediante el workflow estándar de Azure.
+- Se validó el correcto funcionamiento de las rutas y componentes en la URL pública.
+
+**Evidencias del proceso de despliegue:**
+
+1. **Creación del recurso SPA en Azure**  
+   ![Azure Resource Creation](assets/md-images/petrotask/deployment-2.png)
+
+2. **Despliegue exitoso en entorno de producción**  
+   ![PetroTask Deployed](assets/md-images/petrotask/deployment-3.png)
+
+---
+
+### 5.2.2.8. Team Collaboration Insights during Sprint 2
+
+Durante este sprint, el equipo trabajó colaborativamente utilizando herramientas como GitHub, Jira y Microsoft Teams. Cada integrante asumió responsabilidades específicas y contribuyó al cumplimiento del objetivo general.
+
+| **Nombre** | **Actividad principal** |
+|-------------|--------------------------|
+| **Santiago Armando Baldeón Vivar** | Coordinación del sprint, desarrollo del dashboard y configuración global de estilos SCSS. |
+| **Oskar Rodrigo Sosa Soto** | Desarrollo de vistas Login y Reporte de Incidencias, conexión a API simulada y validaciones. |
+| **Rodrigo Fabrizio Aguilar Untiveros** | Implementación de vistas Register y User Management, y componentes Navbar y Sidebar. |
+| **Santiago Valentino Solis Chang** | Desarrollo de vistas de tareas e historial de ejecución, optimización de módulos y lazy loading. |
+| **Johan Giovani Huamán Cuba** | Implementación de formularios de asignación de tareas, validaciones y pruebas de interacción. |
+
+#### Evidencia de colaboración en GitHub
+
+A continuación se muestran las estadísticas de colaboración del repositorio, donde se evidencia la participación activa de todos los miembros durante el Sprint 2.
+
+![Colaboración GitHub - Frontend PetroTask](assets/md-images/petrotask/github-collab.png)
+
+**Repositorio de trabajo:**  
+🔗 [PetroTask Frontend en GitHub](https://github.com/upc-petrotask/frontend)
 
 # 6. Conclusiones
 
