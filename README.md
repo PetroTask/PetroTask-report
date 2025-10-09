@@ -836,7 +836,7 @@ Mejoras posibles
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 1 captura de pantalla](assets/md-images/Entrevista1.png)
+  ![Entrevista 1 captura de pantalla](images/entrevista-1.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -866,7 +866,7 @@ El entrevistado se desempeña como **supervisor de planta** y organiza las activ
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 2 captura de pantalla](assets/md-images/Entrevista2.png)
+  ![Entrevista 2 captura de pantalla](images/entrevista-2.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -896,7 +896,7 @@ Este planificador realiza **cronogramas semanales en Excel** que ajusta manualme
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 3 captura de pantalla](assets/md-images/Entrevista3.png)
+  ![Entrevista 3 captura de pantalla](images/entrevista-3.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -928,7 +928,7 @@ El coordinador organiza las órdenes mediante un **calendario impreso en la ofic
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4.png)
+  ![Entrevista 4 captura de pantalla](images/entrevista-4.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -958,7 +958,7 @@ Este técnico recibe instrucciones de su jefe al inicio de la jornada mediante *
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 5 captura de pantalla](assets/md-images/Entrevista5.png)
+  ![Entrevista 5 captura de pantalla](images/entrevista-5.png)
 
 ##### Resumen descriptivo de la entrevista:
 
@@ -988,7 +988,7 @@ El operario recibe instrucciones del **capataz**, aunque muchas veces **no son c
 - **Marcas de tiempo de entrevista:**
 - **Duración:**
 - **Screenshot del video:**  
-  ![Entrevista 6 captura de pantalla](assets/md-images/Entrevista6.png)
+  ![Entrevista 6 captura de pantalla](images/entrevista-6.png)
 
 ##### Resumen descriptivo de la entrevista:
 
