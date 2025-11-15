@@ -30,45 +30,47 @@
 
 ## Versiones del Informe
 
-| _Versión_ | _Fecha_    | _Autor_ | _Descripción de modificación_ |
-| --------- | ---------- | ------- | ----------------------------- |
-| 1.0       | 11/09/2025 | Baldeon Vivar, Santiago Armando | Creación del repositorio |
-| 1.1       | 18/09/2025 |  Todos      | Completo cap 2,3,4,5 |
-| 1.2       | 08/10/2025 |  Todos      | Sprint 2 y correciones |
+| _Versión_ | _Fecha_    | _Autor_                         | _Descripción de modificación_               |
+| --------- | ---------- | ------------------------------- | ------------------------------------------- |
+| 1.0       | 11/09/2025 | Baldeon Vivar, Santiago Armando | Creación del repositorio                    |
+| 1.1       | 18/09/2025 | Todos                           | Completo cap 2,3,4,5                        |
+| 1.2       | 08/10/2025 | Todos                           | Sprint 2 y correcciones                     |
+| 1.3       | 15/11/2025 | Todos                           | Sprint 3, correcciones y avance del backend |
 
 ## Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto: https://github.com/PetroTask/PetroTask-report
+URL del repositorio para el reporte del proyecto: [Click aquí](https://github.com/PetroTask/PetroTask-report)
 
 **TB1**
 
 Para el desarrollo de la parte del informe correspondiente a la TB1, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
 
-| **Integrantes**                  | **Tareas asignadas** |
-| ---------------------------------|----------------------|
-| Baldeón Vivar, Santiago Armando | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video |
-| Oskar Rodrigo Sosa Soto | Antescedentes y problemática, Problem Statements, Análisis de Entrevistas, Needfinding, Requirements Specification, Organization y Laling systems, Wireflow diagrams, Domain-Driven Software Architecture, Database diagram, Class diagram, Team Collaboration Insights, landing page, conclusiones, recomendaciones |
-| Rodrigo Fabrizio Aguilar Untiveros | Assumptions, Hypthesys statements, Análisis de Entrevistas, Needfinding, Requirements Specification, searching y navigation systems, wireframes, Domain-Driven Software Architecture, Database diagram, Class diagram, aspect leaders and collaborators, development evidence for sprint, landing page |
-| Santiago Valentino Solis Chang | Descripción del Startup, segmentos objetivos, registro de entrevistas, style guidelines, wireframes, mockup, prototype, context diagram, Software Development Environment Configuration, landing page |
-| Johan Giovani Huamán Cuba | Competidores, SEO Tags and Meta Tags, User Flow Diagrams, Software Configuration Management, Services Documentation Evidence for Sprint Review |
+| **Integrantes**                    | **Tareas asignadas**                                                                                                                                                                                                                                                                                                 |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Baldeón Vivar, Santiago Armando    | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video                                                                                                                                                    |
+| Oskar Rodrigo Sosa Soto            | Antescedentes y problemática, Problem Statements, Análisis de Entrevistas, Needfinding, Requirements Specification, Organization y Laling systems, Wireflow diagrams, Domain-Driven Software Architecture, Database diagram, Class diagram, Team Collaboration Insights, landing page, conclusiones, recomendaciones |
+| Rodrigo Fabrizio Aguilar Untiveros | Assumptions, Hypthesys statements, Análisis de Entrevistas, Needfinding, Requirements Specification, searching y navigation systems, wireframes, Domain-Driven Software Architecture, Database diagram, Class diagram, aspect leaders and collaborators, development evidence for sprint, landing page               |
+| Santiago Valentino Solis Chang     | Descripción del Startup, segmentos objetivos, registro de entrevistas, style guidelines, wireframes, mockup, prototype, context diagram, Software Development Environment Configuration, landing page                                                                                                                |
+| Johan Giovani Huamán Cuba          | Competidores, SEO Tags and Meta Tags, User Flow Diagrams, Software Configuration Management, Services Documentation Evidence for Sprint Review                                                                                                                                                                       |
 
 **Trabajo Parcial (TP)**
 
 Para el desarrollo del informe correspondiente al Trabajo Parcial (TP), la implementación de secciones y tareas se ha dividido de la siguiente manera entre los integrantes del grupo:
 
-| **Integrantes** | **Tareas asignadas** |
-| :--- | :--- |
-| Baldeón Vivar, Santiago Armando | **Despliegue** de Landing Page y Frontend. Elaboración y gestión del **Sprint Planning 2** y **Sprint Backlog 2**. Recopilación de **Development Evidence for Sprint Review**. |
-| Oskar Rodrigo Sosa Soto | Avance de **Conclusiones** y **Recomendaciones**. |
-| Rodrigo Fabrizio Aguilar Untiveros | Documentación **Aspect Leaders and Collaborators**. Avance de **Bibliografía**. |
-| Santiago Valentino Solis Chang | Documentación **Services Documentation Evidence for Sprint Review**. Avance de **Anexos**. |
-| Johan Giovani Huamán Cuba |Documentación **Team Collaboration Insights during Sprint**. Avance de **Conclusiones** y **Recomendaciones**. |
+| **Integrantes**                    | **Tareas asignadas**                                                                                                                                                           |
+| :--------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Baldeón Vivar, Santiago Armando    | **Despliegue** de Landing Page y Frontend. Elaboración y gestión del **Sprint Planning 2** y **Sprint Backlog 2**. Recopilación de **Development Evidence for Sprint Review**. |
+| Oskar Rodrigo Sosa Soto            | Avance de **Conclusiones** y **Recomendaciones**.                                                                                                                              |
+| Rodrigo Fabrizio Aguilar Untiveros | Documentación **Aspect Leaders and Collaborators**. Avance de **Bibliografía**.                                                                                                |
+| Santiago Valentino Solis Chang     | Documentación **Services Documentation Evidence for Sprint Review**. Avance de **Anexos**.                                                                                     |
+| Johan Giovani Huamán Cuba          | Documentación **Team Collaboration Insights during Sprint**. Avance de **Conclusiones** y **Recomendaciones**.                                                                 |
 
 ## Github Collaboration Insights
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
 
 Se puede identificar a los integrantes como:
+
 - Oskar Rodrigo Sosa Soto : YakuzaMeen
 - Rodrigo Fabrizio Aguilar Untiveros : Rodri2712
 - Santiago Valentino Solis Chang : TrEv0rRrRr
@@ -270,36 +272,35 @@ Se puede identificar a los integrantes como:
    &nbsp;&nbsp;&nbsp;&nbsp;3.4. [Product Backlog](#34-product-backlog)
 
 4. **[Capítulo IV: Product Design](#4-capítulo-iv-product-design)**  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.1. [Style Guidelines](#41-style-guidelines)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1. [General Style Guidelines](#411-general-style-guidelines)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2. [Web Style Guidelines](#412-web-style-guidelines)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.2. [Information Architecture](#42-information-architecture)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1. [Organization Systems](#421-organization-systems)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2. [Labeling Systems](#422-labeling-systems)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.3. [SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.4. [Searching Systems](#424-searching-systems)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.5. [Navigation Systems](#425-navigation-systems)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.3. [Landing Page UI Design](#43-landing-page-ui-design)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.1. [Landing Page Wireframe](#431-landing-page-wireframe)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.2. [Landing Page Mock-up](#432-landing-page-mock-up)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.4. [Web Applications UX/UI Design](#44-web-applications-uxui-design)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1. [Web Applications Wireframes](#441-web-applications-wireframes)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.2. [Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.3. [Web Applications Mock-ups](#443-web-applications-mock-ups)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.4. [Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.5. [Web Applications Prototyping](#45-web-applications-prototyping)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.6. [Domain-Driven Software Architecture](#46-domain-driven-software-architecture)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.1. [Design-Level Event Storming](#461-design-level-event-storming)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.2. [Software Architecture Context Diagram](#462-software-architecture-context-diagram)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.3. [Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.4. [Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.7. [Software Object-Oriented Design](#47-software-object-oriented-design)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1. [Class Diagrams](#471-class-diagrams)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1.1. [Backend Class Diagram](#4711-backend-class-diagram)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1.2. [Frontend Class Diagram](#4712-frontend-class-diagram)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.8. [Database Design](#48-database-design)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8.1. [Database Diagrams](#481-database-diagrams)
-
+    &nbsp;&nbsp;&nbsp;&nbsp;4.1. [Style Guidelines](#41-style-guidelines)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1. [General Style Guidelines](#411-general-style-guidelines)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2. [Web Style Guidelines](#412-web-style-guidelines)  
+    &nbsp;&nbsp;&nbsp;&nbsp;4.2. [Information Architecture](#42-information-architecture)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1. [Organization Systems](#421-organization-systems)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2. [Labeling Systems](#422-labeling-systems)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.3. [SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.4. [Searching Systems](#424-searching-systems)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.5. [Navigation Systems](#425-navigation-systems)  
+    &nbsp;&nbsp;&nbsp;&nbsp;4.3. [Landing Page UI Design](#43-landing-page-ui-design)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.1. [Landing Page Wireframe](#431-landing-page-wireframe)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.2. [Landing Page Mock-up](#432-landing-page-mock-up)  
+    &nbsp;&nbsp;&nbsp;&nbsp;4.4. [Web Applications UX/UI Design](#44-web-applications-uxui-design)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1. [Web Applications Wireframes](#441-web-applications-wireframes)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.2. [Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.3. [Web Applications Mock-ups](#443-web-applications-mock-ups)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.4. [Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)  
+    &nbsp;&nbsp;&nbsp;&nbsp;4.5. [Web Applications Prototyping](#45-web-applications-prototyping)  
+    &nbsp;&nbsp;&nbsp;&nbsp;4.6. [Domain-Driven Software Architecture](#46-domain-driven-software-architecture)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.1. [Design-Level Event Storming](#461-design-level-event-storming)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.2. [Software Architecture Context Diagram](#462-software-architecture-context-diagram)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.3. [Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.4. [Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)  
+    &nbsp;&nbsp;&nbsp;&nbsp;4.7. [Software Object-Oriented Design](#47-software-object-oriented-design)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1. [Class Diagrams](#471-class-diagrams)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1.1. [Backend Class Diagram](#4711-backend-class-diagram)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1.2. [Frontend Class Diagram](#4712-frontend-class-diagram)  
+    &nbsp;&nbsp;&nbsp;&nbsp;4.8. [Database Design](#48-database-design)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8.1. [Database Diagrams](#481-database-diagrams)
 
 5. **[Capítulo V: Product Implementation, Validation & Deployment](#5-capítulo-v-product-implementation-validation--deployment)**  
    &nbsp;&nbsp;&nbsp;&nbsp;5.1. [Software Configuration Management](#51-software-configuration-management)  
@@ -335,13 +336,13 @@ Se puede identificar a los integrantes como:
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.2. [Registro de Entrevistas](#532-registro-de-entrevistas)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.3. [Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
 
-7. **[Conclusiones](#6-conclusiones)**  
+6. **[Conclusiones](#6-conclusiones)**  
    &nbsp;&nbsp;&nbsp;&nbsp;6.1. [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)  
    &nbsp;&nbsp;&nbsp;&nbsp;6.2. [Video About-the-Team](#62-video-about-the-team)
 
-8. **[Bibliografía](#7-bibliografía)**
+7. **[Bibliografía](#7-bibliografía)**
 
-9. **[Anexos](#8-anexos)**
+8. **[Anexos](#8-anexos)**
 
 ---
 
@@ -586,18 +587,23 @@ Contar con una herramienta que facilite la consulta de tareas, el registro de da
 ## 2.1. Competidores
 
 ### IBM Maximo
+
 Es un sistema **EAM (Enterprise Asset Management)** robusto y líder en la industria, utilizado en sectores complejos como petróleo, gas y minería. Su fortaleza radica en la gestión integral de activos, mantenimiento predictivo e integración con IoT. Sin embargo, requiere implementaciones costosas y tiempos prolongados de despliegue.
 
 ### Infor EAM
+
 Una plataforma **EAM de clase empresarial** que ofrece gestión avanzada de activos, mantenimiento e inventario. Destaca en integraciones con ERP y analítica de alto nivel. Su debilidad está en la curva de aprendizaje elevada y en la falta de flexibilidad para operaciones pequeñas o medianas.
 
 ### UpKeep
+
 Es una solución **CMMS moderna basada en la nube**, centrada en la facilidad de uso y la movilidad. Permite crear órdenes de trabajo, gestionar activos y reportar incidentes desde dispositivos móviles. Es muy adoptada por pymes, pero carece de funciones profundas de cumplimiento normativo HSE.
 
 ### SafetyCulture (iAuditor)
+
 Una herramienta especializada en **inspecciones, checklists y reportes HSE**. Es muy ágil para el registro de incidentes y auditorías de campo. Sin embargo, no cubre gestión de activos ni inventario, lo que puede fragmentar procesos si se requiere una solución integral.
 
 ### Soluciones ad-hoc locales (Excel/WhatsApp/Forms)
+
 Muchas compañías aún gestionan sus operaciones con **herramientas informales** (Excel, WhatsApp, formularios digitales). Su ventaja es el bajo costo inicial, pero generan problemas de trazabilidad, auditoría y consistencia de datos.
 
 ### 2.1.1. Análisis competitivo
@@ -751,8 +757,6 @@ Muchas compañías aún gestionan sus operaciones con **herramientas informales*
   </tr>
 </table>
 
-
-
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 **Diferenciación del producto:**  
@@ -768,12 +772,13 @@ A diferencia de competidores generalistas, TaskOil se posiciona exclusivamente e
 Nuestro marketing estará enfocado en **B2B directo**, **alianzas con consultoras de seguridad industrial** y **presencia en ferias de petróleo y gas**. Resaltaremos casos de éxito con métricas claras: reducción de incidentes, mejora en SLA y optimización de recursos de mantenimiento.
 
 **Monetización modular:**  
-El modelo de precios se basa en **suscripción SaaS escalable**, con módulos que el cliente puede añadir según madurez:  
-- Core (OT + móvil offline).  
-- HSE Pack (checklists OSHA/ISO, permisos de trabajo).  
-- Inventario & Almacén.  
-- Geocercas y telemetría.  
-- Analytics Pro (KPIs avanzados, MTTR/MTBF, cumplimiento normativo).  
+El modelo de precios se basa en **suscripción SaaS escalable**, con módulos que el cliente puede añadir según madurez:
+
+- Core (OT + móvil offline).
+- HSE Pack (checklists OSHA/ISO, permisos de trabajo).
+- Inventario & Almacén.
+- Geocercas y telemetría.
+- Analytics Pro (KPIs avanzados, MTTR/MTBF, cumplimiento normativo).
 
 De esta manera, un cliente puede empezar pequeño y escalar según crezcan sus operaciones.
 
@@ -1145,11 +1150,11 @@ Esto muestra un punto de encuentro claro: una herramienta que **conecte ambos ni
 
 ### 2.3.1. User Personas
 
-#### *Planificador de actividades de campo*
+#### _Planificador de actividades de campo_
 
 <img src="images/user-persona/Segmento_1_Planificador_Actividades_Campo.png" width="800px">
 
-#### *Operario de campo*  
+#### _Operario de campo_
 
 <img src="images/user-persona/Segmento_2_Operario_de_campo.png" width="800px">
 
@@ -1159,32 +1164,31 @@ Esto muestra un punto de encuentro claro: una herramienta que **conecte ambos ni
 
 A continuación se presentan los User Task Matrix de los segmentos objetivos definidos para TaskOil.
 
-#### *Segmento Objetivo: Planificadores de actividades de campo*
+#### _Segmento Objetivo: Planificadores de actividades de campo_
 
-| **Task**                                                | **Frequency** | **Importance** |
-|---------------------------------------------------------|---------------|----------------|
-| Crear y asignar órdenes de trabajo                      | High          | High           |
-| Planificar cronogramas de mantenimiento preventivo      | High          | High           |
-| Coordinar recursos (cuadrillas, herramientas, insumos)  | High          | High           |
-| Verificar disponibilidad de inventario de repuestos     | Medium        | High           |
-| Revisar reportes de campo y ajustar planificación       | Medium        | High           |
-| Asegurar cumplimiento de normativas de seguridad (OSHA/ISO) | High      | High           |
-| Generar reportes para la gerencia                       | Medium        | Medium         |
-| Resolver conflictos de programación                     | Medium        | High           |
+| **Task**                                                    | **Frequency** | **Importance** |
+| ----------------------------------------------------------- | ------------- | -------------- |
+| Crear y asignar órdenes de trabajo                          | High          | High           |
+| Planificar cronogramas de mantenimiento preventivo          | High          | High           |
+| Coordinar recursos (cuadrillas, herramientas, insumos)      | High          | High           |
+| Verificar disponibilidad de inventario de repuestos         | Medium        | High           |
+| Revisar reportes de campo y ajustar planificación           | Medium        | High           |
+| Asegurar cumplimiento de normativas de seguridad (OSHA/ISO) | High          | High           |
+| Generar reportes para la gerencia                           | Medium        | Medium         |
+| Resolver conflictos de programación                         | Medium        | High           |
 
-#### *Segmento Objetivo: Operarios de campo*
+#### _Segmento Objetivo: Operarios de campo_
 
-| **Task**                                              | **Frequency** | **Importance** |
-|-------------------------------------------------------|---------------|----------------|
-| Ejecutar órdenes de trabajo asignadas                 | High          | High           |
-| Realizar inspecciones de equipos                      | High          | High           |
-| Completar checklists de seguridad                     | High          | High           |
-| Reportar incidentes y condiciones inseguras           | Medium        | High           |
-| Registrar horas de trabajo y progreso de tareas       | Medium        | High           |
-| Solicitar repuestos o herramientas faltantes          | Medium        | Medium         |
-| Coordinar con supervisores y planificadores           | High          | High           |
-| Dar feedback sobre procedimientos y condiciones       | Low           | Medium         |
-
+| **Task**                                        | **Frequency** | **Importance** |
+| ----------------------------------------------- | ------------- | -------------- |
+| Ejecutar órdenes de trabajo asignadas           | High          | High           |
+| Realizar inspecciones de equipos                | High          | High           |
+| Completar checklists de seguridad               | High          | High           |
+| Reportar incidentes y condiciones inseguras     | Medium        | High           |
+| Registrar horas de trabajo y progreso de tareas | Medium        | High           |
+| Solicitar repuestos o herramientas faltantes    | Medium        | Medium         |
+| Coordinar con supervisores y planificadores     | High          | High           |
+| Dar feedback sobre procedimientos y condiciones | Low           | Medium         |
 
 ### 2.3.3. User Journey Mapping
 
@@ -1194,8 +1198,8 @@ A continuación se presentan los User Journey Mapping de los segmentos objetivos
 
 <img src="images/journey-map/Customer_journey_map_1.png">
 
-
 #### Segmento 2: Operarios de campo
+
 <img src="images/journey-map/Customer_journey_map_2.png">
 
 ### 2.3.4. Empathy Mapping
@@ -1205,13 +1209,14 @@ A continuación se presentan los Empathy Mapping de los segmentos objetivos de T
 ---
 
 #### Segmento 1: Planificadores de actividades de campo
+
 <img src="images/empathy-map/Empathy_Mapping_2.png" width="800px">
 
 ---
 
 #### Segmento 2: Operarios de campo
-<img src="images/empathy-map/Empathy_Mapping_1.png" width="800px">
 
+<img src="images/empathy-map/Empathy_Mapping_1.png" width="800px">
 
 ### 2.3.5. As-is Scenario Mapping
 
@@ -1220,11 +1225,13 @@ A continuación se presentan los escenarios actuales As-is de los segmentos obje
 ---
 
 #### Segmento 1: Planificadores de actividades de campo
+
 <img src="images/as-is/As-is_Scenario_Mapping_1.png" width="850px">
 
 ---
 
 #### Segmento 2: Operarios de campo
+
 <img src="images/as-is/As-is_Scenario_Mapping_2.png" width="850px">
 
 ## 2.4. Ubiquitous Language
@@ -1331,36 +1338,36 @@ A continuación se presentan los escenarios actuales As-is de los segmentos obje
 
 # Épicas
 
-| Epic ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
-|---------|--------|-------------|-------------------------|---------------------------|
-| EP01 | Gestión de Tareas y Operaciones | Como supervisor de campo, quiero poder crear, asignar y reprogramar tareas operativas para optimizar la planificación y ejecución de actividades petroleras. | No corresponde | No corresponde |
-| EP02 | Registro y Evidencias en Campo | Como técnico de campo, quiero registrar el avance de mis tareas con evidencias fotográficas para documentar el cumplimiento y las condiciones de trabajo. | No corresponde | No corresponde |
-| EP03 | Sistema de Alertas y Seguridad | Como personal operativo, quiero recibir alertas automáticas sobre riesgos y emergencias para actuar rápidamente ante situaciones peligrosas. | No corresponde | No corresponde |
-| EP04 | Funcionalidad Offline y Sincronización | Como usuario de campo, quiero que la aplicación funcione sin conexión y se sincronice automáticamente para trabajar en zonas con conectividad limitada. | No corresponde | No corresponde |
-| EP05 | Reportes y Analytics | Como gerente, quiero acceder a reportes analíticos del desempeño operativo para tomar decisiones estratégicas basadas en datos. | No corresponde | No corresponde |
+| Epic ID | Título                                 | Descripción                                                                                                                                                  | Criterios de aceptación | Relacionado con (Epic ID) |
+| ------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- | ------------------------- |
+| EP01    | Gestión de Tareas y Operaciones        | Como supervisor de campo, quiero poder crear, asignar y reprogramar tareas operativas para optimizar la planificación y ejecución de actividades petroleras. | No corresponde          | No corresponde            |
+| EP02    | Registro y Evidencias en Campo         | Como técnico de campo, quiero registrar el avance de mis tareas con evidencias fotográficas para documentar el cumplimiento y las condiciones de trabajo.    | No corresponde          | No corresponde            |
+| EP03    | Sistema de Alertas y Seguridad         | Como personal operativo, quiero recibir alertas automáticas sobre riesgos y emergencias para actuar rápidamente ante situaciones peligrosas.                 | No corresponde          | No corresponde            |
+| EP04    | Funcionalidad Offline y Sincronización | Como usuario de campo, quiero que la aplicación funcione sin conexión y se sincronice automáticamente para trabajar en zonas con conectividad limitada.      | No corresponde          | No corresponde            |
+| EP05    | Reportes y Analytics                   | Como gerente, quiero acceder a reportes analíticos del desempeño operativo para tomar decisiones estratégicas basadas en datos.                              | No corresponde          | No corresponde            |
 
 ---
 
 # User Stories
 
-| User Story ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
-|---------------|--------|-------------|-------------------------|---------------------------|
-| US01 | Crear tareas | Como supervisor, quiero crear tareas con descripción, prioridad y recursos asignados para organizar las operaciones diarias. | Escenario: DADO que estoy en “Nueva tarea”, CUANDO ingreso los datos obligatorios y guardo, ENTONCES la tarea se registra y aparece en la lista. | EP01 |
-| US02 | Asignar tareas | Como supervisor, quiero asignar tareas a técnicos o equipos para distribuir eficientemente la carga de trabajo. | Escenario: DADO una tarea sin responsable, CUANDO asigno un técnico/equipo disponible, ENTONCES la tarea queda “Asignada” y se notifica al responsable. | EP01 |
-| US03 | Reprogramar tareas | Como supervisor, quiero reprogramar tareas en tiempo real ante imprevistos para mantener la continuidad operativa. | Escenario: DADO una tarea programada, CUANDO modifico fecha/hora y guardo, ENTONCES se actualiza la programación y se notifica a los involucrados. | EP01 |
-| US04 | Visualizar dashboard | Como supervisor, quiero visualizar el estado de todas las tareas en un dashboard para tener visibilidad completa de las operaciones. | Escenario: DADO que accedo al dashboard, CUANDO se cargan los datos, ENTONCES veo listados y KPIs por estado (pendiente, en curso, finalizada, bloqueada). | EP01 |
-| US05 | Acceso offline a tareas | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de conexión a internet para trabajar en zonas remotas. | Escenario: DADO que no tengo conectividad, CUANDO abro “Mis tareas”, ENTONCES puedo ver tareas sincronizadas y operar en modo offline. | EP02 |
-| US06 | Registrar inicio y fin | Como técnico, quiero registrar el inicio y fin de cada tarea para documentar los tiempos de ejecución. | Escenario: DADO una tarea asignada, CUANDO marco “Iniciar” y luego “Finalizar”, ENTONCES se registran fecha y hora en el historial. | EP02 |
-| US07 | Adjuntar fotografías | Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado para validar el cumplimiento de las actividades. | Escenario: DADO una tarea en ejecución, CUANDO adjunto foto(s), ENTONCES quedan asociadas a la tarea y visibles para el supervisor. | EP02 |
-| US08 | Reportar incidencias | Como técnico, quiero reportar incidencias durante la ejecución de tareas para alertar sobre problemas operativos. | Escenario: DADO una tarea en curso, CUANDO registro una incidencia con causa y descripción, ENTONCES se crea el reporte y se notifica al supervisor. | EP02 |
-| US09 | Configurar alertas | Como supervisor, quiero configurar alertas automáticas basadas en condiciones específicas para prevenir incidentes operativos. | Escenario: DADO el módulo de alertas, CUANDO defino condición, umbral y canal, ENTONCES la regla queda activa. | EP03 |
-| US10 | Notificaciones push | Como técnico, quiero recibir notificaciones push sobre alertas de seguridad para tomar medidas preventivas inmediatas. | Escenario: DADO una alerta activa, CUANDO se cumple la condición, ENTONCES recibo notificación push con prioridad y detalle. | EP03 |
-| US11 | Historial de alertas | Como supervisor, quiero visualizar el historial de alertas y respuestas para analizar patrones y mejorar la seguridad. | Escenario: DADO el listado histórico, CUANDO filtro por fecha/tipo/severidad, ENTONCES obtengo la lista y puedo exportar. | EP03 |
-| US12 | Operación offline | Como técnico, quiero poder usar todas las funciones esenciales sin conexión a internet para operar en plataformas remotas. | Escenario: DADO modo offline, CUANDO creo o edito registros permitidos, ENTONCES quedan en cola con marca de “pendiente de sincronización”. | EP04 |
-| US13 | Sincronización automática | Como técnico, quiero que mis datos se sincronicen automáticamente cuando recupere conexión para mantener la información actualizada. | Escenario: DADO cambios en cola, CUANDO vuelve la conectividad, ENTONCES el sistema sincroniza en segundo plano y muestra estado de éxito o error. | EP04 |
-| US14 | Reportes personalizados | Como gerente, quiero generar reportes personalizados de productividad operativa para identificar áreas de mejora. | Escenario: DADO el generador de reportes, CUANDO selecciono filtros, métricas y periodo, ENTONCES obtengo el reporte y puedo exportarlo. | EP05 |
-| US15 | Métricas de cumplimiento | Como supervisor, quiero visualizar métricas de cumplimiento de tareas para evaluar el desempeño del equipo. | Escenario: DADO el panel de métricas, CUANDO selecciono rango de fechas, ENTONCES veo % cumplimiento, duración promedio y top incidencias. | EP05 |
-| US16 | Auditoría de operaciones | Como auditor, quiero acceder al historial completo de operaciones con evidencias para realizar verificaciones y cumplir con normativas. | Escenario: DADO el módulo de auditoría, CUANDO consulto una operación, ENTONCES veo trazabilidad completa (registros, fotos, usuario, timestamp). | EP05 |
+| User Story ID | Título                    | Descripción                                                                                                                             | Criterios de aceptación                                                                                                                                    | Relacionado con (Epic ID) |
+| ------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| US01          | Crear tareas              | Como supervisor, quiero crear tareas con descripción, prioridad y recursos asignados para organizar las operaciones diarias.            | Escenario: DADO que estoy en “Nueva tarea”, CUANDO ingreso los datos obligatorios y guardo, ENTONCES la tarea se registra y aparece en la lista.           | EP01                      |
+| US02          | Asignar tareas            | Como supervisor, quiero asignar tareas a técnicos o equipos para distribuir eficientemente la carga de trabajo.                         | Escenario: DADO una tarea sin responsable, CUANDO asigno un técnico/equipo disponible, ENTONCES la tarea queda “Asignada” y se notifica al responsable.    | EP01                      |
+| US03          | Reprogramar tareas        | Como supervisor, quiero reprogramar tareas en tiempo real ante imprevistos para mantener la continuidad operativa.                      | Escenario: DADO una tarea programada, CUANDO modifico fecha/hora y guardo, ENTONCES se actualiza la programación y se notifica a los involucrados.         | EP01                      |
+| US04          | Visualizar dashboard      | Como supervisor, quiero visualizar el estado de todas las tareas en un dashboard para tener visibilidad completa de las operaciones.    | Escenario: DADO que accedo al dashboard, CUANDO se cargan los datos, ENTONCES veo listados y KPIs por estado (pendiente, en curso, finalizada, bloqueada). | EP01                      |
+| US05          | Acceso offline a tareas   | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de conexión a internet para trabajar en zonas remotas.                | Escenario: DADO que no tengo conectividad, CUANDO abro “Mis tareas”, ENTONCES puedo ver tareas sincronizadas y operar en modo offline.                     | EP02                      |
+| US06          | Registrar inicio y fin    | Como técnico, quiero registrar el inicio y fin de cada tarea para documentar los tiempos de ejecución.                                  | Escenario: DADO una tarea asignada, CUANDO marco “Iniciar” y luego “Finalizar”, ENTONCES se registran fecha y hora en el historial.                        | EP02                      |
+| US07          | Adjuntar fotografías      | Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado para validar el cumplimiento de las actividades.         | Escenario: DADO una tarea en ejecución, CUANDO adjunto foto(s), ENTONCES quedan asociadas a la tarea y visibles para el supervisor.                        | EP02                      |
+| US08          | Reportar incidencias      | Como técnico, quiero reportar incidencias durante la ejecución de tareas para alertar sobre problemas operativos.                       | Escenario: DADO una tarea en curso, CUANDO registro una incidencia con causa y descripción, ENTONCES se crea el reporte y se notifica al supervisor.       | EP02                      |
+| US09          | Configurar alertas        | Como supervisor, quiero configurar alertas automáticas basadas en condiciones específicas para prevenir incidentes operativos.          | Escenario: DADO el módulo de alertas, CUANDO defino condición, umbral y canal, ENTONCES la regla queda activa.                                             | EP03                      |
+| US10          | Notificaciones push       | Como técnico, quiero recibir notificaciones push sobre alertas de seguridad para tomar medidas preventivas inmediatas.                  | Escenario: DADO una alerta activa, CUANDO se cumple la condición, ENTONCES recibo notificación push con prioridad y detalle.                               | EP03                      |
+| US11          | Historial de alertas      | Como supervisor, quiero visualizar el historial de alertas y respuestas para analizar patrones y mejorar la seguridad.                  | Escenario: DADO el listado histórico, CUANDO filtro por fecha/tipo/severidad, ENTONCES obtengo la lista y puedo exportar.                                  | EP03                      |
+| US12          | Operación offline         | Como técnico, quiero poder usar todas las funciones esenciales sin conexión a internet para operar en plataformas remotas.              | Escenario: DADO modo offline, CUANDO creo o edito registros permitidos, ENTONCES quedan en cola con marca de “pendiente de sincronización”.                | EP04                      |
+| US13          | Sincronización automática | Como técnico, quiero que mis datos se sincronicen automáticamente cuando recupere conexión para mantener la información actualizada.    | Escenario: DADO cambios en cola, CUANDO vuelve la conectividad, ENTONCES el sistema sincroniza en segundo plano y muestra estado de éxito o error.         | EP04                      |
+| US14          | Reportes personalizados   | Como gerente, quiero generar reportes personalizados de productividad operativa para identificar áreas de mejora.                       | Escenario: DADO el generador de reportes, CUANDO selecciono filtros, métricas y periodo, ENTONCES obtengo el reporte y puedo exportarlo.                   | EP05                      |
+| US15          | Métricas de cumplimiento  | Como supervisor, quiero visualizar métricas de cumplimiento de tareas para evaluar el desempeño del equipo.                             | Escenario: DADO el panel de métricas, CUANDO selecciono rango de fechas, ENTONCES veo % cumplimiento, duración promedio y top incidencias.                 | EP05                      |
+| US16          | Auditoría de operaciones  | Como auditor, quiero acceder al historial completo de operaciones con evidencias para realizar verificaciones y cumplir con normativas. | Escenario: DADO el módulo de auditoría, CUANDO consulto una operación, ENTONCES veo trazabilidad completa (registros, fotos, usuario, timestamp).          | EP05                      |
 
 ---
 
@@ -1672,21 +1679,27 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 </div>
 
 ## 4.4. Web Applications UX/UI Design
+
 ![Web Applications UX/UI Design](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4%20ux%20ui%20design.JPG)
 
 ### 4.4.1. Web Applications Wireframes
+
 ![Web Applications Wireframes](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.1%20wireframes.JPG)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+
 ![Web Applications Wireflow](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.2%20Web%20Applications%20Wireflow.png)
 
 ### 4.4.3. Web Applications Mock-ups
+
 ![Web Applications Mock-ups](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.3%20Web%20Applications%20Mock-ups.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
 ![Web Applications User Flow](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.4%20Web%20Applications%20User%20Flow.png)
 
 ## 4.5. Web Applications Prototyping
+
 ![Web Applications Prototyping](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.5%20prototype%20-1.JPG)
 
 ![Web Applications Prototyping](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.5%20prototype%20-2.JPG)
@@ -1697,15 +1710,15 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.6.1. Software Architecture Context Diagram
 
-   ![Diagrama de Contexto](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Context%20Diagram.png)
+![Diagrama de Contexto](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Context%20Diagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-   ![Diagrama de Contenedores](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Container%20Diagram.png)
+![Diagrama de Contenedores](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Container%20Diagram.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-   ![Diagrama de Componentes](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Component%20Diagram.png)
+![Diagrama de Componentes](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Component%20Diagram.png)
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1723,42 +1736,42 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.7.2.1. Backend Class Dictionary
 
-| Clase | Atributos Principales | Métodos Principales | Descripción |
-|-------|------------------------|----------------------|-------------|
-| **AuthController** | - authService: AuthService | + login() <br> + register() <br> + refreshToken() | Controlador REST que maneja autenticación y emisión de tokens. |
-| **TaskController** | - taskService: TaskService | + getAllTasks() <br> + createTask() <br> + updateTask() <br> + assignTask() | Controlador responsable de exponer operaciones CRUD y asignación de tareas. |
-| **IncidentController** | - incidentService: IncidentService | + reportIncident() <br> + uploadEvidence() | Controlador para reportar incidentes y cargar evidencias. |
-| **ReportController** | - reportService: ReportService | + generateReport() <br> + getKPIs() | Controlador para generación de reportes y KPIs operacionales. |
-| **AuthService** | - userRepository <br> - passwordEncoder <br> - jwtUtil | + authenticate() <br> + registerUser() <br> + validateToken() | Servicio que gestiona la autenticación, registro de usuarios y validación de tokens. |
-| **TaskService** | - taskRepository <br> - userRepository | + createTask() <br> + updateTask() <br> + assignTask() <br> + getTasksByUser() | Encapsula la lógica de negocio relacionada a tareas. |
-| **IncidentService** | - incidentRepository <br> - fileStorageService | + reportIncident() <br> + processEvidence() | Servicio encargado del registro y procesamiento de incidentes y evidencia. |
-| **OfflineSyncService** | - syncRepository | + processPendingRequests() <br> + resolveConflicts() | Maneja sincronización offline y resolución de conflictos. |
-| **User (Entidad JPA)** | id, username, email, password, role, company | *N/A* | Representa a un usuario dentro del sistema. |
-| **Task (Entidad JPA)** | id, title, description, status, priority, assignedUser, createdBy, dueDate | *N/A* | Entidad que modela las tareas asignadas a usuarios. |
-| **Incident (Entidad JPA)** | id, description, severity, task, reportedBy, evidencePaths | *N/A* | Entidad que representa incidentes y evidencia asociada. |
-| **Company (Entidad JPA)** | id, name, taxId, address | *N/A* | Entidad que almacena información de compañías. |
-| **UserRepository** | *N/A* | + findByEmail() <br> + findByCompanyId() | Repositorio que administra consulta y persistencia de usuarios. |
-| **TaskRepository** | *N/A* | + findByAssignedUser() <br> + findByStatus() <br> + findByCompanyId() | Repositorio para persistencia y consulta de tareas. |
-| **IncidentRepository** | *N/A* | + findByTask() <br> + findBySeverity() | Repositorio para manejo de incidentes. |
+| Clase                      | Atributos Principales                                                      | Métodos Principales                                                            | Descripción                                                                          |
+| -------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| **AuthController**         | - authService: AuthService                                                 | + login() <br> + register() <br> + refreshToken()                              | Controlador REST que maneja autenticación y emisión de tokens.                       |
+| **TaskController**         | - taskService: TaskService                                                 | + getAllTasks() <br> + createTask() <br> + updateTask() <br> + assignTask()    | Controlador responsable de exponer operaciones CRUD y asignación de tareas.          |
+| **IncidentController**     | - incidentService: IncidentService                                         | + reportIncident() <br> + uploadEvidence()                                     | Controlador para reportar incidentes y cargar evidencias.                            |
+| **ReportController**       | - reportService: ReportService                                             | + generateReport() <br> + getKPIs()                                            | Controlador para generación de reportes y KPIs operacionales.                        |
+| **AuthService**            | - userRepository <br> - passwordEncoder <br> - jwtUtil                     | + authenticate() <br> + registerUser() <br> + validateToken()                  | Servicio que gestiona la autenticación, registro de usuarios y validación de tokens. |
+| **TaskService**            | - taskRepository <br> - userRepository                                     | + createTask() <br> + updateTask() <br> + assignTask() <br> + getTasksByUser() | Encapsula la lógica de negocio relacionada a tareas.                                 |
+| **IncidentService**        | - incidentRepository <br> - fileStorageService                             | + reportIncident() <br> + processEvidence()                                    | Servicio encargado del registro y procesamiento de incidentes y evidencia.           |
+| **OfflineSyncService**     | - syncRepository                                                           | + processPendingRequests() <br> + resolveConflicts()                           | Maneja sincronización offline y resolución de conflictos.                            |
+| **User (Entidad JPA)**     | id, username, email, password, role, company                               | _N/A_                                                                          | Representa a un usuario dentro del sistema.                                          |
+| **Task (Entidad JPA)**     | id, title, description, status, priority, assignedUser, createdBy, dueDate | _N/A_                                                                          | Entidad que modela las tareas asignadas a usuarios.                                  |
+| **Incident (Entidad JPA)** | id, description, severity, task, reportedBy, evidencePaths                 | _N/A_                                                                          | Entidad que representa incidentes y evidencia asociada.                              |
+| **Company (Entidad JPA)**  | id, name, taxId, address                                                   | _N/A_                                                                          | Entidad que almacena información de compañías.                                       |
+| **UserRepository**         | _N/A_                                                                      | + findByEmail() <br> + findByCompanyId()                                       | Repositorio que administra consulta y persistencia de usuarios.                      |
+| **TaskRepository**         | _N/A_                                                                      | + findByAssignedUser() <br> + findByStatus() <br> + findByCompanyId()          | Repositorio para persistencia y consulta de tareas.                                  |
+| **IncidentRepository**     | _N/A_                                                                      | + findByTask() <br> + findBySeverity()                                         | Repositorio para manejo de incidentes.                                               |
 
 <br>
 
 ### 4.7.2.2. Frontend Class Dictionary
 
-| Clase | Atributos Principales | Métodos Principales | Descripción |
-|-------|------------------------|----------------------|-------------|
-| **AuthComponent** | - loginForm: FormGroup <br> - isLoading: boolean | + onSubmit() <br> + navigateToRegister() | Componente encargado de la IU de inicio de sesión. |
-| **DashboardComponent** | - tasks: Task[] <br> - stats: any <br> - filteredTasks: Task[] | + loadDashboardData() <br> + filterTasks() <br> + navigateToTaskDetail() | Muestra KPIs y resume tareas del sistema. |
-| **TaskListComponent** | - tasks: Task[] <br> - pagination: Pagination | + loadTasks() <br> + searchTasks() <br> + changePage() | Gestiona la lista y búsqueda de tareas. |
-| **TaskFormComponent** | - taskForm: FormGroup <br> - isEditMode: boolean | + createTask() <br> + updateTask() <br> + validateForm() | Formulario para creación/edición de tareas. |
-| **IncidentReportComponent** | - incidentForm: FormGroup <br> - evidenceFiles: File[] | + submitIncident() <br> + uploadEvidence() | Permite reportar incidentes y cargar archivos. |
-| **AuthService** | - apiUrl: string <br> - currentUser: User | + login() <br> + logout() <br> + getToken() <br> + isAuthenticated() | Maneja autenticación y estado del usuario en el cliente. |
-| **TaskService** | - baseUrl: string | + getTasks() <br> + createTask() <br> + updateTask() <br> + assignTask() | Consumidor del API para gestión de tareas. |
-| **IncidentService** | *N/A* | + reportIncident() <br> + uploadEvidence() | Servicio que gestiona incidentes desde el frontend. |
-| **OfflineService** | - db: Database <br> - isOnline: boolean | + syncData() <br> + queueRequest() <br> + checkConnectivity() | Implementa funcionalidad offline-first y sincronización. |
-| **User (Modelo)** | id, username, email, role, companyId | *N/A* | Modelo de usuario para Angular. |
-| **Task (Modelo)** | id, title, description, status, priority, assignedTo, dueDate, location | *N/A* | Modelo de tareas en el cliente. |
-| **Incident (Modelo)** | id, taskId, description, severity, reportedBy, evidenceUrls | *N/A* | Modelo de incidentes en el cliente. |
+| Clase                       | Atributos Principales                                                   | Métodos Principales                                                      | Descripción                                              |
+| --------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------- |
+| **AuthComponent**           | - loginForm: FormGroup <br> - isLoading: boolean                        | + onSubmit() <br> + navigateToRegister()                                 | Componente encargado de la IU de inicio de sesión.       |
+| **DashboardComponent**      | - tasks: Task[] <br> - stats: any <br> - filteredTasks: Task[]          | + loadDashboardData() <br> + filterTasks() <br> + navigateToTaskDetail() | Muestra KPIs y resume tareas del sistema.                |
+| **TaskListComponent**       | - tasks: Task[] <br> - pagination: Pagination                           | + loadTasks() <br> + searchTasks() <br> + changePage()                   | Gestiona la lista y búsqueda de tareas.                  |
+| **TaskFormComponent**       | - taskForm: FormGroup <br> - isEditMode: boolean                        | + createTask() <br> + updateTask() <br> + validateForm()                 | Formulario para creación/edición de tareas.              |
+| **IncidentReportComponent** | - incidentForm: FormGroup <br> - evidenceFiles: File[]                  | + submitIncident() <br> + uploadEvidence()                               | Permite reportar incidentes y cargar archivos.           |
+| **AuthService**             | - apiUrl: string <br> - currentUser: User                               | + login() <br> + logout() <br> + getToken() <br> + isAuthenticated()     | Maneja autenticación y estado del usuario en el cliente. |
+| **TaskService**             | - baseUrl: string                                                       | + getTasks() <br> + createTask() <br> + updateTask() <br> + assignTask() | Consumidor del API para gestión de tareas.               |
+| **IncidentService**         | _N/A_                                                                   | + reportIncident() <br> + uploadEvidence()                               | Servicio que gestiona incidentes desde el frontend.      |
+| **OfflineService**          | - db: Database <br> - isOnline: boolean                                 | + syncData() <br> + queueRequest() <br> + checkConnectivity()            | Implementa funcionalidad offline-first y sincronización. |
+| **User (Modelo)**           | id, username, email, role, companyId                                    | _N/A_                                                                    | Modelo de usuario para Angular.                          |
+| **Task (Modelo)**           | id, title, description, status, priority, assignedTo, dueDate, location | _N/A_                                                                    | Modelo de tareas en el cliente.                          |
+| **Incident (Modelo)**       | id, taskId, description, severity, reportedBy, evidenceUrls             | _N/A_                                                                    | Modelo de incidentes en el cliente.                      |
 
 ## 4.8. Database Design
 
@@ -1771,13 +1784,14 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
+
 Para la gestión del proyecto y del backlog se empleará Trello como tablero visual para sprints, backlog y seguimiento de tareas. Para el manejo de issues y la trazabilidad ligada al código se usarán GitHub Issues integradas en la organización de repositorios.
 
 En la etapa de levantamiento y gestión de requisitos se utilizarán documentos en formato Gherkin para especificaciones legibles por negocio y pruebas BDD, almacenados en el repositorio y revisables mediante pull requests. Para documentación más amplia y pública se empleará MkDocs o Docusaurus según necesidad.
 
 Para Product UX/UI Design, los wireframes y prototipos visuales se elaborarán en Figma como herramienta SaaS principal. Para diagramas de arquitectura, procesos y diagramas adicionales se empleará Lucidchart y para el modelado de bases de datos se usará Vertabelo.
 
-Como entornos de desarrollo integrado se utilizará principalmente Visual Studio Code para frontend y scripts, y IntelliJ IDEA para el desarrollo y pruebas del backend en Java. WebStorm  puede ser alternativa para desarrolladores frontend que lo prefieran. Las descargas y versiones deberán apuntar a las páginas oficiales indicadas.
+Como entornos de desarrollo integrado se utilizará principalmente Visual Studio Code para frontend y scripts, y IntelliJ IDEA para el desarrollo y pruebas del backend en Java. WebStorm puede ser alternativa para desarrolladores frontend que lo prefieran. Las descargas y versiones deberán apuntar a las páginas oficiales indicadas.
 
 Para el desarrollo de frontend se usará Node.js en su versión LTS y NPM como administrador de paquetes. El frontend se implementará con React.js y TypeScript cuando corresponda. Para el diseño de estilos se utilizará Tailwind CSS como framework de utilidades. Para transpilación y bundling se usará el ecosistema Node.
 
@@ -1795,10 +1809,10 @@ Finalmente, para la documentación de código y diagramas, se mantendrán archiv
 
 El seguimiento de modificaciones y la colaboración se realizará en **GitHub**. Se ha creado la organización de ejemplo **PetroTask-Developers** que centraliza los repositorios del proyecto. En cada repositorio se incluirán los proyectos fuente y, en el caso de Web Services, tanto el proyecto como los archivos de pruebas unitarias y de integración/aceptación.
 
-| Solución         | Nombre del Repositorio | Enlace |
-|------------------|------------------------|--------|
-| Landing Page     | PetroTask-Landing      | https://github.com/PetroTask/TaskOil.git |
-| Frontend         | PetroTask-Frontend     | https://github.com/PetroTask/TaskOil.git |
+| Solución               | Nombre del Repositorio | Enlace                                   |
+| ---------------------- | ---------------------- | ---------------------------------------- |
+| Landing Page           | PetroTask-Landing      | https://github.com/PetroTask/TaskOil.git |
+| Frontend               | PetroTask-Frontend     | https://github.com/PetroTask/TaskOil.git |
 | Backend (Web Services) | PetroTask-Backend      | https://github.com/PetroTask/TaskOil.git |
 
 Para el workflow de control de versiones se aplicará **GitFlow** (modelo inspirado en el artículo “A successful Git branching model” de Vincent Driessen). En concreto, se mantendrán las siguientes ramas principales: `main` (rama de producción estable) y `develop` (rama de integración para la próxima versión). Cada nueva funcionalidad se trabajará en un feature branch, que luego se mergeará en `develop`; los release branches permitirán estabilizar una versión antes de fusionarla a `main`, y los hotfix branches se generarán desde `main` para correcciones urgentes.
@@ -1810,6 +1824,7 @@ Se aplicará **Semantic Versioning** para nombrar los releases (`MAJOR.MINOR.PAT
 En el repositorio de Web Services se incluirán las suites de pruebas: pruebas unitarias (JUnit), pruebas de integración (tests de Spring Boot con contexto y base de datos embebida o replicada) y colecciones de pruebas de aceptación en Postman. Los pipelines CI ejecutarán estas pruebas antes de permitir merges en `develop` o `main`.
 
 ---
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
 En cuanto a las convenciones y guías de estilo, el equipo de PetroTask adoptará reglas claras para asegurar uniformidad en el desarrollo del código. Para HTML y CSS se aplicarán guías de estilo recomendadas internacionalmente, priorizando la escritura limpia y la correcta indentación del código.
@@ -1819,6 +1834,7 @@ En el desarrollo del frontend con Angular y TypeScript se emplearán prácticas 
 En el manejo de control de versiones, PetroTask implementará el uso de mensajes de commits estructurados y fáciles de entender. Cada commit seguirá un formato estándar que describa el tipo de cambio realizado y un breve título del mismo. Respecto al flujo de ramas, se adoptará GitFlow, en el cual se trabajará con ramas específicas para nuevas funcionalidades, versiones de liberación y correcciones urgentes. La rama principal será main, y a partir de ella se gestionarán las versiones estables. Las ramas de características se nombrarán con la convención feature/nombre-funcionalidad, las de liberación como release/número-versión y las de corrección como hotfix/nombre-corrección. Para las versiones liberadas del software se utilizará versionado semántico, lo que permitirá identificar fácilmente la magnitud de los cambios introducidos.
 
 ---
+
 ### 5.1.4. Software Deployment Configuration
 
 El despliegue de la solución PetroTask se ha planificado de manera que cada componente pueda actualizarse de forma automática y confiable a partir de los repositorios de código.
@@ -1828,68 +1844,76 @@ La Landing Page se publicará utilizando Cloudflare Pages, lo que permitirá int
 Por otro lado, el backend y los servicios web serán desplegados en Azure Web App Service, lo que garantizará la escalabilidad, la seguridad y la disponibilidad necesarias para operar en entornos críticos como la industria petrolera. Esta configuración de despliegue asegura que tanto los usuarios en campo como los administradores puedan acceder a las últimas mejoras del sistema sin interrupciones en el servicio.
 
 ---
+
 ## 5.2. Landing Page, Services & Applications Implementation
+
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
 
 En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto. Se incluye información como la fecha y hora de la reunión, los participantes, el objetivo del Sprint, la estimación de la velocidad del equipo y el total de puntos de historia comprometidos para este ciclo de trabajo. A continuación, se presenta el resumen del Sprint Planning Meeting:
 
-| Campo | Valor |
-| :--- | :--- |
-| **Sprint #** | Sprint 1 |
-| **Date** | 2025-09-05 |
-| **Time** | 10:00 AM |
-| **Location** | Reunión virtual |
-| **Prepared by** | Santiago Baldeon |
-| **Attendees (to planning meeting)** | Integrantes del grupo |
-| **Sprint n – 1 Review Summary** | No existe sprint previo |
-| **Sprint 1 Goal** | Nuestro enfoque está en **implementar las funciones esenciales para la creación y gestión de tareas** en la aplicación PetroTask. Creemos que esto permite a supervisores y técnicos empezar a interactuar con la plataforma en sus aspectos básicos. Esto se confirmará cuando los usuarios puedan crear, visualizar y marcar como completadas sus tareas, incluso en escenarios de baja conectividad. |
-| **Sprint 1 Velocity** | 16 Story Points |
-| **Sum of story points** | 16 Story Points |
+| Campo                               | Valor                                                                                                                                                                                                                                                                                                                                                                                                   |
+| :---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                        | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Date**                            | 2025-09-05                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Time**                            | 10:00 AM                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Location**                        | Reunión virtual                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Prepared by**                     | Santiago Baldeon                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Attendees (to planning meeting)** | Integrantes del grupo                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint n – 1 Review Summary**     | No existe sprint previo                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Sprint 1 Goal**                   | Nuestro enfoque está en **implementar las funciones esenciales para la creación y gestión de tareas** en la aplicación PetroTask. Creemos que esto permite a supervisores y técnicos empezar a interactuar con la plataforma en sus aspectos básicos. Esto se confirmará cuando los usuarios puedan crear, visualizar y marcar como completadas sus tareas, incluso en escenarios de baja conectividad. |
+| **Sprint 1 Velocity**               | 16 Story Points                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sum of story points**             | 16 Story Points                                                                                                                                                                                                                                                                                                                                                                                         |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-
-- Baldeón Vivar, Santiago Armando: Coordinación del equipo y revisión de código.  
-- Sosa Soto, Oskar Rodrigo: Desarrollo del frontend inicial en Angular.  
-- Aguilar Untiveros, Rodrigo Fabrizio: Configuración de base de datos y conexión con el backend.  
-- Solis Chang, Santiago Valentino: Implementación del backend en Java con Spring Boot.  
-- Huamán Cuba, Johan Giovani: Apoyo en integración y documentación técnica.  
+- Baldeón Vivar, Santiago Armando: Coordinación del equipo y revisión de código.
+- Sosa Soto, Oskar Rodrigo: Desarrollo del frontend inicial en Angular.
+- Aguilar Untiveros, Rodrigo Fabrizio: Configuración de base de datos y conexión con el backend.
+- Solis Chang, Santiago Valentino: Implementación del backend en Java con Spring Boot.
+- Huamán Cuba, Johan Giovani: Apoyo en integración y documentación técnica.
 
 ---
+
 #### 5.2.1.3. Sprint Backlog 1
 
-> #### Sprint 1 Backlog  
-> | ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |  
-> |-------|----------------------------------------------------------------------------|---------------------------|-----------------|  
-> | US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | 5                         | Sprint 1        |  
-> | US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | 8                         | Sprint 1        |  
-> | US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea               | 3                         | Sprint 1        |  
+> #### Sprint 1 Backlog
+>
+> | ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |
+> | ----- | -------------------------------------------------------------------------- | ------------------------- | --------------- |
+> | US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | 5                         | Sprint 1        |
+> | US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | 8                         | Sprint 1        |
+> | US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea               | 3                         | Sprint 1        |
 
 ---
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-En este sprint se trabajó en la implementación de los módulos básicos de la aplicación. Se desarrollaron las vistas iniciales de login y creación de tareas, además de la lógica de sincronización offline para el acceso de técnicos.  
+En este sprint se trabajó en la implementación de los módulos básicos de la aplicación. Se desarrollaron las vistas iniciales de login y creación de tareas, además de la lógica de sincronización offline para el acceso de técnicos.
 
-Ejemplos de commits registrados:  
+Ejemplos de commits registrados:
 
-- Feat: creación de formulario de nuevas tareas  
-- Feat: implementación de almacenamiento local para tareas offline  
-- Feat: registro de inicio y fin de tareas en backend  
+- Feat: creación de formulario de nuevas tareas
+- Feat: implementación de almacenamiento local para tareas offline
+- Feat: registro de inicio y fin de tareas en backend
 
 ---
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-Se realizaron pruebas internas que confirmaron el correcto funcionamiento del flujo básico de crear una tarea, asignarla a un técnico y registrar su inicio y fin. Además, se validó que las tareas pudieran visualizarse sin conexión y que se sincronizaran al recuperar internet.  
+Se realizaron pruebas internas que confirmaron el correcto funcionamiento del flujo básico de crear una tarea, asignarla a un técnico y registrar su inicio y fin. Además, se validó que las tareas pudieran visualizarse sin conexión y que se sincronizaran al recuperar internet.
 
 ---
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-En este sprint no se integraron servicios externos adicionales, ya que el enfoque estuvo en desarrollar la lógica principal de creación y gestión de tareas.  
+En este sprint no se integraron servicios externos adicionales, ya que el enfoque estuvo en desarrollar la lógica principal de creación y gestión de tareas.
 
 ---
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
 Durante este sprint se efectuó exitosamente el despliegue de la landing page de PetroTask mediante el servicio Azure Static Web Apps, como parte del enfoque incremental adoptado para la entrega continua del producto.
 
 <div>
@@ -1897,7 +1921,9 @@ Durante este sprint se efectuó exitosamente el despliegue de la landing page de
 </div>
 
 ---
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
 El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante aportó mediante ramas específicas con nombres feature/nombre-funcionalidad y realizó Pull Requests revisados por el coordinador. Se evidenció un uso constante de commits claros y bien estructurados.
 
 <div align="center"> <img src="images/mockups/insightsprint1.png" alt="insight sprint 01"/> </div>
@@ -1910,17 +1936,17 @@ El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante apor
 
 En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al **Sprint 2** del proyecto **PetroTask**. Se incluye información como la fecha y hora de la reunión, los participantes, el objetivo del sprint, la estimación de la velocidad del equipo y el total de puntos de historia comprometidos para este ciclo de trabajo. A continuación, se presenta el resumen del Sprint Planning Meeting:
 
-| Sprint # | Sprint 2 |
-|-----------|-----------|
-| Date | 2025 - 05 - 06 |
-| Time | 5:30 PM |
-| Location | Reunión virtual a través de Microsoft Teams |
-| Prepared by | Santiago Armando Baldeón Vivar |
-| Attendees (to planning meeting) | Baldeón Vivar, Santiago Armando; Sosa Soto, Oskar Rodrigo; Aguilar Untiveros, Rodrigo Fabrizio; Solis Chang, Santiago Valentino; Huamán Cuba, Johan Giovani |
-| Sprint 1 Review Summary | El Sprint 1 permitió definir la arquitectura del sistema, establecer la estructura del repositorio y desplegar la landing page base del proyecto. Se obtuvieron los primeros comentarios del equipo docente y se sentaron las bases para el desarrollo del frontend principal. |
-| Sprint 2 Goal | Desarrollar el **frontend completo de la aplicación web PetroTask** utilizando Angular, implementando las principales vistas y componentes de interacción. Este sprint busca obtener una versión navegable y funcional del sistema que permita la visualización de tareas, gestión de usuarios y paneles de control. |
-| Sprint 2 Velocity | 55 story points |
-| Sum of story points | 55 story points |
+| Sprint #                        | Sprint 2                                                                                                                                                                                                                                                                                                             |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Date                            | 2025 - 05 - 06                                                                                                                                                                                                                                                                                                       |
+| Time                            | 5:30 PM                                                                                                                                                                                                                                                                                                              |
+| Location                        | Reunión virtual a través de Microsoft Teams                                                                                                                                                                                                                                                                          |
+| Prepared by                     | Santiago Armando Baldeón Vivar                                                                                                                                                                                                                                                                                       |
+| Attendees (to planning meeting) | Baldeón Vivar, Santiago Armando; Sosa Soto, Oskar Rodrigo; Aguilar Untiveros, Rodrigo Fabrizio; Solis Chang, Santiago Valentino; Huamán Cuba, Johan Giovani                                                                                                                                                          |
+| Sprint 1 Review Summary         | El Sprint 1 permitió definir la arquitectura del sistema, establecer la estructura del repositorio y desplegar la landing page base del proyecto. Se obtuvieron los primeros comentarios del equipo docente y se sentaron las bases para el desarrollo del frontend principal.                                       |
+| Sprint 2 Goal                   | Desarrollar el **frontend completo de la aplicación web PetroTask** utilizando Angular, implementando las principales vistas y componentes de interacción. Este sprint busca obtener una versión navegable y funcional del sistema que permita la visualización de tareas, gestión de usuarios y paneles de control. |
+| Sprint 2 Velocity               | 55 story points                                                                                                                                                                                                                                                                                                      |
+| Sum of story points             | 55 story points                                                                                                                                                                                                                                                                                                      |
 
 ---
 
@@ -1928,13 +1954,13 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting corr
 
 Durante este sprint, el objetivo principal es **construir el frontend completo de PetroTask** en Angular, integrando los módulos principales del sistema (autenticación, dashboard, gestión de tareas y usuarios). Para garantizar una comunicación efectiva y una adecuada división de responsabilidades, se ha elaborado la matriz de liderazgo y colaboración (LACX), que define los roles de cada integrante:
 
-| Team Member | Código | Frontend Angular | Documentación | Control de Versiones |
-|--------------|---------|-----------------|----------------|----------------------|
-| Baldeón Vivar, Santiago Armando | U202319881 | L | C | L |
-| Sosa Soto, Oskar Rodrigo | U202212214 | C | L | C |
-| Aguilar Untiveros, Rodrigo Fabrizio | U202318309 | L | C | C |
-| Solis Chang, Santiago Valentino | U20231B475 | C | L | C |
-| Huamán Cuba, Johan Giovani | U202417448 | C | C | L |
+| Team Member                         | Código     | Frontend Angular | Documentación | Control de Versiones |
+| ----------------------------------- | ---------- | ---------------- | ------------- | -------------------- |
+| Baldeón Vivar, Santiago Armando     | U202319881 | L                | C             | L                    |
+| Sosa Soto, Oskar Rodrigo            | U202212214 | C                | L             | C                    |
+| Aguilar Untiveros, Rodrigo Fabrizio | U202318309 | L                | C             | C                    |
+| Solis Chang, Santiago Valentino     | U20231B475 | C                | L             | C                    |
+| Huamán Cuba, Johan Giovani          | U202417448 | C                | C             | L                    |
 
 ---
 
@@ -1943,32 +1969,31 @@ Durante este sprint, el objetivo principal es **construir el frontend completo d
 El objetivo principal del **Sprint 2** es desarrollar el **frontend web de PetroTask**, implementando las funcionalidades visuales descritas en las Historias de Usuario seleccionadas.  
 Durante este sprint se implementaron las vistas principales del sistema en Angular, asegurando la navegabilidad completa del prototipo funcional.
 
-
-| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Descripción tarea | Estimated (hours) | Assigned To | Status | Story Points |
-|-----------|---------------|------------------|----------|-------------|-------------------|-------------------|-------------|---------|---------------|
-| Sprint 2 | **US01** | Crear tareas | T01 | Implementar vista de creación de tareas | Desarrollar la interfaz que permita al supervisor crear nuevas tareas, con campos de descripción, prioridad, fecha y recursos. | 5 | **Santiago Armando Baldeón Vivar** | Done | 4 |
-| Sprint 2 | **US02** | Asignar tareas | T02 | Desarrollar vista de asignación de tareas | Implementar la vista que permita seleccionar técnicos o equipos disponibles y asignarles tareas desde la interfaz web. | 4 | **Oskar Rodrigo Sosa Soto** | Done | 3 |
-| Sprint 2 | **US03** | Reprogramar tareas | T03 | Crear módulo visual de calendario | Desarrollar componente de calendario interactivo que permita modificar fechas de tareas mediante drag & drop. | 5 | **Santiago Valentino Solis Chang** | Done | 5 |
-| Sprint 2 | **US04** | Visualizar dashboard | T04 | Diseñar Dashboard principal | Crear dashboard con resumen de tareas, métricas de progreso y estados generales del proyecto. | 5 | **Rodrigo Fabrizio Aguilar Untiveros** | Done | 5 |
-| Sprint 2 | **US07** | Adjuntar fotografías | T05 | Crear componente de carga de archivos | Implementar componente visual para subir imágenes como evidencia de ejecución de tareas. | 3 | **Johan Giovani Huamán Cuba** | Done | 3 |
-| Sprint 2 | **US08** | Reportar incidencias | T06 | Desarrollar vista de reporte de incidencias | Crear formulario web donde el técnico pueda registrar incidencias con descripción y archivos adjuntos. | 4 | **Oskar Rodrigo Sosa Soto** | Done | 3 |
-| Sprint 2 | **US09** | Configurar alertas | T07 | Implementar vista de configuración de alertas | Crear pantalla para definir condiciones de alerta y periodicidad de notificaciones. | 4 | **Santiago Armando Baldeón Vivar** | Done | 3 |
-| Sprint 2 | **US11** | Historial de alertas | T08 | Crear vista de historial de alertas | Desarrollar una tabla dinámica que muestre las alertas generadas, atendidas y pendientes. | 3 | **Santiago Valentino Solis Chang** | Done | 3 |
-| Sprint 2 | **US14** | Reportes personalizados | T09 | Desarrollar módulo de reportes | Implementar interfaz para generar reportes filtrados por fecha, técnico o tipo de tarea. | 5 | **Rodrigo Fabrizio Aguilar Untiveros** | Done | 5 |
-| Sprint 2 | **US15** | Métricas de cumplimiento | T10 | Crear vista de métricas de productividad | Desarrollar gráficos y paneles de indicadores de desempeño utilizando librerías de visualización (Charts.js / ApexCharts). | 3 | **Johan Giovani Huamán Cuba** | Done | 3 |
+| Sprint # | User Story ID | User Story Title         | Task ID | Task Title                                    | Descripción tarea                                                                                                              | Estimated (hours) | Assigned To                            | Status | Story Points |
+| -------- | ------------- | ------------------------ | ------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------- | -------------------------------------- | ------ | ------------ |
+| Sprint 2 | **US01**      | Crear tareas             | T01     | Implementar vista de creación de tareas       | Desarrollar la interfaz que permita al supervisor crear nuevas tareas, con campos de descripción, prioridad, fecha y recursos. | 5                 | **Santiago Armando Baldeón Vivar**     | Done   | 4            |
+| Sprint 2 | **US02**      | Asignar tareas           | T02     | Desarrollar vista de asignación de tareas     | Implementar la vista que permita seleccionar técnicos o equipos disponibles y asignarles tareas desde la interfaz web.         | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 2 | **US03**      | Reprogramar tareas       | T03     | Crear módulo visual de calendario             | Desarrollar componente de calendario interactivo que permita modificar fechas de tareas mediante drag & drop.                  | 5                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 2 | **US04**      | Visualizar dashboard     | T04     | Diseñar Dashboard principal                   | Crear dashboard con resumen de tareas, métricas de progreso y estados generales del proyecto.                                  | 5                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
+| Sprint 2 | **US07**      | Adjuntar fotografías     | T05     | Crear componente de carga de archivos         | Implementar componente visual para subir imágenes como evidencia de ejecución de tareas.                                       | 3                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 2 | **US08**      | Reportar incidencias     | T06     | Desarrollar vista de reporte de incidencias   | Crear formulario web donde el técnico pueda registrar incidencias con descripción y archivos adjuntos.                         | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 2 | **US09**      | Configurar alertas       | T07     | Implementar vista de configuración de alertas | Crear pantalla para definir condiciones de alerta y periodicidad de notificaciones.                                            | 4                 | **Santiago Armando Baldeón Vivar**     | Done   | 3            |
+| Sprint 2 | **US11**      | Historial de alertas     | T08     | Crear vista de historial de alertas           | Desarrollar una tabla dinámica que muestre las alertas generadas, atendidas y pendientes.                                      | 3                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 2 | **US14**      | Reportes personalizados  | T09     | Desarrollar módulo de reportes                | Implementar interfaz para generar reportes filtrados por fecha, técnico o tipo de tarea.                                       | 5                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
+| Sprint 2 | **US15**      | Métricas de cumplimiento | T10     | Crear vista de métricas de productividad      | Desarrollar gráficos y paneles de indicadores de desempeño utilizando librerías de visualización (Charts.js / ApexCharts).     | 3                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
 
 ---
 
 ### 5.2.2.4. Development Evidence for Sprint Review
 
-Durante este sprint se desarrollaron las principales vistas y componentes del frontend de **PetroTask**. A continuación, se muestran algunos de los *commits* más relevantes realizados en el repositorio del equipo:
+Durante este sprint se desarrollaron las principales vistas y componentes del frontend de **PetroTask**. A continuación, se muestran algunos de los _commits_ más relevantes realizados en el repositorio del equipo:
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Description | Committed on (Date) |
-|-------------|---------|-------------|----------------|---------------------|--------------|---------------------|
-| upc-petrotask/frontend | sprint2-login-view | a12f3 | feat: add login view component | Se desarrolló la vista de inicio de sesión con validaciones reactivas. | Vista funcional de Login completada. | 2025-05-07 |
-| upc-petrotask/frontend | sprint2-dashboard | b34e2 | feat: dashboard layout implemented | Se añadió estructura base y tarjetas informativas del dashboard. | Vista principal lista para integración. | 2025-05-09 |
-| upc-petrotask/frontend | sprint2-tasks | c58d1 | feat: task list and detail view | Se desarrollaron las vistas de tareas y detalle con filtrado dinámico. | Funcionalidad de gestión de tareas operativa. | 2025-05-10 |
-| upc-petrotask/frontend | sprint2-styles | d77a5 | chore: global styles and scss config | Configuración global de colores, fuentes y componentes base. | Proyecto visualmente coherente. | 2025-05-11 |
+| Repository             | Branch             | Commit Id | Commit Message                       | Commit Message Body                                                    | Description                                   | Committed on (Date) |
+| ---------------------- | ------------------ | --------- | ------------------------------------ | ---------------------------------------------------------------------- | --------------------------------------------- | ------------------- |
+| upc-petrotask/frontend | sprint2-login-view | a12f3     | feat: add login view component       | Se desarrolló la vista de inicio de sesión con validaciones reactivas. | Vista funcional de Login completada.          | 2025-05-07          |
+| upc-petrotask/frontend | sprint2-dashboard  | b34e2     | feat: dashboard layout implemented   | Se añadió estructura base y tarjetas informativas del dashboard.       | Vista principal lista para integración.       | 2025-05-09          |
+| upc-petrotask/frontend | sprint2-tasks      | c58d1     | feat: task list and detail view      | Se desarrollaron las vistas de tareas y detalle con filtrado dinámico. | Funcionalidad de gestión de tareas operativa. | 2025-05-10          |
+| upc-petrotask/frontend | sprint2-styles     | d77a5     | chore: global styles and scss config | Configuración global de colores, fuentes y componentes base.           | Proyecto visualmente coherente.               | 2025-05-11          |
 
 ---
 
@@ -1976,28 +2001,36 @@ Durante este sprint se desarrollaron las principales vistas y componentes del fr
 
 Durante el **Sprint 2**, se completó el desarrollo de las vistas principales del frontend de **PetroTask**. A continuación se presentan capturas de las interfaces implementadas:
 
-#### Login View  
+#### Login View
+
 ![Login View](images/login-view.png)
 
-#### Register View  
+#### Register View
+
 ![Register View](images/register-view.png)
 
-#### Dashboard View  
+#### Dashboard View
+
 ![Dashboard View](images/dashboard-view.png)
 
-#### Task List View  
+#### Task List View
+
 ![Task List View](images/task-list-view.png)
 
-#### Incident Report View  
+#### Incident Report View
+
 ![Incident Report View](images/incident-report-view.png)
 
-#### User Management View  
+#### User Management View
+
 ![User Management View](images/user-management-view.png)
 
-#### Company Settings View  
+#### Company Settings View
+
 ![Company Settings View](images/company-settings-view.png)
 
-#### Execution History View  
+#### Execution History View
+
 ![Execution History View](images/execution-history-view.png)
 
 ---
@@ -2013,6 +2046,7 @@ Durante este sprint no se desarrollaron ni documentaron servicios web, dado que 
 Durante el Sprint 2 se logró desplegar correctamente el **frontend de PetroTask** utilizando **Azure Static Web Apps**. El proceso de despliegue incluyó la configuración de un flujo de integración continua (CI/CD) con GitHub Actions.
 
 **Actividades realizadas:**
+
 - Se utilizó el grupo de recursos existente en Azure para centralizar los despliegues.
 - Se configuró un **Static Web App** enlazado al repositorio `upc-petrotask/frontend` desde la rama `main`.
 - Se definió el flujo de despliegue automático mediante el workflow estándar de Azure.
@@ -2032,13 +2066,13 @@ Durante el Sprint 2 se logró desplegar correctamente el **frontend de PetroTask
 
 Durante este sprint, el equipo trabajó colaborativamente utilizando herramientas como GitHub, Jira y Microsoft Teams. Cada integrante asumió responsabilidades específicas y contribuyó al cumplimiento del objetivo general.
 
-| **Nombre** | **Actividad principal** |
-|-------------|--------------------------|
-| **Santiago Armando Baldeón Vivar** | Coordinación del sprint, desarrollo del dashboard y configuración global de estilos SCSS. |
-| **Oskar Rodrigo Sosa Soto** | Desarrollo de vistas Login y Reporte de Incidencias, conexión a API simulada y validaciones. |
-| **Rodrigo Fabrizio Aguilar Untiveros** | Implementación de vistas Register y User Management, y componentes Navbar y Sidebar. |
-| **Santiago Valentino Solis Chang** | Desarrollo de vistas de tareas e historial de ejecución, optimización de módulos y lazy loading. |
-| **Johan Giovani Huamán Cuba** | Implementación de formularios de asignación de tareas, validaciones y pruebas de interacción. |
+| **Nombre**                             | **Actividad principal**                                                                          |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Santiago Armando Baldeón Vivar**     | Coordinación del sprint, desarrollo del dashboard y configuración global de estilos SCSS.        |
+| **Oskar Rodrigo Sosa Soto**            | Desarrollo de vistas Login y Reporte de Incidencias, conexión a API simulada y validaciones.     |
+| **Rodrigo Fabrizio Aguilar Untiveros** | Implementación de vistas Register y User Management, y componentes Navbar y Sidebar.             |
+| **Santiago Valentino Solis Chang**     | Desarrollo de vistas de tareas e historial de ejecución, optimización de módulos y lazy loading. |
+| **Johan Giovani Huamán Cuba**          | Implementación de formularios de asignación de tareas, validaciones y pruebas de interacción.    |
 
 #### Evidencia de colaboración en GitHub
 
@@ -2050,10 +2084,13 @@ A continuación se muestran las estadísticas de colaboración del repositorio, 
 🔗 [PetroTask Frontend en GitHub](https://github.com/PetroTask/petrotask-frontend-app)
 
 ## 5.2.3. Sprint 3
+
 ### 5.2.3.1. Sprint Planning 3.
+
 El Sprint Planning 3 tuvo como objetivo consolidar los módulos avanzados de PetroTask orientados a trazabilidad operativa, registro de evidencias y mejoras en las interfaces web destinadas a supervisores y técnicos de campo. Se revisaron las historias del Product Backlog y se definieron los objetivos del sprint, así como los criterios de aceptación.
 
 Objetivos principales del sprint:
+
 - Completar el módulo de evidencias multimedia con registro geográfico.
 - Finalizar el calendario operativo dinámico para supervisores.
 - Desarrollar mejoras en el dashboard de KPIs operativos.
@@ -2062,17 +2099,19 @@ Objetivos principales del sprint:
 - Optimizar pantallas del frontend del Field Task Manager.
 
 ---
+
 ### 5.2.3.2. Aspect Leaders and Collaborators.
 
-| Aspecto | Líder asignado | Colaboradores | Responsabilidades |
-|---------|----------------|---------------|-------------------|
-| Diseño UX/UI para supervisores | Santiago Valentino Solis | Rodrigo Fabrizio Aguilar | Optimización de wireframes, prototipos y flujos del dashboard. |
-| Módulo de evidencias operativas | Oskar Rodrigo Sosa Soto | Johan Giovani Huamán Cuba | Implementación del flujo de carga, compresión y registro de evidencias. |
-| Historial Digital Operativo (HDO) | Rodrigo Fabrizio Aguilar Untiveros | Oskar Rodrigo Sosa Soto | Diseño del almacenamiento, endpoints y trazabilidad. |
-| Backend & APIs Sprint 3 | Johan Giovani Huamán Cuba | Oskar Rodrigo Sosa Soto | Actualización y documentación de endpoints del backend. |
-| Testing y validación interna | Todo el equipo | — | Pruebas de integración, funcionalidad y usabilidad. |
+| Aspecto                           | Líder asignado                     | Colaboradores             | Responsabilidades                                                       |
+| --------------------------------- | ---------------------------------- | ------------------------- | ----------------------------------------------------------------------- |
+| Diseño UX/UI para supervisores    | Santiago Valentino Solis           | Rodrigo Fabrizio Aguilar  | Optimización de wireframes, prototipos y flujos del dashboard.          |
+| Módulo de evidencias operativas   | Oskar Rodrigo Sosa Soto            | Johan Giovani Huamán Cuba | Implementación del flujo de carga, compresión y registro de evidencias. |
+| Historial Digital Operativo (HDO) | Rodrigo Fabrizio Aguilar Untiveros | Oskar Rodrigo Sosa Soto   | Diseño del almacenamiento, endpoints y trazabilidad.                    |
+| Backend & APIs Sprint 3           | Johan Giovani Huamán Cuba          | Oskar Rodrigo Sosa Soto   | Actualización y documentación de endpoints del backend.                 |
+| Testing y validación interna      | Todo el equipo                     | —                         | Pruebas de integración, funcionalidad y usabilidad.                     |
 
 ---
+
 ### 5.2.3.3. Sprint Backlog 3
 
 ### Historias de Usuario Prioritarias
@@ -2094,17 +2133,25 @@ Objetivos principales del sprint:
 - Pruebas unitarias y de integración del nuevo módulo multimedia.
 
 ---
+
 ### 5.2.3.4. Development Evidence for Sprint Review.
+
 ### 5.2.3.5. Execution Evidence for Sprint Review.
+
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
+
 ## 5.3. Validation Interviews.
+
 ### 5.3.1. Diseño de Entrevistas
 
 El objetivo de estas entrevistas fue validar la usabilidad, eficiencia y claridad del prototipo desarrollado hasta el Sprint 3. Se entrevistó a supervisores, técnicos de mantenimiento y coordinadores operativos.
 
 Criterios evaluados:
+
 - Usabilidad general de la plataforma.
 - Claridad en la trazabilidad y evidencias.
 - Complejidad cognitiva.
@@ -2115,27 +2162,30 @@ Criterios evaluados:
 ### 5.3.2. Registro de Entrevistas
 
 ### Entrevista 1 – Supervisor de Planta
-- **Edad:** 34  
-- **Contexto:** Prueba del dashboard y calendario operativo.  
-- **Feedback:**  
-  - KPIs claros y útiles.  
-  - Solicita mayor indicación visual de criticidad.  
+
+- **Edad:** 34
+- **Contexto:** Prueba del dashboard y calendario operativo.
+- **Feedback:**
+  - KPIs claros y útiles.
+  - Solicita mayor indicación visual de criticidad.
   - Valora fuertemente el modo offline.
 
 ### Entrevista 2 – Técnico de Mantenimiento
-- **Edad:** 25  
-- **Contexto:** Uso del módulo de evidencias multimedia.  
-- **Feedback:**  
-  - Flujo rápido e intuitivo para adjuntar imágenes.  
-  - Sugiere notificaciones más visibles al completar tareas offline.  
+
+- **Edad:** 25
+- **Contexto:** Uso del módulo de evidencias multimedia.
+- **Feedback:**
+  - Flujo rápido e intuitivo para adjuntar imágenes.
+  - Sugiere notificaciones más visibles al completar tareas offline.
   - Considera útil un menú de acciones rápidas.
 
 ### Entrevista 3 – Coordinador de Operaciones
-- **Edad:** 33  
-- **Contexto:** Evaluación del Historial Digital Operativo (HDO).  
-- **Feedback:**  
-  - Valora la trazabilidad completa de tareas.  
-  - Sugiere filtros por operario, zona y tipo de tarea.  
+
+- **Edad:** 33
+- **Contexto:** Evaluación del Historial Digital Operativo (HDO).
+- **Feedback:**
+  - Valora la trazabilidad completa de tareas.
+  - Sugiere filtros por operario, zona y tipo de tarea.
   - Recomienda consolidación de alertas en una sola vista.
 
 ---
@@ -2186,7 +2236,7 @@ La implementación inicial demostró que los lineamientos planteados pueden conv
 
 En conjunto, este avance representó un paso clave para continuar el proyecto con mayor seguridad, enfoque y compromiso.
 
-# 7. Bibliografía 
+# 7. Bibliografía
 
 Microsoft. (n.d.). Azure Static Web Apps documentation. Microsoft Learn. [https://learn.microsoft.com/en-us/azure/static-web-apps/](https://learn.microsoft.com/en-us/azure/static-web-apps/)
 
@@ -2198,7 +2248,7 @@ Pintado Bravo, C., & Salazar Cruzado, L. T. (2022). Los procesos logísticos y s
 
 Conventional Commits. (2021). Conventional commits 1.0.0. [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
 
-# 8. Anexos 
+# 8. Anexos
 
 Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
 
@@ -2206,7 +2256,8 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 
 - [Video exposición TP](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202319881_upc_edu_pe/Enywtc61-pRJiPc3UBCQKb0Bu_i0Uv-4QjiM25eypqO04A?e=6xESS8)
 
+- [Video exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b475_upc_edu_pe/IQAJv-gUYvWeSYdzAfEveoTwAUj9w1h8sTYX1PKqVTOjacM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KJ67EE)
+
+- [Video About The Product](https://www.youtube.com/watch?v=4TrH_UBEvOk)
+
 - [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319881_upc_edu_pe/EW4KQrrighJCmiQAXLX_8IABKZluaswrEMl6zfW9DHkFyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OjHwdR)
-
-
-
