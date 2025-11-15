@@ -2205,9 +2205,9 @@ Durante el Sprint 3, el equipo colaboró de forma coordinada para avanzar en la 
 | **SRodrigo Fabrizio Aguilar Untiveros** | Modelado de entidades (`Task`, `Employee`, `Team`), programación condicional y lógica de ejecución planificada.                           |
 | **Santiago Valentino Solis Chang**      | Controladores REST (`Activities`, `Employee`, `Task`), validaciones backend y definición de configuración `SharedConfig`.                 |
 
-A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial.
 
-Se puede observar que el equipo ha colaborado de manera coordinada, siguiendo el flujo de trabajo establecido y garantizando que cada entrega del Sprint refleje la contribución de todos sus integrantes.
+
 
 ## 5.3. Validation Interviews.
 
