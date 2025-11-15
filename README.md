@@ -19,7 +19,6 @@
 
 | **Nombre**                         | **Código** |
 | ---------------------------------- | ---------- |
-| Baldeón Vivar, Santiago Armando    | U202319881 |
 | Oskar Rodrigo Sosa Soto            | U202212214 |
 | Rodrigo Fabrizio Aguilar Untiveros | U202318309 |
 | Santiago Valentino Solis Chang     | U20231B475 |
