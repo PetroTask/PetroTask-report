@@ -1680,15 +1680,15 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.6.1. Software Architecture Context Diagram
 
-   ![Diagrama de Contexto](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Diagrama%20de%20contexto.png)
+   ![Diagrama de Contexto](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Context%20Diagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-   ![Diagrama de Contenedores](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Diagrama%20de%20contenedores.png)
+   ![Diagrama de Contenedores](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Container%20Diagram.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-   ![Diagrama de Componentes](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Diagrama%20de%20componentes.png)
+   ![Diagrama de Componentes](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Component%20Diagram.png)
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1696,11 +1696,11 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 #### 4.7.1.1. Backend Class Diagram
 
-![Diagrama de Clases Backend](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Backend%20Class%20Diagram.png)
+![Diagrama de Clases Backend](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Backend.png)
 
 #### 4.7.1.2. Frontend Class Diagram
 
-![Diagrama de Clases Frontend](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Frontend%20Class%20Diagram.png)
+![Diagrama de Clases Frontend](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Frontend.png)
 
 ### 4.7.2. Class Dictionary
 
@@ -1708,7 +1708,7 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.8.1. Database Diagram
 
-![Diagrama de Base de Datos](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Diagrama%20de%20base%20de%20datos.png)
+![Diagrama de Base de Datos](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Database%20Diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
