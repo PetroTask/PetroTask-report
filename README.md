@@ -2049,7 +2049,7 @@ A continuación se muestran las estadísticas de colaboración del repositorio, 
 **Repositorio de trabajo:**  
 🔗 [PetroTask Frontend en GitHub](https://github.com/PetroTask/petrotask-frontend-app)
 
-### 5.2.3. Sprint 3
+## 5.2.3. Sprint 3
 ### 5.2.3.1. Sprint Planning 3.
 El Sprint Planning 3 tuvo como objetivo consolidar los módulos avanzados de PetroTask orientados a trazabilidad operativa, registro de evidencias y mejoras en las interfaces web destinadas a supervisores y técnicos de campo. Se revisaron las historias del Product Backlog y se definieron los objetivos del sprint, así como los criterios de aceptación.
 
@@ -2073,7 +2073,7 @@ Objetivos principales del sprint:
 | Testing y validación interna | Todo el equipo | — | Pruebas de integración, funcionalidad y usabilidad. |
 
 ---
-## 5.2.3.3. Sprint Backlog 3
+### 5.2.3.3. Sprint Backlog 3
 
 ### Historias de Usuario Prioritarias
 
@@ -2099,8 +2099,8 @@ Objetivos principales del sprint:
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
-### 5.3. Validation Interviews.
-## 5.3.1. Diseño de Entrevistas
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas
 
 El objetivo de estas entrevistas fue validar la usabilidad, eficiencia y claridad del prototipo desarrollado hasta el Sprint 3. Se entrevistó a supervisores, técnicos de mantenimiento y coordinadores operativos.
 
@@ -2112,7 +2112,7 @@ Criterios evaluados:
 - Comportamiento en modo offline.
 - Nivel de satisfacción general del usuario.
 
-## 5.3.2. Registro de Entrevistas
+### 5.3.2. Registro de Entrevistas
 
 ### Entrevista 1 – Supervisor de Planta
 - **Edad:** 34  
@@ -2140,7 +2140,7 @@ Criterios evaluados:
 
 ---
 
-## 5.3.3. Evaluaciones según heurísticas
+### 5.3.3. Evaluaciones según heurísticas
 
 Las evaluaciones se realizaron siguiendo las 10 heurísticas de Nielsen.
 
