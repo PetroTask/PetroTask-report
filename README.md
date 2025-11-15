@@ -2332,6 +2332,17 @@ A continuación, se detallan los servicios implementados para los contextos Equi
 7. En la configuración del contenedor, seleccionamos nuestra imagen de docker y nos aseguramos de habilitar el puerto 8080. Posteriormente desactivamos la opción "Compatibilidad con Sidecar".
    ![Evidencias](img/evidencias_deploy/app_service2.png)
 
+   ![Evidencias](img/evidencias_deploy/app_service3.png)
+
+8. En el centro de implementación de nuestro App Service podemos actualizar la imagen de docker conforme publiquemos nuevos avances.
+   ![Evidencias](img/evidencias_deploy/app_service4.png)
+
+9. A continuación se muestra el acceso al API application desplegado, la ruta por defecto está restringida:
+   ![Evidencias](img/evidencias_deploy/.png)
+    
+10. Por fines académicos, si añadimos a la ruta "swagger-ui/index.html" podremos acceder a la documentación. 
+   ![Evidencias](img/evidencias_deploy/.png)
+
 ### 5.2.3.8. Team Collaboration Insights during Sprint 3.
 
 Durante el Sprint 3, el equipo colaboró de forma coordinada para avanzar en la implementación del backend de la solución PetroTask, empleando Spring Boot. A continuación se muestra la participación de cada integrante, agrupada por áreas de responsabilidad principal:
