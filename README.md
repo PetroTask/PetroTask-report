@@ -1712,6 +1712,45 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.7.2. Class Dictionary
 
+### 4.7.2.1. Backend Class Dictionary
+
+| Clase | Atributos Principales | Métodos Principales | Descripción |
+|-------|------------------------|----------------------|-------------|
+| **AuthController** | - authService: AuthService | + login() <br> + register() <br> + refreshToken() | Controlador REST que maneja autenticación y emisión de tokens. |
+| **TaskController** | - taskService: TaskService | + getAllTasks() <br> + createTask() <br> + updateTask() <br> + assignTask() | Controlador responsable de exponer operaciones CRUD y asignación de tareas. |
+| **IncidentController** | - incidentService: IncidentService | + reportIncident() <br> + uploadEvidence() | Controlador para reportar incidentes y cargar evidencias. |
+| **ReportController** | - reportService: ReportService | + generateReport() <br> + getKPIs() | Controlador para generación de reportes y KPIs operacionales. |
+| **AuthService** | - userRepository <br> - passwordEncoder <br> - jwtUtil | + authenticate() <br> + registerUser() <br> + validateToken() | Servicio que gestiona la autenticación, registro de usuarios y validación de tokens. |
+| **TaskService** | - taskRepository <br> - userRepository | + createTask() <br> + updateTask() <br> + assignTask() <br> + getTasksByUser() | Encapsula la lógica de negocio relacionada a tareas. |
+| **IncidentService** | - incidentRepository <br> - fileStorageService | + reportIncident() <br> + processEvidence() | Servicio encargado del registro y procesamiento de incidentes y evidencia. |
+| **OfflineSyncService** | - syncRepository | + processPendingRequests() <br> + resolveConflicts() | Maneja sincronización offline y resolución de conflictos. |
+| **User (Entidad JPA)** | id, username, email, password, role, company | *N/A* | Representa a un usuario dentro del sistema. |
+| **Task (Entidad JPA)** | id, title, description, status, priority, assignedUser, createdBy, dueDate | *N/A* | Entidad que modela las tareas asignadas a usuarios. |
+| **Incident (Entidad JPA)** | id, description, severity, task, reportedBy, evidencePaths | *N/A* | Entidad que representa incidentes y evidencia asociada. |
+| **Company (Entidad JPA)** | id, name, taxId, address | *N/A* | Entidad que almacena información de compañías. |
+| **UserRepository** | *N/A* | + findByEmail() <br> + findByCompanyId() | Repositorio que administra consulta y persistencia de usuarios. |
+| **TaskRepository** | *N/A* | + findByAssignedUser() <br> + findByStatus() <br> + findByCompanyId() | Repositorio para persistencia y consulta de tareas. |
+| **IncidentRepository** | *N/A* | + findByTask() <br> + findBySeverity() | Repositorio para manejo de incidentes. |
+
+<br>
+
+### 4.7.2.2. Frontend Class Dictionary
+
+| Clase | Atributos Principales | Métodos Principales | Descripción |
+|-------|------------------------|----------------------|-------------|
+| **AuthComponent** | - loginForm: FormGroup <br> - isLoading: boolean | + onSubmit() <br> + navigateToRegister() | Componente encargado de la IU de inicio de sesión. |
+| **DashboardComponent** | - tasks: Task[] <br> - stats: any <br> - filteredTasks: Task[] | + loadDashboardData() <br> + filterTasks() <br> + navigateToTaskDetail() | Muestra KPIs y resume tareas del sistema. |
+| **TaskListComponent** | - tasks: Task[] <br> - pagination: Pagination | + loadTasks() <br> + searchTasks() <br> + changePage() | Gestiona la lista y búsqueda de tareas. |
+| **TaskFormComponent** | - taskForm: FormGroup <br> - isEditMode: boolean | + createTask() <br> + updateTask() <br> + validateForm() | Formulario para creación/edición de tareas. |
+| **IncidentReportComponent** | - incidentForm: FormGroup <br> - evidenceFiles: File[] | + submitIncident() <br> + uploadEvidence() | Permite reportar incidentes y cargar archivos. |
+| **AuthService** | - apiUrl: string <br> - currentUser: User | + login() <br> + logout() <br> + getToken() <br> + isAuthenticated() | Maneja autenticación y estado del usuario en el cliente. |
+| **TaskService** | - baseUrl: string | + getTasks() <br> + createTask() <br> + updateTask() <br> + assignTask() | Consumidor del API para gestión de tareas. |
+| **IncidentService** | *N/A* | + reportIncident() <br> + uploadEvidence() | Servicio que gestiona incidentes desde el frontend. |
+| **OfflineService** | - db: Database <br> - isOnline: boolean | + syncData() <br> + queueRequest() <br> + checkConnectivity() | Implementa funcionalidad offline-first y sincronización. |
+| **User (Modelo)** | id, username, email, role, companyId | *N/A* | Modelo de usuario para Angular. |
+| **Task (Modelo)** | id, title, description, status, priority, assignedTo, dueDate, location | *N/A* | Modelo de tareas en el cliente. |
+| **Incident (Modelo)** | id, taskId, description, severity, reportedBy, evidenceUrls | *N/A* | Modelo de incidentes en el cliente. |
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
