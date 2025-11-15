@@ -1663,24 +1663,26 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 </div>
 
 ## 4.4. Web Applications UX/UI Design
-![Web Applications UX/UI Design](TB2/4.4 ux ui design.JPG)
+![Web Applications UX/UI Design](https://raw.githubusercontent.com/PetroTask/PetroTask-report/blob/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4%20ux%20ui%20design.JPG)
 
 ### 4.4.1. Web Applications Wireframes
-![Web Applications Wireframes](TB2/4.4.1 wireframes.JPG)
+![Web Applications Wireframes](https://raw.githubusercontent.com/PetroTask/PetroTask-report/blob/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.1%20wireframes.JPG)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-![Web Applications Wireflow](TB2/4.4.2 Web Applications Wireflow.png)
+![Web Applications Wireflow](https://raw.githubusercontent.com/PetroTask/PetroTask-report/blob/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.2%20Web%20Applications%20Wireflow.png)
 
 ### 4.4.3. Web Applications Mock-ups
-![Web Applications Mock-ups](TB2/4.4.3 Web Applications Mock-ups.png)
+![Web Applications Mock-ups](https://raw.githubusercontent.com/PetroTask/PetroTask-report/blob/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.3%20Web%20Applications%20Mock-ups.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
-![Web Applications User Flow](TB2/4.4.4 Web Applications User Flow.png)
+![Web Applications User Flow](https://raw.githubusercontent.com/PetroTask/PetroTask-report/blob/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.4%20Web%20Applications%20User%20Flow.png)
 
 ## 4.5. Web Applications Prototyping
-![Web Applications Prototyping](TB2/4.5 prototype -1.JPG)
-![Web Applications Prototyping](TB2/4.5 prototype -2.JPG)
-![Web Applications Prototyping](TB2/4.5 prototype -3.JPG)
+![Web Applications Prototyping](https://raw.githubusercontent.com/PetroTask/PetroTask-report/blob/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.5%20prototype%20-1.JPG)
+
+![Web Applications Prototyping](https://raw.githubusercontent.com/PetroTask/PetroTask-report/blob/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.5%20prototype%20-2.JPG)
+
+![Web Applications Prototyping](https://raw.githubusercontent.com/PetroTask/PetroTask-report/blob/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.5%20prototype%20-3.JPG)
 
 ## 4.6. Domain-Driven Software Architecture
 
