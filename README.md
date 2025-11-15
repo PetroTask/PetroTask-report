@@ -2057,17 +2057,129 @@ A continuación se muestran las estadísticas de colaboración del repositorio, 
 
 ### 5.2.3. Sprint 3
 ### 5.2.3.1. Sprint Planning 3.
+El Sprint Planning 3 tuvo como objetivo consolidar los módulos avanzados de PetroTask orientados a trazabilidad operativa, registro de evidencias y mejoras en las interfaces web destinadas a supervisores y técnicos de campo. Se revisaron las historias del Product Backlog y se definieron los objetivos del sprint, así como los criterios de aceptación.
+
+Objetivos principales del sprint:
+- Completar el módulo de evidencias multimedia con registro geográfico.
+- Finalizar el calendario operativo dinámico para supervisores.
+- Desarrollar mejoras en el dashboard de KPIs operativos.
+- Integrar validaciones de seguridad para tareas críticas.
+- Implementar la primera versión del Historial Digital Operativo (HDO).
+- Optimizar pantallas del frontend del Field Task Manager.
+
+---
 ### 5.2.3.2. Aspect Leaders and Collaborators.
-### 5.2.3.3. Sprint Backlog 3.
+
+| Aspecto | Líder asignado | Colaboradores | Responsabilidades |
+|---------|----------------|---------------|-------------------|
+| Diseño UX/UI para supervisores | Santiago Valentino Solis | Rodrigo Fabrizio Aguilar | Optimización de wireframes, prototipos y flujos del dashboard. |
+| Módulo de evidencias operativas | Oskar Rodrigo Sosa Soto | Johan Giovani Huamán Cuba | Implementación del flujo de carga, compresión y registro de evidencias. |
+| Historial Digital Operativo (HDO) | Rodrigo Fabrizio Aguilar Untiveros | Oskar Rodrigo Sosa Soto | Diseño del almacenamiento, endpoints y trazabilidad. |
+| Backend & APIs Sprint 3 | Johan Giovani Huamán Cuba | Oskar Rodrigo Sosa Soto | Actualización y documentación de endpoints del backend. |
+| Testing y validación interna | Todo el equipo | — | Pruebas de integración, funcionalidad y usabilidad. |
+
+---
+## 5.2.3.3. Sprint Backlog 3
+
+### Historias de Usuario Prioritarias
+
+- **US-31:** Registrar evidencias multimedia con ubicación para validar ejecución de tareas.
+- **US-32:** Recibir instrucciones detalladas y actualizadas en tiempo real.
+- **US-33:** Visualizar historial digital de tareas para auditorías internas.
+- **US-34:** Ver KPIs operativos mediante un dashboard actualizado.
+- **US-35:** Confirmar tareas sin conexión y sincronizar su estado cuando haya red.
+
+### Tareas del Sprint
+
+- Desarrollo de API para evidencias (POST/GET/DELETE).
+- Integración de metadatos y geolocalización en registros.
+- Implementación visual y lógica del HDO.
+- Optimización de consultas SQL para KPIs.
+- Mejoras de interfaz en Task Calendar.
+- Refactorización del frontend para mejorar rendimiento.
+- Pruebas unitarias y de integración del nuevo módulo multimedia.
+
+---
 ### 5.2.3.4. Development Evidence for Sprint Review.
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
 ### 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
-### 5.3.2. Registro de Entrevistas.
-### 5.3.3. Evaluaciones según heurísticas.
+## 5.3.1. Diseño de Entrevistas
+
+El objetivo de estas entrevistas fue validar la usabilidad, eficiencia y claridad del prototipo desarrollado hasta el Sprint 3. Se entrevistó a supervisores, técnicos de mantenimiento y coordinadores operativos.
+
+Criterios evaluados:
+- Usabilidad general de la plataforma.
+- Claridad en la trazabilidad y evidencias.
+- Complejidad cognitiva.
+- Interpretación visual de dashboards y módulos.
+- Comportamiento en modo offline.
+- Nivel de satisfacción general del usuario.
+
+## 5.3.2. Registro de Entrevistas
+
+### Entrevista 1 – Supervisor de Planta
+- **Edad:** 34  
+- **Contexto:** Prueba del dashboard y calendario operativo.  
+- **Feedback:**  
+  - KPIs claros y útiles.  
+  - Solicita mayor indicación visual de criticidad.  
+  - Valora fuertemente el modo offline.
+
+### Entrevista 2 – Técnico de Mantenimiento
+- **Edad:** 25  
+- **Contexto:** Uso del módulo de evidencias multimedia.  
+- **Feedback:**  
+  - Flujo rápido e intuitivo para adjuntar imágenes.  
+  - Sugiere notificaciones más visibles al completar tareas offline.  
+  - Considera útil un menú de acciones rápidas.
+
+### Entrevista 3 – Coordinador de Operaciones
+- **Edad:** 33  
+- **Contexto:** Evaluación del Historial Digital Operativo (HDO).  
+- **Feedback:**  
+  - Valora la trazabilidad completa de tareas.  
+  - Sugiere filtros por operario, zona y tipo de tarea.  
+  - Recomienda consolidación de alertas en una sola vista.
+
+---
+
+## 5.3.3. Evaluaciones según heurísticas
+
+Las evaluaciones se realizaron siguiendo las 10 heurísticas de Nielsen.
+
+**1. Visibilidad del estado del sistema**  
+El usuario reconoce los estados de sincronización y progreso, aunque se sugiere resaltar más las alertas críticas.
+
+**2. Correspondencia entre el sistema y el mundo real**  
+Se utiliza lenguaje familiar para técnicos y supervisores.
+
+**3. Control y libertad del usuario**  
+Es posible corregir errores e invertir acciones.
+
+**4. Consistencia y estándares**  
+La interfaz mantiene coherencia visual y funcional entre módulos.
+
+**5. Prevención de errores**  
+El sistema valida cargas y formatos, aunque requiere advertencias más claras al eliminar evidencias.
+
+**6. Reconocer antes que recordar**  
+Iconografía clara e intuitiva, especialmente en la app móvil.
+
+**7. Flexibilidad y eficiencia de uso**  
+Accesos rápidos útiles para supervisores; técnicos sugieren ampliarlos.
+
+**8. Diseño estético y minimalista**  
+Interfaz limpia, aunque algunos textos deben reducirse.
+
+**9. Ayuda a la recuperación de errores**  
+Mensajes claros, pero falta mejorar recomendaciones de solución.
+
+**10. Ayuda y documentación**  
+Se requiere un manual básico integrado (programado para Sprint 4).
+
 ### 5.4. Video About-the-Product.
 
 # 6. Conclusiones
