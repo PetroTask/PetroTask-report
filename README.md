@@ -68,8 +68,7 @@ Para el desarrollo del informe correspondiente al Trabajo Parcial (TP), la imple
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
 
-Se puede identificar a los integrantes como: 
-- Baldeón Vivar, Santiago Armando: Santibal11
+Se puede identificar a los integrantes como:
 - Oskar Rodrigo Sosa Soto : YakuzaMeen
 - Rodrigo Fabrizio Aguilar Untiveros : Rodri2712
 - Santiago Valentino Solis Chang : TrEv0rRrRr
