@@ -2188,7 +2188,26 @@ Durante el Sprint, se implementaron y documentaron correctamente los servicios R
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-### 5.2.3.8. Team Collaboration Insights during Sprint.
+Como parte del proceso de revisión del Sprint, se presenta la evidencia documental de los servicios REST implementados en el backend del sistema. Estos servicios han sido desarrollados utilizando Spring Boot y desplegados en la nube mediante un App Service en Azure, con imágenes Docker personalizadas.
+
+La documentación técnica de los endpoints se encuentra expuesta mediante Swagger UI, accesible a través del path /swagger-ui/index.html. Este recurso permite verificar de forma práctica la funcionalidad de los endpoints desarrollados, los formatos de entrada esperados, y las respuestas que entrega la API.
+
+A continuación, se detallan los servicios implementados para los contextos Equipment y Activity, incluyendo sus rutas, métodos, estructuras de entrada y códigos de respuesta esperados.
+
+### 5.2.3.8. Team Collaboration Insights during Sprint 3.
+
+Durante el Sprint 3, el equipo colaboró de forma coordinada para avanzar en la implementación del backend de la solución PetroTask, empleando Spring Boot. A continuación se muestra la participación de cada integrante, agrupada por áreas de responsabilidad principal:
+
+| Nombre                                  | Actividad                                                                                                                                 |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Johan Giovani Huaman Cuba**           | Desarrollo de `TaskCommandService`, `ActivityQueryService`, `EmployeeCommandService`, `TaskSchedulingQueryService` y lógica en `Shared`.  |
+| **Oskar Rodrigo Sosa Soto**             | Estructura base del proyecto, entidades principales (`Equipment`, `Employee`, `Task`), lógica de login y endpoints de tareas por usuario. |
+| **SRodrigo Fabrizio Aguilar Untiveros** | Modelado de entidades (`Task`, `Employee`, `Team`), programación condicional y lógica de ejecución planificada.                           |
+| **Santiago Valentino Solis Chang**      | Controladores REST (`Activities`, `Employee`, `Task`), validaciones backend y definición de configuración `SharedConfig`.                 |
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+Se puede observar que el equipo ha colaborado de manera coordinada, siguiendo el flujo de trabajo establecido y garantizando que cada entrega del Sprint refleje la contribución de todos sus integrantes.
 
 ## 5.3. Validation Interviews.
 
