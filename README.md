@@ -1663,16 +1663,24 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 </div>
 
 ## 4.4. Web Applications UX/UI Design
+![Web Applications UX/UI Design](PetroTask-report/TB2/4.4 ux ui design.JPG)
 
 ### 4.4.1. Web Applications Wireframes
+![Web Applications Wireframes](PetroTask-report/TB2/4.4.1 wireframes.JPG)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+![Web Applications Wireflow](PetroTask-report/TB2/4.4.2 Web Applications Wireflow.png)
 
 ### 4.4.3. Web Applications Mock-ups
+![Web Applications Mock-ups](PetroTask-report/TB2/4.4.3 Web Applications Mock-ups.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
+![Web Applications User Flow](PetroTask-report/TB2/4.4.4 Web Applications User Flow.png)
 
 ## 4.5. Web Applications Prototyping
+![Web Applications Prototyping](PetroTask-report/TB2/4.5 prototype -1.JPG)
+![Web Applications Prototyping](PetroTask-report/TB2/4.5 prototype -2.JPG)
+![Web Applications Prototyping](PetroTask-report/TB2/4.5 prototype -3.JPG)
 
 ## 4.6. Domain-Driven Software Architecture
 
