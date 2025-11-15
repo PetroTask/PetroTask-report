@@ -2136,9 +2136,55 @@ Objetivos principales del sprint:
 
 ### 5.2.3.4. Development Evidence for Sprint Review.
 
+En esta sección se presentan los avances en la implementación de la solución, enfocados específicamente en el desarrollo del backend de la aplicación web PetroTask. Se detallan los commits realizados en el repositorio petrotask-backend, evidenciando la construcción de estructuras de dominio, servicios, controladores REST y configuraciones basadas en DDD. A continuación, se muestra la tabla que resume los commits relevantes asociados a este sprint:
+
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 
+Durante el Sprint 3 se avanzó significativamente en la implementación del backend de PetroTask, desarrollando los principales servicios, entidades y controladores que darán soporte a las funcionalidades del sistema
+
+#### Vista general del Swagger UI - Endpoints disponibles
+
+![Vista General](img/imgs-swagger/vista_general.png)
+
+#### Ventana emergente de autorización
+
+![Autorizacion](img/imgs-swagger/auth_vista.png)
+
+#### Definición de recursos - Parte 1
+
+![Recursos](img/imgs-swagger/recursos_1.png)
+
+#### Definición de recursos - Parte 2
+
+![Recursos](img/imgs-swagger/recursos_2.png)
+
+#### Definición de recursos - Parte 3
+
+![Recursos](img/imgs-swagger/recursos_3.png)
+
+#### Endpoints del módulo Locations y Activities
+
+![Endpoints](img/imgs-swagger/locations-activities.png)
+
+#### Endpoints del módulo Employees, Roles, Team Members, Authentication
+
+![Endpoints](img/imgs-swagger/empl_roles_memb_auth.png)
+
+#### Endpoints del módulo Equipment y Teams
+
+![Endpoints](img/imgs-swagger/equip_team.png)
+
+#### Endpoints del módulo Task Scheduling y Tasks
+
+![Endpoints](img/imgs-swagger/tasks.png)
+
+#### Endpoints del módulo Zones
+
+![Endpoint](img/imgs-swagger/zones.png)
+
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint, se implementaron y documentaron correctamente los servicios RESTful correspondientes a los contextos de Equipment y Activity. A continuación, se detallan las principales evidencias:
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
