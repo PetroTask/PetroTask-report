@@ -2186,6 +2186,122 @@ Durante el Sprint 3 se avanzó significativamente en la implementación del back
 
 Durante el Sprint, se implementaron y documentaron correctamente los servicios RESTful correspondientes a los contextos de Equipment y Activity. A continuación, se detallan las principales evidencias:
 
+---
+
+#### Equipment Endpoints
+
+- **GET `/api/v1/equipment`**  
+  Obtiene el listado completo de equipos registrados.
+
+  - **Respuesta esperada:** `200 OK`
+
+- **POST `/api/v1/equipment`**  
+  Crea un nuevo equipo en el sistema.
+
+  - **Request body (JSON):**
+    ```json
+    {
+      "plateNumber": "string",
+      "type": "string",
+      "capacityLoad": 0,
+      "capacityPassengers": 0
+    }
+    ```
+  - **Respuesta exitosa:** `201 Created`
+  - **Errores controlados:**
+    - `400 Bad Request` (input inválido)
+    - `404 Not Found` (referencia no válida)
+
+- **GET `/api/v1/equipment/{equipmentId}`**  
+  Recupera un equipo por su identificador único.
+
+  - **Respuesta esperada:** `200 OK` o `404 Not Found`
+
+- **PUT `/api/v1/equipment/{equipmentId}`**  
+   Actualiza un equipo por su identificador único.
+
+  - **Request body (JSON):**
+
+        ```json
+        {
+          "type": "string",
+          "capacityLoad": 0,
+          "capacityPassengers": 0
+        }
+        ```
+
+  - **Respuesta exitosa:** `200 OK`
+  - **Errores controlados:**
+    - `400 Bad Request` (input inválido)
+    - `404 Not Found` (referencia no válida)
+
+- **DELETE `/api/v1/equipment/{equipmentId}`**  
+  Elimina un equipo por su identificador único.
+  - **Respuesta esperada:** `200 OK` o `404 Not Found`
+
+---
+
+#### Activity Endpoints
+
+- **GET `/api/v1/activity`**  
+  Lista todas las actividades registradas.
+
+  - **Respuesta esperada:** `200 OK`
+
+- **POST `/api/v1/activity`**  
+  Crea una nueva actividad logística.
+
+  - **Request body (JSON):**
+    ```json
+    {
+      "title": "string",
+      "description": "string",
+      "zoneOriginId": 0,
+      "zoneDestinationId": 0,
+      "originLocationId": 0,
+      "destinationLocationId": 0,
+      "scheduledDate": "2025-11-15",
+      "estimatedDuration": 0.1,
+      "priority": "string"
+    }
+    ```
+  - **Respuesta exitosa:** `201 Created`
+
+- **GET `/api/v1/activity/{activityId}`**  
+   Obtiene una actividad por su ID.
+  - **Respuesta esperada:** `200 OK` o `404 Not Found`
+
+- **PUT `/api/v1/activity/{activityId}`**  
+   Actualiza una actividad por su identificador único.
+
+  - **Request body (JSON):**
+
+        ```json
+        {
+          "title": "string",
+          "description": "string",
+          "zoneOriginId": 0,
+          "zoneDestinationId": 0,
+          "originLocationId": 0,
+          "destinationLocationId": 0,
+          "scheduledDate": "2025-11-15",
+          "estimatedDuration": 0.1,
+          "priority": "string"
+        }
+        ```
+
+  - **Respuesta exitosa:** `200 OK`
+  - **Errores controlados:**
+    - `400 Bad Request` (input inválido)
+    - `404 Not Found` (referencia no válida)
+
+- **DELETE `/api/v1/activity/{activityId}`**  
+  Elimina una actividad por su identificador único.
+  - **Respuesta esperada:** `200 OK` o `404 Not Found`
+
+    ![Evidencias](img/imgs-swagger/evidencias/activities.png)
+    ![Evidencias](img/imgs-swagger/evidencias/equipment.png)
+
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 Como parte del proceso de revisión del Sprint, se presenta la evidencia documental de los servicios REST implementados en el backend del sistema. Estos servicios han sido desarrollados utilizando Spring Boot y desplegados en la nube mediante un App Service en Azure, con imágenes Docker personalizadas.
@@ -2207,7 +2323,7 @@ Durante el Sprint 3, el equipo colaboró de forma coordinada para avanzar en la 
 
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial.
 
-
+![Insights](img/insights.png)
 
 ## 5.3. Validation Interviews.
 
