@@ -1755,7 +1755,7 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.8.1. Database Diagram
 
-![Diagrama de Base de Datos](https://raw.githubusercontent.com/PetroTask/PetroTask-report/blob/e6c834df9faa3a9a88d6d30777c67e5f8be1fec3/img/Database%20Diagram.png)
+![Diagrama de Base de Datos](https://raw.githubusercontent.com/PetroTask/PetroTask-report/e6c834df9faa3a9a88d6d30777c67e5f8be1fec3/img/Database%20Diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
