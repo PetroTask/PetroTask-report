@@ -1879,12 +1879,46 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting corr
 #### 5.2.1.3. Sprint Backlog 1
 
 > #### Sprint 1 Backlog
->
-> | ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |
-> | ----- | -------------------------------------------------------------------------- | ------------------------- | --------------- |
-> | US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | 5                         | Sprint 1        |
-> | US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | 8                         | Sprint 1        |
-> | US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea               | 3                         | Sprint 1        |
+
+| ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |
+| ----- | -------------------------------------------------------------------------- | -------------------------- | ---------------- |
+| US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | 5                          | Sprint 1         |
+| US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | 8                          | Sprint 1         |
+| US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea               | 3                          | Sprint 1         |
+
+---
+
+### **Tareas del Sprint Backlog 1**
+
+#### **US-01 – Crear tareas con descripción, prioridad y recursos (5 pts)**
+
+| Tarea ID | Descripción de la tarea                                              | Responsable | Estimación |
+|---------|-----------------------------------------------------------------------|-------------|------------|
+| T1.1     | Diseñar formulario de creación de tareas                             | Frontend    | 1 pt       |
+| T1.2     | Implementar campos: descripción, prioridad, recursos                  | Frontend    | 2 pts      |
+| T1.3     | Crear endpoint POST `/tasks` en backend                               | Backend     | 1 pt       |
+| T1.4     | Validar datos obligatorios en backend                                 | Backend     | 1 pt       |
+
+---
+
+#### **US-05 – Acceso a tareas asignadas sin conexión (8 pts)**
+
+| Tarea ID | Descripción de la tarea                                                   | Responsable | Estimación |
+|---------|----------------------------------------------------------------------------|-------------|------------|
+| T5.1     | Implementar almacenamiento local (IndexedDB/LocalStorage)                 | Frontend    | 3 pts      |
+| T5.2     | Crear servicio de sincronización offline → online                         | Frontend    | 3 pts      |
+| T5.3     | Crear endpoint GET `/tasks/assigned/{id}`                                 | Backend     | 1 pt       |
+| T5.4     | Implementar mecanismo de sincronización en backend                        | Backend     | 1 pt       |
+
+---
+
+#### **US-06 – Registrar inicio y fin de tareas (3 pts)**
+
+| Tarea ID | Descripción de la tarea                                        | Responsable | Estimación |
+|---------|-----------------------------------------------------------------|-------------|------------|
+| T6.1     | Implementar botones “Iniciar tarea” y “Finalizar tarea”        | Frontend    | 1 pt       |
+| T6.2     | Crear endpoint PATCH `/tasks/{id}/start`                       | Backend     | 1 pt       |
+| T6.3     | Crear endpoint PATCH `/tasks/{id}/finish`                      | Backend     | 1 pt       |
 
 ---
 
