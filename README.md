@@ -2114,23 +2114,17 @@ Objetivos principales del sprint:
 
 ### 5.2.3.3. Sprint Backlog 3
 
-### Historias de Usuario Prioritarias
+El objetivo principal del **Sprint 3** es consolidar los módulos avanzados de PetroTask orientados a trazabilidad operativa, registro de evidencias y mejoras en las interfaces web destinadas a supervisores y técnicos de campo.
 
-- **US-31:** Registrar evidencias multimedia con ubicación para validar ejecución de tareas.
-- **US-32:** Recibir instrucciones detalladas y actualizadas en tiempo real.
-- **US-33:** Visualizar historial digital de tareas para auditorías internas.
-- **US-34:** Ver KPIs operativos mediante un dashboard actualizado.
-- **US-35:** Confirmar tareas sin conexión y sincronizar su estado cuando haya red.
-
-### Tareas del Sprint
-
-- Desarrollo de API para evidencias (POST/GET/DELETE/PUT).
-- Integración de metadatos y geolocalización en registros.
-- Implementación visual y lógica del HDO.
-- Optimización de consultas SQL para KPIs.
-- Mejoras de interfaz en Task Calendar.
-- Refactorización del frontend para mejorar rendimiento.
-- Pruebas unitarias y de integración del nuevo módulo multimedia.
+| Sprint # | User Story ID | User Story Title                                                      | Task ID | Task Title                                        | Descripción tarea                                                                                                                               | Estimated (hours) | Assigned To                            | Status | Story Points |
+| -------- | ------------- | --------------------------------------------------------------------- | ------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | -------------------------------------- | ------ | ------------ |
+| Sprint 3 | **US-31**     | Registrar evidencias multimedia con ubicación                         | T31     | Desarrollo de API para evidencias                 | Implementar endpoints REST (POST/GET/DELETE/PUT) para el manejo de evidencias multimedia.                                                       | 6                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 3 | **US-31**     | Registrar evidencias multimedia con ubicación                         | T32     | Integración de metadatos y geolocalización        | Implementar captura y almacenamiento de metadatos (ubicación GPS, timestamp) en registros de evidencias.                                        | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 3 | **US-32**     | Recibir instrucciones detalladas y actualizadas en tiempo real        | T33     | Mejoras de interfaz en Task Calendar              | Optimizar el calendario operativo dinámico para supervisores con actualizaciones en tiempo real.                                                | 5                 | **Santiago Valentino Solis Chang**     | Done   | 4            |
+| Sprint 3 | **US-33**     | Visualizar historial digital de tareas para auditorías internas       | T34     | Implementación visual y lógica del HDO            | Desarrollar el módulo de Historial Digital Operativo con trazabilidad completa de tareas.                                                       | 6                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
+| Sprint 3 | **US-34**     | Ver KPIs operativos mediante un dashboard actualizado                 | T35     | Optimización de consultas SQL para KPIs           | Mejorar el rendimiento de consultas para métricas operativas en el dashboard.                                                                   | 4                 | **Santiago Armando Baldeón Vivar**     | Done   | 3            |
+| Sprint 3 | **US-35**     | Confirmar tareas sin conexión y sincronizar su estado cuando haya red | T36     | Refactorización del frontend para mejorar rendimiento | Optimizar componentes frontend para mejor rendimiento en modo offline y sincronización.                                                         | 5                 | **Oskar Rodrigo Sosa Soto**            | Done   | 4            |
+| Sprint 3 | **US-35**     | Confirmar tareas sin conexión y sincronizar su estado cuando haya red | T37     | Pruebas unitarias y de integración                | Realizar pruebas del nuevo módulo multimedia y funcionalidades de sincronización offline.                                                       | 3                 | **Todo el equipo**                      | Done   | 3            |
 
 ---
 
