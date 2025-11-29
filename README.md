@@ -45,13 +45,13 @@ URL del repositorio para el reporte del proyecto: [Click aquí](https://github.c
 
 Para el desarrollo de la parte del informe correspondiente a la TB1, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
 
-| **Integrantes**                    | **Tareas asignadas**                                                                                                                                                                                                                                                                                                 |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Baldeón Vivar, Santiago Armando    | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video                                                                                                                                                    |
-| Oskar Rodrigo Sosa Soto            | Antescedentes y problemática, Problem Statements, Análisis de Entrevistas, Needfinding, Requirements Specification, Organization y Laling systems, Wireflow diagrams, Domain-Driven Software Architecture, Database diagram, Class diagram, Team Collaboration Insights, landing page, conclusiones, recomendaciones |
-| Rodrigo Fabrizio Aguilar Untiveros | Assumptions, Hypthesys statements, Análisis de Entrevistas, Needfinding, Requirements Specification, searching y navigation systems, wireframes, Domain-Driven Software Architecture, Database diagram, Class diagram, aspect leaders and collaborators, development evidence for sprint, landing page               |
-| Santiago Valentino Solis Chang     | Descripción del Startup, segmentos objetivos, registro de entrevistas, style guidelines, wireframes, mockup, prototype, context diagram, Software Development Environment Configuration, landing page                                                                                                                |
-| Johan Giovani Huamán Cuba          | Competidores, SEO Tags and Meta Tags, User Flow Diagrams, Software Configuration Management, Services Documentation Evidence for Sprint Review                                                                                                                                                                       |
+| **Integrantes**                    | **Tareas asignadas**                                                                                                                                                                                                                                                                                                  |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Baldeón Vivar, Santiago Armando    | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video                                                                                                                                                     |
+| Oskar Rodrigo Sosa Soto            | Antecedentes y problemática, Problem Statements, Análisis de Entrevistas, Needfinding, Requirements Specification, Organization y Labeling systems, Wireflow diagrams, Domain-Driven Software Architecture, Database diagram, Class diagram, Team Collaboration Insights, landing page, conclusiones, recomendaciones |
+| Rodrigo Fabrizio Aguilar Untiveros | Assumptions, Hypothesis statements, Análisis de Entrevistas, Needfinding, Requirements Specification, searching y navigation systems, wireframes, Domain-Driven Software Architecture, Database diagram, Class diagram, aspect leaders and collaborators, development evidence for sprint, landing page               |
+| Santiago Valentino Solis Chang     | Descripción del Startup, segmentos objetivos, registro de entrevistas, style guidelines, wireframes, mockup, prototype, context diagram, Software Development Environment Configuration, landing page                                                                                                                 |
+| Johan Giovani Huamán Cuba          | Competidores, SEO Tags and Meta Tags, User Flow Diagrams, Software Configuration Management, Services Documentation Evidence for Sprint Review                                                                                                                                                                        |
 
 **Trabajo Parcial (TP)**
 
@@ -64,6 +64,17 @@ Para el desarrollo del informe correspondiente al Trabajo Parcial (TP), la imple
 | Rodrigo Fabrizio Aguilar Untiveros | Documentación **Aspect Leaders and Collaborators**. Avance de **Bibliografía**.                                                                                                |
 | Santiago Valentino Solis Chang     | Documentación **Services Documentation Evidence for Sprint Review**. Avance de **Anexos**.                                                                                     |
 | Johan Giovani Huamán Cuba          | Documentación **Team Collaboration Insights during Sprint**. Avance de **Conclusiones** y **Recomendaciones**.                                                                 |
+
+**TB2**
+
+Para el desarrollo del informe correspondiente al TB2, la implementación de secciones y tareas se ha dividido de la siguiente manera entre los integrantes del grupo:
+
+| **Integrantes**                    | **Tareas asignadas**                                                                                                                                                                    |
+| :--------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Santiago Valentino Solis Chang     | **Despliegue** de Landing Page, Frontend y Backend. Elaboración y gestión del **Sprint Planning 2** y **Sprint Backlog 2**. Recopilación de **Development Evidence for Sprint Review**. |
+| Oskar Rodrigo Sosa Soto            | Avance de **Conclusiones** y **Recomendaciones**.                                                                                                                                       |
+| Rodrigo Fabrizio Aguilar Untiveros | Documentación **Aspect Leaders and Collaborators**. Avance de **Bibliografía**.                                                                                                         |
+| Johan Giovani Huamán Cuba          | Documentación **Team Collaboration Insights during Sprint**. Avance de **Conclusiones** y **Recomendaciones**.                                                                          |
 
 ## Github Collaboration Insights
 
@@ -154,7 +165,9 @@ Se puede identificar a los integrantes como:
       </ul>
     </td>
     <td style="border: 1px solid black; padding: 8px;">TB1: Tras finalizar la primera entrega, concluimos que conseguimos establecer una comunicación efectiva no solo mediante las grabaciones presentadas, como las entrevistas y el video de exposición, sino también a través de las consultas realizadas con los docentes para el desarrollo del trabajo, así como en la interacción entre nosotros como grupo y con nuestros demás compañeros. Esta comunicación nos permitió transmitir nuestras ideas de manera clara, comprensible, respetuosa y utilizando un lenguaje apropiado al contexto.<br><br>
-    <strong>TP:</strong> Al concluir el Trabajo Parcial, podemos afirmar que logramos mantener una comunicación oral clara y efectiva durante la exposición del Sprint 2. En esta presentación dimos a conocer los avances técnicos alcanzados —como el despliegue del Front y la Landing Page— y explicamos los resultados obtenidos en la ejecución de servicios y en la colaboración del equipo. Esta instancia evidenció nuestra capacidad para comunicar los logros del proyecto de forma técnica, ordenada y comprensible para la audiencia.
+    <strong>TP:</strong> Al concluir el Trabajo Parcial, podemos afirmar que logramos mantener una comunicación oral clara y efectiva durante la exposición del Sprint 2. En esta presentación dimos a conocer los avances técnicos alcanzados —como el despliegue del Front y la Landing Page— y explicamos los resultados obtenidos en la ejecución de servicios y en la colaboración del equipo. Esta instancia evidenció nuestra capacidad para comunicar los logros del proyecto de forma técnica, ordenada y comprensible para la audiencia.<br><br>
+    <strong>TB2:</strong> En esta entrega de la TB2, la comunicación oral fue clave durante la exposición del sistema completo y el sustento de los aportes individuales. Cada integrante logró defender con claridad sus entregables, usando un lenguaje técnico y adecuado al nivel del jurado evaluador. Además, las presentaciones grabadas y en vivo permitieron conectar los módulos desarrollados, evidenciando dominio y colaboración grupal.<br><br>
+    <strong>TF:</strong> En esta entrega, la comunicación oral siempre fue clave, mediante esta se pudo realizar la repartición del trabajo y además comunicar que es lo que creíamos que estaba mal y que podía mejorar. Todos pudimos participar oralmente para manejar el proyecto de forma correcta.
     </td>
   </tr>
   <tr>
@@ -229,7 +242,9 @@ Se puede identificar a los integrantes como:
       </ul>
     </td>
     <td style="border: 1px solid black; padding: 8px;">TB1: Al concluir la TB1, podemos afirmar que conseguimos plasmar nuestras ideas y el mensaje principal de nuestro proyecto por escrito. Esto se refleja en la redacción del análisis que realizamos como punto de partida para la implementación del trabajo. Dicho avance se evidencia en las historias de usuario, el análisis y la descripción de los elementos incluidos. Además, logramos definir el lenguaje adecuado para el diseño de la landing page, asegurando que los usuarios puedan comprenderla con facilidad.<br><br>
-    <strong>TP:</strong> Al concluir el Trabajo Parcial, podemos afirmar que logramos consolidar la documentación formal del Sprint 2, incluyendo la planificación, el backlog y las evidencias correspondientes. Este avance refleja nuestra capacidad para organizar y comunicar de manera clara el progreso del proyecto. Además, redactamos las secciones finales del informe (Conclusiones y Bibliografía), empleando un lenguaje técnico y formal que permitió presentar de forma coherente tanto los aspectos operativos como los resultados alcanzados.
+    <strong>TP:</strong> Al concluir el Trabajo Parcial, podemos afirmar que logramos consolidar la documentación formal del Sprint 2, incluyendo la planificación, el backlog y las evidencias correspondientes. Este avance refleja nuestra capacidad para organizar y comunicar de manera clara el progreso del proyecto. Además, redactamos las secciones finales del informe (Conclusiones y Bibliografía), empleando un lenguaje técnico y formal que permitió presentar de forma coherente tanto los aspectos operativos como los resultados alcanzados.<br><br>
+    <strong>TB2:</strong> La documentación escrita consolidó la presentación del trabajo final. Se mantuvo un lenguaje técnico, ordenado y coherente con las necesidades del proyecto. Cada documento fue redactado con precisión, permitiendo comprender el funcionamiento del sistema y las decisiones técnicas tomadas. La comunicación escrita también fortaleció la colaboración entre integrantes al tener una base clara sobre los desarrollos.<br><br>
+    <strong>TF:</strong> Al finalizar la entrega del TF, la comunicación escrita siguió siendo clave para poder lograr un buen desarrollo del informe, haciendo que cada parte esté bien formulada y se entienda perfectamente. Además la comunicación escrita también nos ayudó para comunicarnos por medios de mensajería como WhatsApp y Discord, y mediante estos realizar el trabajo y comentar cosas importantes.
     </td>
   </tr>
 </table>
@@ -1881,10 +1896,10 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting corr
 > #### Sprint 1 Backlog
 
 | ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |
-| ----- | -------------------------------------------------------------------------- | -------------------------- | ---------------- |
-| US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | 5                          | Sprint 1         |
-| US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | 8                          | Sprint 1         |
-| US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea               | 3                          | Sprint 1         |
+| ----- | -------------------------------------------------------------------------- | ------------------------- | --------------- |
+| US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | 5                         | Sprint 1        |
+| US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | 8                         | Sprint 1        |
+| US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea               | 3                         | Sprint 1        |
 
 ---
 
@@ -1892,33 +1907,33 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting corr
 
 #### **US-01 – Crear tareas con descripción, prioridad y recursos (5 pts)**
 
-| Tarea ID | Descripción de la tarea                                              | Responsable | Estimación |
-|---------|-----------------------------------------------------------------------|-------------|------------|
-| T1.1     | Diseñar formulario de creación de tareas                             | Frontend    | 1 pt       |
-| T1.2     | Implementar campos: descripción, prioridad, recursos                  | Frontend    | 2 pts      |
-| T1.3     | Crear endpoint POST `/tasks` en backend                               | Backend     | 1 pt       |
-| T1.4     | Validar datos obligatorios en backend                                 | Backend     | 1 pt       |
+| Tarea ID | Descripción de la tarea                              | Responsable | Estimación |
+| -------- | ---------------------------------------------------- | ----------- | ---------- |
+| T1.1     | Diseñar formulario de creación de tareas             | Frontend    | 1 pt       |
+| T1.2     | Implementar campos: descripción, prioridad, recursos | Frontend    | 2 pts      |
+| T1.3     | Crear endpoint POST `/tasks` en backend              | Backend     | 1 pt       |
+| T1.4     | Validar datos obligatorios en backend                | Backend     | 1 pt       |
 
 ---
 
 #### **US-05 – Acceso a tareas asignadas sin conexión (8 pts)**
 
-| Tarea ID | Descripción de la tarea                                                   | Responsable | Estimación |
-|---------|----------------------------------------------------------------------------|-------------|------------|
-| T5.1     | Implementar almacenamiento local (IndexedDB/LocalStorage)                 | Frontend    | 3 pts      |
-| T5.2     | Crear servicio de sincronización offline → online                         | Frontend    | 3 pts      |
-| T5.3     | Crear endpoint GET `/tasks/assigned/{id}`                                 | Backend     | 1 pt       |
-| T5.4     | Implementar mecanismo de sincronización en backend                        | Backend     | 1 pt       |
+| Tarea ID | Descripción de la tarea                                   | Responsable | Estimación |
+| -------- | --------------------------------------------------------- | ----------- | ---------- |
+| T5.1     | Implementar almacenamiento local (IndexedDB/LocalStorage) | Frontend    | 3 pts      |
+| T5.2     | Crear servicio de sincronización offline → online         | Frontend    | 3 pts      |
+| T5.3     | Crear endpoint GET `/tasks/assigned/{id}`                 | Backend     | 1 pt       |
+| T5.4     | Implementar mecanismo de sincronización en backend        | Backend     | 1 pt       |
 
 ---
 
 #### **US-06 – Registrar inicio y fin de tareas (3 pts)**
 
-| Tarea ID | Descripción de la tarea                                        | Responsable | Estimación |
-|---------|-----------------------------------------------------------------|-------------|------------|
-| T6.1     | Implementar botones “Iniciar tarea” y “Finalizar tarea”        | Frontend    | 1 pt       |
-| T6.2     | Crear endpoint PATCH `/tasks/{id}/start`                       | Backend     | 1 pt       |
-| T6.3     | Crear endpoint PATCH `/tasks/{id}/finish`                      | Backend     | 1 pt       |
+| Tarea ID | Descripción de la tarea                                 | Responsable | Estimación |
+| -------- | ------------------------------------------------------- | ----------- | ---------- |
+| T6.1     | Implementar botones “Iniciar tarea” y “Finalizar tarea” | Frontend    | 1 pt       |
+| T6.2     | Crear endpoint PATCH `/tasks/{id}/start`                | Backend     | 1 pt       |
+| T6.3     | Crear endpoint PATCH `/tasks/{id}/finish`               | Backend     | 1 pt       |
 
 ---
 
@@ -2150,15 +2165,15 @@ Objetivos principales del sprint:
 
 El objetivo principal del **Sprint 3** es consolidar los módulos avanzados de PetroTask orientados a trazabilidad operativa, registro de evidencias y mejoras en las interfaces web destinadas a supervisores y técnicos de campo.
 
-| Sprint # | User Story ID | User Story Title                                                      | Task ID | Task Title                                        | Descripción tarea                                                                                                                               | Estimated (hours) | Assigned To                            | Status | Story Points |
-| -------- | ------------- | --------------------------------------------------------------------- | ------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | -------------------------------------- | ------ | ------------ |
-| Sprint 3 | **US-31**     | Registrar evidencias multimedia con ubicación                         | T31     | Desarrollo de API para evidencias                 | Implementar endpoints REST (POST/GET/DELETE/PUT) para el manejo de evidencias multimedia.                                                       | 6                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
-| Sprint 3 | **US-31**     | Registrar evidencias multimedia con ubicación                         | T32     | Integración de metadatos y geolocalización        | Implementar captura y almacenamiento de metadatos (ubicación GPS, timestamp) en registros de evidencias.                                        | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
-| Sprint 3 | **US-32**     | Recibir instrucciones detalladas y actualizadas en tiempo real        | T33     | Mejoras de interfaz en Task Calendar              | Optimizar el calendario operativo dinámico para supervisores con actualizaciones en tiempo real.                                                | 5                 | **Santiago Valentino Solis Chang**     | Done   | 4            |
-| Sprint 3 | **US-33**     | Visualizar historial digital de tareas para auditorías internas       | T34     | Implementación visual y lógica del HDO            | Desarrollar el módulo de Historial Digital Operativo con trazabilidad completa de tareas.                                                       | 6                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
-| Sprint 3 | **US-34**     | Ver KPIs operativos mediante un dashboard actualizado                 | T35     | Optimización de consultas SQL para KPIs           | Mejorar el rendimiento de consultas para métricas operativas en el dashboard.                                                                   | 4                 | **Santiago Armando Baldeón Vivar**     | Done   | 3            |
-| Sprint 3 | **US-35**     | Confirmar tareas sin conexión y sincronizar su estado cuando haya red | T36     | Refactorización del frontend para mejorar rendimiento | Optimizar componentes frontend para mejor rendimiento en modo offline y sincronización.                                                         | 5                 | **Oskar Rodrigo Sosa Soto**            | Done   | 4            |
-| Sprint 3 | **US-35**     | Confirmar tareas sin conexión y sincronizar su estado cuando haya red | T37     | Pruebas unitarias y de integración                | Realizar pruebas del nuevo módulo multimedia y funcionalidades de sincronización offline.                                                       | 3                 | **Todo el equipo**                      | Done   | 3            |
+| Sprint # | User Story ID | User Story Title                                                      | Task ID | Task Title                                            | Descripción tarea                                                                                        | Estimated (hours) | Assigned To                            | Status | Story Points |
+| -------- | ------------- | --------------------------------------------------------------------- | ------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------- | -------------------------------------- | ------ | ------------ |
+| Sprint 3 | **US-31**     | Registrar evidencias multimedia con ubicación                         | T31     | Desarrollo de API para evidencias                     | Implementar endpoints REST (POST/GET/DELETE/PUT) para el manejo de evidencias multimedia.                | 6                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 3 | **US-31**     | Registrar evidencias multimedia con ubicación                         | T32     | Integración de metadatos y geolocalización            | Implementar captura y almacenamiento de metadatos (ubicación GPS, timestamp) en registros de evidencias. | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 3 | **US-32**     | Recibir instrucciones detalladas y actualizadas en tiempo real        | T33     | Mejoras de interfaz en Task Calendar                  | Optimizar el calendario operativo dinámico para supervisores con actualizaciones en tiempo real.         | 5                 | **Santiago Valentino Solis Chang**     | Done   | 4            |
+| Sprint 3 | **US-33**     | Visualizar historial digital de tareas para auditorías internas       | T34     | Implementación visual y lógica del HDO                | Desarrollar el módulo de Historial Digital Operativo con trazabilidad completa de tareas.                | 6                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
+| Sprint 3 | **US-34**     | Ver KPIs operativos mediante un dashboard actualizado                 | T35     | Optimización de consultas SQL para KPIs               | Mejorar el rendimiento de consultas para métricas operativas en el dashboard.                            | 4                 | **Santiago Armando Baldeón Vivar**     | Done   | 3            |
+| Sprint 3 | **US-35**     | Confirmar tareas sin conexión y sincronizar su estado cuando haya red | T36     | Refactorización del frontend para mejorar rendimiento | Optimizar componentes frontend para mejor rendimiento en modo offline y sincronización.                  | 5                 | **Oskar Rodrigo Sosa Soto**            | Done   | 4            |
+| Sprint 3 | **US-35**     | Confirmar tareas sin conexión y sincronizar su estado cuando haya red | T37     | Pruebas unitarias y de integración                    | Realizar pruebas del nuevo módulo multimedia y funcionalidades de sincronización offline.                | 3                 | **Todo el equipo**                     | Done   | 3            |
 
 ---
 
@@ -2367,9 +2382,8 @@ A continuación, se detallan los servicios implementados para los contextos Equi
 
 9. A continuación se muestra el acceso al API application desplegado, la ruta por defecto está restringida:
    ![Evidencias](img/evidencias_deploy/.png)
-    
-10. Por fines académicos, si añadimos a la ruta "swagger-ui/index.html" podremos acceder a la documentación. 
-   ![Evidencias](img/evidencias_deploy/.png)
+10. Por fines académicos, si añadimos a la ruta "swagger-ui/index.html" podremos acceder a la documentación.
+    ![Evidencias](img/evidencias_deploy/.png)
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint 3.
 
@@ -2503,3 +2517,9 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - [Video About The Product](https://www.youtube.com/watch?v=4TrH_UBEvOk)
 
 - [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319881_upc_edu_pe/EW4KQrrighJCmiQAXLX_8IABKZluaswrEMl6zfW9DHkFyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OjHwdR)
+
+- [URL Landing Page](https://landing-page-xd)
+
+- [URL Frontend](https://front-xd)
+
+- [URL Backend](https://back-xd)
