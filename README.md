@@ -1862,6 +1862,8 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ## 4.4. Web Applications UX/UI Design
 
+// TODO: mejorar todas las imágenes del cap 4.4, hacerlas en figma
+
 ![Web Applications UX/UI Design](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4%20ux%20ui%20design.JPG)
 
 ### 4.4.1. Web Applications Wireframes
@@ -1908,6 +1910,8 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 #### 4.7.1.1. Backend Class Diagram
 
+// TODO: Actualizar el diagrama y separar por contexto
+
 ![Diagrama de Clases Backend](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Backend.png)
 
 #### 4.7.1.2. Frontend Class Diagram
@@ -1917,6 +1921,8 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 ### 4.7.2. Class Dictionary
 
 ### 4.7.2.1. Backend Class Dictionary
+
+// TODO: Actualizar con los servicios que sí tenemos en nuestro backend
 
 | Clase                      | Atributos Principales                                                      | Métodos Principales                                                            | Descripción                                                                          |
 | -------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
@@ -2563,6 +2569,8 @@ A continuación, se detallan los servicios implementados para los contextos Equi
 8. En el centro de implementación de nuestro App Service podemos actualizar la imagen de docker conforme publiquemos nuevos avances.
    ![Evidencias](img/evidencias_deploy/app_service4.png)
 
+// TODO: terminar el deploy del backend
+
 9. A continuación se muestra el acceso al API application desplegado, la ruta por defecto está restringida:
    ![Evidencias](img/evidencias_deploy/.png)
 10. Por fines académicos, si añadimos a la ruta "swagger-ui/index.html" podremos acceder a la documentación.
@@ -2694,6 +2702,8 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 - Validación de flujo completo desde la interfaz hasta la base de datos.
 - Despliegue final del sistema en Azure listo para pruebas finales de usuario.
 
+// TODO: agregar imgs swagger
+
 #### Capturas de prueba de flujo completo de usuario
 
 ![Vista General](img/imgs-swagger/tf/.png)
@@ -2701,6 +2711,8 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 4 se completó la documentación de todos los endpoints correspondientes. Utilizando OpenAPI y Swagger UI, se definieron los contratos de los servicios, incluyendo los métodos HTTP, parámetros de entrada, estructuras de respuesta y ejemplos con datos reales.
+
+// TODO: agregar los request-response de todos los módulos
 
 #### Authentication - `/api/v1/auth`
 
@@ -2911,7 +2923,11 @@ Durante el Sprint 4, el equipo trabajó de forma intensiva en la integración fi
 
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
+// TODO: agregar img de insights sprint 4
+
 ## 5.3. Validation Interviews.
+
+// TODO: agregar más validaciones guiarnos de: [guia](https://github.com/UPC-GosTech/swiftport-report/blob/develop/README.md)
 
 ### 5.3.1. Diseño de Entrevistas
 
@@ -2995,6 +3011,8 @@ Se requiere un manual básico integrado (programado para Sprint 4).
 
 # 6. Conclusiones
 
+// TODO: agregar más conclusiones
+
 Este trabajo permitió establecer una base sólida para el desarrollo del proyecto. Se organizaron las tareas, se definieron los procesos de trabajo y se preparó el entorno técnico necesario. Esto dio claridad al equipo y facilitó la coordinación de actividades.
 
 La planificación de los sprints mostró que es posible avanzar de manera ordenada, con objetivos claros y medibles. También permitió reconocer la importancia de mantener registros de las decisiones técnicas y de dar valor a la comunicación constante dentro del equipo.
@@ -3028,6 +3046,8 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - [Video About The Product](https://www.youtube.com/watch?v=4TrH_UBEvOk)
 
 - [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319881_upc_edu_pe/EW4KQrrighJCmiQAXLX_8IABKZluaswrEMl6zfW9DHkFyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OjHwdR)
+
+// TODO: hacer deploy
 
 - [URL Landing Page](https://landing-page-xd)
 
