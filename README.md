@@ -2029,7 +2029,7 @@ Por otro lado, el backend y los servicios web serán desplegados en Azure Web Ap
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.1. Sprint 1
+## 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
 
@@ -2045,8 +2045,8 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting corr
 | **Attendees (to planning meeting)** | Integrantes del grupo                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Sprint n – 1 Review Summary**     | No existe sprint previo                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Sprint 1 Goal**                   | Nuestro enfoque está en **implementar las funciones esenciales para la creación y gestión de tareas** en la aplicación PetroTask. Creemos que esto permite a supervisores y técnicos empezar a interactuar con la plataforma en sus aspectos básicos. Esto se confirmará cuando los usuarios puedan crear, visualizar y marcar como completadas sus tareas, incluso en escenarios de baja conectividad. |
-| **Sprint 1 Velocity**               | 16 Story Points                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Sum of story points**             | 16 Story Points                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sprint 1 Velocity**               | 41 Story Points                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sum of story points**             | 41 Story Points                                                                                                                                                                                                                                                                                                                                                                                         |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -2060,47 +2060,22 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting corr
 
 #### 5.2.1.3. Sprint Backlog 1
 
+El objetivo principal del **Sprint 1** en **implementar las funciones esenciales para la creación y gestión de tareas** en la aplicación PetroTask. Creemos que esto permite a supervisores y técnicos empezar a interactuar con la plataforma en sus aspectos básicos. Esto se confirmará cuando los usuarios puedan crear, visualizar y marcar como completadas sus tareas, incluso en escenarios de baja conectividad.
+
 > #### Sprint 1 Backlog
 
-| ID    | User Story                                                                 | Estimación (Story Points) | Sprint Objetivo |
-| ----- | -------------------------------------------------------------------------- | ------------------------- | --------------- |
-| US-01 | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | 5                         | Sprint 1        |
-| US-05 | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | 8                         | Sprint 1        |
-| US-06 | Como técnico, quiero registrar el inicio y fin de cada tarea               | 3                         | Sprint 1        |
-
----
-
-### **Tareas del Sprint Backlog 1**
-
-#### **US-01 – Crear tareas con descripción, prioridad y recursos (5 pts)**
-
-| Tarea ID | Descripción de la tarea                              | Responsable | Estimación |
-| -------- | ---------------------------------------------------- | ----------- | ---------- |
-| T1.1     | Diseñar formulario de creación de tareas             | Frontend    | 1 pt       |
-| T1.2     | Implementar campos: descripción, prioridad, recursos | Frontend    | 2 pts      |
-| T1.3     | Crear endpoint POST `/tasks` en backend              | Backend     | 1 pt       |
-| T1.4     | Validar datos obligatorios en backend                | Backend     | 1 pt       |
-
----
-
-#### **US-05 – Acceso a tareas asignadas sin conexión (8 pts)**
-
-| Tarea ID | Descripción de la tarea                                   | Responsable | Estimación |
-| -------- | --------------------------------------------------------- | ----------- | ---------- |
-| T5.1     | Implementar almacenamiento local (IndexedDB/LocalStorage) | Frontend    | 3 pts      |
-| T5.2     | Crear servicio de sincronización offline → online         | Frontend    | 3 pts      |
-| T5.3     | Crear endpoint GET `/tasks/assigned/{id}`                 | Backend     | 1 pt       |
-| T5.4     | Implementar mecanismo de sincronización en backend        | Backend     | 1 pt       |
-
----
-
-#### **US-06 – Registrar inicio y fin de tareas (3 pts)**
-
-| Tarea ID | Descripción de la tarea                                 | Responsable | Estimación |
-| -------- | ------------------------------------------------------- | ----------- | ---------- |
-| T6.1     | Implementar botones “Iniciar tarea” y “Finalizar tarea” | Frontend    | 1 pt       |
-| T6.2     | Crear endpoint PATCH `/tasks/{id}/start`                | Backend     | 1 pt       |
-| T6.3     | Crear endpoint PATCH `/tasks/{id}/finish`               | Backend     | 1 pt       |
+| Sprint # | User Story ID | User Story Title                                                           | Task ID | Task Title                                            | Descripción tarea                                                                                                   | Estimated (hours) | Assigned To                            | Status | Story Points |
+| -------- | ------------- | -------------------------------------------------------------------------- | ------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------- | -------------------------------------- | ------ | ------------ |
+| Sprint 1 | **US-01**     | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | T01     | Diseño de interfaz para creación de tareas            | Diseñar y desarrollar el formulario de creación de tareas con campos de descripción, prioridad y recursos asignados | 8                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 1 | **US-01**     | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | T02     | Implementación de validaciones en frontend            | Implementar validaciones de campos requeridos y formatos válidos en el formulario de tareas                         | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 1 | **US-01**     | Como supervisor, quiero crear tareas con descripción, prioridad y recursos | T03     | Desarrollo de endpoint POST para crear tareas         | Desarrollar el endpoint REST POST /api/v1/tasks para la creación de nuevas tareas en el backend                     | 6                 | **Santiago Armando Baldeón Vivar**     | Done   | 5            |
+| Sprint 1 | **US-05**     | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | T04     | Implementación de almacenamiento local IndexedDB      | Implementar sistema de almacenamiento local usando IndexedDB para guardar tareas offline                            | 10                | **Oskar Rodrigo Sosa Soto**            | Done   | 8            |
+| Sprint 1 | **US-05**     | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | T05     | Desarrollo de lógica de sincronización de datos       | Implementar mecanismo de sincronización automática cuando se recupera la conexión a internet                        | 8                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 1 | **US-05**     | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de red   | T06     | Interfaz de visualización de tareas offline           | Desarrollar componentes de visualización de tareas que funcionen sin conexión                                       | 6                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 1 | **US-06**     | Como técnico, quiero registrar el inicio y fin de cada tarea               | T07     | Desarrollo de botones de inicio/fin de tarea          | Implementar botones interactivos para marcar inicio y fin de tareas con timestamps                                  | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 1 | **US-06**     | Como técnico, quiero registrar el inicio y fin de cada tarea               | T08     | Implementación de endpoint PUT para actualizar estado | Desarrollar endpoint PUT /api/v1/tasks/{id}/status para actualizar el estado de las tareas                          | 5                 | **Santiago Armando Baldeón Vivar**     | Done   | 3            |
+| Sprint 1 | **US-06**     | Como técnico, quiero registrar el inicio y fin de cada tarea               | T09     | Almacenamiento de timestamps y estados                | Implementar lógica para guardar timestamps de inicio y fin con persistencia local y en servidor                     | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 2            |
+| Sprint 1 | **US-06**     | Como técnico, quiero registrar el inicio y fin de cada tarea               | T10     | Pruebas de integración del módulo de tareas           | Realizar pruebas unitarias e integradas del flujo completo de gestión de tareas                                     | 3                 | **Todo el equipo**                     | Done   | 2            |
 
 ---
 
@@ -2146,7 +2121,7 @@ El equipo trabajó de forma colaborativa utilizando GitHub. Cada integrante apor
 
 ---
 
-### 5.2.1. Sprint 2
+## 5.2.1. Sprint 2
 
 ### 5.2.2.1. Sprint Planning 2
 
@@ -2161,8 +2136,8 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting corr
 | Attendees (to planning meeting) | Baldeón Vivar, Santiago Armando; Sosa Soto, Oskar Rodrigo; Aguilar Untiveros, Rodrigo Fabrizio; Solis Chang, Santiago Valentino; Huamán Cuba, Johan Giovani                                                                                                                                                          |
 | Sprint 1 Review Summary         | El Sprint 1 permitió definir la arquitectura del sistema, establecer la estructura del repositorio y desplegar la landing page base del proyecto. Se obtuvieron los primeros comentarios del equipo docente y se sentaron las bases para el desarrollo del frontend principal.                                       |
 | Sprint 2 Goal                   | Desarrollar el **frontend completo de la aplicación web PetroTask** utilizando Angular, implementando las principales vistas y componentes de interacción. Este sprint busca obtener una versión navegable y funcional del sistema que permita la visualización de tareas, gestión de usuarios y paneles de control. |
-| Sprint 2 Velocity               | 55 story points                                                                                                                                                                                                                                                                                                      |
-| Sum of story points             | 55 story points                                                                                                                                                                                                                                                                                                      |
+| Sprint 2 Velocity               | 37 story points                                                                                                                                                                                                                                                                                                      |
+| Sum of story points             | 37 story points                                                                                                                                                                                                                                                                                                      |
 
 ---
 
@@ -2187,16 +2162,16 @@ Durante este sprint se implementaron las vistas principales del sistema en Angul
 
 | Sprint # | User Story ID | User Story Title         | Task ID | Task Title                                    | Descripción tarea                                                                                                              | Estimated (hours) | Assigned To                            | Status | Story Points |
 | -------- | ------------- | ------------------------ | ------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------- | -------------------------------------- | ------ | ------------ |
-| Sprint 2 | **US01**      | Crear tareas             | T01     | Implementar vista de creación de tareas       | Desarrollar la interfaz que permita al supervisor crear nuevas tareas, con campos de descripción, prioridad, fecha y recursos. | 5                 | **Santiago Armando Baldeón Vivar**     | Done   | 4            |
-| Sprint 2 | **US02**      | Asignar tareas           | T02     | Desarrollar vista de asignación de tareas     | Implementar la vista que permita seleccionar técnicos o equipos disponibles y asignarles tareas desde la interfaz web.         | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
-| Sprint 2 | **US03**      | Reprogramar tareas       | T03     | Crear módulo visual de calendario             | Desarrollar componente de calendario interactivo que permita modificar fechas de tareas mediante drag & drop.                  | 5                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
-| Sprint 2 | **US04**      | Visualizar dashboard     | T04     | Diseñar Dashboard principal                   | Crear dashboard con resumen de tareas, métricas de progreso y estados generales del proyecto.                                  | 5                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
-| Sprint 2 | **US07**      | Adjuntar fotografías     | T05     | Crear componente de carga de archivos         | Implementar componente visual para subir imágenes como evidencia de ejecución de tareas.                                       | 3                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
-| Sprint 2 | **US08**      | Reportar incidencias     | T06     | Desarrollar vista de reporte de incidencias   | Crear formulario web donde el técnico pueda registrar incidencias con descripción y archivos adjuntos.                         | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
-| Sprint 2 | **US09**      | Configurar alertas       | T07     | Implementar vista de configuración de alertas | Crear pantalla para definir condiciones de alerta y periodicidad de notificaciones.                                            | 4                 | **Santiago Armando Baldeón Vivar**     | Done   | 3            |
-| Sprint 2 | **US11**      | Historial de alertas     | T08     | Crear vista de historial de alertas           | Desarrollar una tabla dinámica que muestre las alertas generadas, atendidas y pendientes.                                      | 3                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
-| Sprint 2 | **US14**      | Reportes personalizados  | T09     | Desarrollar módulo de reportes                | Implementar interfaz para generar reportes filtrados por fecha, técnico o tipo de tarea.                                       | 5                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
-| Sprint 2 | **US15**      | Métricas de cumplimiento | T10     | Crear vista de métricas de productividad      | Desarrollar gráficos y paneles de indicadores de desempeño utilizando librerías de visualización (Charts.js / ApexCharts).     | 3                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 2 | **US01**      | Crear tareas             | T11     | Implementar vista de creación de tareas       | Desarrollar la interfaz que permita al supervisor crear nuevas tareas, con campos de descripción, prioridad, fecha y recursos. | 5                 | **Santiago Armando Baldeón Vivar**     | Done   | 4            |
+| Sprint 2 | **US02**      | Asignar tareas           | T12     | Desarrollar vista de asignación de tareas     | Implementar la vista que permita seleccionar técnicos o equipos disponibles y asignarles tareas desde la interfaz web.         | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 2 | **US03**      | Reprogramar tareas       | T13     | Crear módulo visual de calendario             | Desarrollar componente de calendario interactivo que permita modificar fechas de tareas mediante drag & drop.                  | 5                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 2 | **US04**      | Visualizar dashboard     | T14     | Diseñar Dashboard principal                   | Crear dashboard con resumen de tareas, métricas de progreso y estados generales del proyecto.                                  | 5                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
+| Sprint 2 | **US07**      | Adjuntar fotografías     | T15     | Crear componente de carga de archivos         | Implementar componente visual para subir imágenes como evidencia de ejecución de tareas.                                       | 3                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 2 | **US08**      | Reportar incidencias     | T16     | Desarrollar vista de reporte de incidencias   | Crear formulario web donde el técnico pueda registrar incidencias con descripción y archivos adjuntos.                         | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 2 | **US09**      | Configurar alertas       | T17     | Implementar vista de configuración de alertas | Crear pantalla para definir condiciones de alerta y periodicidad de notificaciones.                                            | 4                 | **Santiago Armando Baldeón Vivar**     | Done   | 3            |
+| Sprint 2 | **US11**      | Historial de alertas     | T18     | Crear vista de historial de alertas           | Desarrollar una tabla dinámica que muestre las alertas generadas, atendidas y pendientes.                                      | 3                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 2 | **US14**      | Reportes personalizados  | T19     | Desarrollar módulo de reportes                | Implementar interfaz para generar reportes filtrados por fecha, técnico o tipo de tarea.                                       | 5                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
+| Sprint 2 | **US15**      | Métricas de cumplimiento | T20     | Crear vista de métricas de productividad      | Desarrollar gráficos y paneles de indicadores de desempeño utilizando librerías de visualización (Charts.js / ApexCharts).     | 3                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
 
 ---
 
@@ -2204,12 +2179,12 @@ Durante este sprint se implementaron las vistas principales del sistema en Angul
 
 Durante este sprint se desarrollaron las principales vistas y componentes del frontend de **PetroTask**. A continuación, se muestran algunos de los _commits_ más relevantes realizados en el repositorio del equipo:
 
-| Repository             | Branch             | Commit Id | Commit Message                       | Commit Message Body                                                    | Description                                   | Committed on (Date) |
-| ---------------------- | ------------------ | --------- | ------------------------------------ | ---------------------------------------------------------------------- | --------------------------------------------- | ------------------- |
-| upc-petrotask/frontend | sprint2-login-view | a12f3     | feat: add login view component       | Se desarrolló la vista de inicio de sesión con validaciones reactivas. | Vista funcional de Login completada.          | 2025-05-07          |
-| upc-petrotask/frontend | sprint2-dashboard  | b34e2     | feat: dashboard layout implemented   | Se añadió estructura base y tarjetas informativas del dashboard.       | Vista principal lista para integración.       | 2025-05-09          |
-| upc-petrotask/frontend | sprint2-tasks      | c58d1     | feat: task list and detail view      | Se desarrollaron las vistas de tareas y detalle con filtrado dinámico. | Funcionalidad de gestión de tareas operativa. | 2025-05-10          |
-| upc-petrotask/frontend | sprint2-styles     | d77a5     | chore: global styles and scss config | Configuración global de colores, fuentes y componentes base.           | Proyecto visualmente coherente.               | 2025-05-11          |
+| Repository                           | Branch             | Commit Id | Commit Message                       | Commit Message Body                                                    | Description                                   | Committed on (Date) |
+| ------------------------------------ | ------------------ | --------- | ------------------------------------ | ---------------------------------------------------------------------- | --------------------------------------------- | ------------------- |
+| upc-petrotask/petrotask-frontend-app | sprint2-login-view | a12f3     | feat: add login view component       | Se desarrolló la vista de inicio de sesión con validaciones reactivas. | Vista funcional de Login completada.          | 2025-10-07          |
+| upc-petrotask/petrotask-frontend-app | sprint2-dashboard  | b34e2     | feat: dashboard layout implemented   | Se añadió estructura base y tarjetas informativas del dashboard.       | Vista principal lista para integración.       | 2025-10-09          |
+| upc-petrotask/petrotask-frontend-app | sprint2-tasks      | c58d1     | feat: task list and detail view      | Se desarrollaron las vistas de tareas y detalle con filtrado dinámico. | Funcionalidad de gestión de tareas operativa. | 2025-10-10          |
+| upc-petrotask/petrotask-frontend-app | sprint2-styles     | d77a5     | chore: global styles and scss config | Configuración global de colores, fuentes y componentes base.           | Proyecto visualmente coherente.               | 2025-10-11          |
 
 ---
 
@@ -2307,47 +2282,85 @@ El Sprint Planning 3 tuvo como objetivo consolidar los módulos avanzados de Pet
 
 | Sprint #                        | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                              |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Date                            | 2025 - 11 - 30                                                                                                                                                                                                                                                                                                                                                                                        |
+| Date                            | 2025 - 11 - 12                                                                                                                                                                                                                                                                                                                                                                                        |
 | Time                            | 5:30 PM                                                                                                                                                                                                                                                                                                                                                                                               |
 | Location                        | Reunión virtual a través de Microsoft Teams                                                                                                                                                                                                                                                                                                                                                           |
 | Prepared by                     | Santiago Valentino Solis Chang                                                                                                                                                                                                                                                                                                                                                                        |
 | Attendees (to planning meeting) | Sosa Soto, Oskar Rodrigo; Aguilar Untiveros, Rodrigo Fabrizio; Solis Chang, Santiago Valentino; Huamán Cuba, Johan Giovani                                                                                                                                                                                                                                                                            |
 | Sprint 2 Review Summary         | El Sprint 2 se centró en el desarrollo de las pantallas principales de la aplicación web PetroTask utilizando Angular, logrando un avance significativo en la implementación del front-end. Se desplegó exitosamente la landing page actualizada y se integraron múltiples funcionalidades.                                                                                                           |
 | Sprint 3 Goal                   | Avanzar parte del **backend de la aplicación PetroTask** utilizando Java + Spring Boot, implementando los principales módulos y sus respectivas tareas, creemos que esto le dará a los planificadores la capacidad para empezar a estructurar y organizar las primeras operaciones. Esto se confirmará cuando la API permita crear, obtener, actualizar y borrar las respectivas tareas exitosamente. |
-| Sprint 3 Velocity               | 55 story points                                                                                                                                                                                                                                                                                                                                                                                       |
-| Sum of story points             | 55 story points                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 3 Velocity               | 61 story points                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sum of story points             | 61 story points                                                                                                                                                                                                                                                                                                                                                                                       |
 
 ---
 
 ### 5.2.3.2. Aspect Leaders and Collaborators.
 
-| Aspecto                           | Líder asignado                     | Colaboradores             | Responsabilidades                                                       |
-| --------------------------------- | ---------------------------------- | ------------------------- | ----------------------------------------------------------------------- |
-| Diseño UX/UI para supervisores    | Santiago Valentino Solis           | Rodrigo Fabrizio Aguilar  | Optimización de wireframes, prototipos y flujos del dashboard.          |
-| Módulo de evidencias operativas   | Oskar Rodrigo Sosa Soto            | Johan Giovani Huamán Cuba | Implementación del flujo de carga, compresión y registro de evidencias. |
-| Historial Digital Operativo (HDO) | Rodrigo Fabrizio Aguilar Untiveros | Oskar Rodrigo Sosa Soto   | Diseño del almacenamiento, endpoints y trazabilidad.                    |
-| Backend & APIs Sprint 3           | Johan Giovani Huamán Cuba          | Oskar Rodrigo Sosa Soto   | Actualización y documentación de endpoints del backend.                 |
-| Testing y validación interna      | Todo el equipo                     | —                         | Pruebas de integración, funcionalidad y usabilidad.                     |
+En este sprint, nos enfocaremos en el despliegue y programación de varias funcionalidades clave del proyecto. Se programará el backend para integrar los Web Services y se realizará la implementación de las últimas funcionalidades de las Web Applications.
+
+| Team Member                         | Código     | Desarrollo Backend AppWeb | Documentación |
+| ----------------------------------- | ---------- | ------------------------- | ------------- |
+| Sosa Soto, Oskar Rodrigo            | U202212214 | C                         | C             |
+| Aguilar Untiveros, Rodrigo Fabrizio | U202318309 | C                         | L             |
+| Solis Chang, Santiago Valentino     | U20231B475 | L                         | L             |
+| Huamán Cuba, Johan Giovani          | U202417448 | C                         | C             |
 
 ---
 
 ### 5.2.3.3. Sprint Backlog 3
 
-El objetivo principal del **Sprint 3** es consolidar los módulos avanzados de PetroTask orientados a trazabilidad operativa, registro de evidencias y mejoras en las interfaces web destinadas a supervisores y técnicos de campo.
+Durante este sprint se desarrolló el backend completo utilizando Spring Boot, lo que permitió establecer la lógica de negocio y la conexión con la base de datos.
 
-| Sprint # | User Story ID | User Story Title                                                      | Task ID | Task Title                                            | Descripción tarea                                                                                        | Estimated (hours) | Assigned To                            | Status | Story Points |
-| -------- | ------------- | --------------------------------------------------------------------- | ------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------- | -------------------------------------- | ------ | ------------ |
-| Sprint 3 | **US-31**     | Registrar evidencias multimedia con ubicación                         | T31     | Desarrollo de API para evidencias                     | Implementar endpoints REST (POST/GET/DELETE/PUT) para el manejo de evidencias multimedia.                | 6                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
-| Sprint 3 | **US-31**     | Registrar evidencias multimedia con ubicación                         | T32     | Integración de metadatos y geolocalización            | Implementar captura y almacenamiento de metadatos (ubicación GPS, timestamp) en registros de evidencias. | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
-| Sprint 3 | **US-32**     | Recibir instrucciones detalladas y actualizadas en tiempo real        | T33     | Mejoras de interfaz en Task Calendar                  | Optimizar el calendario operativo dinámico para supervisores con actualizaciones en tiempo real.         | 5                 | **Santiago Valentino Solis Chang**     | Done   | 4            |
-| Sprint 3 | **US-33**     | Visualizar historial digital de tareas para auditorías internas       | T34     | Implementación visual y lógica del HDO                | Desarrollar el módulo de Historial Digital Operativo con trazabilidad completa de tareas.                | 6                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
-| Sprint 3 | **US-34**     | Ver KPIs operativos mediante un dashboard actualizado                 | T35     | Optimización de consultas SQL para KPIs               | Mejorar el rendimiento de consultas para métricas operativas en el dashboard.                            | 4                 | **Santiago Armando Baldeón Vivar**     | Done   | 3            |
-| Sprint 3 | **US-35**     | Confirmar tareas sin conexión y sincronizar su estado cuando haya red | T36     | Refactorización del frontend para mejorar rendimiento | Optimizar componentes frontend para mejor rendimiento en modo offline y sincronización.                  | 5                 | **Oskar Rodrigo Sosa Soto**            | Done   | 4            |
-| Sprint 3 | **US-35**     | Confirmar tareas sin conexión y sincronizar su estado cuando haya red | T37     | Pruebas unitarias y de integración                    | Realizar pruebas del nuevo módulo multimedia y funcionalidades de sincronización offline.                | 3                 | **Todo el equipo**                     | Done   | 3            |
+| Sprint # | User Story ID | User Story Title                                                           | Task ID | Task Title                                                     | Descripción tarea                                                                                     | Estimated (hours) | Assigned To                            | Status | Story Points |
+| -------- | ------------- | -------------------------------------------------------------------------- | ------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------- | -------------------------------------- | ------ | ------------ |
+| Sprint 3 | **US-02**     | Como supervisor, quiero asignar tareas a técnicos específicos o equipos    | T21     | Desarrollo de interfaz de asignación de tareas                 | Diseñar y desarrollar interfaz para asignar tareas a técnicos individuales o equipos completos        | 6                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 3 | **US-02**     | Como supervisor, quiero asignar tareas a técnicos específicos o equipos    | T22     | Implementación de endpoint POST para asignación de tareas      | Desarrollar endpoint REST POST /api/v1/tasks/{id}/assign para asignar técnicos a tareas               | 5                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 3 | **US-02**     | Como supervisor, quiero asignar tareas a técnicos específicos o equipos    | T23     | Validación de disponibilidad de técnicos                       | Implementar lógica para verificar disponibilidad de técnicos antes de asignar tareas                  | 4                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 3 | **US-03**     | Como supervisor, quiero reprogramar tareas en tiempo real ante imprevistos | T24     | Desarrollo de módulo de reprogramación de tareas               | Implementar funcionalidad para modificar fechas y horarios de tareas existentes en tiempo real        | 8                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 8            |
+| Sprint 3 | **US-03**     | Como supervisor, quiero reprogramar tareas en tiempo real ante imprevistos | T25     | Notificaciones de cambios de programación                      | Implementar sistema de notificaciones push para informar cambios de programación a técnicos asignados | 6                 | **Oskar Rodrigo Sosa Soto**            | Done   | 5            |
+| Sprint 3 | **US-04**     | Como supervisor, quiero visualizar el estado de todas las tareas           | T26     | Desarrollo de dashboard de visualización de tareas             | Crear dashboard interactivo con filtros y visualización del estado de todas las tareas del sistema    | 8                 | **Santiago Valentino Solis Chang**     | Done   | 8            |
+| Sprint 3 | **US-04**     | Como supervisor, quiero visualizar el estado de todas las tareas           | T27     | Implementación de endpoints GET para métricas de tareas        | Desarrollar endpoints GET /api/v1/tasks/metrics para obtener estadísticas y estados de tareas         | 5                 | **Oskar Rodrigo Sosa Soto**            | Done   | 5            |
+| Sprint 3 | **US-17**     | Como supervisor, quiero gestionar el inventario de herramientas y equipos  | T28     | Desarrollo de módulo de gestión de inventario                  | Implementar CRUD completo para gestión de herramientas y equipos con endpoints REST                   | 8                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 3 | **US-17**     | Como supervisor, quiero gestionar el inventario de herramientas y equipos  | T29     | Integración de inventario con asignación de tareas             | Vincular inventario de herramientas con la asignación de recursos en tareas                           | 5                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 3 | **US-24**     | Como técnico, quiero recibir alertas meteorológicas de mi zona de trabajo  | T30     | Integración con servicio de alertas meteorológicas             | Integrar API externa de clima para obtener alertas meteorológicas por ubicación GPS                   | 7                 | **Oskar Rodrigo Sosa Soto**            | Done   | 5            |
+| Sprint 3 | **US-24**     | Como técnico, quiero recibir alertas meteorológicas de mi zona de trabajo  | T31     | Sistema de notificaciones de alertas climáticas                | Implementar sistema de notificaciones push para alertas meteorológicas según ubicación del técnico    | 5                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 3 | **US-30**     | Como supervisor, quiero recibir notificaciones de tareas próximas a vencer | T32     | Implementación de sistema de recordatorios automáticos         | Desarrollar lógica para detectar tareas próximas a vencer y enviar notificaciones automáticas         | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 3 | **US-30**     | Como supervisor, quiero recibir notificaciones de tareas próximas a vencer | T33     | Interfaz de configuración de alertas de vencimiento            | Crear interfaz para configurar tiempos de anticipación de alertas de vencimiento de tareas            | 3                 | **Santiago Valentino Solis Chang**     | Done   | 2            |
+| Sprint 3 | **US-30**     | Como supervisor, quiero recibir notificaciones de tareas próximas a vencer | T34     | Pruebas de integración del módulo de Sprint 3                  | Realizar pruebas unitarias e integradas de todos los módulos desarrollados en Sprint 3                | 4                 | **Todo el equipo**                     | Done   | 3            |
+| Sprint 3 | **TS01**      | Registro de usuario                                                        | T35     | Implementación de endpoint POST /api/v1/auth/sign-up           | Desarrollar endpoint para registro de usuarios con validaciones de datos y manejo de errores          | 6                 | **Oskar Rodrigo Sosa Soto**            | Done   | 5            |
+| Sprint 3 | **TS02**      | Autenticación de usuario                                                   | T36     | Implementación de endpoint POST /api/v1/auth/sign-in           | Desarrollar endpoint para autenticación con generación de tokens JWT                                  | 5                 | **Oskar Rodrigo Sosa Soto**            | Done   | 5            |
+| Sprint 3 | **TS03**      | Listar todas las zonas                                                     | T37     | Implementación de endpoint GET /api/v1/zones                   | Desarrollar endpoint para listar todas las zonas del sistema                                          | 4                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 3 | **TS04**      | Obtener zona por ID                                                        | T38     | Implementación de endpoint GET /api/v1/zones/{id}              | Desarrollar endpoint para obtener detalles de zona específica                                         | 3                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 3 | **TS05**      | Filtrar zonas por estado                                                   | T39     | Implementación de endpoint GET /api/v1/zones?active            | Desarrollar endpoint para filtrar zonas por estado activo/inactivo                                    | 3                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 3 | **TS06**      | Crear nueva zona                                                           | T40     | Implementación de endpoint POST /api/v1/zones                  | Desarrollar endpoint para crear nuevas zonas con validaciones                                         | 5                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 3 | **TS07**      | Actualizar zona                                                            | T41     | Implementación de endpoint PUT /api/v1/zones/{id}              | Desarrollar endpoint para actualizar datos de zona existente                                          | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 3 | **TS08**      | Eliminar zona                                                              | T42     | Implementación de endpoint DELETE /api/v1/zones/{id}           | Desarrollar endpoint para eliminar zona con validación de dependencias                                | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 3 | **TS09**      | Listar todas las ubicaciones                                               | T43     | Implementación de endpoint GET /api/v1/locations               | Desarrollar endpoint para listar todas las ubicaciones del sistema                                    | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 3 | **TS10**      | Obtener ubicación por ID                                                   | T44     | Implementación de endpoint GET /api/v1/locations/{id}          | Desarrollar endpoint para obtener detalles de ubicación específica                                    | 3                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 3 | **TS11**      | Filtrar ubicaciones por zona                                               | T45     | Implementación de endpoint GET /api/v1/locations?zoneId        | Desarrollar endpoint para filtrar ubicaciones por zona                                                | 4                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 3 | **TS12**      | Crear nueva ubicación                                                      | T46     | Implementación de endpoint POST /api/v1/locations              | Desarrollar endpoint para crear nuevas ubicaciones con coordenadas GPS                                | 5                 | **Oskar Rodrigo Sosa Soto**            | Done   | 5            |
+| Sprint 3 | **TS13**      | Actualizar ubicación                                                       | T47     | Implementación de endpoint PUT /api/v1/locations/{id}          | Desarrollar endpoint para actualizar datos de ubicación existente                                     | 4                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 3 | **TS14**      | Eliminar ubicación                                                         | T48     | Implementación de endpoint DELETE /api/v1/locations/{id}       | Desarrollar endpoint para eliminar ubicación con validación de dependencias                           | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 3 | **TS15**      | Listar todos los equipos                                                   | T49     | Implementación de endpoint GET /api/v1/equipment               | Desarrollar endpoint para listar todos los equipos disponibles                                        | 4                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 3 | **TS16**      | Obtener equipo por ID                                                      | T50     | Implementación de endpoint GET /api/v1/equipment/{id}          | Desarrollar endpoint para obtener detalles de equipo específico                                       | 3                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 3 | **TS17**      | Filtrar equipos por estado                                                 | TS51    | Implementación de endpoint GET /api/v1/equipment?status        | Desarrollar endpoint para filtrar equipos por estado (DISPONIBLE, EN_USO, MANTENIMIENTO)              | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 3 | **TS18**      | Crear nuevo equipo                                                         | T52     | Implementación de endpoint POST /api/v1/equipment              | Desarrollar endpoint para crear nuevos equipos con validaciones                                       | 5                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 3 | **TS19**      | Actualizar equipo                                                          | T53     | Implementación de endpoint PUT /api/v1/equipment/{id}          | Desarrollar endpoint para actualizar datos de equipo existente                                        | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 3 | **TS20**      | Cambiar estado de equipo                                                   | T54     | Implementación de endpoint PATCH /api/v1/equipment/{id}/status | Desarrollar endpoint para cambiar estado de equipo mediante PATCH                                     | 3                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 3 | **TS21**      | Eliminar equipo                                                            | T55     | Implementación de endpoint DELETE /api/v1/equipment/{id}       | Desarrollar endpoint para eliminar equipo con validación de dependencias                              | 4                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
 
 ---
 
 ### 5.2.3.4. Development Evidence for Sprint Review.
+
+Durante este sprint se desarrollaron las principales vistas y componentes del frontend de **PetroTask**. A continuación, se muestran algunos de los _commits_ más relevantes realizados en el repositorio del equipo:
+
+| Repository                   | Branch  | Commit Id | Commit Message                                                                               | Commit Message Body                                                             | Description                                                        | Committed on (Date) |
+| ---------------------------- | ------- | --------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------- |
+| upc-petrotask/petrotask-back | develop | be0da8d   | feat(iam): Implement RoleCommandService for handling SeedRolesCommand                        | Se desarrolló el RoleCommandService para poblar la tabla de roles               | La tabla de Roles ahora contiene los mismos para validar permisos. | 2025-11-14          |
+| upc-petrotask/petrotask-back | develop | 13c4e6f   | feat(iam): Update BCryptHashingService to extend HashingService interface                    | Se añadió el servicio de hashing para encriptar las contraseñas de los usuarios | Servicio de encriptación listo.                                    | 2025-11-14          |
+| upc-petrotask/petrotask-back | develop | 0c77c5a   | feat(activities): Implement ActivityCommandService for managing activity operations          | Se desarrolló el CommandService para crear las actividades                      | Servicio para crear actividades listo.                             | 2025-11-14          |
+| upc-petrotask/petrotask-back | develop | 81f7034   | feat(activities): Implement ActivityQueryService for querying activities by various criteria | Se desarrolló el QueryService para hacer peticiones a la tabla de actividades   | Servicio de peticiones para actividades listo.                     | 2025-11-14          |
 
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 
@@ -2559,16 +2572,344 @@ A continuación, se detallan los servicios implementados para los contextos Equi
 
 Durante el Sprint 3, el equipo colaboró de forma coordinada para avanzar en la implementación del backend de la solución PetroTask, empleando Spring Boot. A continuación se muestra la participación de cada integrante, agrupada por áreas de responsabilidad principal:
 
-| Nombre                                  | Actividad                                                                                                                                 |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Johan Giovani Huaman Cuba**           | Desarrollo de `TaskCommandService`, `ActivityQueryService`, `EmployeeCommandService`, `TaskSchedulingQueryService` y lógica en `Shared`.  |
-| **Oskar Rodrigo Sosa Soto**             | Estructura base del proyecto, entidades principales (`Equipment`, `Employee`, `Task`), lógica de login y endpoints de tareas por usuario. |
-| **SRodrigo Fabrizio Aguilar Untiveros** | Modelado de entidades (`Task`, `Employee`, `Team`), programación condicional y lógica de ejecución planificada.                           |
-| **Santiago Valentino Solis Chang**      | Controladores REST (`Activities`, `Employee`, `Task`), validaciones backend y definición de configuración `SharedConfig`.                 |
+| Nombre                                 | Actividad                                                                                                                                 |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Johan Giovani Huamán Cuba**          | Desarrollo de `TaskCommandService`, `ActivityQueryService`, `EmployeeCommandService`, `TaskSchedulingQueryService` y lógica en `Shared`.  |
+| **Oskar Rodrigo Sosa Soto**            | Estructura base del proyecto, entidades principales (`Equipment`, `Employee`, `Task`), lógica de login y endpoints de tareas por usuario. |
+| **Rodrigo Fabrizio Aguilar Untiveros** | Modelado de entidades (`Task`, `Employee`, `Team`), programación condicional y lógica de ejecución planificada.                           |
+| **Santiago Valentino Solis Chang**     | Controladores REST (`Activities`, `Employee`, `Task`), validaciones backend y definición de configuración `SharedConfig`.                 |
 
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial.
 
 ![Insights](img/insights.png)
+
+## 5.2.4. Sprint 4
+
+### 5.2.4.1. Sprint Planning 4.
+
+En este sprint, nuestro objetivo principal fue finalizar el desarrollo del backend y lograr la integración total con el frontend de la aplicación web. Con esta entrega, buscamos que todas las funcionalidades principales estén operativas de extremo a extremo, permitiendo a los usuarios interactuar con el sistema de manera efectiva. La validación de este avance se dará al comprobar el funcionamiento conjunto de frontend y backend, mediante pruebas funcionales completas.
+
+| Sprint #                        | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Date                            | 2025 - 11 - 29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Time                            | 5:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Location                        | Reunión virtual a través de Microsoft Teams                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Prepared by                     | Santiago Valentino Solis Chang                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Attendees (to planning meeting) | Sosa Soto, Oskar Rodrigo; Aguilar Untiveros, Rodrigo Fabrizio; Solis Chang, Santiago Valentino; Huamán Cuba, Johan Giovani                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 3 Review Summary         | El Sprint 3 permitió implementar la primera versión funcional del backend con servicios REST y lógica de negocio. Se integraron múltiples módulos y se desplegó en la nube mediante Azure, dejando la base lista para conexión con el frontend.                                                                                                                                                                                                                                                    |
+| Sprint 4 Goal                   | Nuestra meta es implementar una solución para reportar incidencias y asignar personal que pueda resolverlas. Conectando el backend con el web frontend de PetroTask, creemos que esto le permitirá a los supervisores y administradores planear con anticipación una solución segura en caso ocurra una incidencia. Esto se confirmará cuando nuestros usuarios puedan crear, asignar y/o actualizar tareas sin problemas a través de nuestra interfaz web y el sistema valide todo correctamente. |
+| Sprint 4 Velocity               | 61 story points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of story points             | 61 story points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+
+---
+
+### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En este sprint, nos enfocamos en integrar completamente el backend con el frontend, realizando pruebas de extremo a extremo, corrigiendo errores y garantizando la operatividad del sistema. Se realizaron ajustes en ambos lados del sistema para asegurar la compatibilidad entre los módulos desarrollados.
+
+| Team Member                         | Código     | Desarrollo Backend AppWeb | Integración y Validación Frontend |
+| ----------------------------------- | ---------- | ------------------------- | --------------------------------- |
+| Sosa Soto, Oskar Rodrigo            | U202212214 | L                         | L                                 |
+| Aguilar Untiveros, Rodrigo Fabrizio | U202318309 | C                         | C                                 |
+| Solis Chang, Santiago Valentino     | U20231B475 | L                         | L                                 |
+| Huamán Cuba, Johan Giovani          | U202417448 | C                         | C                                 |
+
+---
+
+### 5.2.4.3. Sprint Backlog 4
+
+El objetivo principal del **Sprint 4** es integrar el backend con el frontend, implementando funcionalidades avanzadas como sincronización automática, gestión de evidencias multimedia, visualización GPS, manuales offline y resolución de conflictos de sincronización.
+
+| Sprint # | User Story ID | User Story Title                                                               | Task ID | Task Title                                                              | Descripción tarea                                                                                    | Estimated (hours) | Assigned To                            | Status | Story Points |
+| -------- | ------------- | ------------------------------------------------------------------------------ | ------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------- | -------------------------------------- | ------ | ------------ |
+| Sprint 4 | **US-07**     | Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado | T56     | Desarrollo de módulo de carga de imágenes                               | Implementar funcionalidad para subir y almacenar fotografías como evidencia de tareas completadas    | 6                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 4 | **US-07**     | Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado | T57     | Integración de almacenamiento en Azure Blob Storage                     | Configurar y conectar Azure Blob Storage para almacenamiento de imágenes con URLs de acceso          | 5                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 4 | **US-07**     | Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado | T58     | Validación de formatos y tamaños de archivo                             | Implementar validaciones de tipo de archivo, tamaño máximo y compresión automática de imágenes       | 3                 | **Oskar Rodrigo Sosa Soto**            | Done   | 2            |
+| Sprint 4 | **US-13**     | Como técnico, quiero que mis datos se sincronicen automáticamente              | T59     | Implementación de sincronización automática en background               | Desarrollar servicio de sincronización automática que detecte conexión y sincronice datos pendientes | 10                | **Oskar Rodrigo Sosa Soto**            | Done   | 8            |
+| Sprint 4 | **US-13**     | Como técnico, quiero que mis datos se sincronicen automáticamente              | T60     | Sistema de cola de sincronización con prioridades                       | Implementar cola de sincronización con manejo de prioridades para diferentes tipos de datos          | 8                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 4 | **US-13**     | Como técnico, quiero que mis datos se sincronicen automáticamente              | T61     | Indicadores visuales de estado de sincronización                        | Crear componentes UI para mostrar estado de sincronización (pendiente, en proceso, completado)       | 4                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 4 | **US-15**     | Como supervisor, quiero visualizar métricas de cumplimiento de tareas          | T62     | Desarrollo de dashboard de métricas de cumplimiento                     | Crear dashboard con gráficos de cumplimiento, tiempos promedio y tendencias de productividad         | 8                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
+| Sprint 4 | **US-15**     | Como supervisor, quiero visualizar métricas de cumplimiento de tareas          | T63     | Implementación de endpoints para estadísticas                           | Desarrollar endpoints GET /api/v1/metrics/tasks para obtener métricas agregadas de tareas            | 6                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 4 | **US-19**     | Como técnico, quiero completar checklist de seguridad antes de iniciar tareas  | T64     | Desarrollo de módulo de checklist de seguridad                          | Implementar sistema de checklist configurable con validación obligatoria antes de iniciar tareas     | 5                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 4 | **US-19**     | Como técnico, quiero completar checklist de seguridad antes de iniciar tareas  | T65     | Almacenamiento y trazabilidad de checklist                              | Implementar lógica para guardar respuestas de checklist con timestamps y vincularlas a tareas        | 3                 | **Oskar Rodrigo Sosa Soto**            | Done   | 2            |
+| Sprint 4 | **US-21**     | Como supervisor, quiero visualizar la ubicación GPS de las tareas en un mapa   | T66     | Integración de mapas con Google Maps API                                | Integrar Google Maps API para visualización de ubicaciones GPS de tareas en mapa interactivo         | 10                | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 8            |
+| Sprint 4 | **US-21**     | Como supervisor, quiero visualizar la ubicación GPS de las tareas en un mapa   | T67     | Desarrollo de marcadores y clustering de tareas                         | Implementar marcadores personalizados y clustering para agrupar tareas cercanas en el mapa           | 6                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 4 | **US-25**     | Como técnico, quiero consultar manuales de procedimientos offline              | T68     | Implementación de módulo de manuales con cache offline                  | Desarrollar sistema de descarga y almacenamiento local de manuales PDF para consulta sin conexión    | 7                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 4 | **US-25**     | Como técnico, quiero consultar manuales de procedimientos offline              | T69     | Interfaz de búsqueda y navegación de manuales                           | Crear interfaz para buscar, filtrar y navegar por manuales descargados con visor de PDF integrado    | 5                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 4 | **US-26**     | Como técnico, quiero resolver conflictos de sincronización manualmente         | T70     | Desarrollo de módulo de detección de conflictos                         | Implementar lógica para detectar conflictos de sincronización entre versiones local y servidor       | 10                | **Oskar Rodrigo Sosa Soto**            | Done   | 8            |
+| Sprint 4 | **US-26**     | Como técnico, quiero resolver conflictos de sincronización manualmente         | T71     | Interfaz de resolución de conflictos                                    | Crear UI para mostrar conflictos y permitir al usuario elegir qué versión mantener o fusionar datos  | 8                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 4 | **US-26**     | Como técnico, quiero resolver conflictos de sincronización manualmente         | T72     | Pruebas de integración completas del Sprint 4                           | Realizar pruebas unitarias e integradas de todos los módulos desarrollados en Sprint 4               | 6                 | **Todo el equipo**                     | Done   | 3            |
+| Sprint 4 | **TS22**      | Listar todos los equipos (teams)                                               | T73     | Implementación de endpoint GET /api/v1/teams                            | Desarrollar endpoint para listar todos los equipos de trabajo disponibles                            | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 4 | **TS23**      | Obtener equipo (team) por ID                                                   | T74     | Implementación de endpoint GET /api/v1/teams/{id}                       | Desarrollar endpoint para obtener detalles de equipo de trabajo específico                           | 3                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 4 | **TS24**      | Filtrar equipos por estado                                                     | T75     | Implementación de endpoint GET /api/v1/teams?status                     | Desarrollar endpoint para filtrar equipos de trabajo por estado (ACTIVE, INACTIVE)                   | 4                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 4 | **TS25**      | Filtrar equipos por zona                                                       | T76     | Implementación de endpoint GET /api/v1/teams?zoneId                     | Desarrollar endpoint para filtrar equipos de trabajo por zona asignada                               | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 4 | **TS26**      | Crear nuevo equipo (team)                                                      | T77     | Implementación de endpoint POST /api/v1/teams                           | Desarrollar endpoint para crear nuevos equipos de trabajo con validaciones                           | 5                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 4 | **TS27**      | Actualizar equipo (team)                                                       | T78     | Implementación de endpoint PUT /api/v1/teams/{id}                       | Desarrollar endpoint para actualizar datos de equipo de trabajo existente                            | 4                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 4 | **TS28**      | Cambiar estado de equipo (team)                                                | T79     | Implementación de endpoint PATCH /api/v1/teams/{id}/status              | Desarrollar endpoint para cambiar estado de equipo de trabajo mediante PATCH                         | 3                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 4 | **TS29**      | Asignar miembros a equipo                                                      | T80     | Implementación de endpoint POST /api/v1/teams/{id}/members              | Desarrollar endpoint para asignar miembros a equipo de trabajo                                       | 5                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 4 | **TS30**      | Eliminar miembro de equipo                                                     | T81     | Implementación de endpoint DELETE /api/v1/teams/{id}/members/{memberId} | Desarrollar endpoint para eliminar miembros de equipo de trabajo                                     | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 4 | **TS31**      | Eliminar equipo (team)                                                         | T82     | Implementación de endpoint DELETE /api/v1/teams/{id}                    | Desarrollar endpoint para eliminar equipo de trabajo con validación de dependencias                  | 4                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 4 | **TS32**      | Listar todas las tareas                                                        | T83     | Implementación de endpoint GET /api/v1/tasks                            | Desarrollar endpoint para listar todas las tareas del sistema                                        | 4                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 4 | **TS33**      | Obtener tarea por ID                                                           | T84     | Implementación de endpoint GET /api/v1/tasks/{id}                       | Desarrollar endpoint para obtener detalles de tarea específica                                       | 3                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 4 | **TS34**      | Filtrar tareas por estado                                                      | T85     | Implementación de endpoint GET /api/v1/tasks?status                     | Desarrollar endpoint para filtrar tareas por estado (PENDING, IN_PROGRESS, COMPLETED)                | 4                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 4 | **TS35**      | Filtrar tareas por equipo                                                      | T86     | Implementación de endpoint GET /api/v1/tasks?teamId                     | Desarrollar endpoint para filtrar tareas por equipo asignado                                         | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 4 | **TS36**      | Crear nueva tarea                                                              | T87     | Implementación de endpoint POST /api/v1/tasks                           | Desarrollar endpoint para crear nuevas tareas con descripción, prioridad y recursos                  | 6                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 4 | **TS37**      | Actualizar tarea                                                               | T88     | Implementación de endpoint PUT /api/v1/tasks/{id}                       | Desarrollar endpoint para actualizar datos de tarea existente                                        | 5                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 4 | **TS38**      | Cambiar estado de tarea                                                        | T89     | Implementación de endpoint PATCH /api/v1/tasks/{id}/status              | Desarrollar endpoint para cambiar estado de tarea mediante PATCH                                     | 3                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 4 | **TS39**      | Asignar tarea a equipo                                                         | T90     | Implementación de endpoint POST /api/v1/tasks/{id}/assign               | Desarrollar endpoint para asignar tarea a equipo de trabajo                                          | 4                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 4 | **TS40**      | Eliminar tarea                                                                 | T91     | Implementación de endpoint DELETE /api/v1/tasks/{id}                    | Desarrollar endpoint para eliminar tarea con validación de estado                                    | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 4 | **TS41**      | Listar todas las actividades                                                   | T92     | Implementación de endpoint GET /api/v1/activities                       | Desarrollar endpoint para listar todas las actividades del sistema                                   | 4                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 4 | **TS42**      | Obtener actividad por ID                                                       | T93     | Implementación de endpoint GET /api/v1/activities/{id}                  | Desarrollar endpoint para obtener detalles de actividad específica                                   | 3                 | **Johan Giovani Huamán Cuba**          | Done   | 3            |
+| Sprint 4 | **TS43**      | Filtrar actividades por tipo                                                   | T94     | Implementación de endpoint GET /api/v1/activities?type                  | Desarrollar endpoint para filtrar actividades por tipo                                               | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 4 | **TS44**      | Filtrar actividades por tarea                                                  | T95     | Implementación de endpoint GET /api/v1/activities?taskId                | Desarrollar endpoint para filtrar actividades por tarea asociada                                     | 4                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 4 | **TS45**      | Filtrar actividades por ubicación                                              | T96     | Implementación de endpoint GET /api/v1/activities?locationId            | Desarrollar endpoint para filtrar actividades por ubicación                                          | 4                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 4 | **TS46**      | Crear nueva actividad                                                          | T97     | Implementación de endpoint POST /api/v1/activities                      | Desarrollar endpoint para crear nuevas actividades con detalles operativos                           | 6                 | **Santiago Valentino Solis Chang**     | Done   | 5            |
+| Sprint 4 | **TS47**      | Actualizar actividad                                                           | T98     | Implementación de endpoint PUT /api/v1/activities/{id}                  | Desarrollar endpoint para actualizar datos de actividad existente                                    | 5                 | **Johan Giovani Huamán Cuba**          | Done   | 5            |
+| Sprint 4 | **TS48**      | Cambiar estado de actividad                                                    | T99     | Implementación de endpoint PATCH /api/v1/activities/{id}/status         | Desarrollar endpoint para cambiar estado de actividad mediante PATCH                                 | 3                 | **Oskar Rodrigo Sosa Soto**            | Done   | 3            |
+| Sprint 4 | **TS49**      | Registrar evidencias en actividad                                              | T100    | Implementación de endpoint POST /api/v1/activities/{id}/evidences       | Desarrollar endpoint para registrar evidencias multimedia en actividades                             | 6                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 5            |
+| Sprint 4 | **TS50**      | Obtener evidencias de actividad                                                | T101    | Implementación de endpoint GET /api/v1/activities/{id}/evidences        | Desarrollar endpoint para obtener evidencias de actividad específica                                 | 3                 | **Rodrigo Fabrizio Aguilar Untiveros** | Done   | 3            |
+| Sprint 4 | **TS51**      | Eliminar actividad                                                             | T102    | Implementación de endpoint DELETE /api/v1/activities/{id}               | Desarrollar endpoint para eliminar actividad con validación de dependencias                          | 4                 | **Santiago Valentino Solis Chang**     | Done   | 3            |
+| Sprint 4 | **TS52**      | Validar integridad de datos                                                    | T103    | Implementación de validaciones de integridad referencial                | Desarrollar validaciones de integridad entre entidades del sistema (tareas, equipos, actividades)    | 5                 | **Todo el equipo**                     | Done   | 5            |
+
+---
+
+### 5.2.4.4. Development Evidence for Sprint Review
+
+En esta sección se presenta evidencia del progreso alcanzado durante el Sprint 4, centrado en la integración total del backend con el frontend, permitiendo la funcionalidad completa del sistema desde la interfaz web. A continuación, se muestran los commits más relevantes realizados en el repositorio `petrotask-back`.
+
+| Repository                   | Branch  | Commit Id | Commit Message                        | Commit Message Body                                                                                             | Description                                                                                            | Committed on (Date) |
+| ---------------------------- | ------- | --------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------- |
+| upc-petrotask/petrotask-back | develop | 03co2f3   | chore: update connection string       | Se actualizó la cadena de conexión para entornos de producción, permitiendo conexión segura a la base de datos. | Ajuste técnico necesario para despliegue en Azure con entorno productivo funcionando correctamente.    | 2025-11-29          |
+| upc-petrotask/petrotask-back | develop | c4e0ded   | fix: auth routes                      | Se corrigieron rutas del sistema de autenticación y se aseguraron encabezados y métodos válidos para CORS.      | Las rutas de inicio de sesión y registro ya pueden ser consumidas desde frontend sin errores de red.   | 2025-11-29          |
+| upc-petrotask/petrotask-back | develop | 412c48f   | chore: db prod connection string      | Se estableció la cadena de conexión para base de datos en Azure en entorno productivo.                          | Permite que las notificaciones y servicios persistentes funcionen correctamente en entorno real.       | 2025-11-29          |
+| upc-petrotask/petrotask-back | develop | 1795b3a   | feat: crud for users. Sign Up updated | Se implementó el CRUD completo de usuarios, con mejoras en el registro y validaciones adicionales.              | SAhora el sistema permite registrar nuevos usuarios desde el frontend e integrarlos al flujo de login. | 2025-11-29          |
+
+---
+
+### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 4, se lograron las siguientes metas principales:
+
+- Integración funcional de todos los módulos backend con la aplicación web.
+- Validación de flujo completo desde la interfaz hasta la base de datos.
+- Despliegue final del sistema en Azure listo para pruebas finales de usuario.
+
+#### Capturas de prueba de flujo completo de usuario
+
+![Vista General](img/imgs-swagger/tf/.png)
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 4 se completó la documentación de todos los endpoints correspondientes. Utilizando OpenAPI y Swagger UI, se definieron los contratos de los servicios, incluyendo los métodos HTTP, parámetros de entrada, estructuras de respuesta y ejemplos con datos reales.
+
+#### Authentication - `/api/v1/auth`
+
+| HTTP Verb | Endpoint   | Description         |
+| --------- | ---------- | ------------------- |
+| `POST`    | `/sign-up` | Registro de usuario |
+| `POST`    | `/sign-in` | Login de usuario    |
+
+**Ejemplo de Request:**
+
+```json
+POST /sign-up
+{}
+```
+
+**Ejemplo de Response:**
+
+```json
+{}
+```
+
+---
+
+#### Zones - `/api/v1/zones`
+
+| HTTP Verb | Endpoint             | Description            |
+| --------- | -------------------- | ---------------------- |
+| `GET`     | `/zones`             | Listar todas las zonas |
+| `GET`     | `/zones/{id}`        | Obtener zona por ID    |
+| `GET`     | `/zones?active=true` | Filtrar por estado     |
+| `POST`    | `/zones`             | Crear zona             |
+| `PUT`     | `/zones/{id}`        | Actualizar zona        |
+| `DELETE`  | `/zones/{id}`        | Eliminar zona          |
+
+**Ejemplo de Request:**
+
+```json
+POST /zones
+{}
+```
+
+**Ejemplo de Response:**
+
+```json
+{}
+```
+
+---
+
+#### Locations - `/api/v1/locations`
+
+| HTTP Verb | Endpoint                 | Description                  |
+| --------- | ------------------------ | ---------------------------- |
+| `GET`     | `/locations`             | Listar todas las ubicaciones |
+| `GET`     | `/locations/{id}`        | Obtener ubicación por ID     |
+| `GET`     | `/locations?zoneId={id}` | Filtrar por zona             |
+| `POST`    | `/locations`             | Crear ubicación              |
+| `PUT`     | `/locations/{id}`        | Actualizar ubicación         |
+| `DELETE`  | `/locations/{id}`        | Eliminar ubicación           |
+
+**Ejemplo de Request:**
+
+```json
+POST /locations
+{}
+```
+
+**Ejemplo de Response:**
+
+```json
+{}
+```
+
+---
+
+#### Equipment - `/api/v1/equipment`
+
+| HTTP Verb | Endpoint                       | Description                 |
+| --------- | ------------------------------ | --------------------------- |
+| `GET`     | `/equipment`                   | Listar todo el equipamiento |
+| `GET`     | `/equipment/{id}`              | Obtener equipo por ID       |
+| `GET`     | `/equipment?status=DISPONIBLE` | Filtrar por estado          |
+| `POST`    | `/equipment`                   | Crear equipo                |
+| `PUT`     | `/equipment/{id}`              | Actualizar equipo           |
+| `PATCH`   | `/equipment/{id}/status`       | Cambiar estado              |
+| `DELETE`  | `/equipment/{id}`              | Eliminar equipo             |
+
+**Ejemplo de Request:**
+
+```json
+POST /equipment
+{}
+```
+
+**Ejemplo de Response:**
+
+```json
+{}
+```
+
+---
+
+#### Teams - `/api/v1/teams`
+
+| HTTP Verb | Endpoint                     | Description              |
+| --------- | ---------------------------- | ------------------------ |
+| `GET`     | `/teams`                     | Listar todos los equipos |
+| `GET`     | `/teams/{id}`                | Obtener equipo por ID    |
+| `GET`     | `/teams?status=ACTIVE`       | Filtrar por estado       |
+| `GET`     | `/teams?zoneId={id}`         | Filtrar por zona         |
+| `POST`    | `/teams`                     | Crear equipo             |
+| `PUT`     | `/teams/{id}`                | Actualizar equipo        |
+| `PATCH`   | `/teams/{id}/status`         | Cambiar estado           |
+| `PATCH`   | `/teams/{id}/members/add`    | Agregar miembro          |
+| `PATCH`   | `/teams/{id}/members/remove` | Quitar miembro           |
+| `DELETE`  | `/teams/{id}`                | Eliminar equipo          |
+
+**Ejemplo de Request:**
+
+```json
+POST /teams
+{}
+```
+
+**Ejemplo de Response:**
+
+```json
+{}
+```
+
+---
+
+#### Tasks - `/api/v1/tasks`
+
+| HTTP Verb | Endpoint                  | Description                 |
+| --------- | ------------------------- | --------------------------- |
+| `GET`     | `/tasks`                  | Listar todas las tareas     |
+| `GET`     | `/tasks/{id}`             | Obtener tarea por ID        |
+| `GET`     | `/tasks?status=PENDIENTE` | Filtrar por estado          |
+| `GET`     | `/tasks?activityId={id}`  | Filtrar por actividad       |
+| `POST`    | `/tasks`                  | Crear tarea                 |
+| `PUT`     | `/tasks/{id}`             | Actualizar tarea            |
+| `PATCH`   | `/tasks/{id}/progress`    | Actualizar progreso (0-100) |
+| `PATCH`   | `/tasks/{id}/status`      | Cambiar estado              |
+| `DELETE`  | `/tasks/{id}`             | Eliminar tarea              |
+
+**Ejemplo de Request:**
+
+```json
+POST /tasks
+{}
+```
+
+**Ejemplo de Response:**
+
+```json
+{}
+```
+
+---
+
+#### Activities - `/api/v1/activities`
+
+| HTTP Verb | Endpoint                       | Description                  |
+| --------- | ------------------------------ | ---------------------------- |
+| `GET`     | `/activities`                  | Listar todas las actividades |
+| `GET`     | `/activities/{id}`             | Obtener actividad por ID     |
+| `GET`     | `/activities?status=PENDIENTE` | Filtrar por estado           |
+| `GET`     | `/activities?priority=ALTA`    | Filtrar por prioridad        |
+| `GET`     | `/activities?crewId={code}`    | Filtrar por equipo           |
+| `POST`    | `/activities`                  | Crear actividad              |
+| `PUT`     | `/activities/{id}`             | Actualizar actividad         |
+| `PATCH`   | `/activities/{id}/status`      | Cambiar estado               |
+| `PATCH`   | `/activities/{id}/crew`        | Asignar equipo               |
+| `PATCH`   | `/activities/{id}/vehicle`     | Asignar vehículo             |
+| `PATCH`   | `/activities/{id}/notes`       | Actualizar notas supervisor  |
+| `DELETE`  | `/activities/{id}`             | Eliminar actividad           |
+
+**Ejemplo de Request:**
+
+```json
+POST /activities
+{}
+```
+
+**Ejemplo de Response:**
+
+```json
+{}
+```
+
+---
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante este sprint no se realizó ningún despliegue específico, para ver el proceso de despliegue del FrontEnd y el BackEnd de la aplicación puede revisar los puntos correspondientes al sprint 2 y 3 correspondientemente.
+
+### 5.2.4.8. Team Collaboration Insights during Sprint 4.
+
+Durante el Sprint 4, el equipo trabajó de forma intensiva en la integración final del sistema. La colaboración entre áreas de backend y frontend fue clave para lograr una experiencia fluida para el usuario final. Se realizaron sesiones de debugging compartido, pruebas cruzadas y ajustes conjuntos.
+
+| Nombre                                 | Actividad                                                                                     |
+| -------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Johan Giovani Huamán Cuba**          | Ajustes de CORS, controladores y validación completa de Swagger UI.                           |
+| **Oskar Rodrigo Sosa Soto**            | Lógica de programación de tareas, integración de endpoints con Angular.                       |
+| **Rodrigo Fabrizio Aguilar Untiveros** | Programación de lógica condicional, pruebas del módulo Activities y Tasks.                    |
+| **Santiago Valentino Solis Chang**     | Validación e integración de servicios con frontend, pruebas funcionales, soporte en recursos. |
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
 ## 5.3. Validation Interviews.
 
@@ -2693,4 +3034,3 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - [URL Frontend](https://front-xd)
 
 - [URL Backend](https://back-xd)
-
