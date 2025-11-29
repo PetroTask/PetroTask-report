@@ -107,25 +107,46 @@ Se puede identificar a los integrantes como:
         <li>Conclusiones</li>
         <li>Recomendaciones</li>
       </ul>
-      <strong>Oskar Rodrigo Sosa Soto</strong> <br>TP
+      <br>TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Sección Team Collaboration Insights during Sprint (Exposición oral de los retos y soluciones del sprint).</li>
         <li>Avance de Conclusiones y Recomendaciones (Preparación para la presentación oral).</li>
       </ul>
-      <br>
+      <br>TB2
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Aporte del Spring 3</li>
+      </ul>
+      <br>TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del código</li>
+        <li>Sprint planning 4</li>
+        <li>Aspect Leaders and Collaborators</li>
+      </ul>
       <strong>Rodrigo Fabrizio Aguilar Untiveros</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Assumptions</li>
-        <li>Hypthesys Statements</li>
+        <li>Hypothesis Statements</li>
         <li>[...] (Tareas de TB1)</li>
+        <li>Sprint Backlog 1</li>
         <li>Aspect Leaders and Collaborators</li>
         <li>Development Evidence for Sprint</li>
       </ul>
-      <strong>Rodrigo Fabrizio Aguilar Untiveros</strong> <br>TP
+      <br>TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Recopilación de Execution Evidence for Sprint Review (Preparación de la demostración en vivo).</li>
+        <li>Gestión del Sprint Planning 2 y Sprint Backlog 2 (Coordinación y comunicación de objetivos).</li>
       </ul>
-      <br>
+      <br>TB2
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Soporte de diagramas</li>
+        <li>Aporte del Spring 3</li>
+      </ul>
+      <br>TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del código</li>
+        <li>Sprint Backlog 4</li>
+        <li>Development Evidence for Sprint Review</li>
+      </ul>
       <strong>Santiago Valentino Solis Chang</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Descripción del Startup</li>
@@ -134,34 +155,47 @@ Se puede identificar a los integrantes como:
         <li>Prototype</li>
         <li>Context Diagram</li>
       </ul>
-      <strong>Santiago Valentino Solis Chang</strong> <br>TP
+      <br>TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Sección Team Collaboration Insights during Sprint (Exposición oral de los retos y soluciones del sprint).</li>
-      </ul>
-      <br>
-      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1
-      <ul style="margin-top: 5px; padding-left: 20px;">
-        <li>Canvas, Diseño de entrevistas, edición del video</li>
-        <li>[...] (Tareas de TB1)</li>
-        <li>Sprint Backlog 1</li>
-      </ul>
-      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TP
-      <ul style="margin-top: 5px; padding-left: 20px;">
-        <li>Gestión del Sprint Planning 2 y Sprint Backlog 2 (Coordinación y comunicación de objetivos).</li>
         <li>Recopilación de Development Evidence for Sprint Review (Preparación de la demostración técnica).</li>
+      </ul>
+      <br>TB2
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Creación de diagramas</li>
+        <li>Implementación de Iam</li>
+        <li>Despliegue</li>
+      </ul>
+      <br>TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del código</li>
+        <li>Services Documentation Evidence for Sprint Review</li>
+        <li>Software Deployment Evidence for Sprint Review</li>
       </ul>
       <br>
       <strong>Johan Giovani Huamán Cuba</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Canvas, Diseño de entrevistas, edición del video</li>
         <li>Competidores</li>
         <li>SEO Tags and Meta Tags</li>
         <li>[...] (Tareas de TB1)</li>
         <li>Services Documentation Evidence for Sprint Review</li>
       </ul>
-      <strong>Johan Giovani Huamán Cuba</strong> <br>TP
+      <br>TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Sección Aspect Leaders and Collaborators (Exposición de roles y liderazgo).</li>
         <li>Avance de Conclusiones y Recomendaciones (Preparación para la presentación oral).</li>
+      </ul>
+      <br>TB2
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Video about the team</li>
+        <li>Video about the product</li>
+        <li>Diseño y análisis de entrevistas</li>
+      </ul>
+      <br>TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Sprint Backlog 4</li>
+        <li>Development Evidence for Sprint Review</li>
       </ul>
     </td>
     <td style="border: 1px solid black; padding: 8px;">TB1: Tras finalizar la primera entrega, concluimos que conseguimos establecer una comunicación efectiva no solo mediante las grabaciones presentadas, como las entrevistas y el video de exposición, sino también a través de las consultas realizadas con los docentes para el desarrollo del trabajo, así como en la interacción entre nosotros como grupo y con nuestros demás compañeros. Esta comunicación nos permitió transmitir nuestras ideas de manera clara, comprensible, respetuosa y utilizando un lenguaje apropiado al contexto.<br><br>
@@ -182,24 +216,47 @@ Se puede identificar a los integrantes como:
         <li>Conclusiones</li>
         <li>Recomendaciones</li>
       </ul>
-      <strong>Oskar Rodrigo Sosa Soto</strong> <br>TP
+      <br>TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Documentación de Services Documentation Evidence for Sprint Review.</li>
         <li>Redacción del Avance de Conclusiones, Recomendaciones y Anexos.</li>
+      </ul>
+      <br>TB2
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li></li>
+      </ul>
+      <br>TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del código</li>
+        <li>Sprint planning 4</li>
+        <li>Aspect Leaders and Collaborators</li>
       </ul>
       <br>
       <strong>Rodrigo Fabrizio Aguilar Untiveros</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Assumptions</li>
-        <li>Hypthesys Statements</li>
+        <li>Hypothesis Statements</li>
         <li>[...] (Tareas de TB1)</li>
         <li>Aspect Leaders and Collaborators</li>
+        <li>Sprint Backlog 1</li>
         <li>Development Evidence for Sprint</li>
       </ul>
-      <strong>Rodrigo Fabrizio Aguilar Untiveros</strong> <br>TP
+      <br>TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Redacción de Aspect Leaders and Collaborators.</li>
         <li>Elaboración del Avance de Bibliografía.</li>
+        <li>Elaboración del Sprint Planning 2 y Sprint Backlog 2.</li>
+      </ul>
+      <br>TB2
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Sprint 3</li>
+        <li>Soporte en diagramas</li>
+      </ul>
+      <br>TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del código</li>
+        <li>Sprint Backlog 4</li>
+        <li>Development Evidence for Sprint Review</li>
       </ul>
       <br>
       <strong>Santiago Valentino Solis Chang</strong> <br>TB1
@@ -210,42 +267,57 @@ Se puede identificar a los integrantes como:
         <li>Prototype</li>
         <li>Context Diagram</li>
       </ul>
-      <strong>Santiago Valentino Solis Chang</strong> <br>TP
+      <br>TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Documentación de Software Deployment Evidence for Sprint Review.</li>
         <li>Redacción de Team Collaboration Insights during Sprint.</li>
-      </ul>
-      <br>
-      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1
-      <ul style="margin-top: 5px; padding-left: 20px;">
-        <li>Canvas, Diseño de entrevistas, edición del video</li>
-        <li>[...] (Tareas de TB1)</li>
-        <li>Sprint Backlog 1</li>
-      </ul>
-      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TP
-      <ul style="margin-top: 5px; padding-left: 20px;">
-        <li>Elaboración del Sprint Planning 2 y Sprint Backlog 2.</li>
         <li>Documentación de Development Evidence y Execution Evidence.</li>
+      </ul>
+      <br>TB2
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Creación de diagramas</li>
+        <li>Implementación de Iam</li>
+        <li>Despliegue</li>
+      </ul>
+      <br>TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del código</li>
+        <li>Services Documentation Evidence for Sprint Review</li>
+        <li>Software Deployment Evidence for Sprint Review</li>
       </ul>
       <br>
       <strong>Johan Giovani Huamán Cuba</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Canvas, Diseño de entrevistas, edición del video</li>
         <li>Competidores</li>
         <li>SEO Tags and Meta Tags</li>
         <li>[...] (Tareas de TB1)</li>
         <li>Services Documentation Evidence for Sprint Review</li>
       </ul>
-      <strong>Johan Giovani Huamán Cuba</strong> <br>TP
+      <br>TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Redacción de Aspect Leaders and Collaborators.</li>
         <li>Elaboración del Avance de Bibliografía.</li>
       </ul>
+      <br>TB2
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Video about the team</li>
+        <li>Video about the product</li>
+        <li>Diseño y análisis de entrevistas</li>
+      </ul>
+      <br>TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Sprint Backlog 4</li>
+        <li>Development Evidence for Sprint Review</li>
+      </ul>
+      <br>
     </td>
     <td style="border: 1px solid black; padding: 8px;">TB1: Al concluir la TB1, podemos afirmar que conseguimos plasmar nuestras ideas y el mensaje principal de nuestro proyecto por escrito. Esto se refleja en la redacción del análisis que realizamos como punto de partida para la implementación del trabajo. Dicho avance se evidencia en las historias de usuario, el análisis y la descripción de los elementos incluidos. Además, logramos definir el lenguaje adecuado para el diseño de la landing page, asegurando que los usuarios puedan comprenderla con facilidad.<br><br>
     <strong>TP:</strong> Al concluir el Trabajo Parcial, podemos afirmar que logramos consolidar la documentación formal del Sprint 2, incluyendo la planificación, el backlog y las evidencias correspondientes. Este avance refleja nuestra capacidad para organizar y comunicar de manera clara el progreso del proyecto. Además, redactamos las secciones finales del informe (Conclusiones y Bibliografía), empleando un lenguaje técnico y formal que permitió presentar de forma coherente tanto los aspectos operativos como los resultados alcanzados.<br><br>
     <strong>TB2:</strong> La documentación escrita consolidó la presentación del trabajo final. Se mantuvo un lenguaje técnico, ordenado y coherente con las necesidades del proyecto. Cada documento fue redactado con precisión, permitiendo comprender el funcionamiento del sistema y las decisiones técnicas tomadas. La comunicación escrita también fortaleció la colaboración entre integrantes al tener una base clara sobre los desarrollos.<br><br>
     <strong>TF:</strong> Al finalizar la entrega del TF, la comunicación escrita siguió siendo clave para poder lograr un buen desarrollo del informe, haciendo que cada parte esté bien formulada y se entienda perfectamente. Además la comunicación escrita también nos ayudó para comunicarnos por medios de mensajería como WhatsApp y Discord, y mediante estos realizar el trabajo y comentar cosas importantes.
     </td>
+
   </tr>
 </table>
 
@@ -1365,24 +1437,103 @@ A continuación se presentan los escenarios actuales As-is de los segmentos obje
 
 # User Stories
 
-| User Story ID | Título                    | Descripción                                                                                                                             | Criterios de aceptación                                                                                                                                    | Relacionado con (Epic ID) |
-| ------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| US01          | Crear tareas              | Como supervisor, quiero crear tareas con descripción, prioridad y recursos asignados para organizar las operaciones diarias.            | Escenario: DADO que estoy en “Nueva tarea”, CUANDO ingreso los datos obligatorios y guardo, ENTONCES la tarea se registra y aparece en la lista.           | EP01                      |
-| US02          | Asignar tareas            | Como supervisor, quiero asignar tareas a técnicos o equipos para distribuir eficientemente la carga de trabajo.                         | Escenario: DADO una tarea sin responsable, CUANDO asigno un técnico/equipo disponible, ENTONCES la tarea queda “Asignada” y se notifica al responsable.    | EP01                      |
-| US03          | Reprogramar tareas        | Como supervisor, quiero reprogramar tareas en tiempo real ante imprevistos para mantener la continuidad operativa.                      | Escenario: DADO una tarea programada, CUANDO modifico fecha/hora y guardo, ENTONCES se actualiza la programación y se notifica a los involucrados.         | EP01                      |
-| US04          | Visualizar dashboard      | Como supervisor, quiero visualizar el estado de todas las tareas en un dashboard para tener visibilidad completa de las operaciones.    | Escenario: DADO que accedo al dashboard, CUANDO se cargan los datos, ENTONCES veo listados y KPIs por estado (pendiente, en curso, finalizada, bloqueada). | EP01                      |
-| US05          | Acceso offline a tareas   | Como técnico, quiero acceder a mis tareas asignadas sin necesidad de conexión a internet para trabajar en zonas remotas.                | Escenario: DADO que no tengo conectividad, CUANDO abro “Mis tareas”, ENTONCES puedo ver tareas sincronizadas y operar en modo offline.                     | EP02                      |
-| US06          | Registrar inicio y fin    | Como técnico, quiero registrar el inicio y fin de cada tarea para documentar los tiempos de ejecución.                                  | Escenario: DADO una tarea asignada, CUANDO marco “Iniciar” y luego “Finalizar”, ENTONCES se registran fecha y hora en el historial.                        | EP02                      |
-| US07          | Adjuntar fotografías      | Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado para validar el cumplimiento de las actividades.         | Escenario: DADO una tarea en ejecución, CUANDO adjunto foto(s), ENTONCES quedan asociadas a la tarea y visibles para el supervisor.                        | EP02                      |
-| US08          | Reportar incidencias      | Como técnico, quiero reportar incidencias durante la ejecución de tareas para alertar sobre problemas operativos.                       | Escenario: DADO una tarea en curso, CUANDO registro una incidencia con causa y descripción, ENTONCES se crea el reporte y se notifica al supervisor.       | EP02                      |
-| US09          | Configurar alertas        | Como supervisor, quiero configurar alertas automáticas basadas en condiciones específicas para prevenir incidentes operativos.          | Escenario: DADO el módulo de alertas, CUANDO defino condición, umbral y canal, ENTONCES la regla queda activa.                                             | EP03                      |
-| US10          | Notificaciones push       | Como técnico, quiero recibir notificaciones push sobre alertas de seguridad para tomar medidas preventivas inmediatas.                  | Escenario: DADO una alerta activa, CUANDO se cumple la condición, ENTONCES recibo notificación push con prioridad y detalle.                               | EP03                      |
-| US11          | Historial de alertas      | Como supervisor, quiero visualizar el historial de alertas y respuestas para analizar patrones y mejorar la seguridad.                  | Escenario: DADO el listado histórico, CUANDO filtro por fecha/tipo/severidad, ENTONCES obtengo la lista y puedo exportar.                                  | EP03                      |
-| US12          | Operación offline         | Como técnico, quiero poder usar todas las funciones esenciales sin conexión a internet para operar en plataformas remotas.              | Escenario: DADO modo offline, CUANDO creo o edito registros permitidos, ENTONCES quedan en cola con marca de “pendiente de sincronización”.                | EP04                      |
-| US13          | Sincronización automática | Como técnico, quiero que mis datos se sincronicen automáticamente cuando recupere conexión para mantener la información actualizada.    | Escenario: DADO cambios en cola, CUANDO vuelve la conectividad, ENTONCES el sistema sincroniza en segundo plano y muestra estado de éxito o error.         | EP04                      |
-| US14          | Reportes personalizados   | Como gerente, quiero generar reportes personalizados de productividad operativa para identificar áreas de mejora.                       | Escenario: DADO el generador de reportes, CUANDO selecciono filtros, métricas y periodo, ENTONCES obtengo el reporte y puedo exportarlo.                   | EP05                      |
-| US15          | Métricas de cumplimiento  | Como supervisor, quiero visualizar métricas de cumplimiento de tareas para evaluar el desempeño del equipo.                             | Escenario: DADO el panel de métricas, CUANDO selecciono rango de fechas, ENTONCES veo % cumplimiento, duración promedio y top incidencias.                 | EP05                      |
-| US16          | Auditoría de operaciones  | Como auditor, quiero acceder al historial completo de operaciones con evidencias para realizar verificaciones y cumplir con normativas. | Escenario: DADO el módulo de auditoría, CUANDO consulto una operación, ENTONCES veo trazabilidad completa (registros, fotos, usuario, timestamp).          | EP05                      |
+<table>
+  <thead>
+    <tr>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>US01</td><td>Crear tareas</td><td>Como supervisor, quiero crear tareas con descripción, prioridad y recursos asignados para organizar las operaciones diarias.</td><td>Escenario: DADO que estoy en “Nueva tarea”, CUANDO ingreso los datos obligatorios y guardo, ENTONCES la tarea se registra y aparece en la lista.</td><td>EP01</td></tr>
+    <tr><td>US02</td><td>Asignar tareas</td><td>Como supervisor, quiero asignar tareas a técnicos o equipos para distribuir eficientemente la carga de trabajo.</td><td>Escenario: DADO una tarea sin responsable, CUANDO asigno un técnico/equipo disponible, ENTONCES la tarea queda “Asignada” y se notifica al responsable.</td><td>EP01</td></tr>
+    <tr><td>US03</td><td>Reprogramar tareas</td><td>Como supervisor, quiero reprogramar tareas en tiempo real ante imprevistos para mantener la continuidad operativa.</td><td>Escenario: DADO una tarea programada, CUANDO modifico fecha/hora y guardo, ENTONCES se actualiza la programación y se notifica a los involucrados.</td><td>EP01</td></tr>
+    <tr><td>US04</td><td>Visualizar dashboard</td><td>Como supervisor, quiero visualizar el estado de todas las tareas en un dashboard para tener visibilidad completa de las operaciones.</td><td>Escenario: DADO que accedo al dashboard, CUANDO se cargan los datos, ENTONCES veo listados y KPIs por estado (pendiente, en curso, finalizada, bloqueada).</td><td>EP01</td></tr>
+    <tr><td>US05</td><td>Acceso offline a tareas</td><td>Como técnico, quiero acceder a mis tareas asignadas sin necesidad de conexión a internet para trabajar en zonas remotas.</td><td>Escenario: DADO que no tengo conectividad, CUANDO abro “Mis tareas”, ENTONCES puedo ver tareas sincronizadas y operar en modo offline.</td><td>EP02</td></tr>
+    <tr><td>US06</td><td>Registrar inicio y fin</td><td>Como técnico, quiero registrar el inicio y fin de cada tarea para documentar los tiempos de ejecución.</td><td>Escenario: DADO una tarea asignada, CUANDO marco “Iniciar” y luego “Finalizar”, ENTONCES se registran fecha y hora en el historial.</td><td>EP02</td></tr>
+    <tr><td>US07</td><td>Adjuntar fotografías</td><td>Como técnico, quiero adjuntar fotografías como evidencia del trabajo realizado para validar el cumplimiento de las actividades.</td><td>Escenario: DADO una tarea en ejecución, CUANDO adjunto foto(s), ENTONCES quedan asociadas a la tarea y visibles para el supervisor.</td><td>EP02</td></tr>
+    <tr><td>US08</td><td>Reportar incidencias</td><td>Como técnico, quiero reportar incidencias durante la ejecución de tareas para alertar sobre problemas operativos.</td><td>Escenario: DADO una tarea en curso, CUANDO registro una incidencia con causa y descripción, ENTONCES se crea el reporte y se notifica al supervisor.</td><td>EP02</td></tr>
+    <tr><td>US09</td><td>Configurar alertas</td><td>Como supervisor, quiero configurar alertas automáticas basadas en condiciones específicas para prevenir incidentes operativos.</td><td>Escenario: DADO el módulo de alertas, CUANDO defino condición, umbral y canal, ENTONCES la regla queda activa.</td><td>EP03</td></tr>
+    <tr><td>US10</td><td>Notificaciones push</td><td>Como técnico, quiero recibir notificaciones push sobre alertas de seguridad para tomar medidas preventivas inmediatas.</td><td>Escenario: DADO una alerta activa, CUANDO se cumple la condición, ENTONCES recibo notificación push con prioridad y detalle.</td><td>EP03</td></tr>
+    <tr><td>US11</td><td>Historial de alertas</td><td>Como supervisor, quiero visualizar el historial de alertas y respuestas para analizar patrones y mejorar la seguridad.</td><td>Escenario: DADO el listado histórico, CUANDO filtro por fecha/tipo/severidad, ENTONCES obtengo la lista y puedo exportar.</td><td>EP03</td></tr>
+    <tr><td>US12</td><td>Operación offline</td><td>Como técnico, quiero poder usar todas las funciones esenciales sin conexión a internet para operar en plataformas remotas.</td><td>Escenario: DADO modo offline, CUANDO creo o edito registros permitidos, ENTONCES quedan en cola con marca de “pendiente de sincronización”.</td><td>EP04</td></tr>
+    <tr><td>US13</td><td>Sincronización automática</td><td>Como técnico, quiero que mis datos se sincronicen automáticamente cuando recupere conexión para mantener la información actualizada.</td><td>Escenario: DADO cambios en cola, CUANDO vuelve la conectividad, ENTONCES el sistema sincroniza en segundo plano y muestra estado de éxito o error.</td><td>EP04</td></tr>
+    <tr><td>US14</td><td>Reportes personalizados</td><td>Como gerente, quiero generar reportes personalizados de productividad operativa para identificar áreas de mejora.</td><td>Escenario: DADO el generador de reportes, CUANDO selecciono filtros, métricas y periodo, ENTONCES obtengo el reporte y puedo exportarlo.</td><td>EP05</td></tr>
+    <tr><td>US15</td><td>Métricas de cumplimiento</td><td>Como supervisor, quiero visualizar métricas de cumplimiento de tareas para evaluar el desempeño del equipo.</td><td>Escenario: DADO el panel de métricas, CUANDO selecciono rango de fechas, ENTONCES veo % cumplimiento, duración promedio y top incidencias.</td><td>EP05</td></tr>
+    <tr><td>US16</td><td>Auditoría de operaciones</td><td>Como auditor, quiero acceder al historial completo de operaciones con evidencias para realizar verificaciones y cumplir con normativas.</td><td>Escenario: DADO el módulo de auditoría, CUANDO consulto una operación, ENTONCES veo trazabilidad completa (registros, fotos, usuario, timestamp).</td><td>EP05</td></tr>
+    <tr><td>US17</td><td>Gestionar inventario de equipos</td><td>Como supervisor, quiero gestionar el inventario de herramientas y equipos asignados a cada tarea para controlar recursos disponibles.</td><td>Escenario: DADO el módulo de inventario, CUANDO asigno equipos a una tarea, ENTONCES estos quedan reservados y se actualiza el stock disponible.</td><td>EP01</td></tr>
+    <tr><td>US18</td><td>Planificar mantenimiento preventivo</td><td>Como supervisor, quiero programar mantenimientos preventivos de equipos para evitar fallas durante operaciones críticas.</td><td>Escenario: DADO el calendario de mantenimiento, CUANDO programo una fecha y asigno responsables, ENTONCES se crea la tarea de mantenimiento y se notifica.</td><td>EP01</td></tr>
+    <tr><td>US19</td><td>Validar checklist de seguridad</td><td>Como técnico, quiero completar checklist de seguridad antes de iniciar tareas para cumplir con protocolos operativos.</td><td>Escenario: DADO una tarea con checklist requerido, CUANDO completo todos los ítems y confirmo, ENTONCES puedo iniciar la tarea.</td><td>EP02</td></tr>
+    <tr><td>US20</td><td>Registrar consumo de materiales</td><td>Como técnico, quiero registrar los materiales consumidos durante la ejecución para llevar control de costos operativos.</td><td>Escenario: DADO una tarea en ejecución, CUANDO registro tipo y cantidad de material usado, ENTONCES queda asociado a la tarea para auditoría.</td><td>EP02</td></tr>
+    <tr><td>US21</td><td>Geolocalizar tareas</td><td>Como supervisor, quiero visualizar la ubicación GPS de las tareas en un mapa para optimizar rutas y asignaciones.</td><td>Escenario: DADO el mapa de operaciones, CUANDO selecciono una tarea, ENTONCES veo su ubicación exacta y distancia desde el personal disponible.</td><td>EP01</td></tr>
+    <tr><td>US22</td><td>Compartir ubicación en tiempo real</td><td>Como técnico, quiero compartir mi ubicación en tiempo real durante tareas de campo para seguridad y coordinación.</td><td>Escenario: DADO que estoy en una tarea activa, CUANDO activo compartir ubicación, ENTONCES mi supervisor puede rastrearme en el mapa.</td><td>EP03</td></tr>
+    <tr><td>US23</td><td>Activar botón de pánico</td><td>Como técnico, quiero activar un botón de pánico en caso de emergencia para recibir ayuda inmediata.</td><td>Escenario: DADO una situación de riesgo, CUANDO presiono el botón de pánico, ENTONCES se envía alerta con mi ubicación GPS a supervisores y equipo de seguridad.</td><td>EP03</td></tr>
+    <tr><td>US24</td><td>Recibir alertas meteorológicas</td><td>Como técnico, quiero recibir alertas meteorológicas de mi zona de trabajo para anticipar condiciones adversas.</td><td>Escenario: DADO que tengo tareas programadas, CUANDO se pronostica clima severo en mi zona, ENTONCES recibo notificación con recomendaciones.</td><td>EP03</td></tr>
+    <tr><td>US25</td><td>Consultar manual de procedimientos</td><td>Como técnico, quiero consultar manuales de procedimientos offline para resolver dudas durante la operación.</td><td>Escenario: DADO que estoy en modo offline, CUANDO busco un procedimiento específico, ENTONCES accedo a la documentación técnica descargada.</td><td>EP04</td></tr>
+    <tr><td>US26</td><td>Resolver conflictos de sincronización</td><td>Como técnico, quiero resolver conflictos de sincronización manualmente cuando hay cambios incompatibles.</td><td>Escenario: DADO un conflicto detectado al sincronizar, CUANDO el sistema me muestra las versiones en conflicto, ENTONCES puedo elegir cuál conservar.</td><td>EP04</td></tr>
+    <tr><td>US27</td><td>Exportar reportes a PDF</td><td>Como gerente, quiero exportar reportes operativos a PDF para compartir con stakeholders externos.</td><td>Escenario: DADO un reporte generado, CUANDO selecciono "Exportar a PDF", ENTONCES descargo el documento formateado con logo y datos completos.</td><td>EP05</td></tr>
+    <tr><td>US28</td><td>Integrar con sistemas ERP</td><td>Como administrador, quiero integrar PetroTask con el sistema ERP corporativo para centralizar la información operativa.</td><td>Escenario: DADO la configuración de integración, CUANDO sincronizo datos, ENTONCES las tareas y recursos se actualizan en ambos sistemas.</td><td>EP05</td></tr>
+    <tr><td>US29</td><td>Configurar roles y permisos</td><td>Como administrador, quiero configurar roles y permisos de usuario para controlar el acceso a funcionalidades sensibles.</td><td>Escenario: DADO el módulo de administración, CUANDO asigno un rol a un usuario, ENTONCES solo puede acceder a las funciones autorizadas.</td><td>EP01</td></tr>
+    <tr><td>US30</td><td>Recibir notificaciones de vencimiento</td><td>Como supervisor, quiero recibir notificaciones de tareas próximas a vencer para evitar incumplimientos.</td><td>Escenario: DADO tareas con fecha límite, CUANDO faltan 24 horas para el vencimiento, ENTONCES recibo notificación automática.</td><td>EP03</td></tr>
+    <tr><td>US31</td><td>Evaluar desempeño del personal</td><td>Como gerente, quiero evaluar el desempeño del personal basado en métricas de cumplimiento para identificar capacitación necesaria.</td><td>Escenario: DADO el módulo de evaluación, CUANDO selecciono un técnico y periodo, ENTONCES veo sus KPIs, tareas completadas y calificación promedio.</td><td>EP05</td></tr>
+    <tr><td>US32</td><td>Archivar tareas completadas</td><td>Como supervisor, quiero archivar tareas completadas automáticamente para mantener limpia la vista activa.</td><td>Escenario: DADO tareas finalizadas hace más de 30 días, CUANDO ejecuto el archivado, ENTONCES se mueven al historial y ya no aparecen en vistas activas.</td><td>EP01</td></tr>
+    <tr><td>TS01</td><td>Registro de usuario</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint de registro de usuarios para permitir la creación de nuevas cuentas en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint POST /api/v1/auth/sign-up, CUANDO envío una solicitud con datos válidos (username, password, roles), ENTONCES se crea el usuario y recibo un código 201.<br>Escenario 2: DADO que envío datos inválidos o incompletos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.<br>Escenario 3: DADO que el username ya existe, CUANDO intento registrarlo nuevamente, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS02</td><td>Autenticación de usuario</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint de login para generar tokens JWT y autenticar usuarios en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint POST /api/v1/auth/sign-in, CUANDO envío credenciales válidas, ENTONCES recibo un token JWT.<br>Escenario 2: DADO que envío credenciales incorrectas, CUANDO se procesa la solicitud, ENTONCES recibo un error 401 Unauthorized.<br>Escenario 3: DADO que el usuario no existe, CUANDO intento autenticarme, ENTONCES recibo un error 404 Not Found.</td><td>No corresponde</td></tr>
+    <tr><td>TS03</td><td>Listar todas las zonas</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para listar todas las zonas disponibles en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/zones, CUANDO envío la solicitud, ENTONCES recibo una lista de todas las zonas con código 200.<br>Escenario 2: DADO que no hay zonas registradas, CUANDO consulto el endpoint, ENTONCES recibo una lista vacía con código 200.<br>Escenario 3: DADO que ocurre un error en el servidor, CUANDO intento listar las zonas, ENTONCES recibo un error 500.</td><td>No corresponde</td></tr>
+    <tr><td>TS04</td><td>Obtener zona por ID</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para obtener los detalles de una zona específica por su ID.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/zones/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES recibo los datos de la zona con código 200.<br>Escenario 2: DADO que el ID no existe, CUANDO consulto el endpoint, ENTONCES recibo un error 404 Not Found.<br>Escenario 3: DADO que el ID tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS05</td><td>Filtrar zonas por estado</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar zonas según su estado activo/inactivo.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/zones?active=true, CUANDO envío la solicitud, ENTONCES recibo solo las zonas activas con código 200.<br>Escenario 2: DADO que filtro por zonas inactivas, CUANDO consulto con active=false, ENTONCES recibo solo zonas inactivas.<br>Escenario 3: DADO que el parámetro active tiene un valor inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS06</td><td>Crear nueva zona</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para crear una nueva zona en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint POST /api/v1/zones, CUANDO envío una solicitud con datos válidos (nombre, descripción, activo), ENTONCES se crea la zona y recibo código 201.<br>Escenario 2: DADO que envío datos inválidos o incompletos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.<br>Escenario 3: DADO que ya existe una zona con el mismo nombre, CUANDO intento crearla, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS07</td><td>Actualizar zona</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para actualizar los datos de una zona existente.</td><td>Escenario 1: DADO que tengo acceso al endpoint PUT /api/v1/zones/{id}, CUANDO envío una solicitud con datos válidos, ENTONCES se actualiza la zona y recibo código 200.<br>Escenario 2: DADO que el ID no existe, CUANDO intento actualizar, ENTONCES recibo un error 404 Not Found.<br>Escenario 3: DADO que envío datos inválidos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS08</td><td>Eliminar zona</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para eliminar una zona del sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint DELETE /api/v1/zones/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES se elimina la zona y recibo código 204.<br>Escenario 2: DADO que el ID no existe, CUANDO intento eliminar, ENTONCES recibo un error 404 Not Found.<br>Escenario 3: DADO que la zona está asociada a ubicaciones activas, CUANDO intento eliminarla, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS09</td><td>Listar todas las ubicaciones</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para listar todas las ubicaciones disponibles en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/locations, CUANDO envío la solicitud, ENTONCES recibo una lista de todas las ubicaciones con código 200.<br>Escenario 2: DADO que no hay ubicaciones registradas, CUANDO consulto el endpoint, ENTONCES recibo una lista vacía con código 200.<br>Escenario 3: DADO que ocurre un error en el servidor, CUANDO intento listar, ENTONCES recibo un error 500.</td><td>No corresponde</td></tr>
+    <tr><td>TS10</td><td>Obtener ubicación por ID</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para obtener los detalles de una ubicación específica por su ID.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/locations/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES recibo los datos de la ubicación con código 200.<br>Escenario 2: DADO que el ID no existe, CUANDO consulto el endpoint, ENTONCES recibo un error 404 Not Found.<br>Escenario 3: DADO que el ID tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS11</td><td>Filtrar ubicaciones por zona</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar ubicaciones según la zona a la que pertenecen.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/locations?zoneId={id}, CUANDO envío la solicitud con un zoneId válido, ENTONCES recibo las ubicaciones de esa zona con código 200. <br>Escenario 2: DADO que la zona no existe, CUANDO filtro por zoneId inválido, ENTONCES recibo una lista vacía con código 200. <br>Escenario 3: DADO que el zoneId tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS12</td><td>Crear nueva ubicación</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para crear una nueva ubicación en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint POST /api/v1/locations, CUANDO envío una solicitud con datos válidos (nombre, coordenadas, zoneId), ENTONCES se crea la ubicación y recibo código 201. <br>Escenario 2: DADO que envío datos inválidos o incompletos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400. <br>Escenario 3: DADO que la zona referenciada no existe, CUANDO intento crear la ubicación, ENTONCES recibo un error 404.</td><td>No corresponde</td></tr>
+    <tr><td>TS13</td><td>Actualizar ubicación</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para actualizar los datos de una ubicación existente.</td><td>Escenario 1: DADO que tengo acceso al endpoint PUT /api/v1/locations/{id}, CUANDO envío una solicitud con datos válidos, ENTONCES se actualiza la ubicación y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento actualizar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que envío datos inválidos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS14</td><td>Eliminar ubicación</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para eliminar una ubicación del sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint DELETE /api/v1/locations/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES se elimina la ubicación y recibo código 204. <br>Escenario 2: DADO que el ID no existe, CUANDO intento eliminar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que la ubicación está asociada a actividades activas, CUANDO intento eliminarla, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS15</td><td>Listar todos los equipos</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para listar todos los equipos disponibles en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/equipment, CUANDO envío la solicitud, ENTONCES recibo una lista de todos los equipos con código 200. <br>Escenario 2: DADO que no hay equipos registrados, CUANDO consulto el endpoint, ENTONCES recibo una lista vacía con código 200. <br>Escenario 3: DADO que ocurre un error en el servidor, CUANDO intento listar, ENTONCES recibo un error 500.</td><td>No corresponde</td></tr>
+    <tr><td>TS16</td><td>Obtener equipo por ID</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para obtener los detalles de un equipo específico por su ID.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/equipment/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES recibo los datos del equipo con código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO consulto el endpoint, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el ID tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS17</td><td>Filtrar equipos por estado</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar equipos según su estado (DISPONIBLE, EN_USO, MANTENIMIENTO).</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/equipment?status=DISPONIBLE, CUANDO envío la solicitud, ENTONCES recibo solo los equipos disponibles con código 200. <br>Escenario 2: DADO que filtro por un estado válido, CUANDO consulto el endpoint, ENTONCES recibo los equipos correspondientes. <br>Escenario 3: DADO que el estado tiene un valor inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS18</td><td>Crear nuevo equipo</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para crear un nuevo equipo en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint POST /api/v1/equipment, CUANDO envío una solicitud con datos válidos (nombre, tipo, modelo, estado), ENTONCES se crea el equipo y recibo código 201. <br>Escenario 2: DADO que envío datos inválidos o incompletos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400. <br>Escenario 3: DADO que ya existe un equipo con el mismo código, CUANDO intento crearlo, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS19</td><td>Actualizar equipo</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para actualizar los datos de un equipo existente.</td><td>Escenario 1: DADO que tengo acceso al endpoint PUT /api/v1/equipment/{id}, CUANDO envío una solicitud con datos válidos, ENTONCES se actualiza el equipo y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento actualizar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que envío datos inválidos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS20</td><td>Cambiar estado de equipo</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para cambiar el estado de un equipo mediante un PATCH.</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/equipment/{id}/status, CUANDO envío una solicitud con un estado válido, ENTONCES se actualiza el estado y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento cambiar el estado, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el estado enviado es inválido, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS21</td><td>Eliminar equipo</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para eliminar un equipo del sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint DELETE /api/v1/equipment/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES se elimina el equipo y recibo código 204. <br>Escenario 2: DADO que el ID no existe, CUANDO intento eliminar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el equipo está asignado a una actividad activa, CUANDO intento eliminarlo, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS22</td><td>Listar todos los equipos (teams)</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para listar todos los equipos de trabajo disponibles en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/teams, CUANDO envío la solicitud, ENTONCES recibo una lista de todos los equipos con código 200. <br>Escenario 2: DADO que no hay equipos registrados, CUANDO consulto el endpoint, ENTONCES recibo una lista vacía con código 200. <br>Escenario 3: DADO que ocurre un error en el servidor, CUANDO intento listar, ENTONCES recibo un error 500.</td><td>No corresponde</td></tr>
+    <tr><td>TS23</td><td>Obtener equipo (team) por ID</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para obtener los detalles de un equipo de trabajo específico por su ID.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/teams/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES recibo los datos del equipo con código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO consulto el endpoint, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el ID tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS24</td><td>Filtrar equipos por estado</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar equipos de trabajo según su estado (ACTIVE, INACTIVE).</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/teams?status=ACTIVE, CUANDO envío la solicitud, ENTONCES recibo solo los equipos activos con código 200. <br>Escenario 2: DADO que filtro por estado válido, CUANDO consulto el endpoint, ENTONCES recibo los equipos correspondientes. <br>Escenario 3: DADO que el estado tiene un valor inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS25</td><td>Filtrar equipos por zona</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar equipos de trabajo según la zona asignada.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/teams?zoneId={id}, CUANDO envío la solicitud con un zoneId válido, ENTONCES recibo los equipos de esa zona con código 200. <br>Escenario 2: DADO que la zona no existe, CUANDO filtro por zoneId inválido, ENTONCES recibo una lista vacía con código 200. <br>Escenario 3: DADO que el zoneId tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS26</td><td>Crear nuevo equipo (team)</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para crear un nuevo equipo de trabajo en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint POST /api/v1/teams, CUANDO envío una solicitud con datos válidos (nombre, código, zoneId, status), ENTONCES se crea el equipo y recibo código 201. <br>Escenario 2: DADO que envío datos inválidos o incompletos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400. <br>Escenario 3: DADO que ya existe un equipo con el mismo código, CUANDO intento crearlo, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS27</td><td>Actualizar equipo (team)</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para actualizar los datos de un equipo de trabajo existente.</td><td>Escenario 1: DADO que tengo acceso al endpoint PUT /api/v1/teams/{id}, CUANDO envío una solicitud con datos válidos, ENTONCES se actualiza el equipo y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento actualizar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que envío datos inválidos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS28</td><td>Cambiar estado de equipo (team)</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para cambiar el estado de un equipo de trabajo mediante un PATCH.</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/teams/{id}/status, CUANDO envío una solicitud con un estado válido, ENTONCES se actualiza el estado y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento cambiar el estado, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el estado enviado es inválido, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS29</td><td>Agregar miembro a equipo</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para agregar un miembro a un equipo de trabajo existente.</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/teams/{id}/members/add, CUANDO envío una solicitud con datos válidos del miembro, ENTONCES se agrega el miembro y recibo código 200. <br>Escenario 2: DADO que el equipo no existe, CUANDO intento agregar un miembro, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el miembro ya pertenece al equipo, CUANDO intento agregarlo nuevamente, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS30</td><td>Quitar miembro de equipo</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para remover un miembro de un equipo de trabajo.</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/teams/{id}/members/remove, CUANDO envío una solicitud con datos válidos del miembro, ENTONCES se remueve el miembro y recibo código 200. <br>Escenario 2: DADO que el equipo no existe, CUANDO intento remover un miembro, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el miembro no pertenece al equipo, CUANDO intento removerlo, ENTONCES recibo un error 404 Not Found.</td><td>No corresponde</td></tr>
+    <tr><td>TS31</td><td>Eliminar equipo (team)</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para eliminar un equipo de trabajo del sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint DELETE /api/v1/teams/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES se elimina el equipo y recibo código 204. <br>Escenario 2: DADO que el ID no existe, CUANDO intento eliminar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el equipo está asignado a actividades activas, CUANDO intento eliminarlo, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS32</td><td>Listar todas las tareas</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para listar todas las tareas disponibles en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/tasks, CUANDO envío la solicitud, ENTONCES recibo una lista de todas las tareas con código 200. <br>Escenario 2: DADO que no hay tareas registradas, CUANDO consulto el endpoint, ENTONCES recibo una lista vacía con código 200. <br>Escenario 3: DADO que ocurre un error en el servidor, CUANDO intento listar, ENTONCES recibo un error 500.</td><td>No corresponde</td></tr>
+    <tr><td>TS33</td><td>Obtener tarea por ID</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para obtener los detalles de una tarea específica por su ID.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/tasks/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES recibo los datos de la tarea con código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO consulto el endpoint, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el ID tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS34</td><td>Filtrar tareas por estado</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar tareas según su estado (PENDIENTE, EN_PROGRESO, COMPLETADA).</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/tasks?status=PENDIENTE, CUANDO envío la solicitud, ENTONCES recibo solo las tareas pendientes con código 200. <br>Escenario 2: DADO que filtro por estado válido, CUANDO consulto el endpoint, ENTONCES recibo las tareas correspondientes. <br>Escenario 3: DADO que el estado tiene un valor inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS35</td><td>Filtrar tareas por actividad</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar tareas según la actividad a la que pertenecen.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/tasks?activityId={id}, CUANDO envío la solicitud con un activityId válido, ENTONCES recibo las tareas de esa actividad con código 200. <br>Escenario 2: DADO que la actividad no existe, CUANDO filtro por activityId inválido, ENTONCES recibo una lista vacía con código 200. <br>Escenario 3: DADO que el activityId tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS36</td><td>Crear nueva tarea</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para crear una nueva tarea en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint POST /api/v1/tasks, CUANDO envío una solicitud con datos válidos (nombre, descripción, activityId, status), ENTONCES se crea la tarea y recibo código 201. <br>Escenario 2: DADO que envío datos inválidos o incompletos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400. <br>Escenario 3: DADO que la actividad referenciada no existe, CUANDO intento crear la tarea, ENTONCES recibo un error 404.</td><td>No corresponde</td></tr>
+    <tr><td>TS37</td><td>Actualizar tarea</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para actualizar los datos de una tarea existente.</td><td>Escenario 1: DADO que tengo acceso al endpoint PUT /api/v1/tasks/{id}, CUANDO envío una solicitud con datos válidos, ENTONCES se actualiza la tarea y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento actualizar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que envío datos inválidos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS38</td><td>Actualizar progreso de tarea</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para actualizar el progreso de una tarea (0-100%).</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/tasks/{id}/progress, CUANDO envío una solicitud con un valor entre 0-100, ENTONCES se actualiza el progreso y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento actualizar el progreso, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el valor de progreso es inválido (fuera de 0-100), CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS39</td><td>Cambiar estado de tarea</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para cambiar el estado de una tarea mediante un PATCH.</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/tasks/{id}/status, CUANDO envío una solicitud con un estado válido, ENTONCES se actualiza el estado y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento cambiar el estado, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el estado enviado es inválido, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS40</td><td>Eliminar tarea</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para eliminar una tarea del sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint DELETE /api/v1/tasks/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES se elimina la tarea y recibo código 204. <br>Escenario 2: DADO que el ID no existe, CUANDO intento eliminar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que la tarea tiene dependencias activas, CUANDO intento eliminarla, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+    <tr><td>TS41</td><td>Listar todas las actividades</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para listar todas las actividades disponibles en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/activities, CUANDO envío la solicitud, ENTONCES recibo una lista de todas las actividades con código 200. <br>Escenario 2: DADO que no hay actividades registradas, CUANDO consulto el endpoint, ENTONCES recibo una lista vacía con código 200. <br>Escenario 3: DADO que ocurre un error en el servidor, CUANDO intento listar, ENTONCES recibo un error 500.</td><td>No corresponde</td></tr>
+    <tr><td>TS42</td><td>Obtener actividad por ID</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para obtener los detalles de una actividad específica por su ID.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/activities/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES recibo los datos de la actividad con código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO consulto el endpoint, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el ID tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS43</td><td>Filtrar actividades por estado</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar actividades según su estado (PENDIENTE, EN_PROGRESO, COMPLETADA, CANCELADA).</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/activities?status=PENDIENTE, CUANDO envío la solicitud, ENTONCES recibo solo las actividades pendientes con código 200. <br>Escenario 2: DADO que filtro por estado válido, CUANDO consulto el endpoint, ENTONCES recibo las actividades correspondientes. <br>Escenario 3: DADO que el estado tiene un valor inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS44</td><td>Filtrar actividades por prioridad</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar actividades según su prioridad (BAJA, MEDIA, ALTA, CRÍTICA).</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/activities?priority=ALTA, CUANDO envío la solicitud, ENTONCES recibo solo las actividades de alta prioridad con código 200. <br>Escenario 2: DADO que filtro por prioridad válida, CUANDO consulto el endpoint, ENTONCES recibo las actividades correspondientes. <br>Escenario 3: DADO que la prioridad tiene un valor inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS45</td><td>Filtrar actividades por equipo</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para filtrar actividades según el código del equipo asignado.</td><td>Escenario 1: DADO que tengo acceso al endpoint GET /api/v1/activities?crewId={code}, CUANDO envío la solicitud con un código válido, ENTONCES recibo las actividades de ese equipo con código 200. <br>Escenario 2: DADO que el equipo no existe, CUANDO filtro por crewId inválido, ENTONCES recibo una lista vacía con código 200. <br>Escenario 3: DADO que el crewId tiene formato inválido, CUANDO envío la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS46</td><td>Crear nueva actividad</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para crear una nueva actividad en el sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint POST /api/v1/activities, CUANDO envío una solicitud con datos válidos (título, descripción, prioridad, fechas, locationId), ENTONCES se crea la actividad y recibo código 201. <br>Escenario 2: DADO que envío datos inválidos o incompletos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400. <br>Escenario 3: DADO que la ubicación referenciada no existe, CUANDO intento crear la actividad, ENTONCES recibo un error 404.</td><td>No corresponde</td></tr>
+    <tr><td>TS47</td><td>Actualizar actividad</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para actualizar los datos de una actividad existente.</td><td>Escenario 1: DADO que tengo acceso al endpoint PUT /api/v1/activities/{id}, CUANDO envío una solicitud con datos válidos, ENTONCES se actualiza la actividad y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento actualizar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que envío datos inválidos, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS48</td><td>Cambiar estado de actividad</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para cambiar el estado de una actividad mediante un PATCH.</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/activities/{id}/status, CUANDO envío una solicitud con un estado válido, ENTONCES se actualiza el estado y recibo código 200. <br>Escenario 2: DADO que el ID no existe, CUANDO intento cambiar el estado, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el estado enviado es inválido, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS49</td><td>Asignar equipo a actividad</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para asignar un equipo de trabajo a una actividad existente.</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/activities/{id}/crew, CUANDO envío una solicitud con un crewId válido, ENTONCES se asigna el equipo y recibo código 200. <br>Escenario 2: DADO que la actividad no existe, CUANDO intento asignar un equipo, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el equipo no existe, CUANDO intento asignarlo, ENTONCES recibo un error 404 Not Found.</td><td>No corresponde</td></tr>
+    <tr><td>TS50</td><td>Asignar vehículo a actividad</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para asignar un vehículo a una actividad existente.</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/activities/{id}/vehicle, CUANDO envío una solicitud con un vehicleId válido, ENTONCES se asigna el vehículo y recibo código 200. <br>Escenario 2: DADO que la actividad no existe, CUANDO intento asignar un vehículo, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que el vehículo no existe o no está disponible, CUANDO intento asignarlo, ENTONCES recibo un error 404 o 409.</td><td>No corresponde</td></tr>
+    <tr><td>TS51</td><td>Actualizar notas de supervisor</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para actualizar las notas del supervisor en una actividad.</td><td>Escenario 1: DADO que tengo acceso al endpoint PATCH /api/v1/activities/{id}/notes, CUANDO envío una solicitud con notas válidas, ENTONCES se actualizan las notas y recibo código 200. <br>Escenario 2: DADO que la actividad no existe, CUANDO intento actualizar notas, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que las notas exceden el límite de caracteres, CUANDO se procesa la solicitud, ENTONCES recibo un error 400.</td><td>No corresponde</td></tr>
+    <tr><td>TS52</td><td>Eliminar actividad</td><td>Como desarrollador de PetroTask, quiero implementar el endpoint para eliminar una actividad del sistema.</td><td>Escenario 1: DADO que tengo acceso al endpoint DELETE /api/v1/activities/{id}, CUANDO envío una solicitud con un ID válido, ENTONCES se elimina la actividad y recibo código 204. <br>Escenario 2: DADO que el ID no existe, CUANDO intento eliminar, ENTONCES recibo un error 404 Not Found. <br>Escenario 3: DADO que la actividad tiene tareas asociadas activas, CUANDO intento eliminarla, ENTONCES recibo un error 409 Conflict.</td><td>No corresponde</td></tr>
+  </tbody>
+</table>
 
 ---
 
@@ -1426,6 +1577,22 @@ A continuación se presentan los escenarios actuales As-is de los segmentos obje
 | US-11 | Como supervisor, quiero visualizar el historial de alertas y respuestas          | 5                         | Sprint 5        |
 | US-14 | Como gerente, quiero generar reportes personalizados de productividad operativa  | 8                         | Sprint 5        |
 | US-16 | Como auditor, quiero acceder al historial completo de operaciones con evidencias | 8                         | Sprint 6        |
+| US-17 | Como supervisor, quiero gestionar el inventario de herramientas y equipos        | 5                         | Sprint 3        |
+| US-19 | Como técnico, quiero completar checklist de seguridad antes de iniciar tareas    | 3                         | Sprint 4        |
+| US-21 | Como supervisor, quiero visualizar la ubicación GPS de las tareas en un mapa     | 8                         | Sprint 4        |
+| US-23 | Como técnico, quiero activar un botón de pánico en caso de emergencia            | 5                         | Sprint 2        |
+| US-24 | Como técnico, quiero recibir alertas meteorológicas de mi zona de trabajo        | 5                         | Sprint 3        |
+| US-27 | Como gerente, quiero exportar reportes operativos a PDF                          | 3                         | Sprint 5        |
+| US-29 | Como administrador, quiero configurar roles y permisos de usuario                | 8                         | Sprint 2        |
+| US-30 | Como supervisor, quiero recibir notificaciones de tareas próximas a vencer       | 3                         | Sprint 3        |
+| US-18 | Como supervisor, quiero programar mantenimientos preventivos de equipos          | 5                         | Sprint 6        |
+| US-20 | Como técnico, quiero registrar los materiales consumidos durante la ejecución    | 3                         | Sprint 6        |
+| US-22 | Como técnico, quiero compartir mi ubicación en tiempo real durante tareas        | 5                         | Sprint 5        |
+| US-25 | Como técnico, quiero consultar manuales de procedimientos offline                | 5                         | Sprint 4        |
+| US-26 | Como técnico, quiero resolver conflictos de sincronización manualmente           | 8                         | Sprint 4        |
+| US-28 | Como administrador, quiero integrar PetroTask con el sistema ERP corporativo     | 13                        | Sprint 6        |
+| US-31 | Como gerente, quiero evaluar el desempeño del personal basado en métricas        | 8                         | Sprint 5        |
+| US-32 | Como supervisor, quiero archivar tareas completadas automáticamente              | 3                         | Sprint 6        |
 
 ---
 
@@ -2138,14 +2305,17 @@ A continuación se muestran las estadísticas de colaboración del repositorio, 
 
 El Sprint Planning 3 tuvo como objetivo consolidar los módulos avanzados de PetroTask orientados a trazabilidad operativa, registro de evidencias y mejoras en las interfaces web destinadas a supervisores y técnicos de campo. Se revisaron las historias del Product Backlog y se definieron los objetivos del sprint, así como los criterios de aceptación.
 
-Objetivos principales del sprint:
-
-- Completar el módulo de evidencias multimedia con registro geográfico.
-- Finalizar el calendario operativo dinámico para supervisores.
-- Desarrollar mejoras en el dashboard de KPIs operativos.
-- Integrar validaciones de seguridad para tareas críticas.
-- Implementar la primera versión del Historial Digital Operativo (HDO).
-- Optimizar pantallas del frontend del Field Task Manager.
+| Sprint #                        | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Date                            | 2025 - 11 - 30                                                                                                                                                                                                                                                                                                                                                                                        |
+| Time                            | 5:30 PM                                                                                                                                                                                                                                                                                                                                                                                               |
+| Location                        | Reunión virtual a través de Microsoft Teams                                                                                                                                                                                                                                                                                                                                                           |
+| Prepared by                     | Santiago Valentino Solis Chang                                                                                                                                                                                                                                                                                                                                                                        |
+| Attendees (to planning meeting) | Sosa Soto, Oskar Rodrigo; Aguilar Untiveros, Rodrigo Fabrizio; Solis Chang, Santiago Valentino; Huamán Cuba, Johan Giovani                                                                                                                                                                                                                                                                            |
+| Sprint 2 Review Summary         | El Sprint 2 se centró en el desarrollo de las pantallas principales de la aplicación web PetroTask utilizando Angular, logrando un avance significativo en la implementación del front-end. Se desplegó exitosamente la landing page actualizada y se integraron múltiples funcionalidades.                                                                                                           |
+| Sprint 3 Goal                   | Avanzar parte del **backend de la aplicación PetroTask** utilizando Java + Spring Boot, implementando los principales módulos y sus respectivas tareas, creemos que esto le dará a los planificadores la capacidad para empezar a estructurar y organizar las primeras operaciones. Esto se confirmará cuando la API permita crear, obtener, actualizar y borrar las respectivas tareas exitosamente. |
+| Sprint 3 Velocity               | 55 story points                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sum of story points             | 55 story points                                                                                                                                                                                                                                                                                                                                                                                       |
 
 ---
 
@@ -2523,3 +2693,4 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - [URL Frontend](https://front-xd)
 
 - [URL Backend](https://back-xd)
+
