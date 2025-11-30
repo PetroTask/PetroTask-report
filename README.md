@@ -3440,7 +3440,11 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 
 #### Capturas de prueba de flujo completo de usuario
 
-![Vista General](img/imgs-swagger/tf/.png)
+![Vista General](img/imgs-swagger/tf/locations.png)
+![Vista General](img/imgs-swagger/tf/activities.png)
+![Vista General](img/imgs-swagger/tf/team_members.png)
+![Vista General](img/imgs-swagger/tf/teams.png)
+![Vista General](img/imgs-swagger/tf/tasks.png)
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
@@ -3459,13 +3463,33 @@ Durante el Sprint 4 se completó la documentación de todos los endpoints corres
 
 ```json
 POST /sign-up
-{}
+{
+  "firstName": "string",
+  "lastName": "string",
+  "dni": "string",
+  "phone": "string",
+  "email": "string",
+  "password": "string",
+  "roles": [
+    "string"
+  ]
+}
 ```
 
 **Ejemplo de Response:**
 
 ```json
-{}
+{
+  "id": 0,
+  "email": "string",
+  "roles": [
+    {
+      "id": 0,
+      "name": "string",
+      "description": "string"
+    }
+  ]
+}
 ```
 
 ---
@@ -3485,13 +3509,21 @@ POST /sign-up
 
 ```json
 POST /zones
-{}
+{
+  "name": "string",
+  "description": "string"
+}
 ```
 
 **Ejemplo de Response:**
 
 ```json
-{}
+{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "active": true
+}
 ```
 
 ---
@@ -3511,13 +3543,29 @@ POST /zones
 
 ```json
 POST /locations
-{}
+{
+  "name": "string",
+  "description": "string",
+  "zoneId": 0,
+  "latitude": 0.1,
+  "longitude": 0.1
+}
 ```
 
 **Ejemplo de Response:**
 
 ```json
-{}
+{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "zoneId": 0,
+  "zoneName": "string",
+  "coordinates": {
+    "latitude": 0.1,
+    "longitude": 0.1
+  }
+}
 ```
 
 ---
@@ -3538,13 +3586,27 @@ POST /locations
 
 ```json
 POST /equipment
-{}
+{
+  "plateNumber": "string",
+  "type": "string",
+  "capacityLoad": 0,
+  "capacityPassengers": 0
+}
 ```
 
 **Ejemplo de Response:**
 
 ```json
-{}
+{
+  "id": 0,
+  "name": "string",
+  "date": "2025-11-30",
+  "zoneId": 0,
+  "status": "string",
+  "membersId": [
+    0
+  ]
+}
 ```
 
 ---
@@ -3568,13 +3630,28 @@ POST /equipment
 
 ```json
 POST /teams
-{}
+{
+  "name": "string",
+  "zoneId": 0,
+  "membersId": [
+    0
+  ]
+}
 ```
 
 **Ejemplo de Response:**
 
 ```json
-{}
+{
+  "id": 0,
+  "name": "string",
+  "date": "2025-11-30",
+  "zoneId": 0,
+  "status": "string",
+  "membersId": [
+    0
+  ]
+}
 ```
 
 ---
@@ -3597,13 +3674,26 @@ POST /teams
 
 ```json
 POST /tasks
-{}
+{
+  "taskName": "string",
+  "description": "string",
+  "activityId": 0,
+  "locationId": 0
+}
 ```
 
 **Ejemplo de Response:**
 
 ```json
-{}
+{
+  "id": 0,
+  "taskName": "string",
+  "description": "string",
+  "activityId": 0,
+  "locationId": 0,
+  "status": "string",
+  "progress": 0
+}
 ```
 
 ---
@@ -3629,13 +3719,43 @@ POST /tasks
 
 ```json
 POST /activities
-{}
+{
+  "title": "string",
+  "description": "string",
+  "zoneOriginId": 0,
+  "zoneDestinationId": 0,
+  "originLocationId": 0,
+  "destinationLocationId": 0,
+  "scheduledDate": "2025-11-30",
+  "estimatedDuration": 0.1,
+  "priority": "string"
+}
 ```
 
 **Ejemplo de Response:**
 
 ```json
-{}
+{
+  "id": 0,
+  "title": "string",
+  "description": "string",
+  "zoneOriginId": 0,
+  "zoneDestinationId": 0,
+  "originLocationId": 0,
+  "destinationLocationId": 0,
+  "scheduledDate": "2025-11-30",
+  "estimatedDuration": 0.1,
+  "actualStartTime": "2025-11-30",
+  "actualEndTime": "2025-11-30",
+  "priority": "string",
+  "status": "string",
+  "assignedCrewId": "string",
+  "vehicleId": 0,
+  "incidentReportIds": "string",
+  "supervisorNotes": "string",
+  "attachments": "string",
+  "tasksIds": "string"
+}
 ```
 
 ---
