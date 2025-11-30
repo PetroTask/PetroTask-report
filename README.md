@@ -1930,12 +1930,132 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 El backend está dividido en 5 Bounded Contexts independientes.
 Cada contexto tiene su propio diagrama para mejorar la legibilidad, el análisis del dominio y el alineamiento con DDD.
 
-![Context Map](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/Context%20Map.png)
-![BC IAM](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20IAM.png)
-![BC Tasks](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20Tasks.png)
-![BC Incidents](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20Incidents.png)
-![BC Reporting](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20Reporting.png)
-![BC Offline Sync](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20Offline%20Sync.png)
+##### Activities Context
+
+<div align="center"> <img src="img/diagrama-back/Activities/context.png" alt="Activities context" width="700px"/> </div>
+
+- Domain Layer
+
+<div align="center"> <img src="img/diagrama-back/Activities/domain.png" alt="Activities Domain Layer" width="700px"/> </div>
+
+- Application Layer
+
+<div align="center"> <img src="img/diagrama-back/Activities/application.png" alt="Activities Application Layer" width="700px"/> </div>
+
+- Interface Layer
+
+<div align="center"> <img src="img/diagrama-back/Activities/interface.png" alt="Activities Interface Layer" width="700px"/> </div>
+
+- Infrastructure Layer
+
+<div align="center"> <img src="img/diagrama-back/Activities/infrastructure.png" alt="Activities Infrastructure Layer" width="700px"/> </div>
+
+##### Equipment Context
+
+<div align="center"> <img src="img/diagrama-back/Equipment/context.png" alt="Equipment context" width="700px"/> </div>
+
+- Domain Layer
+
+<div align="center"> <img src="img/diagrama-back/Equipment/domain.png" alt="Equipment Domain Layer" width="700px"/> </div>
+
+- Application Layer
+
+<div align="center"> <img src="img/diagrama-back/Equipment/application.png" alt="Equipment Application Layer" width="700px"/> </div>
+
+- Interface Layer
+
+<div align="center"> <img src="img/diagrama-back/Equipment/interface.png" alt="Equipment Interface Layer" width="700px"/> </div>
+
+- Infrastructure Layer
+
+<div align="center"> <img src="img/diagrama-back/Equipment/infrastructure.png" alt="Equipment Infrastructure Layer" width="700px"/> </div>
+
+##### IAM Context
+
+<div align="center"> <img src="img/diagrama-back/IAM/context.png" alt="IAM context" width="700px"/> </div>
+<div align="center"> <img src="img/diagrama-back/IAM/context2.png" alt="IAM context" width="700px"/> </div>
+<div align="center"> <img src="img/diagrama-back/IAM/context3.png" alt="IAM context" width="700px"/> </div>
+
+- Domain Layer
+
+<div align="center"> <img src="img/diagrama-back/IAM/domain.png" alt="IAM Domain Layer" width="700px"/> </div>
+
+- Application Layer
+
+<div align="center"> <img src="img/diagrama-back/IAM/application.png" alt="IAM Application Layer" width="700px"/> </div>
+
+- Interface Layer
+
+<div align="center"> <img src="img/diagrama-back/IAM/interface.png" alt="IAM Interface Layer" width="700px"/> </div>
+
+- Infrastructure Layer
+
+<div align="center"> <img src="img/diagrama-back/IAM/infrastructure.png" alt="IAM Infrastructure Layer" width="700px"/> </div>
+
+##### Locations Context
+
+<div align="center"> <img src="img/diagrama-back/Locations/interface.png" alt="Locations context" width="700px"/> </div>
+<div align="center"> <img src="img/diagrama-back/Locations/context.png" alt="Locations context" width="700px"/> </div>
+
+- Domain Layer
+
+<div align="center"> <img src="img/diagrama-back/Locations/domain.png" alt="Locations Domain Layer" width="700px"/> </div>
+
+- Application Layer
+
+<div align="center"> <img src="img/diagrama-back/Locations/application.png" alt="Locations Application Layer" width="700px"/> </div>
+
+- Interface Layer
+
+<div align="center"> <img src="img/diagrama-back/Locations/interface.png" alt="Locations Interface Layer" width="700px"/> </div>
+
+- Infrastructure Layer
+
+<div align="center"> <img src="img/diagrama-back/Locations/infrastructure.png" alt="Locations Infrastructure Layer" width="700px"/> </div>
+
+##### Tasks Context
+
+<div align="center"> <img src="img/diagrama-back/Tasks/interface.png" alt="Tasks context" width="700px"/> </div>
+<div align="center"> <img src="img/diagrama-back/Tasks/context.png" alt="Tasks context" width="700px"/> </div>
+
+- Domain Layer
+
+<div align="center"> <img src="img/diagrama-back/Tasks/domain1.png" alt="Tasks Domain Layer" width="700px"/> </div>
+<div align="center"> <img src="img/diagrama-back/Tasks/domain2.png" alt="Tasks Domain Layer" width="700px"/> </div>
+
+- Application Layer
+
+<div align="center"> <img src="img/diagrama-back/Tasks/application.png" alt="Tasks Application Layer" width="700px"/> </div>
+
+- Interface Layer
+
+<div align="center"> <img src="img/diagrama-back/Tasks/interface.png" alt="Tasks Interface Layer" width="700px"/> </div>
+
+- Infrastructure Layer
+
+<div align="center"> <img src="img/diagrama-back/Tasks/infrastructure.png" alt="Tasks Infrastructure Layer" width="700px"/> </div>
+
+##### Teams Context
+
+<div align="center"> <img src="img/diagrama-back/Teams/interface.png" alt="Teams context" width="700px"/> </div>
+<div align="center"> <img src="img/diagrama-back/Teams/context.png" alt="Teams context" width="700px"/> </div>
+
+- Domain Layer
+
+<div align="center"> <img src="img/diagrama-back/Teams/domain1.png" alt="Teams Domain Layer" width="700px"/> </div>
+<div align="center"> <img src="img/diagrama-back/Teams/domain2.png" alt="Teams Domain Layer" width="700px"/> </div>
+
+- Application Layer
+
+<div align="center"> <img src="img/diagrama-back/Teams/application.png" alt="Teams Application Layer" width="700px"/> </div>
+
+- Interface Layer
+
+<div align="center"> <img src="img/diagrama-back/Teams/interface.png" alt="Teams Interface Layer" width="700px"/> </div>
+
+- Infrastructure Layer
+
+<div align="center"> <img src="img/diagrama-back/Teams/infrastructure.png" alt="Teams Infrastructure Layer" width="700px"/> </div>
 
 #### 4.7.1.2. Frontend Class Diagram
 
@@ -1943,30 +2063,618 @@ Cada contexto tiene su propio diagrama para mejorar la legibilidad, el análisis
 
 ### 4.7.2. Class Dictionary
 
-### 4.7.2.1. Backend Class Dictionary
+#### 4.7.2.1. Backend Class Dictionary
 
-| Clase / Componente                              | Atributos Principales                                                      | Métodos Principales                                                            | Descripción                                                                                     |
-| ---------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| **AuthController (BC IAM)**                    | - authService: AuthService                                                 | + login() <br> + register() <br> + refreshToken()                              | Controlador REST que gestiona la autenticación, registro de usuarios y emisión de tokens.       |
-| **TaskController (BC Tasks)**                  | - taskService: TaskService                                                 | + getAllTasks() <br> + createTask() <br> + updateTask() <br> + assignTask()    | Controlador responsable de exponer operaciones CRUD y asignación de tareas.                     |
-| **IncidentController (BC Incidents)**          | - incidentService: IncidentService                                         | + reportIncident() <br> + uploadEvidence()                                     | Controlador encargado del reporte de incidentes y carga de evidencias.                          |
-| **ReportController (BC Reporting)**            | - reportService: ReportService                                             | + generateReport() <br> + getKPIs()                                            | Controlador para la generación de reportes y visualización de KPIs operacionales.               |
-| **AuthService (BC IAM)**                       | - userRepository <br> - passwordEncoder <br> - jwtUtil                     | + authenticate() <br> + registerUser() <br> + validateToken()                  | Servicio que maneja la autenticación, registro de usuarios y validación de tokens.              |
-| **TaskService (BC Tasks)**                     | - taskRepository <br> - userRepository                                     | + createTask() <br> + updateTask() <br> + assignTask() <br> + getTasksByUser() | Encapsula la lógica de negocio relacionada al ciclo de vida de las tareas.                       |
-| **IncidentService (BC Incidents)**             | - incidentRepository <br> - fileStorageService                             | + reportIncident() <br> + processEvidence()                                    | Servicio responsable del registro y procesamiento de incidentes y evidencias.                  |
-| **ReportService (BC Reporting)**               | - taskRepository <br> - incidentRepository                                 | + generateReport() <br> + calculateKPIs()                                      | Servicio que consolida información de tareas e incidentes para generar reportes y KPIs.         |
-| **OfflineSyncService (BC Offline Sync)**       | - syncRepository                                                           | + processPendingRequests() <br> + resolveConflicts()                           | Gestiona la sincronización offline y la resolución de conflictos de datos.                      |
-| **User (Entidad JPA – BC IAM)**                | id, username, email, password, role, company                               | _N/A_                                                                          | Representa a un usuario dentro del sistema y su empresa asociada.                               |
-| **Company (Entidad JPA – BC IAM)**             | id, name, taxId, address                                                   | _N/A_                                                                          | Entidad que almacena información de las compañías.                                               |
-| **Task (Entidad JPA – BC Tasks)**              | id, title, description, status, priority, assignedUser, createdBy, dueDate | _N/A_                                                                          | Entidad que modela las tareas asignadas a los usuarios.                                          |
-| **Incident (Entidad JPA – BC Incidents)**      | id, description, severity, task, reportedBy, evidencePaths                 | _N/A_                                                                          | Entidad que representa incidentes y la evidencia asociada.                                       |
-| **Report (Entidad – BC Reporting)**            | id, generatedAt, periodStart, periodEnd, data                              | _N/A_                                                                          | Representa los reportes analíticos generados a partir de métricas del sistema.                  |
-| **SyncEntity (Entidad – BC Offline Sync)**     | id, entityType, entityId, payload, status, lastAttempt                     | _N/A_                                                                          | Entidad que almacena operaciones pendientes de sincronización offline.                          |
-| **UserRepository (BC IAM)**                    | _N/A_                                                                      | + findByEmail() <br> + findByCompanyId()                                       | Repositorio que administra la persistencia y consulta de usuarios.                               |
-| **TaskRepository (BC Tasks)**                  | _N/A_                                                                      | + findByAssignedUser() <br> + findByStatus() <br> + findByCompanyId()          | Repositorio para la persistencia y consulta de tareas.                                           |
-| **IncidentRepository (BC Incidents)**          | _N/A_                                                                      | + findByTask() <br> + findBySeverity()                                         | Repositorio encargado del manejo de incidentes.                                                 |
-| **ReportRepository (BC Reporting)**            | _N/A_                                                                      | + findByPeriod()                                                              | Repositorio encargado del acceso a reportes generados.                                          |
-| **SyncRepository (BC Offline Sync)**           | _N/A_                                                                      | + findPending() <br> + save()                                                  | Repositorio utilizado para la sincronización offline.                                           |      
+A continuación se documentan todas las clases, interfaces y enums del diagrama de clases de **PetroTask**, agrupadas por _Bounded Context_.
+
+##### Activities Context
+
+###### Interfaces de repositorio
+
+| Nombre               | Métodos clave                                                                                                                                                                                                                                                                                                                                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `ActivityRepository` | `findByStatus(status: ActivityStatus): List<Activity>`<br>`findByPriority(priority: ActivityPriority): List<Activity>`<br>`findByAssignedCrewId(crewId: String): List<Activity>`<br>`findByZoneOriginId(zoneOriginId: Long): List<Activity>`<br>`findByZoneDestinationId(zoneDestinationId: Long): List<Activity>`<br>`save(activity: Activity): Activity`<br>`findById(id: Long): Optional<Activity>` |
+
+---
+
+##### Activity
+
+**Descripción**: Representa una actividad minera que debe realizarse, incluyendo transporte entre ubicaciones, asignación de equipos y seguimiento de estado.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único de la actividad |
+| title | `String` | private | Título de la actividad (máx. 200 caracteres) |
+| description | `String` | private | Descripción detallada de la actividad |
+| zoneOriginId | `Long` | private | ID de la zona de origen |
+| zoneDestinationId | `Long` | private | ID de la zona de destino |
+| originLocationId | `Long` | private | ID de la ubicación de origen |
+| destinationLocationId | `Long` | private | ID de la ubicación de destino |
+| scheduledDate | `LocalDate` | private | Fecha programada para la actividad |
+| estimatedDuration | `Double` | private | Duración estimada en horas |
+| actualStartTime | `LocalDate` | private | Fecha y hora real de inicio |
+| actualEndTime | `LocalDate` | private | Fecha y hora real de finalización |
+| priority | `ActivityPriority` | private | Prioridad de la actividad (ALTA, MEDIA, BAJA) |
+| status | `ActivityStatus` | private | Estado actual de la actividad |
+| assignedCrewId | `String` | private | Código del equipo asignado (ej: "215-AWD") |
+| vehicleId | `Long` | private | ID del vehículo/equipo asignado |
+| incidentReportIds | `String` | private | JSON array de IDs de reportes de incidentes |
+| supervisorNotes | `String` | private | Notas del supervisor |
+| attachments | `String` | private | JSON array de nombres de archivos adjuntos |
+| tasksIds | `String` | private | JSON array de IDs de tareas relacionadas |
+
+**Métodos**:  
+| Firma | Visibilidad | Descripción |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `updateBasicInfo(...)` | public | Actualiza información básica (título, descripción, fecha, etc.) |
+| `updateLocations(...)` | public | Actualiza zonas y ubicaciones de origen/destino |
+| `assignCrew(String): Activity` | public | Asigna un equipo a la actividad |
+| `assignVehicle(Long): Activity` | public | Asigna un vehículo a la actividad |
+| `updateSupervisorNotes(String)` | public | Actualiza las notas del supervisor |
+| `startActivity(): Activity` | public | Marca la actividad como iniciada (EN_PROGRESO) |
+| `completeActivity(): Activity` | public | Marca la actividad como completada |
+| `cancelActivity(): Activity` | public | Cancela la actividad |
+| `markAsPending(): Activity` | public | Vuelve la actividad a estado PENDIENTE |
+| `updateStatus(ActivityStatus)` | public | Actualiza el estado de la actividad |
+| `updatePriority(ActivityPriority)` | public | Actualiza la prioridad de la actividad |
+| `isCompleted(): boolean` | public | Verifica si la actividad está completada |
+| `isCancelled(): boolean` | public | Verifica si la actividad está cancelada |
+
+---
+
+### ActivityStatus
+
+**Descripción**: Enumeración que define los posibles estados de una actividad.  
+**Valores**:
+
+- `PENDIENTE`: Actividad pendiente de iniciar
+- `EN_PROGRESO`: Actividad en curso
+- `COMPLETADA`: Actividad finalizada exitosamente
+- `CANCELADA`: Actividad cancelada
+
+---
+
+### ActivityPriority
+
+**Descripción**: Enumeración que define los niveles de prioridad de una actividad.  
+**Valores**:
+
+- `ALTA`: Prioridad alta
+- `MEDIA`: Prioridad media
+- `BAJA`: Prioridad baja
+
+---
+
+### CreateActivityCommand
+
+**Descripción**: Record que encapsula los datos necesarios para crear una nueva actividad.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|----------------------|----------------------------------------------------------------|
+| title | `String` | Título de la actividad |
+| description | `String` | Descripción detallada |
+| zoneOriginId | `Long` | ID de la zona de origen |
+| zoneDestinationId | `Long` | ID de la zona de destino |
+| originLocationId | `Long` | ID de la ubicación de origen |
+| destinationLocationId | `Long` | ID de la ubicación de destino |
+| scheduledDate | `LocalDate` | Fecha programada |
+| estimatedDuration | `Double` | Duración estimada en horas |
+| priority | `ActivityPriority` | Prioridad de la actividad |
+
+---
+
+### GetActivityByIdQuery
+
+**Descripción**: Record que representa una consulta para obtener una actividad por su ID.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|-------------|--------|----------------------------------------|
+| activityId | `Long` | ID de la actividad a consultar |
+
+---
+
+### ActivityResource
+
+**Descripción**: Record que representa la respuesta REST con los datos completos de una actividad.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | Identificador único |
+| title | `String` | Título de la actividad |
+| description | `String` | Descripción |
+| zoneOriginId | `Long` | ID de zona origen |
+| zoneDestinationId | `Long` | ID de zona destino |
+| originLocationId | `Long` | ID ubicación origen |
+| destinationLocationId | `Long` | ID ubicación destino |
+| scheduledDate | `LocalDate` | Fecha programada |
+| estimatedDuration | `Double` | Duración estimada |
+| actualStartTime | `LocalDate` | Fecha inicio real |
+| actualEndTime | `LocalDate` | Fecha fin real |
+| priority | `String` | Prioridad como string |
+| status | `String` | Estado como string |
+| assignedCrewId | `String` | Código del equipo asignado |
+| vehicleId | `Long` | ID del vehículo |
+| incidentReportIds | `String` | JSON de IDs de incidentes |
+| supervisorNotes | `String` | Notas del supervisor |
+| attachments | `String` | JSON de archivos adjuntos |
+| tasksIds | `String` | JSON de IDs de tareas |
+
+---
+
+### CreateActivityResource
+
+**Descripción**: Record que representa la petición REST para crear una actividad.  
+**Atributos**:  
+| Nombre | Tipo | Validación | Descripción |
+|----------------------|-------------|-----------------|------------------------------------------------|
+| title | `String` | @NotBlank, @Size(max=200) | Título |
+| description | `String` | - | Descripción |
+| zoneOriginId | `Long` | @NotNull | ID zona origen |
+| zoneDestinationId | `Long` | @NotNull | ID zona destino |
+| originLocationId | `Long` | @NotNull | ID ubicación origen |
+| destinationLocationId | `Long` | @NotNull | ID ubicación destino |
+| scheduledDate | `LocalDate` | @NotNull | Fecha programada |
+| estimatedDuration | `Double` | @NotNull | Duración estimada |
+| priority | `String` | @NotBlank | Prioridad (string) |
+
+---
+
+## Equipment Context
+
+### Interfaces de repositorio
+
+| Nombre                | Métodos clave                                                                                                                                                                                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `EquipmentRepository` | `findByStatus(status: EquipmentStatus): List<Equipment>`<br>`findByPlateNumber(plateNumber: String): Optional<Equipment>`<br>`existsByPlateNumber(plateNumber: String): boolean`<br>`save(equipment: Equipment): Equipment`<br>`findById(id: Long): Optional<Equipment>` |
+
+---
+
+### Equipment
+
+**Descripción**: Representa vehículos y maquinaria utilizados en operaciones mineras.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único del equipo |
+| plateNumber | `String` | private | Número de placa (único, máx. 50 caracteres) |
+| type | `String` | private | Tipo de equipo (máx. 100 caracteres) |
+| capacityLoad | `Integer` | private | Capacidad de carga |
+| capacityPassengers | `Integer` | private | Capacidad de pasajeros |
+| status | `EquipmentStatus` | private | Estado actual del equipo |
+
+**Métodos**:  
+| Firma | Visibilidad | Descripción |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `updateInfo(String, Integer, Integer)` | public | Actualiza tipo, capacidad de carga y pasajeros |
+| `markAsAvailable(): Equipment` | public | Marca el equipo como disponible |
+| `markAsInMaintenance(): Equipment` | public | Marca el equipo en mantenimiento |
+| `markAsInUse(): Equipment` | public | Marca el equipo en uso |
+| `markAsOutOfService(): Equipment` | public | Marca el equipo fuera de servicio |
+| `isAvailable(): boolean` | public | Verifica si el equipo está disponible |
+
+---
+
+### EquipmentStatus
+
+**Descripción**: Enumeración que define los estados posibles de un equipo.  
+**Valores**:
+
+- `DISPONIBLE`: Equipo disponible para uso
+- `MANTENIMIENTO`: Equipo en mantenimiento
+- `EN_USO`: Equipo actualmente en uso
+- `FUERA_DE_SERVICIO`: Equipo fuera de servicio
+
+---
+
+### CreateEquipmentCommand
+
+**Descripción**: Record para crear un nuevo equipo.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|-------------|----------------------------------------------------------------|
+| plateNumber | `String` | Número de placa |
+| type | `String` | Tipo de equipo |
+| capacityLoad | `Integer` | Capacidad de carga |
+| capacityPassengers | `Integer` | Capacidad de pasajeros |
+
+---
+
+### EquipmentResource
+
+**Descripción**: Record de respuesta REST para un equipo.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | Identificador único |
+| plateNumber | `String` | Número de placa |
+| type | `String` | Tipo de equipo |
+| capacityLoad | `Integer` | Capacidad de carga |
+| capacityPassengers | `Integer` | Capacidad de pasajeros |
+| status | `String` | Estado como string |
+
+---
+
+## IAM Context
+
+### Interfaces de repositorio y servicios de infraestructura
+
+| Nombre                 | Métodos clave                                                                                                                                                                                          |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `EmployeeRepository`   | `findByEmail(email: String): Optional<Employee>`<br>`existsByEmail(email: String): boolean`<br>`save(employee: Employee): Employee`<br>`findById(id: Long): Optional<Employee>`                        |
+| `RoleRepository`       | `findByName(name: Roles): Optional<Role>`<br>`existsByName(name: Roles): boolean`<br>`save(role: Role): Role`                                                                                          |
+| `BCryptHashingService` | `encode(raw: String): String`<br>`matches(raw: String, encoded: String): boolean`                                                                                                                      |
+| `BearerTokenService`   | `generateToken(auth: Authentication): String`<br>`validateToken(token: String): boolean`<br>`getBearerTokenFrom(request: HttpServletRequest): String`<br>`getUsernameFromToken(token: String): String` |
+
+---
+
+### Employee
+
+**Descripción**: Representa a un empleado de la empresa con sus credenciales y roles de acceso.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único del empleado |
+| firstName | `String` | private | Nombre(s) del empleado |
+| lastName | `String` | private | Apellido(s) del empleado |
+| password | `String` | private | Contraseña hasheada (máx. 120 caracteres) |
+| dni | `String` | private | DNI único (8 caracteres) |
+| email | `String` | private | Email único |
+| phone | `String` | private | Teléfono de contacto |
+| status | `Status` | private | Estado del empleado (ACTIVE, INACTIVE) |
+| roles | `Set<Role>` | private | Conjunto de roles asignados |
+
+**Métodos**:  
+| Firma | Visibilidad | Descripción |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `activate(): void` | public | Activa el empleado |
+| `deactivate(): void` | public | Desactiva el empleado |
+| `isActive(): boolean` | public | Verifica si está activo |
+| `updateProfile(String, String, String)` | public | Actualiza nombre, apellido y teléfono |
+| `getFullName(): String` | public | Retorna el nombre completo |
+| `addRole(Role): Employee` | public | Agrega un rol al empleado |
+| `addRoles(List<Role>): Employee` | public | Agrega múltiples roles |
+| `hasRole(String): boolean` | public | Verifica si tiene un rol específico |
+
+---
+
+### Role
+
+**Descripción**: Representa un rol de usuario en el sistema con permisos específicos.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único del rol |
+| name | `Roles` | private | Nombre del rol (enum) |
+| description | `String` | private | Descripción del rol |
+
+**Métodos**:  
+| Firma | Visibilidad | Descripción |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `getStringName(): String` | public | Obtiene el nombre del rol como string |
+| `getDefaultRole(): Role` | public static | Retorna el rol por defecto (ROLE_OPERARIO) |
+| `toRoleFromName(String): Role` | public static | Crea un rol desde su nombre |
+| `validateRoleSet(List<Role>): List<Role>` | public static | Valida conjunto de roles, retorna default si vacío |
+
+---
+
+### Roles
+
+**Descripción**: Enumeración de roles disponibles en el sistema.  
+**Valores**:
+
+- `ROLE_OPERARIO`: Ejecuta las tareas
+- `ROLE_SUPERVISOR`: Supervisa operaciones
+- `ROLE_ADMIN`: Administrador del sistema
+
+---
+
+### Status
+
+**Descripción**: Enumeración para el estado de un empleado.  
+**Valores**:
+
+- `INACTIVE`: Empleado inactivo
+- `ACTIVE`: Empleado activo
+
+---
+
+### SignUpCommand
+
+**Descripción**: Record para registrar un nuevo empleado en el sistema.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|----------------------|----------------------------------------------------------------|
+| firstName | `String` | Nombre del empleado |
+| lastName | `String` | Apellido del empleado |
+| dni | `String` | DNI |
+| phone | `String` | Teléfono |
+| email | `String` | Email |
+| password | `String` | Contraseña (manejar de forma segura) |
+| roles | `List<Role>` | Roles a asignar |
+
+---
+
+### EmployeeResource
+
+**Descripción**: Record de respuesta REST para un empleado.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|----------------------|----------------------------------------------------------------|
+| id | `Long` | Identificador único |
+| email | `String` | Email del empleado |
+| roles | `List<RoleResource>` | Lista de roles asignados |
+
+---
+
+## Locations Context
+
+### Interfaces de repositorio
+
+| Nombre               | Métodos clave                                                                                                                                                                                    |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `ZoneRepository`     | `findByActiveTrue(): List<Zone>`<br>`existsByName(name: String): boolean`<br>`save(zone: Zone): Zone`<br>`findById(id: Long): Optional<Zone>`                                                    |
+| `LocationRepository` | `findByZoneId(zoneId: Long): List<Location>`<br>`existsByNameAndZoneId(name: String, zoneId: Long): boolean`<br>`save(location: Location): Location`<br>`findById(id: Long): Optional<Location>` |
+
+---
+
+### Zone
+
+**Descripción**: Representa una zona minera que puede contener múltiples ubicaciones específicas.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único de la zona |
+| name | `String` | private | Nombre de la zona (máx. 100 caracteres) |
+| description | `String` | private | Descripción de la zona (máx. 500 caracteres) |
+| active | `Boolean` | private | Indica si la zona está activa |
+
+**Métodos**:  
+| Firma | Visibilidad | Descripción |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `activate(): void` | public | Activa la zona |
+| `deactivate(): void` | public | Desactiva la zona |
+| `updateInfo(String, String): void` | public | Actualiza nombre y descripción |
+| `isActive(): boolean` | public | Verifica si la zona está activa |
+
+---
+
+### Location
+
+**Descripción**: Representa una ubicación específica dentro de una zona minera con coordenadas geográficas.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único de la ubicación |
+| name | `String` | private | Nombre de la ubicación (máx. 150 caracteres) |
+| description | `String` | private | Descripción (máx. 500 caracteres) |
+| zone | `Zone` | private | Zona a la que pertenece |
+| coordinates | `Coordinates` | private | Coordenadas geográficas |
+
+**Métodos**:  
+| Firma | Visibilidad | Descripción |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `updateInfo(String, String): void` | public | Actualiza nombre y descripción |
+| `updateCoordinates(Double, Double): void` | public | Actualiza latitud y longitud |
+| `relocateToZone(Zone): void` | public | Reasigna la ubicación a otra zona |
+
+---
+
+### Coordinates
+
+**Descripción**: Value Object embebible que representa coordenadas geográficas.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| latitude | `Double` | private | Latitud |
+| longitude | `Double` | private | Longitud |
+
+**Métodos**: Getters generados por Lombok
+
+---
+
+### CreateLocationCommand
+
+**Descripción**: Record para crear una nueva ubicación.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|----------------------|----------------------------------------------------------------|
+| name | `String` | Nombre de la ubicación |
+| description | `String` | Descripción |
+| zoneId | `Long` | ID de la zona |
+| latitude | `Double` | Latitud |
+| longitude | `Double` | Longitud |
+
+---
+
+### LocationResource
+
+**Descripción**: Record de respuesta REST para una ubicación.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|----------------------|----------------------------------------------------------------|
+| id | `Long` | Identificador único |
+| name | `String` | Nombre |
+| description | `String` | Descripción |
+| zoneId | `Long` | ID de la zona |
+| zoneName | `String` | Nombre de la zona |
+| coordinates | `CoordinatesResource` | Coordenadas geográficas |
+
+---
+
+## Tasks Context
+
+### Interfaces de repositorio
+
+| Nombre                     | Métodos clave                                                                                                                                                                                                              |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `TaskRepository`           | `findByActivityId(activityId: Long): List<Task>`<br>`findByStatus(status: TaskStatus): List<Task>`<br>`findByLocationId(locationId: Long): List<Task>`<br>`save(task: Task): Task`<br>`findById(id: Long): Optional<Task>` |
+| `TaskSchedulingRepository` | `findByTaskId(taskId: Long): List<TaskScheduling>`<br>`findByTeamId(teamId: Long): List<TaskScheduling>`<br>`save(taskScheduling: TaskScheduling): TaskScheduling`<br>`findById(id: Long): Optional<TaskScheduling>`       |
+
+---
+
+### Task
+
+**Descripción**: Representa una tarea específica dentro de una actividad, con seguimiento de progreso y estado.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único de la tarea |
+| taskName | `String` | private | Nombre de la tarea (máx. 200 caracteres) |
+| description | `String` | private | Descripción detallada |
+| activityId | `Long` | private | ID de la actividad padre |
+| locationId | `Long` | private | ID de la ubicación donde se realiza |
+| status | `TaskStatus` | private | Estado actual de la tarea |
+| progress | `Integer` | private | Porcentaje de progreso (0-100) |
+
+**Métodos**:  
+| Firma | Visibilidad | Descripción |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `updateInfo(String, String, Long, Long)` | public | Actualiza información básica |
+| `updateProgress(Integer): Task` | public | Actualiza progreso (0-100) |
+| `updateStatus(TaskStatus): Task` | public | Actualiza el estado |
+| `markAsPending(): Task` | public | Marca como pendiente |
+| `markAsInProgress(): Task` | public | Marca como en progreso |
+| `markAsCompleted(): Task` | public | Marca como completada (progreso=100) |
+| `markAsCancelled(): Task` | public | Marca como cancelada |
+| `isCompleted(): boolean` | public | Verifica si está completada |
+| `isCancelled(): boolean` | public | Verifica si está cancelada |
+
+---
+
+### TaskScheduling
+
+**Descripción**: Entidad que representa la programación de una tarea para un equipo en una fecha específica.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único |
+| taskId | `Long` | private | ID de la tarea programada |
+| teamId | `Long` | private | ID del equipo asignado |
+| date | `LocalDate` | private | Fecha de programación |
+| status | `SchedulingStatus` | private | Estado de la programación |
+
+**Métodos**:  
+| Firma | Visibilidad | Descripción |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `updateInfo(LocalDate): TaskScheduling` | public | Actualiza la fecha |
+| `updateStatus(SchedulingStatus)` | public | Actualiza el estado |
+| `activate(): TaskScheduling` | public | Activa la programación |
+| `deactivate(): TaskScheduling` | public | Desactiva la programación |
+| `complete(): TaskScheduling` | public | Marca como completada |
+| `cancel(): TaskScheduling` | public | Cancela la programación |
+
+---
+
+### TaskStatus
+
+**Descripción**: Enumeración de estados de una tarea.  
+**Valores**:
+
+- `PENDIENTE`: Tarea pendiente
+- `EN_PROGRESO`: Tarea en curso
+- `COMPLETADA`: Tarea completada
+- `CANCELADA`: Tarea cancelada
+
+---
+
+### SchedulingStatus
+
+**Descripción**: Enumeración de estados de programación.  
+**Valores**:
+
+- `ACTIVE`: Programación activa
+- `INACTIVE`: Programación inactiva
+- `COMPLETED`: Programación completada
+- `CANCELLED`: Programación cancelada
+
+---
+
+### CreateTaskCommand
+
+**Descripción**: Record para crear una nueva tarea.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|----------------------|----------------------------------------------------------------|
+| taskName | `String` | Nombre de la tarea |
+| description | `String` | Descripción |
+| activityId | `Long` | ID de la actividad |
+| locationId | `Long` | ID de la ubicación |
+
+---
+
+## Teams Context
+
+### Interfaces de repositorio
+
+| Nombre                 | Métodos clave                                                                                                                                                                                           |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `TeamRepository`       | `findByZoneId(zoneId: Long): List<Team>`<br>`findByStatus(status: TeamStatus): List<Team>`<br>`existsByName(name: String): boolean`<br>`save(team: Team): Team`<br>`findById(id: Long): Optional<Team>` |
+| `TeamMemberRepository` | `findByEmployeeId(employeeId: Long): List<TeamMember>`<br>`save(teamMember: TeamMember): TeamMember`<br>`findById(id: Long): Optional<TeamMember>`                                                      |
+
+---
+
+### Team
+
+**Descripción**: Representa un equipo de trabajo asignado a una zona específica.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único del equipo |
+| name | `String` | private | Nombre del equipo (máx. 100 caracteres) |
+| date | `LocalDate` | private | Fecha de creación/asignación |
+| zoneId | `Long` | private | ID de la zona asignada |
+| status | `TeamStatus` | private | Estado del equipo (ACTIVE, INACTIVE) |
+| membersId | `String` | private | JSON array de IDs de miembros |
+
+**Métodos**:  
+| Firma | Visibilidad | Descripción |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `updateInfo(String, Long): Team` | public | Actualiza nombre y zona |
+| `activate(): Team` | public | Activa el equipo |
+| `deactivate(): Team` | public | Desactiva el equipo |
+| `updateMembers(List<Long>): Team` | public | Actualiza lista completa de miembros |
+| `addMember(Long): Team` | public | Agrega un miembro al equipo |
+| `removeMember(Long): Team` | public | Remueve un miembro del equipo |
+| `getMembersIdList(): List<Long>` | public | Obtiene lista de IDs de miembros desde JSON |
+| `setMembersIdList(List<Long>): void` | private | Convierte lista a JSON y guarda |
+
+---
+
+### TeamMember
+
+**Descripción**: Entidad que representa un miembro del equipo con su posición.  
+**Atributos**:  
+| Nombre | Tipo | Visibilidad | Descripción |
+|----------------------|----------------------|-------------|----------------------------------------------------------------|
+| id | `Long` | private | Identificador único |
+| employeeId | `Long` | private | ID del empleado |
+| positionId | `Long` | private | ID de la posición/cargo |
+
+**Métodos**: Getters generados por Lombok
+
+---
+
+### TeamStatus
+
+**Descripción**: Enumeración de estados de un equipo.  
+**Valores**:
+
+- `ACTIVE`: Equipo activo
+- `INACTIVE`: Equipo inactivo
+
+---
+
+### CreateTeamCommand
+
+**Descripción**: Record para crear un nuevo equipo.  
+**Atributos**:  
+| Nombre | Tipo | Descripción |
+|----------------------|----------------------|----------------------------------------------------------------|
+| name | `String` | Nombre del equipo |
+| zoneId | `Long` | ID de la zona |
+| membersId | `List<Long>` | Lista de IDs de miembros |
+
+---
 
 <br>
 
