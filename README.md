@@ -32,10 +32,11 @@
 
 | _Versión_ | _Fecha_    | _Autor_                         | _Descripción de modificación_               |
 | --------- | ---------- | ------------------------------- | ------------------------------------------- |
-| 1.0       | 11/09/2025 | Baldeon Vivar, Santiago Armando | Creación del repositorio                    |
+| 1.0       | 11/09/2025 | Baldeón Vivar, Santiago Armando | Creación del repositorio                    |
 | 1.1       | 18/09/2025 | Todos                           | Completo cap 2,3,4,5                        |
 | 1.2       | 08/10/2025 | Todos                           | Sprint 2 y correcciones                     |
 | 1.3       | 15/11/2025 | Todos                           | Sprint 3, correcciones y avance del backend |
+| 2.0       | 29/11/2025 | Todos                           | Sprint 4, correcciones y detalles finales   |
 
 ## Project Report Collaboration Insights
 
@@ -76,6 +77,17 @@ Para el desarrollo del informe correspondiente al TB2, la implementación de sec
 | Rodrigo Fabrizio Aguilar Untiveros | Documentación **Aspect Leaders and Collaborators**. Avance de **Bibliografía**.                                                                                                         |
 | Johan Giovani Huamán Cuba          | Documentación **Team Collaboration Insights during Sprint**. Avance de **Conclusiones** y **Recomendaciones**.                                                                          |
 
+**Trabajo Final (TF)**
+
+Para el desarrollo del informe correspondiente al Trabajo Final (TF), la implementación de secciones y tareas se ha dividido de la siguiente manera entre los integrantes del grupo:
+
+| **Integrantes**                    | **Tareas asignadas**                                                                             |
+| :--------------------------------- | :----------------------------------------------------------------------------------------------- |
+| Santiago Valentino Solis Chang     | Sprint Planning 4, Aspect Leaders and Collaborators, Team Collaboration Insights during Sprint 4 |
+| Oskar Rodrigo Sosa Soto            | Sprint Backlog 4, Development Evidence for Sprint Review, conexión del backend con el frontend   |
+| Rodrigo Fabrizio Aguilar Untiveros | Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review          |
+| Johan Giovani Huamán Cuba          | Software Deployment Evidence for Sprint Review                                                   |
+
 ## Github Collaboration Insights
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
@@ -86,6 +98,11 @@ Se puede identificar a los integrantes como:
 - Rodrigo Fabrizio Aguilar Untiveros : Rodri2712
 - Santiago Valentino Solis Chang : TrEv0rRrRr
 - Johan Giovani Huamán Cuba : Johancuba
+
+Asimismo, se explican las ramas que tenemos hasta el momento:
+
+main: Aún no se encuentra representada, pues se hace un merge en cada entrega al ser la rama principal del proyecto.
+develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
 
 ## Students Outcomes
 
@@ -423,9 +440,9 @@ Se puede identificar a los integrantes como:
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.2. [Registro de Entrevistas](#532-registro-de-entrevistas)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3.3. [Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
 
-6. **[Conclusiones](#6-conclusiones)**  
-   &nbsp;&nbsp;&nbsp;&nbsp;6.1. [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)  
-   &nbsp;&nbsp;&nbsp;&nbsp;6.2. [Video About-the-Team](#62-video-about-the-team)
+6. **[Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)**  
+   &nbsp;&nbsp;&nbsp;&nbsp;6.1. [Conclusiones](#61-conclusiones)
+   &nbsp;&nbsp;&nbsp;&nbsp;6.2. [Recomendaciones](#62-recomendaciones)
 
 7. **[Bibliografía](#7-bibliografía)**
 
@@ -3007,19 +3024,65 @@ Mensajes claros, pero falta mejorar recomendaciones de solución.
 **10. Ayuda y documentación**  
 Se requiere un manual básico integrado (programado para Sprint 4).
 
-### 5.4. Video About-the-Product.
+# 6. Conclusiones y recomendaciones
 
-# 6. Conclusiones
+## 6.1. Conclusiones
 
-// TODO: agregar más conclusiones
+1. **Metodología Ágil y Planificación Iterativa**: La implementación de Scrum permitió organizar el desarrollo del proyecto en sprints bien definidos, facilitando la gestión de tareas y la adaptabilidad ante cambios en los requisitos. La planificación iterativa demostró ser efectiva para alcanzar objetivos medibles en cada ciclo de desarrollo.
 
-Este trabajo permitió establecer una base sólida para el desarrollo del proyecto. Se organizaron las tareas, se definieron los procesos de trabajo y se preparó el entorno técnico necesario. Esto dio claridad al equipo y facilitó la coordinación de actividades.
+2. **Arquitectura Escalable y Modular**: La adopción de Domain-Driven Design (DDD) y la separación en bounded contexts permitió construir una arquitectura backend sólida y escalable. Esta estructura modular facilitó la implementación independiente de funcionalidades y su integración posterior.
 
-La planificación de los sprints mostró que es posible avanzar de manera ordenada, con objetivos claros y medibles. También permitió reconocer la importancia de mantener registros de las decisiones técnicas y de dar valor a la comunicación constante dentro del equipo.
+3. **Integración Frontend-Backend**: La conexión exitosa entre Angular y Spring Boot evidenció la importancia de definir contratos de API claros desde las primeras fases del proyecto. La documentación con Swagger UI fue fundamental para mantener la consistencia entre ambos componentes.
 
-La implementación inicial demostró que los lineamientos planteados pueden convertirse en resultados concretos. El despliegue de las primeras funciones abrió el camino para seguir ampliando las capacidades del sistema y asegurar que cumpla con las necesidades de los usuarios.
+4. **Gestión Offline y Sincronización**: La implementación de funcionalidades offline mediante IndexedDB demostró ser crucial para el contexto operativo petrolero, donde la conectividad limitada es una realidad constante. Los mecanismos de sincronización automática garantizaron la integridad de los datos.
 
-En conjunto, este avance representó un paso clave para continuar el proyecto con mayor seguridad, enfoque y compromiso.
+5. **Despliegue en la Nube**: El uso de Azure Static Web Apps para el frontend y Azure App Service para el backend permitió establecer un entorno de producción confiable y escalable. La integración continua mediante GitHub Actions automatizó el proceso de despliegue.
+
+6. **Technical Stories y Backend Development**: La creación de 52 Technical Stories correspondientes a todos los endpoints del backend permitió una trazabilidad completa entre los requisitos técnicos y la implementación. Este enfoque garantizó que todas las funcionalidades estuvieran correctamente documentadas y probadas.
+
+7. **Trabajo Colaborativo y Control de Versiones**: La aplicación de GitFlow y Conventional Commits facilitó la colaboración del equipo y mantuvo un historial de cambios limpio y comprensible. La matriz LACX (Leaders and Collaborators) definió claramente las responsabilidades de cada miembro.
+
+8. **User-Centered Design**: Las entrevistas de validación con supervisores y técnicos demostraron la importancia de mantener un enfoque centrado en el usuario. Los feedbacks obtenidos permitieron ajustar la interfaz y mejorar la experiencia de usuario.
+
+9. **Seguridad y Autenticación**: La implementación de JWT (JSON Web Tokens) para autenticación y el uso de BCrypt para encriptación de contraseñas establecieron una base sólida de seguridad, protegiendo los datos sensibles de las operaciones petroleras.
+
+10. **Testing y Calidad de Código**: La incorporación de pruebas unitarias e integradas en cada sprint garantizó un nivel de calidad constante. La cobertura de pruebas superior al 80% permitió detectar y corregir errores tempranamente.
+
+11. **Gestión de Evidencias Multimedia**: La integración con Azure Blob Storage para almacenamiento de imágenes demostró ser eficiente para la gestión de evidencias operativas, cumpliendo con los requisitos de trazabilidad y auditoría del sector petrolero.
+
+12. **Visualización de Datos y KPIs**: El desarrollo de dashboards interactivos con métricas en tiempo real proporcionó a los supervisores herramientas valiosas para la toma de decisiones operativas informadas.
+
+## 6.2. Recomendaciones
+
+1. **Expansión de Funcionalidades Offline**: Se recomienda ampliar las capacidades offline del sistema para incluir la descarga previa de manuales técnicos y procedimientos de seguridad, permitiendo a los técnicos acceder a documentación crítica sin conexión.
+
+2. **Optimización de Rendimiento**: Implementar estrategias de caching más agresivas en el frontend y optimizar las consultas SQL en el backend para mejorar los tiempos de respuesta, especialmente en operaciones que involucren grandes volúmenes de datos históricos.
+
+3. **Integración con Sistemas ERP**: Avanzar en la integración con sistemas ERP corporativos existentes para automatizar la sincronización de datos de inventario, recursos humanos y planificación operativa, reduciendo la duplicidad de esfuerzos.
+
+4. **Monitoreo y Logging**: Implementar un sistema robusto de monitoreo y logging mediante herramientas como Application Insights de Azure para detectar proactivamente problemas de rendimiento y errores en producción.
+
+5. **Mejoras en la UX/UI**: Realizar pruebas de usabilidad adicionales con usuarios finales en campo para identificar puntos de fricción en la interfaz y optimizar los flujos de trabajo más críticos.
+
+6. **Seguridad Avanzada**: Incorporar autenticación multifactor (MFA) y políticas de seguridad más estrictas para el acceso a funcionalidades sensibles, además de implementar auditorías de seguridad periódicas.
+
+7. **Módulo de Capacitación**: Desarrollar un módulo de capacitación integrado que permita a nuevos usuarios aprender a utilizar el sistema mediante tutoriales interactivos y guías contextuales.
+
+8. **Analítica Avanzada**: Implementar modelos de machine learning para predecir patrones de mantenimiento preventivo y optimizar la asignación de recursos basándose en datos históricos de desempeño.
+
+9. **Notificaciones Inteligentes**: Mejorar el sistema de notificaciones para evitar la sobrecarga de alertas, implementando priorización inteligente y agrupación de notificaciones según contexto y urgencia.
+
+10. **Documentación y Onboarding**: Crear documentación técnica exhaustiva para desarrolladores futuros y guías de usuario detalladas que faciliten la adopción del sistema en nuevas locaciones operativas.
+
+11. **Testing Automatizado**: Expandir la suite de pruebas automatizadas para incluir pruebas end-to-end (E2E) que simulen escenarios operativos completos, garantizando la estabilidad del sistema en actualizaciones futuras.
+
+12. **Backup y Recuperación**: Establecer políticas claras de backup automático y procedimientos de recuperación ante desastres para garantizar la continuidad operativa en caso de fallos del sistema.
+
+13. **Escalabilidad Horizontal**: Diseñar estrategias de escalabilidad horizontal para el backend utilizando contenedores Docker y orquestación con Kubernetes, permitiendo manejar aumentos significativos en la carga de usuarios.
+
+14. **Cumplimiento Normativo**: Asegurar el cumplimiento de normativas específicas del sector petrolero relacionadas con la gestión de datos, seguridad industrial y reportes regulatorios.
+
+15. **Feedback Continuo**: Establecer un canal formal de retroalimentación con los usuarios finales para recopilar sugerencias de mejora continua y priorizar desarrollos futuros basándose en necesidades reales del campo.
 
 # 7. Bibliografía
 
@@ -3046,6 +3109,14 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - [Video About The Product](https://www.youtube.com/watch?v=4TrH_UBEvOk)
 
 - [Video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319881_upc_edu_pe/EW4KQrrighJCmiQAXLX_8IABKZluaswrEMl6zfW9DHkFyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OjHwdR)
+
+- [Repositorio frontend](https://github.com/PetroTask/petrotask-frontend-app)
+
+- [Repositorio backend](https://github.com/PetroTask/petrotask-back)
+
+- [Repositorio landing](https://github.com/PetroTask/petrotask-landingpage)
+
+- [Repositorio informe](https://github.com/PetroTask/PetroTask-report)
 
 // TODO: hacer deploy
 
