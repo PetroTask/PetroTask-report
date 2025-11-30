@@ -3805,8 +3805,6 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 ## 5.3. Validation Interviews.
 
-// TODO: agregar más validaciones guiarnos de: [guia](https://github.com/UPC-GosTech/swiftport-report/blob/develop/README.md)
-
 ### 5.3.1. Diseño de Entrevistas
 
 El objetivo de estas entrevistas fue validar la **usabilidad**, **eficiencia** y **claridad** de la solución **PetroTask**, considerando la evolución del sistema hasta el **Sprint 4**. Las entrevistas se realizaron a usuarios alineados con los segmentos objetivos definidos, específicamente **supervisores/planificadores**, **técnicos de mantenimiento** y **operarios de campo** vinculados a operaciones petroleras.
