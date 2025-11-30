@@ -3801,7 +3801,10 @@ Durante el Sprint 4, el equipo trabajó de forma intensiva en la integración fi
 
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
-// TODO: agregar img de insights sprint 4
+![Informe Sprint 4](https://raw.githubusercontent.com/PetroTask/PetroTask-report/8415b4fc13f4b5cdaaf0f004acae6aff3a6491a4/img/Sprint%204/informe.PNG)
+![Backend Sprint 4](https://raw.githubusercontent.com/PetroTask/PetroTask-report/8415b4fc13f4b5cdaaf0f004acae6aff3a6491a4/img/Sprint%204/backend.PNG)
+![Frontend Sprint 4](https://raw.githubusercontent.com/PetroTask/PetroTask-report/8415b4fc13f4b5cdaaf0f004acae6aff3a6491a4/img/Sprint%204/frontend.PNG)
+![Landing Page Sprint 4](https://raw.githubusercontent.com/PetroTask/PetroTask-report/8415b4fc13f4b5cdaaf0f004acae6aff3a6491a4/img/Sprint%204/landing%20page.PNG)
 
 ## 5.3. Validation Interviews.
 
