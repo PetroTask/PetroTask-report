@@ -2715,7 +2715,7 @@ Para Product UX/UI Design, los wireframes y prototipos visuales se elaborarán e
 
 Como entornos de desarrollo integrado se utilizará principalmente Visual Studio Code para frontend y scripts, y IntelliJ IDEA para el desarrollo y pruebas del backend en Java. WebStorm puede ser alternativa para desarrolladores frontend que lo prefieran. Las descargas y versiones deberán apuntar a las páginas oficiales indicadas.
 
-Para el desarrollo de frontend se usará Node.js en su versión LTS y NPM como administrador de paquetes. El frontend se implementará con React.js y TypeScript cuando corresponda. Para el diseño de estilos se utilizará Tailwind CSS como framework de utilidades. Para transpilación y bundling se usará el ecosistema Node.
+Para el desarrollo de frontend se usará Node.js en su versión LTS y NPM como administrador de paquetes. El frontend se implementará con Angular y TypeScript cuando corresponda. Para el diseño de estilos se utilizará Tailwind CSS como framework de utilidades. Para transpilación y bundling se usará el ecosistema Node.
 
 Para el backend se empleará Java. Las pruebas unitarias y de integración en backend se realizarán con JUnit y herramientas del ecosistema Spring.
 
