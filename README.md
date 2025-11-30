@@ -3451,8 +3451,6 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 - Validación de flujo completo desde la interfaz hasta la base de datos.
 - Despliegue final del sistema en Azure listo para pruebas finales de usuario.
 
-// TODO: agregar imgs swagger
-
 #### Capturas de prueba de flujo completo de usuario
 
 ![Vista General](img/imgs-swagger/tf/locations.png)
@@ -3464,8 +3462,6 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 4 se completó la documentación de todos los endpoints correspondientes. Utilizando OpenAPI y Swagger UI, se definieron los contratos de los servicios, incluyendo los métodos HTTP, parámetros de entrada, estructuras de respuesta y ejemplos con datos reales.
-
-// TODO: agregar los request-response de todos los módulos
 
 #### Authentication - `/api/v1/auth`
 
