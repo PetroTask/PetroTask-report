@@ -3496,8 +3496,6 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 
 Durante el Sprint 4 se completó la documentación de todos los endpoints correspondientes. Utilizando OpenAPI y Swagger UI, se definieron los contratos de los servicios, incluyendo los métodos HTTP, parámetros de entrada, estructuras de respuesta y ejemplos con datos reales.
 
-// TODO: agregar los request-response de todos los módulos
-
 #### Authentication - `/api/v1/auth`
 
 | HTTP Verb | Endpoint   | Description         |
