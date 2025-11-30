@@ -3809,16 +3809,44 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 ### 5.3.1. Diseño de Entrevistas
 
-El objetivo de estas entrevistas fue validar la usabilidad, eficiencia y claridad del prototipo desarrollado hasta el Sprint 3. Se entrevistó a supervisores, técnicos de mantenimiento y coordinadores operativos.
+El objetivo de estas entrevistas fue validar la **usabilidad**, **eficiencia** y **claridad** de la solución **PetroTask**, considerando la evolución del sistema hasta el **Sprint 4**. Las entrevistas se realizaron a usuarios alineados con los segmentos objetivos definidos, específicamente **supervisores/planificadores**, **técnicos de mantenimiento** y **operarios de campo** vinculados a operaciones petroleras.
 
-Criterios evaluados:
+La validación se centró en analizar cómo los usuarios interactúan con la plataforma web y móvil en escenarios reales de trabajo, incluyendo condiciones de conectividad limitada, alta carga operativa y necesidad de respuesta inmediata ante incidentes.
 
-- Usabilidad general de la plataforma.
-- Claridad en la trazabilidad y evidencias.
-- Complejidad cognitiva.
-- Interpretación visual de dashboards y módulos.
-- Comportamiento en modo offline.
-- Nivel de satisfacción general del usuario.
+#### Objetivo de la Entrevista
+Evaluar si PetroTask cumple con las expectativas de los usuarios finales en términos de facilidad de uso, comprensión de los flujos operativos y apoyo efectivo a la gestión de tareas petroleras, identificando oportunidades de mejora antes de su consolidación como solución funcional.
+
+Asimismo, se buscó validar la claridad de la trazabilidad operativa, el entendimiento de los dashboards y la percepción general de valor del sistema dentro del flujo diario de trabajo.
+
+#### Criterios Evaluados
+Durante las entrevistas se evaluaron los siguientes criterios:
+
+- **Usabilidad general de la plataforma**:  
+  Facilidad de aprendizaje, navegación entre módulos y claridad de la interfaz tanto en web como en dispositivos móviles.
+
+- **Claridad en la trazabilidad y evidencias**:  
+  Comprensión del historial de tareas, registro de evidencias fotográficas, estados de ejecución y responsables.
+
+- **Complejidad cognitiva**:  
+  Nivel de esfuerzo requerido para comprender y ejecutar acciones clave como asignar tareas, reprogramar actividades o reportar incidencias.
+
+- **Interpretación visual de dashboards y módulos**:  
+  Claridad de los indicadores, comprensión del estado operativo general y utilidad de la información presentada para la toma de decisiones.
+
+- **Comportamiento en modo offline**:  
+  Comprensión del funcionamiento del sistema sin conexión, facilidad para registrar información en campo y percepción del proceso de sincronización posterior.
+
+- **Nivel de satisfacción general del usuario**:  
+  Percepción global del sistema, utilidad real para el trabajo diario y disposición a utilizar PetroTask de forma continua.
+
+#### Perfiles Entrevistados
+Las entrevistas se realizaron considerando los siguientes perfiles:
+
+- **Supervisores y planificadores de campo**: responsables de la asignación, supervisión y reprogramación de tareas operativas.
+- **Técnicos y operarios de campo**: encargados de la ejecución directa de actividades, registro de avances, incidencias y evidencias.
+- **Coordinadores operativos**: usuarios con una visión transversal de las operaciones y necesidades de reporte y control.
+
+Estos perfiles permitieron obtener una visión integral del uso de PetroTask en distintos niveles operativos y contextos reales de la industria petrolera.
 
 ### 5.3.2. Registro de Entrevistas
 
