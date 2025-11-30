@@ -1976,132 +1976,145 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 El backend está dividido en 5 Bounded Contexts independientes.
 Cada contexto tiene su propio diagrama para mejorar la legibilidad, el análisis del dominio y el alineamiento con DDD.
 
-##### Activities Context
+##### Resource Context
 
-<div align="center"> <img src="img/diagrama-back/Activities/context.png" alt="Activities context" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/resource/cd.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
 
-- Domain Layer
+- Domain
 
-<div align="center"> <img src="img/diagrama-back/Activities/domain.png" alt="Activities Domain Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/resource/domain.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
 
-- Application Layer
+- Infrastructure
 
-<div align="center"> <img src="img/diagrama-back/Activities/application.png" alt="Activities Application Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/resource/infra.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
 
-- Interface Layer
+- Interfaces
 
-<div align="center"> <img src="img/diagrama-back/Activities/interface.png" alt="Activities Interface Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/resource/inter.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
 
-- Infrastructure Layer
+- Application
 
-<div align="center"> <img src="img/diagrama-back/Activities/infrastructure.png" alt="Activities Infrastructure Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/resource/app.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
 
-##### Equipment Context
+##### Planification Context
 
-<div align="center"> <img src="img/diagrama-back/Equipment/context.png" alt="Equipment context" width="700px"/> </div>
+<div>
+  <p align="center"><img src="assets/md-images/plan/cd.png" alt="Plannification Class Diagram" width="700px" /></p>
+</div>
 
-- Domain Layer
+- Domain
 
-<div align="center"> <img src="img/diagrama-back/Equipment/domain.png" alt="Equipment Domain Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/plan/dom.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
 
-- Application Layer
+- Infrastructure y Application
 
-<div align="center"> <img src="img/diagrama-back/Equipment/application.png" alt="Equipment Application Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/plan/app-infra.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
 
-- Interface Layer
+- Interfaces
 
-<div align="center"> <img src="img/diagrama-back/Equipment/interface.png" alt="Equipment Interface Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/plan/inter.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
 
-- Infrastructure Layer
+##### Execution Context
 
-<div align="center"> <img src="img/diagrama-back/Equipment/infrastructure.png" alt="Equipment Infrastructure Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/exec/cd.png" alt="Execution Class Diagram" width="700px" /></p>
+</div>
+
+- Domain
+
+<div>
+  <p align="center"><img src="img/diagrama-back/exec/dom.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+- Infrastructure
+
+<div>
+  <p align="center"><img src="img/diagrama-back/exec/infra.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+- Interfaces
+
+<div>
+  <p align="center"><img src="img/diagrama-back/exec/inter.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+- Application
+
+<div>
+  <p align="center"><img src="img/diagrama-back/exec/app.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
 
 ##### IAM Context
 
-<div align="center"> <img src="img/diagrama-back/IAM/context.png" alt="IAM context" width="700px"/> </div>
-<div align="center"> <img src="img/diagrama-back/IAM/context2.png" alt="IAM context" width="700px"/> </div>
-<div align="center"> <img src="img/diagrama-back/IAM/context3.png" alt="IAM context" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/IAM/cd.png" alt="IAM  Class Diagram" width="700px" /></p>
+</div>
 
-- Domain Layer
+- Domain
 
-<div align="center"> <img src="img/diagrama-back/IAM/domain.png" alt="IAM Domain Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/IAM/dom.png" alt="CD" width="700px" /></p>
+</div>
 
-- Application Layer
+- Infrastructure
 
-<div align="center"> <img src="img/diagrama-back/IAM/application.png" alt="IAM Application Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/IAM/infra.png" alt="CD" width="700px" /></p>
+</div>
 
-- Interface Layer
+- Interfaces
 
-<div align="center"> <img src="img/diagrama-back/IAM/interface.png" alt="IAM Interface Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/IAM/inter.png" alt="CD" width="700px" /></p>
+</div>
 
-- Infrastructure Layer
+- Application
 
-<div align="center"> <img src="img/diagrama-back/IAM/infrastructure.png" alt="IAM Infrastructure Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/IAM/app.png" alt="CD" width="700px" /></p>
+</div>
 
-##### Locations Context
+##### Notifications Context
 
-<div align="center"> <img src="img/diagrama-back/Locations/interface.png" alt="Locations context" width="700px"/> </div>
-<div align="center"> <img src="img/diagrama-back/Locations/context.png" alt="Locations context" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/cd.png" alt="CD" width="700px" /></p>
+</div>
 
-- Domain Layer
+##### Billing Context
 
-<div align="center"> <img src="img/diagrama-back/Locations/domain.png" alt="Locations Domain Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/billing/cd.png" alt="CD" width="700px" /></p>
+</div>
 
-- Application Layer
+<div>
+  <p align="center"><img src="img/diagrama-back/billing/dom.png" alt="CD" width="700px" /></p>
+</div>
 
-<div align="center"> <img src="img/diagrama-back/Locations/application.png" alt="Locations Application Layer" width="700px"/> </div>
+<div>
+  <p align="center"><img src="img/diagrama-back/billing/2.png" alt="CD" width="700px" /></p>
+</div>
 
-- Interface Layer
+<div>
+  <p align="center"><img src="img/diagrama-back/billing/3.png" alt="CD" width="700px" /></p>
+</div>
 
-<div align="center"> <img src="img/diagrama-back/Locations/interface.png" alt="Locations Interface Layer" width="700px"/> </div>
-
-- Infrastructure Layer
-
-<div align="center"> <img src="img/diagrama-back/Locations/infrastructure.png" alt="Locations Infrastructure Layer" width="700px"/> </div>
-
-##### Tasks Context
-
-<div align="center"> <img src="img/diagrama-back/Tasks/interface.png" alt="Tasks context" width="700px"/> </div>
-<div align="center"> <img src="img/diagrama-back/Tasks/context.png" alt="Tasks context" width="700px"/> </div>
-
-- Domain Layer
-
-<div align="center"> <img src="img/diagrama-back/Tasks/domain1.png" alt="Tasks Domain Layer" width="700px"/> </div>
-<div align="center"> <img src="img/diagrama-back/Tasks/domain2.png" alt="Tasks Domain Layer" width="700px"/> </div>
-
-- Application Layer
-
-<div align="center"> <img src="img/diagrama-back/Tasks/application.png" alt="Tasks Application Layer" width="700px"/> </div>
-
-- Interface Layer
-
-<div align="center"> <img src="img/diagrama-back/Tasks/interface.png" alt="Tasks Interface Layer" width="700px"/> </div>
-
-- Infrastructure Layer
-
-<div align="center"> <img src="img/diagrama-back/Tasks/infrastructure.png" alt="Tasks Infrastructure Layer" width="700px"/> </div>
-
-##### Teams Context
-
-<div align="center"> <img src="img/diagrama-back/Teams/interface.png" alt="Teams context" width="700px"/> </div>
-<div align="center"> <img src="img/diagrama-back/Teams/context.png" alt="Teams context" width="700px"/> </div>
-
-- Domain Layer
-
-<div align="center"> <img src="img/diagrama-back/Teams/domain1.png" alt="Teams Domain Layer" width="700px"/> </div>
-<div align="center"> <img src="img/diagrama-back/Teams/domain2.png" alt="Teams Domain Layer" width="700px"/> </div>
-
-- Application Layer
-
-<div align="center"> <img src="img/diagrama-back/Teams/application.png" alt="Teams Application Layer" width="700px"/> </div>
-
-- Interface Layer
-
-<div align="center"> <img src="img/diagrama-back/Teams/interface.png" alt="Teams Interface Layer" width="700px"/> </div>
-
-- Infrastructure Layer
-
-<div align="center"> <img src="img/diagrama-back/Teams/infrastructure.png" alt="Teams Infrastructure Layer" width="700px"/> </div>
+<br>
 
 #### 4.7.1.2. Frontend Class Diagram
 
@@ -2973,34 +2986,43 @@ Durante este sprint se desarrollaron las principales vistas y componentes del fr
 Durante el Sprint 3 se avanzó significativamente en la implementación del backend de PetroTask, desarrollando los principales servicios, entidades y controladores que darán soporte a las funcionalidades del sistema
 
 #### Vista general del Swagger UI - Endpoints disponibles
+
 ![Vista general del Swagger UI - Endpoints disponibles](img/imgs-swagger/tf/vista-general.png)
 
 #### Ventana emergente de autorización
+
 ![Ventana emergente de autorización](img/imgs-swagger/tf/auth.png)
 
-#### Definición de recursos - Parte 1 
+#### Definición de recursos - Parte 1
+
 ![Definición de recursos](img/imgs-swagger/tf/recursos1.png)
 
-#### Definición de recursos - Parte 2 
+#### Definición de recursos - Parte 2
+
 ![Definición de recursos](img/imgs-swagger/tf/recursos2.png)
 
 #### Endpoints del módulo Usuarios, Cargos y Equipos
+
 ![Endpoints del módulo Usuarios, Cargos y Equipos](img/imgs-swagger/tf/users.png)
 ![Endpoints del módulo Usuarios, Cargos y Equipos](img/imgs-swagger/tf/combo1.png)
 
 #### Endpoints del módulo Zonas y Reservas
+
 ![Endpoints del módulo Zonas y Reservas](img/imgs-swagger/tf/combo2.png)
 ![Endpoints del módulo Zonas y Reservas](img/imgs-swagger/tf/task-pro.png)
 
 #### Endpoints del módulo Empleados, Roles y Actividades
+
 ![Endpoints del módulo Empleados, Roles y Actividades](img/imgs-swagger/tf/combo3.png)
 ![Endpoints del módulo Empleados, Roles y Actividades](img/imgs-swagger/tf/emple.png)
 ![Endpoints del módulo Empleados, Roles y Actividades](img/imgs-swagger/tf/activ.png)
 
-#### Endpoints del módulo Ejecuciones 
+#### Endpoints del módulo Ejecuciones
+
 ![Endpoints del módulo Ejecuciones](img/imgs-swagger/tf/ejec.png)
 
-#### Endpoints del módulo Reporte de Incidentes  
+#### Endpoints del módulo Reporte de Incidentes
+
 ![Endpoints del módulo Reporte de Incidentes](img/imgs-swagger/tf/incidentes.png)
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
