@@ -1927,9 +1927,15 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 #### 4.7.1.1. Backend Class Diagram
 
-// TODO: Actualizar el diagrama y separar por contexto
+El backend está dividido en 5 Bounded Contexts independientes.
+Cada contexto tiene su propio diagrama para mejorar la legibilidad, el análisis del dominio y el alineamiento con DDD.
 
-![Diagrama de Clases Backend](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9cf7c200793db432fe2eee2545b51a1bd457065e/img/Backend.png)
+![Context Map](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/Context%20Map.png)
+![BC IAM](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20IAM.png)
+![BC Tasks](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20Tasks.png)
+![BC Incidents](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20Incidents.png)
+![BC Reporting](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20Reporting.png)
+![BC Offline Sync](https://raw.githubusercontent.com/PetroTask/PetroTask-report/9ffb1ebd97c6a0ff3165ea4bb72df493b59e2ccf/img/Backend/BC%20Offline%20Sync.png)
 
 #### 4.7.1.2. Frontend Class Diagram
 
@@ -1939,25 +1945,28 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ### 4.7.2.1. Backend Class Dictionary
 
-// TODO: Actualizar con los servicios que sí tenemos en nuestro backend
-
-| Clase                      | Atributos Principales                                                      | Métodos Principales                                                            | Descripción                                                                          |
-| -------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
-| **AuthController**         | - authService: AuthService                                                 | + login() <br> + register() <br> + refreshToken()                              | Controlador REST que maneja autenticación y emisión de tokens.                       |
-| **TaskController**         | - taskService: TaskService                                                 | + getAllTasks() <br> + createTask() <br> + updateTask() <br> + assignTask()    | Controlador responsable de exponer operaciones CRUD y asignación de tareas.          |
-| **IncidentController**     | - incidentService: IncidentService                                         | + reportIncident() <br> + uploadEvidence()                                     | Controlador para reportar incidentes y cargar evidencias.                            |
-| **ReportController**       | - reportService: ReportService                                             | + generateReport() <br> + getKPIs()                                            | Controlador para generación de reportes y KPIs operacionales.                        |
-| **AuthService**            | - userRepository <br> - passwordEncoder <br> - jwtUtil                     | + authenticate() <br> + registerUser() <br> + validateToken()                  | Servicio que gestiona la autenticación, registro de usuarios y validación de tokens. |
-| **TaskService**            | - taskRepository <br> - userRepository                                     | + createTask() <br> + updateTask() <br> + assignTask() <br> + getTasksByUser() | Encapsula la lógica de negocio relacionada a tareas.                                 |
-| **IncidentService**        | - incidentRepository <br> - fileStorageService                             | + reportIncident() <br> + processEvidence()                                    | Servicio encargado del registro y procesamiento de incidentes y evidencia.           |
-| **OfflineSyncService**     | - syncRepository                                                           | + processPendingRequests() <br> + resolveConflicts()                           | Maneja sincronización offline y resolución de conflictos.                            |
-| **User (Entidad JPA)**     | id, username, email, password, role, company                               | _N/A_                                                                          | Representa a un usuario dentro del sistema.                                          |
-| **Task (Entidad JPA)**     | id, title, description, status, priority, assignedUser, createdBy, dueDate | _N/A_                                                                          | Entidad que modela las tareas asignadas a usuarios.                                  |
-| **Incident (Entidad JPA)** | id, description, severity, task, reportedBy, evidencePaths                 | _N/A_                                                                          | Entidad que representa incidentes y evidencia asociada.                              |
-| **Company (Entidad JPA)**  | id, name, taxId, address                                                   | _N/A_                                                                          | Entidad que almacena información de compañías.                                       |
-| **UserRepository**         | _N/A_                                                                      | + findByEmail() <br> + findByCompanyId()                                       | Repositorio que administra consulta y persistencia de usuarios.                      |
-| **TaskRepository**         | _N/A_                                                                      | + findByAssignedUser() <br> + findByStatus() <br> + findByCompanyId()          | Repositorio para persistencia y consulta de tareas.                                  |
-| **IncidentRepository**     | _N/A_                                                                      | + findByTask() <br> + findBySeverity()                                         | Repositorio para manejo de incidentes.                                               |
+| Clase / Componente                              | Atributos Principales                                                      | Métodos Principales                                                            | Descripción                                                                                     |
+| ---------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| **AuthController (BC IAM)**                    | - authService: AuthService                                                 | + login() <br> + register() <br> + refreshToken()                              | Controlador REST que gestiona la autenticación, registro de usuarios y emisión de tokens.       |
+| **TaskController (BC Tasks)**                  | - taskService: TaskService                                                 | + getAllTasks() <br> + createTask() <br> + updateTask() <br> + assignTask()    | Controlador responsable de exponer operaciones CRUD y asignación de tareas.                     |
+| **IncidentController (BC Incidents)**          | - incidentService: IncidentService                                         | + reportIncident() <br> + uploadEvidence()                                     | Controlador encargado del reporte de incidentes y carga de evidencias.                          |
+| **ReportController (BC Reporting)**            | - reportService: ReportService                                             | + generateReport() <br> + getKPIs()                                            | Controlador para la generación de reportes y visualización de KPIs operacionales.               |
+| **AuthService (BC IAM)**                       | - userRepository <br> - passwordEncoder <br> - jwtUtil                     | + authenticate() <br> + registerUser() <br> + validateToken()                  | Servicio que maneja la autenticación, registro de usuarios y validación de tokens.              |
+| **TaskService (BC Tasks)**                     | - taskRepository <br> - userRepository                                     | + createTask() <br> + updateTask() <br> + assignTask() <br> + getTasksByUser() | Encapsula la lógica de negocio relacionada al ciclo de vida de las tareas.                       |
+| **IncidentService (BC Incidents)**             | - incidentRepository <br> - fileStorageService                             | + reportIncident() <br> + processEvidence()                                    | Servicio responsable del registro y procesamiento de incidentes y evidencias.                  |
+| **ReportService (BC Reporting)**               | - taskRepository <br> - incidentRepository                                 | + generateReport() <br> + calculateKPIs()                                      | Servicio que consolida información de tareas e incidentes para generar reportes y KPIs.         |
+| **OfflineSyncService (BC Offline Sync)**       | - syncRepository                                                           | + processPendingRequests() <br> + resolveConflicts()                           | Gestiona la sincronización offline y la resolución de conflictos de datos.                      |
+| **User (Entidad JPA – BC IAM)**                | id, username, email, password, role, company                               | _N/A_                                                                          | Representa a un usuario dentro del sistema y su empresa asociada.                               |
+| **Company (Entidad JPA – BC IAM)**             | id, name, taxId, address                                                   | _N/A_                                                                          | Entidad que almacena información de las compañías.                                               |
+| **Task (Entidad JPA – BC Tasks)**              | id, title, description, status, priority, assignedUser, createdBy, dueDate | _N/A_                                                                          | Entidad que modela las tareas asignadas a los usuarios.                                          |
+| **Incident (Entidad JPA – BC Incidents)**      | id, description, severity, task, reportedBy, evidencePaths                 | _N/A_                                                                          | Entidad que representa incidentes y la evidencia asociada.                                       |
+| **Report (Entidad – BC Reporting)**            | id, generatedAt, periodStart, periodEnd, data                              | _N/A_                                                                          | Representa los reportes analíticos generados a partir de métricas del sistema.                  |
+| **SyncEntity (Entidad – BC Offline Sync)**     | id, entityType, entityId, payload, status, lastAttempt                     | _N/A_                                                                          | Entidad que almacena operaciones pendientes de sincronización offline.                          |
+| **UserRepository (BC IAM)**                    | _N/A_                                                                      | + findByEmail() <br> + findByCompanyId()                                       | Repositorio que administra la persistencia y consulta de usuarios.                               |
+| **TaskRepository (BC Tasks)**                  | _N/A_                                                                      | + findByAssignedUser() <br> + findByStatus() <br> + findByCompanyId()          | Repositorio para la persistencia y consulta de tareas.                                           |
+| **IncidentRepository (BC Incidents)**          | _N/A_                                                                      | + findByTask() <br> + findBySeverity()                                         | Repositorio encargado del manejo de incidentes.                                                 |
+| **ReportRepository (BC Reporting)**            | _N/A_                                                                      | + findByPeriod()                                                              | Repositorio encargado del acceso a reportes generados.                                          |
+| **SyncRepository (BC Offline Sync)**           | _N/A_                                                                      | + findPending() <br> + save()                                                  | Repositorio utilizado para la sincronización offline.                                           |      
 
 <br>
 
