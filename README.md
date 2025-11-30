@@ -3126,7 +3126,7 @@ A continuación, se detallan los servicios implementados para los contextos Equi
 
 7. En la configuración del contenedor, seleccionamos nuestra imagen de docker y nos aseguramos de habilitar el puerto 8080. Posteriormente desactivamos la opción "Compatibilidad con Sidecar".
    ![Evidencias](img/evidencias_deploy/app_service2.png)
-
+<>
    ![Evidencias](img/evidencias_deploy/app_service3.png)
 
 8. En el centro de implementación de nuestro App Service podemos actualizar la imagen de docker conforme publiquemos nuevos avances.
@@ -3267,11 +3267,13 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 
 #### Capturas de prueba de flujo completo de usuario
 
-![Vista General](img/imgs-swagger/tf/locations.png)
-![Vista General](img/imgs-swagger/tf/activities.png)
-![Vista General](img/imgs-swagger/tf/team_members.png)
-![Vista General](img/imgs-swagger/tf/teams.png)
-![Vista General](img/imgs-swagger/tf/tasks.png)
+![Vista General](img/imgs-swagger/tf/1.png)
+![Vista General](img/imgs-swagger/tf/2.png)
+![Vista General](img/imgs-swagger/tf/3.png)
+![Vista General](img/imgs-swagger/tf/4.png)
+![Vista General](img/imgs-swagger/tf/5.png)
+![Vista General](img/imgs-swagger/tf/6.png)
+![Vista General](img/imgs-swagger/tf/7.png)
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
