@@ -464,7 +464,6 @@ develop: Representada por la rama blanca. Se trata de la rama principal para el 
 
 ---
 
-
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
@@ -1916,7 +1915,6 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ![WIREFRAME – REGISTER MOBILE](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20REGISTER.png)
 
-
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ![MOCKUP – INICIO DESKTOP](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCKUP%20%E2%80%93%20INICIO%20DESKTOP.png)
@@ -2117,404 +2115,430 @@ A continuación se documentan todas las clases, interfaces y enums del diagrama 
 
 ## IAM Context
 
-### Account  
+### Account
+
 **Descripción**: Representa a la empresa o cliente suscrito, con límites según su plan.  
 **Atributos**:  
-| Nombre        | Tipo               | Visibilidad | Descripción                                             |
+| Nombre | Tipo | Visibilidad | Descripción |
 |---------------|--------------------|-------------|---------------------------------------------------------|
-| id            | `Long`             | private     | Identificador único de la cuenta                        |
-| name          | `String`           | private     | Nombre de la empresa                                    |
-| plan          | `SubscriptionPlan` | private     | Plan de suscripción asociado                            |
-| maxUsers      | `int`              | private     | Límite de usuarios permitidos                           |
-| maxVehicles   | `int`              | private     | Límite de vehículos permitidos                          |
+| id | `Long` | private | Identificador único de la cuenta |
+| name | `String` | private | Nombre de la empresa |
+| plan | `SubscriptionPlan` | private | Plan de suscripción asociado |
+| maxUsers | `int` | private | Límite de usuarios permitidos |
+| maxVehicles | `int` | private | Límite de vehículos permitidos |
 
 **Métodos**:  
-| Firma                             | Visibilidad | Descripción                                                       |
+| Firma | Visibilidad | Descripción |
 |-----------------------------------|-------------|-------------------------------------------------------------------|
-| `canAddUser(): boolean`           | public      | Devuelve `true` si `maxUsers` no está alcanzado                  |
-| `canAddVehicle(): boolean`        | public      | Devuelve `true` si `maxVehicles` no está alcanzado               |
+| `canAddUser(): boolean` | public | Devuelve `true` si `maxUsers` no está alcanzado |
+| `canAddVehicle(): boolean` | public | Devuelve `true` si `maxVehicles` no está alcanzado |
 
 ---
 
-### User  
+### User
+
 **Descripción**: Usuario de la aplicación, asociado a una cuenta y con roles/permiso.  
 **Atributos**:  
-| Nombre        | Tipo     | Visibilidad | Descripción                       |
+| Nombre | Tipo | Visibilidad | Descripción |
 |---------------|----------|-------------|-----------------------------------|
-| id            | `Long`   | private     | Identificador único               |
-| username      | `String` | private     | Nombre de usuario (login)         |
-| email         | `String` | private     | Correo electrónico del usuario    |
-| passwordHash  | `String` | private     | Contraseña hasheada               |
+| id | `Long` | private | Identificador único |
+| username | `String` | private | Nombre de usuario (login) |
+| email | `String` | private | Correo electrónico del usuario |
+| passwordHash | `String` | private | Contraseña hasheada |
 
 **Métodos**:  
-| Firma                                       | Visibilidad | Descripción                                           |
+| Firma | Visibilidad | Descripción |
 |---------------------------------------------|-------------|-------------------------------------------------------|
-| `checkPassword(raw: String): boolean`       | public      | Verifica si `raw` concuerda con `passwordHash`       |
+| `checkPassword(raw: String): boolean` | public | Verifica si `raw` concuerda con `passwordHash` |
 
 ---
 
-### Role  
+### Role
+
 **Descripción**: Rol de seguridad asignable a usuarios.  
 **Atributos**:  
-| Nombre | Tipo     | Visibilidad | Descripción                       |
+| Nombre | Tipo | Visibilidad | Descripción |
 |--------|----------|-------------|-----------------------------------|
-| id     | `Long`   | private     | Identificador único               |
-| name   | `String` | private     | Nombre del rol (p.ej. ADMIN)      |
+| id | `Long` | private | Identificador único |
+| name | `String` | private | Nombre del rol (p.ej. ADMIN) |
 
 **Métodos**:  
-| Firma                               | Visibilidad | Descripción                                           |
+| Firma | Visibilidad | Descripción |
 |-------------------------------------|-------------|-------------------------------------------------------|
-| `assignTo(user: User): void`        | public      | Asigna este rol al usuario indicado                   |
+| `assignTo(user: User): void` | public | Asigna este rol al usuario indicado |
 
 ---
 
-### Permission  
+### Permission
+
 **Descripción**: Permiso atómico para controlar acceso.  
 **Atributos**:  
-| Nombre | Tipo     | Visibilidad | Descripción                   |
+| Nombre | Tipo | Visibilidad | Descripción |
 |--------|----------|-------------|-------------------------------|
-| id     | `Long`   | private     | Identificador único           |
-| name   | `String` | private     | Nombre del permiso (p.ej. READ_TASK) |
+| id | `Long` | private | Identificador único |
+| name | `String` | private | Nombre del permiso (p.ej. READ_TASK) |
 
 ---
 
-### MenuItem  
+### MenuItem
+
 **Descripción**: Ítem de menú condicionado a permisos.  
 **Atributos**:  
-| Nombre | Tipo                | Visibilidad | Descripción                                 |
+| Nombre | Tipo | Visibilidad | Descripción |
 |--------|---------------------|-------------|---------------------------------------------|
-| id     | `Long`              | private     | Identificador único                         |
-| label  | `String`            | private     | Texto a mostrar                             |
-| route  | `String`            | private     | Ruta o URL asociada                         |
+| id | `Long` | private | Identificador único |
+| label | `String` | private | Texto a mostrar |
+| route | `String` | private | Ruta o URL asociada |
 
 **Métodos**:  
-| Firma                                                          | Visibilidad | Descripción                                               |
+| Firma | Visibilidad | Descripción |
 |----------------------------------------------------------------|-------------|-----------------------------------------------------------|
-| `isAccessibleBy(perms: List<Permission>): boolean`             | public      | Devuelve `true` si el usuario posee los permisos necesarios |
+| `isAccessibleBy(perms: List<Permission>): boolean` | public | Devuelve `true` si el usuario posee los permisos necesarios |
 
 ---
 
 ### Interfaces de repositorio y proveedor de JWT
 
-| Nombre                    | Métodos clave                                                                    |
-|---------------------------|----------------------------------------------------------------------------------|
-| `IUserRepository`         | `findByUsername(username: String): Optional<User>`<br>`save(user: User): User`    |
-| `IRoleRepository`         | `findByName(name: String): Optional<Role>`<br>`save(role: Role): Role`            |
-| `IJwtTokenProvider`       | `generateToken(user: User): String`<br>`validateToken(token: String): boolean`<br>`getUserFromToken(token: String): User` |
-| `IPasswordEncoder`        | `encode(raw: String): String`<br>`matches(raw: String, encoded: String): boolean` |
+| Nombre              | Métodos clave                                                                                                             |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `IUserRepository`   | `findByUsername(username: String): Optional<User>`<br>`save(user: User): User`                                            |
+| `IRoleRepository`   | `findByName(name: String): Optional<Role>`<br>`save(role: Role): Role`                                                    |
+| `IJwtTokenProvider` | `generateToken(user: User): String`<br>`validateToken(token: String): boolean`<br>`getUserFromToken(token: String): User` |
+| `IPasswordEncoder`  | `encode(raw: String): String`<br>`matches(raw: String, encoded: String): boolean`                                         |
 
 ---
 
 ## Billing Context
 
-### SubscriptionPlan  
+### SubscriptionPlan
+
 **Descripción**: Plan de suscripción con precio y periodo.  
 **Atributos**:  
-| Nombre       | Tipo            | Visibilidad | Descripción                                   |
+| Nombre | Tipo | Visibilidad | Descripción |
 |--------------|-----------------|-------------|-----------------------------------------------|
-| id           | `Long`          | private     | Identificador único                           |
-| name         | `String`        | private     | Nombre del plan                               |
-| price        | `BigDecimal`    | private     | Precio                                       |
-| period       | `Duration`      | private     | Duración del periodo (mensual, anual…)       |
+| id | `Long` | private | Identificador único |
+| name | `String` | private | Nombre del plan |
+| price | `BigDecimal` | private | Precio |
+| period | `Duration` | private | Duración del periodo (mensual, anual…) |
 
 **Métodos**:  
-| Firma                                                                                  | Visibilidad | Descripción                                                            |
+| Firma | Visibilidad | Descripción |
 |----------------------------------------------------------------------------------------|-------------|------------------------------------------------------------------------|
-| `calculateProratedAmount(changeDate: LocalDate): BigDecimal`                           | public      | Calcula importe prorrateado al cambiar de plan en una fecha intermedia |
+| `calculateProratedAmount(changeDate: LocalDate): BigDecimal` | public | Calcula importe prorrateado al cambiar de plan en una fecha intermedia |
 
 ---
 
-### Invoice  
+### Invoice
+
 **Descripción**: Factura generada para una cuenta.  
 **Atributos**:  
-| Nombre      | Tipo         | Visibilidad | Descripción                           |
+| Nombre | Tipo | Visibilidad | Descripción |
 |-------------|--------------|-------------|---------------------------------------|
-| id          | `Long`       | private     | Identificador único                   |
-| accountId   | `Long`       | private     | ID de la cuenta a la que pertenece    |
-| date        | `LocalDate`  | private     | Fecha de emisión                      |
-| amount      | `BigDecimal` | private     | Importe de la factura                 |
-| status      | `String`     | private     | Estado (ISSUED, PAID, OVERDUE)        |
+| id | `Long` | private | Identificador único |
+| accountId | `Long` | private | ID de la cuenta a la que pertenece |
+| date | `LocalDate` | private | Fecha de emisión |
+| amount | `BigDecimal` | private | Importe de la factura |
+| status | `String` | private | Estado (ISSUED, PAID, OVERDUE) |
 
 **Métodos**:  
-| Firma                         | Visibilidad | Descripción                       |
+| Firma | Visibilidad | Descripción |
 |-------------------------------|-------------|-----------------------------------|
-| `generatePdf(): byte[]`       | public      | Devuelve el PDF de la factura     |
+| `generatePdf(): byte[]` | public | Devuelve el PDF de la factura |
 
 ---
 
-### Payment  
+### Payment
+
 **Descripción**: Registro de un cobro o reembolso.  
 **Atributos**:  
-| Nombre      | Tipo         | Visibilidad | Descripción                         |
+| Nombre | Tipo | Visibilidad | Descripción |
 |-------------|--------------|-------------|-------------------------------------|
-| id          | `Long`       | private     | Identificador único                 |
-| invoiceId   | `Long`       | private     | ID de la factura asociada           |
-| amount      | `BigDecimal` | private     | Monto cobrado o reembolsado         |
-| date        | `LocalDate`  | private     | Fecha de la transacción             |
-| status      | `String`     | private     | Estado (SUCCESS, FAILED, REFUNDED)  |
+| id | `Long` | private | Identificador único |
+| invoiceId | `Long` | private | ID de la factura asociada |
+| amount | `BigDecimal` | private | Monto cobrado o reembolsado |
+| date | `LocalDate` | private | Fecha de la transacción |
+| status | `String` | private | Estado (SUCCESS, FAILED, REFUNDED) |
 
 **Métodos**:  
-| Firma             | Visibilidad | Descripción                       |
+| Firma | Visibilidad | Descripción |
 |-------------------|-------------|-----------------------------------|
-| `process(): void` | public      | Ejecuta el cobro o el reembolso   |
+| `process(): void` | public | Ejecuta el cobro o el reembolso |
 
 ---
 
 ## Resource Management Context
 
-### Vehicle  
+### Vehicle
+
 **Descripción**: Máquinaria o vehículo utilizable en tareas de campo.  
 **Atributos**:  
-| Nombre               | Tipo      | Visibilidad | Descripción                                   |
+| Nombre | Tipo | Visibilidad | Descripción |
 |----------------------|-----------|-------------|-----------------------------------------------|
-| id                   | `Long`    | private     | Identificador único                           |
-| plateNumber          | `String`  | private     | Matrícula o código identificador              |
-| type                 | `String`  | private     | Tipo de vehículo (camión, excavadora…)        |
-| status               | `VehicleStatus` | private | Estado en tiempo real (AVAILABLE, MAINTENANCE, ASSIGNED) |
-| capacityLoadTons     | `Decimal` | private     | Capacidad de carga en toneladas               |
-| capacityPassengers   | `int`     | private     | Capacidad de pasajeros                       |
+| id | `Long` | private | Identificador único |
+| plateNumber | `String` | private | Matrícula o código identificador |
+| type | `String` | private | Tipo de vehículo (camión, excavadora…) |
+| status | `VehicleStatus` | private | Estado en tiempo real (AVAILABLE, MAINTENANCE, ASSIGNED) |
+| capacityLoadTons | `Decimal` | private | Capacidad de carga en toneladas |
+| capacityPassengers | `int` | private | Capacidad de pasajeros |
 
 **Métodos**:  
-| Firma                       | Visibilidad | Descripción                                          |
+| Firma | Visibilidad | Descripción |
 |-----------------------------|-------------|------------------------------------------------------|
-| `setStatus(status: VehicleStatus): void` | public      | Actualiza el estado en tiempo real del vehículo  |
+| `setStatus(status: VehicleStatus): void` | public | Actualiza el estado en tiempo real del vehículo |
 
 ---
 
-### Employee  
+### Employee
+
 **Descripción**: Persona que puede formar parte de equipos de trabajo.  
 **Atributos**:  
-| Nombre       | Tipo     | Visibilidad | Descripción                    |
+| Nombre | Tipo | Visibilidad | Descripción |
 |--------------|----------|-------------|--------------------------------|
-| id           | `Long`   | private     | Identificador único            |
-| name         | `String` | private     | Nombre completo                |
-| status       | `String` | private     | Estado (ACTIVE, SUSPENDED)     |
+| id | `Long` | private | Identificador único |
+| name | `String` | private | Nombre completo |
+| status | `String` | private | Estado (ACTIVE, SUSPENDED) |
 
 ---
 
-### Position  
+### Position
+
 **Descripción**: Cargo o puesto dentro de una cuenta.  
 **Atributos**:  
-| Nombre       | Tipo     | Visibilidad | Descripción                             |
+| Nombre | Tipo | Visibilidad | Descripción |
 |--------------|----------|-------------|-----------------------------------------|
-| id           | `Long`   | private     | Identificador único                     |
-| name         | `String` | private     | Nombre del cargo                        |
-| description  | `String` | private     | Descripción breve del rol               |
+| id | `Long` | private | Identificador único |
+| name | `String` | private | Nombre del cargo |
+| description | `String` | private | Descripción breve del rol |
 
 ---
 
-### Team  
+### Team
+
 **Descripción**: Conjunto de empleados que trabajan juntos.  
 **Atributos**:  
-| Nombre | Tipo     | Visibilidad | Descripción                   |
+| Nombre | Tipo | Visibilidad | Descripción |
 |--------|----------|-------------|-------------------------------|
-| id     | `Long`   | private     | Identificador único           |
-| name   | `String` | private     | Nombre del equipo             |
+| id | `Long` | private | Identificador único |
+| name | `String` | private | Nombre del equipo |
 
 ---
 
-#### Interfaces de repositorio  
-| Nombre                 | Métodos clave                                                      |
-|------------------------|--------------------------------------------------------------------|
-| `IVehicleRepository`   | `findAvailable(start: LocalDateTime, end: LocalDateTime): List<Vehicle>`<br>`save(v: Vehicle): Vehicle` |
-| `IEmployeeRepository`  | `findById(id: Long): Optional<Employee>`<br>`save(e: Employee): Employee`    |
-| `ITeamRepository`      | `findById(id: Long): Optional<Team>`<br>`save(t: Team): Team`                |
+#### Interfaces de repositorio
+
+| Nombre                | Métodos clave                                                                                           |
+| --------------------- | ------------------------------------------------------------------------------------------------------- |
+| `IVehicleRepository`  | `findAvailable(start: LocalDateTime, end: LocalDateTime): List<Vehicle>`<br>`save(v: Vehicle): Vehicle` |
+| `IEmployeeRepository` | `findById(id: Long): Optional<Employee>`<br>`save(e: Employee): Employee`                               |
+| `ITeamRepository`     | `findById(id: Long): Optional<Team>`<br>`save(t: Team): Team`                                           |
 
 ---
 
 ## Planning Context
 
-### Requirement  
+### Requirement
+
 **Descripción**: Solicitud original de transporte con origen, destino y fuente.  
 **Atributos**:  
-| Nombre                 | Tipo       | Visibilidad | Descripción                                          |
+| Nombre | Tipo | Visibilidad | Descripción |
 |------------------------|------------|-------------|------------------------------------------------------|
-| id                     | `Long`     | private     | Identificador único                                  |
-| originLocationId       | `Long`     | private     | FK → ubicación de origen                             |
-| destinationLocationId  | `Long`     | private     | FK → ubicación de destino                            |
-| source                 | `String`   | private     | Origen de la carga (UI, EXCEL)                       |
-| status                 | `String`   | private     | Estado de la solicitud (NEW, APPROVED, REJECTED)     |
+| id | `Long` | private | Identificador único |
+| originLocationId | `Long` | private | FK → ubicación de origen |
+| destinationLocationId | `Long` | private | FK → ubicación de destino |
+| source | `String` | private | Origen de la carga (UI, EXCEL) |
+| status | `String` | private | Estado de la solicitud (NEW, APPROVED, REJECTED) |
 
 ---
 
-### Cargo  
+### Cargo
+
 **Descripción**: Detalle de cada carga asociada a un Requirement.  
 **Atributos**:  
-| Nombre         | Tipo       | Visibilidad | Descripción              |
+| Nombre | Tipo | Visibilidad | Descripción |
 |----------------|------------|-------------|--------------------------|
-| id             | `Long`     | private     | Identificador único      |
-| description    | `String`   | private     | Descripción de la carga  |
-| weightTons     | `Decimal`  | private     | Peso en toneladas        |
-| quantity       | `int`      | private     | Cantidad de ítems        |
+| id | `Long` | private | Identificador único |
+| description | `String` | private | Descripción de la carga |
+| weightTons | `Decimal` | private | Peso en toneladas |
+| quantity | `int` | private | Cantidad de ítems |
 
 ---
 
-### Task  
+### Task
+
 **Descripción**: Trabajo programado que satisface uno o varios cargos.  
 **Atributos**:  
-| Nombre    | Tipo     | Visibilidad | Descripción                              |
+| Nombre | Tipo | Visibilidad | Descripción |
 |-----------|----------|-------------|------------------------------------------|
-| id        | `Long`   | private     | Identificador único                      |
-| description | `String` | private   | Descripción breve de la tarea            |
-| status    | `TaskStatus` | private | Estado de la tarea (NEW, PLANNED, EXECUTED, CANCELLED) |
+| id | `Long` | private | Identificador único |
+| description | `String` | private | Descripción breve de la tarea |
+| status | `TaskStatus` | private | Estado de la tarea (NEW, PLANNED, EXECUTED, CANCELLED) |
 
 **Métodos**:  
-| Firma                                                                    | Visibilidad | Descripción                          |
+| Firma | Visibilidad | Descripción |
 |--------------------------------------------------------------------------|-------------|--------------------------------------|
-| `assignTo(slot: ScheduleSlot, vehicle: Vehicle, team: Team): void`       | public      | Asigna la tarea a un slot y recursos |
-| `moveTo(slot: ScheduleSlot): void`                                       | public      | Reubica la tarea en otro slot        |
+| `assignTo(slot: ScheduleSlot, vehicle: Vehicle, team: Team): void` | public | Asigna la tarea a un slot y recursos |
+| `moveTo(slot: ScheduleSlot): void` | public | Reubica la tarea en otro slot |
 
 ---
 
-### ScheduleSlot  
+### ScheduleSlot
+
 **Descripción**: Ranura de calendario donde se ubica una tarea.  
 **Atributos**:  
-| Nombre     | Tipo          | Visibilidad | Descripción                  |
+| Nombre | Tipo | Visibilidad | Descripción |
 |------------|---------------|-------------|------------------------------|
-| id         | `Long`        | private     | Identificador único          |
-| date       | `LocalDate`   | private     | Fecha de programación        |
-| startTime  | `LocalTime`   | private     | Hora de inicio               |
-| endTime    | `LocalTime`   | private     | Hora de fin                  |
+| id | `Long` | private | Identificador único |
+| date | `LocalDate` | private | Fecha de programación |
+| startTime | `LocalTime` | private | Hora de inicio |
+| endTime | `LocalTime` | private | Hora de fin |
 
 **Métodos**:  
-| Firma                                            | Visibilidad | Descripción                                  |
+| Firma | Visibilidad | Descripción |
 |--------------------------------------------------|-------------|----------------------------------------------|
-| `conflictsWith(other: ScheduleSlot): boolean`    | public      | Comprueba solapamiento con otra ranura       |
+| `conflictsWith(other: ScheduleSlot): boolean` | public | Comprueba solapamiento con otra ranura |
 
 ---
 
-### PriorityRule  
+### PriorityRule
+
 **Descripción**: Regla utilizada para ordenar tareas por prioridad.  
 **Atributos**:  
-| Nombre   | Tipo      | Visibilidad | Descripción                    |
+| Nombre | Tipo | Visibilidad | Descripción |
 |----------|-----------|-------------|--------------------------------|
-| criteria | `String`  | private     | Criterio de clasificación      |
-| weight   | `int`     | private     | Peso relativo de la regla      |
+| criteria | `String` | private | Criterio de clasificación |
+| weight | `int` | private | Peso relativo de la regla |
 
 **Métodos**:  
-| Firma                                          | Visibilidad | Descripción                       |
+| Firma | Visibilidad | Descripción |
 |------------------------------------------------|-------------|-----------------------------------|
-| `appliesTo(task: Task): boolean`               | public      | Determina si la regla aplica a la tarea |
+| `appliesTo(task: Task): boolean` | public | Determina si la regla aplica a la tarea |
 
 ---
 
 ## Execution Context
 
-### ExecutionRecord  
+### ExecutionRecord
+
 **Descripción**: Registro de ejecución de una tarea en campo.  
 **Atributos**:  
-| Nombre     | Tipo             | Visibilidad | Descripción                             |
+| Nombre | Tipo | Visibilidad | Descripción |
 |------------|------------------|-------------|-----------------------------------------|
-| id         | `Long`           | private     | Identificador único                     |
-| taskId     | `Long`           | private     | FK → tarea ejecutada                    |
-| startTime  | `LocalDateTime`  | private     | Marca de inicio                         |
-| endTime    | `LocalDateTime`  | private     | Marca de fin                            |
-| status     | `ExecutionStatus`| private     | Estado (IN_PROGRESS, COMPLETED, FAILED) |
+| id | `Long` | private | Identificador único |
+| taskId | `Long` | private | FK → tarea ejecutada |
+| startTime | `LocalDateTime` | private | Marca de inicio |
+| endTime | `LocalDateTime` | private | Marca de fin |
+| status | `ExecutionStatus`| private | Estado (IN_PROGRESS, COMPLETED, FAILED) |
 
 **Métodos**:  
-| Firma       | Visibilidad | Descripción                        |
+| Firma | Visibilidad | Descripción |
 |-------------|-------------|------------------------------------|
-| `start(): void`   | public      | Inicia la ejecución                |
-| `complete(): void`| public      | Finaliza la ejecución              |
+| `start(): void` | public | Inicia la ejecución |
+| `complete(): void`| public | Finaliza la ejecución |
 
 ---
 
-### ExecutionEmployee  
+### ExecutionEmployee
+
 **Descripción**: Vincula empleados a una ejecución y marca reemplazos.  
 **Atributos**:  
-| Nombre          | Tipo     | Visibilidad | Descripción                                 |
+| Nombre | Tipo | Visibilidad | Descripción |
 |-----------------|----------|-------------|---------------------------------------------|
-| executionId     | `Long`   | private     | FK → ExecutionRecord                        |
-| employeeId      | `Long`   | private     | FK → Employee                               |
-| isReplacement   | `boolean`| private     | `true` si el empleado fue un reemplazo      |
+| executionId | `Long` | private | FK → ExecutionRecord |
+| employeeId | `Long` | private | FK → Employee |
+| isReplacement | `boolean`| private | `true` si el empleado fue un reemplazo |
 
 ---
 
-### PhotoEvidence  
+### PhotoEvidence
+
 **Descripción**: Evidencia fotográfica de una ejecución.  
 **Atributos**:  
-| Nombre          | Tipo            | Visibilidad | Descripción                             |
+| Nombre | Tipo | Visibilidad | Descripción |
 |-----------------|-----------------|-------------|-----------------------------------------|
-| id              | `Long`          | private     | Identificador único                     |
-| executionRecordId | `Long`        | private     | FK → ExecutionRecord                    |
-| uploadedByUserId| `Long`          | private     | FK → User que subió la foto             |
-| url             | `String`        | private     | Ubicación de la imagen                  |
-| timestamp       | `LocalDateTime` | private     | Marca temporal de la captura            |
+| id | `Long` | private | Identificador único |
+| executionRecordId | `Long` | private | FK → ExecutionRecord |
+| uploadedByUserId| `Long` | private | FK → User que subió la foto |
+| url | `String` | private | Ubicación de la imagen |
+| timestamp | `LocalDateTime` | private | Marca temporal de la captura |
 
 ---
 
-### Incident  
+### Incident
+
 **Descripción**: Evento no deseado reportado en el campo.  
 **Atributos**:  
-| Nombre          | Tipo             | Visibilidad | Descripción                             |
+| Nombre | Tipo | Visibilidad | Descripción |
 |-----------------|------------------|-------------|-----------------------------------------|
-| id              | `Long`           | private     | Identificador único                     |
-| executionRecordId | `Long`         | private     | FK → ExecutionRecord                    |
-| type            | `IncidentType`   | private     | Tipo (FAILURE, DELAY, WEATHER)          |
-| description     | `String`         | private     | Descripción del incidente               |
-| timestamp       | `LocalDateTime`  | private     | Marca temporal del reporte              |
+| id | `Long` | private | Identificador único |
+| executionRecordId | `Long` | private | FK → ExecutionRecord |
+| type | `IncidentType` | private | Tipo (FAILURE, DELAY, WEATHER) |
+| description | `String` | private | Descripción del incidente |
+| timestamp | `LocalDateTime` | private | Marca temporal del reporte |
 
 ---
 
-### Device & TelemetryReading  
+### Device & TelemetryReading
+
 **Device**  
-| Atributo     | Tipo       | Descripción                               |
+| Atributo | Tipo | Descripción |
 |--------------|------------|-------------------------------------------|
-| id           | `Long`     | Identificador único                       |
-| resourceId   | `Long`     | FK → Vehicle o Team                       |
-| type         | `DeviceType` | Tipo de dispositivo (GPS, SENSOR)       |
-| status       | `String`   | Estado (ACTIVE, INACTIVE)                 |
+| id | `Long` | Identificador único |
+| resourceId | `Long` | FK → Vehicle o Team |
+| type | `DeviceType` | Tipo de dispositivo (GPS, SENSOR) |
+| status | `String` | Estado (ACTIVE, INACTIVE) |
 
 **TelemetryReading**  
-| Atributo     | Tipo           | Descripción                             |
+| Atributo | Tipo | Descripción |
 |--------------|----------------|-----------------------------------------|
-| id           | `Long`         | Identificador único                     |
-| deviceId     | `Long`         | FK → Device                             |
-| timestamp    | `LocalDateTime`| Marca temporal de la lectura            |
-| latitude     | `double`       | Latitud                                |
-| longitude    | `double`       | Longitud                               |
-| sensorType   | `String`       | Tipo de sensor                         |
-| value        | `String`       | Valor medido                           |
+| id | `Long` | Identificador único |
+| deviceId | `Long` | FK → Device |
+| timestamp | `LocalDateTime`| Marca temporal de la lectura |
+| latitude | `double` | Latitud |
+| longitude | `double` | Longitud |
+| sensorType | `String` | Tipo de sensor |
+| value | `String` | Valor medido |
 
 ---
 
 ## Notification Context
 
-### NotificationTemplate  
+### NotificationTemplate
+
 **Descripción**: Plantilla para los mensajes de alerta.  
 **Atributos**:  
-| Nombre   | Tipo     | Visibilidad | Descripción                         |
+| Nombre | Tipo | Visibilidad | Descripción |
 |----------|----------|-------------|-------------------------------------|
-| id       | `Long`   | private     | Identificador único                 |
-| channel  | `String` | private     | Canal (EMAIL, SMS)                  |
-| subject  | `String` | private     | Asunto del mensaje                  |
-| body     | `String` | private     | Cuerpo con placeholders             |
+| id | `Long` | private | Identificador único |
+| channel | `String` | private | Canal (EMAIL, SMS) |
+| subject | `String` | private | Asunto del mensaje |
+| body | `String` | private | Cuerpo con placeholders |
 
 ---
 
-### Notification  
+### Notification
+
 **Descripción**: Notificación encolada y su estado.  
 **Atributos**:  
-| Nombre      | Tipo     | Visibilidad | Descripción                             |
+| Nombre | Tipo | Visibilidad | Descripción |
 |-------------|----------|-------------|-----------------------------------------|
-| id          | `Long`   | private     | Identificador único                     |
-| templateId  | `Long`   | private     | FK → NotificationTemplate               |
-| payload     | `Map<String,String>` | private | Datos para sustituir en la plantilla |
-| status      | `String` | private     | Estado (PENDING, SENT, FAILED)          |
-| timestamp   | `LocalDateTime` | private | Marca temporal de creación             |
-| attempts    | `int`    | private     | Número de reintentos realizados         |
+| id | `Long` | private | Identificador único |
+| templateId | `Long` | private | FK → NotificationTemplate |
+| payload | `Map<String,String>` | private | Datos para sustituir en la plantilla |
+| status | `String` | private | Estado (PENDING, SENT, FAILED) |
+| timestamp | `LocalDateTime` | private | Marca temporal de creación |
+| attempts | `int` | private | Número de reintentos realizados |
 
 ---
 
-### NotificationLog  
+### NotificationLog
+
 **Descripción**: Historial de envíos de cada notificación.  
 **Atributos**:  
-| Nombre         | Tipo             | Visibilidad | Descripción                             |
+| Nombre | Tipo | Visibilidad | Descripción |
 |----------------|------------------|-------------|-----------------------------------------|
-| id             | `Long`           | private     | Identificador único                     |
-| notificationId | `Long`           | private     | FK → Notification                       |
-| timestamp      | `LocalDateTime`  | private     | Marca temporal del envío                |
-| result         | `String`         | private     | Resultado recibido (OK, error…)         |
+| id | `Long` | private | Identificador único |
+| notificationId | `Long` | private | FK → Notification |
+| timestamp | `LocalDateTime` | private | Marca temporal del envío |
+| result | `String` | private | Resultado recibido (OK, error…) |
 
 ---
 
@@ -2541,7 +2565,7 @@ A continuación se documentan todas las clases, interfaces y enums del diagrama 
 
 ### 4.8.1. Database Diagram
 
-![Diagrama de Base de Datos](https://raw.githubusercontent.com/PetroTask/PetroTask-report/e6c834df9faa3a9a88d6d30777c67e5f8be1fec3/img/Database%20Diagram.png)
+![Diagrama de Base de Datos](img/diagrama_bd.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2949,44 +2973,35 @@ Durante este sprint se desarrollaron las principales vistas y componentes del fr
 Durante el Sprint 3 se avanzó significativamente en la implementación del backend de PetroTask, desarrollando los principales servicios, entidades y controladores que darán soporte a las funcionalidades del sistema
 
 #### Vista general del Swagger UI - Endpoints disponibles
-
-![Vista General](img/imgs-swagger/vista_general.png)
+![Vista general del Swagger UI - Endpoints disponibles](img/imgs-swagger/tf/vista-general.png)
 
 #### Ventana emergente de autorización
+![Ventana emergente de autorización](img/imgs-swagger/tf/auth.png)
 
-![Autorizacion](img/imgs-swagger/auth_vista.png)
+#### Definición de recursos - Parte 1 
+![Definición de recursos](img/imgs-swagger/tf/recursos1.png)
 
-#### Definición de recursos - Parte 1
+#### Definición de recursos - Parte 2 
+![Definición de recursos](img/imgs-swagger/tf/recursos2.png)
 
-![Recursos](img/imgs-swagger/recursos_1.png)
+#### Endpoints del módulo Usuarios, Cargos y Equipos
+![Endpoints del módulo Usuarios, Cargos y Equipos](img/imgs-swagger/tf/users.png)
+![Endpoints del módulo Usuarios, Cargos y Equipos](img/imgs-swagger/tf/combo1.png)
 
-#### Definición de recursos - Parte 2
+#### Endpoints del módulo Zonas y Reservas
+![Endpoints del módulo Zonas y Reservas](img/imgs-swagger/tf/combo2.png)
+![Endpoints del módulo Zonas y Reservas](img/imgs-swagger/tf/task-pro.png)
 
-![Recursos](img/imgs-swagger/recursos_2.png)
+#### Endpoints del módulo Empleados, Roles y Actividades
+![Endpoints del módulo Empleados, Roles y Actividades](img/imgs-swagger/tf/combo3.png)
+![Endpoints del módulo Empleados, Roles y Actividades](img/imgs-swagger/tf/emple.png)
+![Endpoints del módulo Empleados, Roles y Actividades](img/imgs-swagger/tf/activ.png)
 
-#### Definición de recursos - Parte 3
+#### Endpoints del módulo Ejecuciones 
+![Endpoints del módulo Ejecuciones](img/imgs-swagger/tf/ejec.png)
 
-![Recursos](img/imgs-swagger/recursos_3.png)
-
-#### Endpoints del módulo Locations y Activities
-
-![Endpoints](img/imgs-swagger/locations-activities.png)
-
-#### Endpoints del módulo Employees, Roles, Team Members, Authentication
-
-![Endpoints](img/imgs-swagger/empl_roles_memb_auth.png)
-
-#### Endpoints del módulo Equipment y Teams
-
-![Endpoints](img/imgs-swagger/equip_team.png)
-
-#### Endpoints del módulo Task Scheduling y Tasks
-
-![Endpoints](img/imgs-swagger/tasks.png)
-
-#### Endpoints del módulo Zones
-
-![Endpoint](img/imgs-swagger/zones.png)
+#### Endpoints del módulo Reporte de Incidentes  
+![Endpoints del módulo Reporte de Incidentes](img/imgs-swagger/tf/incidentes.png)
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
@@ -3007,10 +3022,12 @@ Durante el Sprint, se implementaron y documentaron correctamente los servicios R
   - **Request body (JSON):**
     ```json
     {
-      "plateNumber": "string",
-      "type": "string",
-      "capacityLoad": 0,
-      "capacityPassengers": 0
+      "name": "string",
+      "batch": "string",
+      "code": "string",
+      "status": "AVAILABLE",
+      "capacityStandard": 0,
+      "capacityYear": 0
     }
     ```
   - **Respuesta exitosa:** `201 Created`
@@ -3020,29 +3037,6 @@ Durante el Sprint, se implementaron y documentaron correctamente los servicios R
 
 - **GET `/api/v1/equipment/{equipmentId}`**  
   Recupera un equipo por su identificador único.
-
-  - **Respuesta esperada:** `200 OK` o `404 Not Found`
-
-- **PUT `/api/v1/equipment/{equipmentId}`**  
-   Actualiza un equipo por su identificador único.
-
-  - **Request body (JSON):**
-
-        ```json
-        {
-          "type": "string",
-          "capacityLoad": 0,
-          "capacityPassengers": 0
-        }
-        ```
-
-  - **Respuesta exitosa:** `200 OK`
-  - **Errores controlados:**
-    - `400 Bad Request` (input inválido)
-    - `404 Not Found` (referencia no válida)
-
-- **DELETE `/api/v1/equipment/{equipmentId}`**  
-  Elimina un equipo por su identificador único.
   - **Respuesta esperada:** `200 OK` o `404 Not Found`
 
 ---
@@ -3060,55 +3054,26 @@ Durante el Sprint, se implementaron y documentaron correctamente los servicios R
   - **Request body (JSON):**
     ```json
     {
-      "title": "string",
+      "activityCode": "string",
       "description": "string",
-      "zoneOriginId": 0,
-      "zoneDestinationId": 0,
-      "originLocationId": 0,
-      "destinationLocationId": 0,
-      "scheduledDate": "2025-11-15",
-      "estimatedDuration": 0.1,
-      "priority": "string"
+      "executionStart": "2025-06-20T05:14:55.799Z",
+      "executionStatus": "PLANNED",
+      "locationOrigin": 0,
+      "locationDestination": 0,
+      "tenantId": 0
     }
     ```
   - **Respuesta exitosa:** `201 Created`
 
 - **GET `/api/v1/activity/{activityId}`**  
-   Obtiene una actividad por su ID.
+  Obtiene una actividad por su ID.
 
   - **Respuesta esperada:** `200 OK` o `404 Not Found`
 
-- **PUT `/api/v1/activity/{activityId}`**  
-   Actualiza una actividad por su identificador único.
-
-  - **Request body (JSON):**
-
-        ```json
-        {
-          "title": "string",
-          "description": "string",
-          "zoneOriginId": 0,
-          "zoneDestinationId": 0,
-          "originLocationId": 0,
-          "destinationLocationId": 0,
-          "scheduledDate": "2025-11-15",
-          "estimatedDuration": 0.1,
-          "priority": "string"
-        }
-        ```
-
-  - **Respuesta exitosa:** `200 OK`
-  - **Errores controlados:**
-    - `400 Bad Request` (input inválido)
-    - `404 Not Found` (referencia no válida)
-
-- **DELETE `/api/v1/activity/{activityId}`**  
-  Elimina una actividad por su identificador único.
-
-  - **Respuesta esperada:** `200 OK` o `404 Not Found`
-
-    ![Evidencias](img/imgs-swagger/evidencias/activities.png)
-    ![Evidencias](img/imgs-swagger/evidencias/equipment.png)
+    ![Evidencias](img/imgs-swagger/evidencias/activities/1.png)
+    ![Evidencias](img/imgs-swagger/evidencias/activities/responses.png)
+    ![Evidencias](img/imgs-swagger/evidencias/equipment/1.png)
+    ![Evidencias](img/imgs-swagger/evidencias/equipment/responses.png)
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
@@ -3290,192 +3255,60 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 
 Durante el Sprint 4 se completó la documentación de todos los endpoints correspondientes. Utilizando OpenAPI y Swagger UI, se definieron los contratos de los servicios, incluyendo los métodos HTTP, parámetros de entrada, estructuras de respuesta y ejemplos con datos reales.
 
-#### Authentication - `/api/v1/auth`
+### ZoneController – /api/v1/zones
 
-| HTTP Verb | Endpoint   | Description         |
-| --------- | ---------- | ------------------- |
-| `POST`    | `/sign-up` | Registro de usuario |
-| `POST`    | `/sign-in` | Login de usuario    |
+| HTTP Verb | Endpoint                  | Descripción                                                 |
+| --------- | ------------------------- | ----------------------------------------------------------- |
+| `POST`    | `/`                       | Crea una nueva zona.                                        |
+| `GET`     | `/{zoneId}`               | Obtiene los detalles de una zona específica.                |
+| `GET`     | `/`                       | Lista todas las zonas disponibles.                          |
+| `POST`    | `/{zoneId}/locations`     | Crea una ubicación y la asocia a una zona.                  |
+| `GET`     | `/locations/{locationId}` | Recupera una ubicación por su ID.                           |
+| `GET`     | `/zones/locations`        | Lista todas las ubicaciones del sistema.                    |
+| `GET`     | `/zones/{zoneId}`         | Lista ubicaciones por zona específica.                      |
+| `PATCH`   | `/{locationId}/status`    | Actualiza el estado de una ubicación.                       |
+| `GET`     | `/status/{status}`        | Lista ubicaciones según su estado (AVAILABLE, IN_USE, etc). |
 
-**Ejemplo de Request (Sign Up):**
+**Ejemplo de Request:**
 
 ```json
-POST /sign-up
+POST /api/v1/zones
 {
-  "firstName": "Juan",
-  "lastName": "Pérez",
-  "email": "juan.perez@petrotask.com",
-  "password": "SecurePassword123",
-  "role": "SUPERVISOR"
+  "name": "Zona A",
+  "code": "ZONA-01"
 }
 ```
 
-**Ejemplo de Response (Sign Up):**
+**Ejemplo de Response:**
 
 ```json
 {
   "id": 1,
-  "email": "juan.perez@petrotask.com",
-  "role": "SUPERVISOR",
-  "createdAt": "2025-11-20T14:32:10"
+  "name": "Zona A",
+  "code": "ZONA-01"
 }
 ```
 
-**Ejemplo de Request (Sign In):**
+### ExecutionController – /api/v1/executions
 
-```json
-POST /sign-in
-{
-  "email": "juan.perez@petrotask.com",
-  "password": "SecurePassword123"
-}
-```
-
-**Ejemplo de Response (Sign In):**
-
-```json
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
-  "type": "Bearer",
-  "expiresIn": 3600
-}
-```
-
----
-
-#### Zones - `/api/v1/zones`
-
-| HTTP Verb | Endpoint             | Description            |
-| --------- | -------------------- | ---------------------- |
-| `GET`     | `/zones`             | Listar todas las zonas |
-| `GET`     | `/zones/{id}`        | Obtener zona por ID    |
-| `GET`     | `/zones?active=true` | Filtrar por estado     |
-| `POST`    | `/zones`             | Crear zona             |
-| `PUT`     | `/zones/{id}`        | Actualizar zona        |
-| `DELETE`  | `/zones/{id}`        | Eliminar zona          |
+| HTTP Verb | Endpoint                                 | Descripción                               |
+| --------- | ---------------------------------------- | ----------------------------------------- |
+| `POST`    | `/`                                      | Crea una nueva ejecución.                 |
+| `GET`     | `/{executionId}`                         | Obtiene detalles de una ejecución.        |
+| `GET`     | `/`                                      | Lista todas las ejecuciones registradas.  |
+| `POST`    | `/{executionId}/employees/{employeeId}`  | Asocia un empleado a una ejecución.       |
+| `POST`    | `/{executionId}/equipment/{equipmentId}` | Asocia un equipo a una ejecución.         |
+| `PUT`     | `/{executionId}`                         | Actualiza completamente una ejecución.    |
+| `PATCH`   | `/{executionId}/status`                  | Actualiza solo el estado de la ejecución. |
 
 **Ejemplo de Request:**
 
 ```json
-POST /zones
+POST /api/v1/executions
 {
-  "name": "Zona Norte",
-  "description": "Área de operaciones norte",
-  "active": true
-}
-```
-
-**Ejemplo de Response:**
-
-```json
-{
-  "id": 10,
-  "name": "Zona Norte",
-  "description": "Área de operaciones norte",
-  "active": true
-}
-```
-
----
-
-#### Locations - `/api/v1/locations`
-
-| HTTP Verb | Endpoint                 | Description                  |
-| --------- | ------------------------ | ---------------------------- |
-| `GET`     | `/locations`             | Listar todas las ubicaciones |
-| `GET`     | `/locations/{id}`        | Obtener ubicación por ID     |
-| `GET`     | `/locations?zoneId={id}` | Filtrar por zona             |
-| `POST`    | `/locations`             | Crear ubicación              |
-| `PUT`     | `/locations/{id}`        | Actualizar ubicación         |
-| `DELETE`  | `/locations/{id}`        | Eliminar ubicación           |
-
-**Ejemplo de Request:**
-
-```json
-POST /locations
-{
-  "name": "Planta Compresión A",
-  "zoneId": 10,
-  "latitude": -12.04318,
-  "longitude": -77.02824
-}
-```
-
-**Ejemplo de Response:**
-
-```json
-{
-  "id": 25,
-  "name": "Planta Compresión A",
-  "zoneId": 10,
-  "latitude": -12.04318,
-  "longitude": -77.02824
-}
-```
-
----
-
-#### Equipment - `/api/v1/equipment`
-
-| HTTP Verb | Endpoint                       | Description                 |
-| --------- | ------------------------------ | --------------------------- |
-| `GET`     | `/equipment`                   | Listar todo el equipamiento |
-| `GET`     | `/equipment/{id}`              | Obtener equipo por ID       |
-| `GET`     | `/equipment?status=DISPONIBLE` | Filtrar por estado          |
-| `POST`    | `/equipment`                   | Crear equipo                |
-| `PUT`     | `/equipment/{id}`              | Actualizar equipo           |
-| `PATCH`   | `/equipment/{id}/status`       | Cambiar estado              |
-| `DELETE`  | `/equipment/{id}`              | Eliminar equipo             |
-
-**Ejemplo de Request:**
-
-```json
-POST /equipment
-{
-  "code": "EQ-456",
-  "type": "GENERADOR",
-  "status": "DISPONIBLE",
-  "locationId": 25
-}
-```
-
-**Ejemplo de Response:**
-
-```json
-{
-  "id": 88,
-  "code": "EQ-456",
-  "type": "GENERADOR",
-  "status": "DISPONIBLE",
-  "locationId": 25
-}
-```
-
----
-
-#### Teams - `/api/v1/teams`
-
-| HTTP Verb | Endpoint                     | Description              |
-| --------- | ---------------------------- | ------------------------ |
-| `GET`     | `/teams`                     | Listar todos los equipos |
-| `GET`     | `/teams/{id}`                | Obtener equipo por ID    |
-| `GET`     | `/teams?status=ACTIVE`       | Filtrar por estado       |
-| `GET`     | `/teams?zoneId={id}`         | Filtrar por zona         |
-| `POST`    | `/teams`                     | Crear equipo             |
-| `PUT`     | `/teams/{id}`                | Actualizar equipo        |
-| `PATCH`   | `/teams/{id}/status`         | Cambiar estado           |
-| `PATCH`   | `/teams/{id}/members/add`    | Agregar miembro          |
-| `PATCH`   | `/teams/{id}/members/remove` | Quitar miembro           |
-| `DELETE`  | `/teams/{id}`                | Eliminar equipo          |
-
-**Ejemplo de Request:**
-
-```json
-POST /teams
-{
-  "name": "Equipo Alpha",
-  "zoneId": 10,
-  "status": "ACTIVE"
+  "taskProgrammingId": 10,
+  "startDateTime": "2025-07-07T09:00:00",
+  "endDateTime": "2025-07-07T12:00:00"
 }
 ```
 
@@ -3484,38 +3317,30 @@ POST /teams
 ```json
 {
   "id": 5,
-  "name": "Equipo Alpha",
-  "zoneId": 10,
-  "status": "ACTIVE",
-  "members": []
+  "status": "PENDING",
+  "startDateTime": "2025-07-07T09:00:00",
+  "endDateTime": "2025-07-07T12:00:00"
 }
 ```
 
----
+### IncidentReportController – /api/v1/incident-reports
 
-#### Tasks - `/api/v1/tasks`
-
-| HTTP Verb | Endpoint                  | Description                 |
-| --------- | ------------------------- | --------------------------- |
-| `GET`     | `/tasks`                  | Listar todas las tareas     |
-| `GET`     | `/tasks/{id}`             | Obtener tarea por ID        |
-| `GET`     | `/tasks?status=PENDIENTE` | Filtrar por estado          |
-| `GET`     | `/tasks?activityId={id}`  | Filtrar por actividad       |
-| `POST`    | `/tasks`                  | Crear tarea                 |
-| `PUT`     | `/tasks/{id}`             | Actualizar tarea            |
-| `PATCH`   | `/tasks/{id}/progress`    | Actualizar progreso (0-100) |
-| `PATCH`   | `/tasks/{id}/status`      | Cambiar estado              |
-| `DELETE`  | `/tasks/{id}`             | Eliminar tarea              |
+| HTTP Verb | Endpoint                         | Descripción                                                  |
+| --------- | -------------------------------- | ------------------------------------------------------------ |
+| `POST`    | `/{executionId}/incidents`       | Crea un nuevo reporte de incidente asociado a una ejecución. |
+| `GET`     | `/incidents/{incidentId}`        | Obtiene un incidente por su ID.                              |
+| `GET`     | `/{executionId}/incidents`       | Lista todos los incidentes de una ejecución.                 |
+| `GET`     | `/incidents`                     | Lista todos los incidentes del sistema.                      |
+| `PATCH`   | `/incidents/{incidentReportId}`  | Actualiza la descripción de un incidente.                    |
+| `PATCH`   | `/{incidentReportId}/employeeId` | Actualiza el empleado asignado a un incidente.               |
 
 **Ejemplo de Request:**
 
 ```json
-POST /tasks
+POST /api/v1/incident-reports/5/incidents
 {
-  "title": "Inspeccionar generador",
-  "activityId": 40,
-  "status": "PENDIENTE",
-  "progress": 0
+  "description": "Derrame de aceite en planta norte",
+  "severity": "HIGH"
 }
 ```
 
@@ -3523,60 +3348,520 @@ POST /tasks
 
 ```json
 {
-  "id": 120,
-  "title": "Inspeccionar generador",
-  "activityId": 40,
-  "status": "PENDIENTE",
-  "progress": 0
+  "id": 23,
+  "description": "Derrame de aceite en planta norte",
+  "severity": "HIGH",
+  "executionId": 5
 }
 ```
 
----
+### AuthenticationController – /api/v1/authentication
 
-#### Activities - `/api/v1/activities`
+| HTTP Verb | Endpoint   | Descripción                                    |
+| --------- | ---------- | ---------------------------------------------- |
+| `POST`    | `/sign-in` | Inicia sesión con credenciales proporcionadas. |
+| `POST`    | `/sign-up` | Registra un nuevo usuario en el sistema.       |
 
-| HTTP Verb | Endpoint                       | Description                  |
-| --------- | ------------------------------ | ---------------------------- |
-| `GET`     | `/activities`                  | Listar todas las actividades |
-| `GET`     | `/activities/{id}`             | Obtener actividad por ID     |
-| `GET`     | `/activities?status=PENDIENTE` | Filtrar por estado           |
-| `GET`     | `/activities?priority=ALTA`    | Filtrar por prioridad        |
-| `GET`     | `/activities?crewId={code}`    | Filtrar por equipo           |
-| `POST`    | `/activities`                  | Crear actividad              |
-| `PUT`     | `/activities/{id}`             | Actualizar actividad         |
-| `PATCH`   | `/activities/{id}/status`      | Cambiar estado               |
-| `PATCH`   | `/activities/{id}/crew`        | Asignar equipo               |
-| `PATCH`   | `/activities/{id}/vehicle`     | Asignar vehículo             |
-| `PATCH`   | `/activities/{id}/notes`       | Actualizar notas supervisor  |
-| `DELETE`  | `/activities/{id}`             | Eliminar actividad           |
-
-**Ejemplo de Request:**
+**Ejemplo de Request (sign-in):**
 
 ```json
-POST /activities
+POST /api/v1/authentication/sign-in
 {
-  "title": "Mantenimiento preventivo",
-  "priority": "ALTA",
-  "status": "PENDIENTE",
-  "locationId": 25
+  "username": "admin",
+  "password": "admin123"
 }
 ```
 
-**Ejemplo de Response:**
+**Ejemplo de Response (sign-in):**
 
 ```json
 {
-  "id": 40,
-  "title": "Mantenimiento preventivo",
-  "priority": "ALTA",
-  "status": "PENDIENTE",
-  "locationId": 25,
-  "assignedTeamId": null
+  "id": 1,
+  "username": "admin",
+  "roles": ["ADMIN"]
 }
 ```
 
----
+**Ejemplo de Request (sign-up):**
 
+```json
+POST /api/v1/authentication/sign-up
+{
+  "username": "nuevo_user",
+  "password": "password123",
+  "email": "nuevo@correo.com"
+}
+```
+
+**Ejemplo de Response (sign-up):**
+
+```json
+{
+  "id": 2,
+  "username": "nuevo_user",
+  "email": "nuevo@correo.com"
+}
+```
+
+### RolesController – /api/v1/roles
+
+| HTTP Verb | Endpoint | Descripción                        |
+| --------- | -------- | ---------------------------------- |
+| `GET`     | `/`      | Lista todos los roles disponibles. |
+
+**Ejemplo de Request**
+
+```json
+GET /api/v1/roles
+```
+
+### UsersController – /api/v1/users
+
+| HTTP Verb | Endpoint           | Descripción                                          |
+| --------- | ------------------ | ---------------------------------------------------- |
+| `GET`     | `/`                | Lista todos los usuarios del sistema.                |
+| `GET`     | `/{userId}`        | Obtiene los datos de un usuario específico.          |
+| `POST`    | `/`                | Crea un nuevo usuario.                               |
+| `PUT`     | `/{userId}`        | Actualiza los datos de un usuario existente.         |
+| `PUT`     | `/{userId}/status` | Actualiza el estado (activo/inactivo) de un usuario. |
+| `DELETE`  | `/{userId}`        | Elimina (desactiva) un usuario del sistema.          |
+
+**Ejemplo de Request Crear usuario**
+
+```json
+POST /api/v1/users
+{
+  "username": "usuario1",
+  "password": "secure123",
+  "email": "usuario1@correo.com",
+  "roleId": 2
+}
+```
+
+**Ejemplo de Response 201**
+
+```json
+{
+  "id": 5,
+  "username": "usuario1",
+  "email": "usuario1@correo.com",
+  "role": "OPERATOR"
+}
+```
+
+**Ejemplo de Request Actualizar estado**
+
+```json
+
+PUT /api/v1/users/5/status
+{
+  "active": false
+}
+```
+
+**Ejemplo de Response**
+
+```json
+
+PUT /api/v1/users/5/status
+{
+  "active": false
+}
+```
+
+### ActivityController – /api/v1/activities
+
+| HTTP Verb | Endpoint               | Descripción                           |
+| --------- | ---------------------- | ------------------------------------- |
+| `POST`    | `/`                    | Crea una nueva actividad.             |
+| `GET`     | `/{activityId}`        | Obtiene una actividad por su ID.      |
+| `GET`     | `/`                    | Lista todas las actividades.          |
+| `GET`     | `/status/{status}`     | Lista actividades según su estado.    |
+| `PATCH`   | `/{activityId}/status` | Actualiza el estado de una actividad. |
+
+**Ejemplo de Request Crear actividad**
+
+```json
+POST /api/v1/activities
+{
+  "name": "Inspección de maquinaria",
+  "status": "PENDING"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 10,
+  "name": "Inspección de maquinaria",
+  "status": "PENDING"
+}
+```
+
+**Ejemplo de Request Actualizar estado**
+
+```json
+PATCH /api/v1/activities/10/status
+{
+  "status": "IN_PROGRESS"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 10,
+  "name": "Inspección de maquinaria",
+  "status": "IN_PROGRESS"
+}
+```
+
+### TaskController – /api/v1/tasks
+
+| HTTP Verb | Endpoint                   | Descripción                                       |
+| --------- | -------------------------- | ------------------------------------------------- |
+| `POST`    | `/`                        | Crea una nueva tarea.                             |
+| `GET`     | `/{taskId}`                | Obtiene una tarea por su ID.                      |
+| `GET`     | `/activities/{activityId}` | Lista todas las tareas asociadas a una actividad. |
+| `PATCH`   | `/{taskId}/employeeId`     | Actualiza el empleado asignado a una tarea.       |
+| `PATCH`   | `/{taskId}/description`    | Actualiza la descripción de una tarea.            |
+| `PATCH`   | `/{taskId}/status`         | Actualiza el estado de una tarea.                 |
+| `GET`     | `/`                        | Lista todas las tareas del sistema.               |
+| `GET`     | `/status/{status}`         | Lista todas las tareas según su estado.           |
+
+**Ejemplo de Request Crear tarea**
+
+```json
+POST /api/v1/tasks
+{
+  "activityId": 10,
+  "description": "Revisión de filtros",
+  "employeeId": 3
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 25,
+  "activityId": 10,
+  "description": "Revisión de filtros",
+  "employeeId": 3,
+  "status": "PENDING"
+}
+```
+
+**Ejemplo de Request Actualizar descripción**
+
+```json
+PATCH /api/v1/tasks/25/description
+{
+  "description": "Cambio de filtros"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 25,
+  "description": "Cambio de filtros"
+}
+```
+
+### TaskProgrammingController – /api/v1/task-programming
+
+| HTTP Verb | Endpoint                             | Descripción                                           |
+| --------- | ------------------------------------ | ----------------------------------------------------- |
+| `POST`    | `/`                                  | Crea la programación de una tarea.                    |
+| `GET`     | `/{programmingId}`                   | Obtiene una programación de tarea por su ID.          |
+| `GET`     | `/tasks/{taskId}`                    | Lista las programaciones asociadas a una tarea.       |
+| `PATCH`   | `/{taskProgrammingId}/time-interval` | Actualiza el intervalo de tiempo de una programación. |
+| `PATCH`   | `/{taskProgrammingId}/status`        | Actualiza el estado de una programación de tarea.     |
+| `GET`     | `/`                                  | Lista todas las programaciones del sistema.           |
+| `GET`     | `/activities/{activityId}`           | Lista las programaciones de tareas por actividad.     |
+
+**Ejemplo de Request Crear programación**
+
+```json
+POST /api/v1/task-programming
+{
+  "taskId": 25,
+  "startTime": "2025-07-08T09:00:00",
+  "endTime": "2025-07-08T11:00:00"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 44,
+  "taskId": 25,
+  "startTime": "2025-07-08T09:00:00",
+  "endTime": "2025-07-08T11:00:00",
+  "status": "PLANNED"
+}
+```
+
+**Ejemplo de Request Actualizar intervalo**
+
+```json
+PATCH /api/v1/task-programming/44/time-interval
+{
+  "startTime": "2025-07-08T08:00:00",
+  "endTime": "2025-07-08T10:30:00"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 44,
+  "startTime": "2025-07-08T08:00:00",
+  "endTime": "2025-07-08T10:30:00"
+}
+```
+
+### EmployeeController – /api/v1/employees
+
+| HTTP Verb | Endpoint               | Descripción                                          |
+| --------- | ---------------------- | ---------------------------------------------------- |
+| `POST`    | `/`                    | Crea un nuevo empleado.                              |
+| `GET`     | `/{employeeId}`        | Obtiene un empleado por su ID.                       |
+| `GET`     | `/`                    | Lista todos los empleados.                           |
+| `PATCH`   | `/{employeeId}/status` | Actualiza el estado (disponibilidad) de un empleado. |
+| `GET`     | `/status/{status}`     | Lista empleados por estado.                          |
+
+**Ejemplo de Request Crear empleado**
+
+```json
+POST /api/v1/employees
+{
+  "firstName": "Carlos",
+  "lastName": "Ramírez",
+  "positionId": 2,
+  "status": "AVAILABLE"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 12,
+  "firstName": "Carlos",
+  "lastName": "Ramírez",
+  "position": "Supervisor",
+  "status": "AVAILABLE"
+}
+```
+
+**Ejemplo de Request Actualizar estado**
+
+```json
+PATCH /api/v1/employees/12/status
+{
+  "status": "UNAVAILABLE"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 12,
+  "status": "UNAVAILABLE"
+}
+```
+
+### EquipmentController – /api/v1/equipment
+
+| HTTP Verb | Endpoint                | Descripción                                        |
+| --------- | ----------------------- | -------------------------------------------------- |
+| `POST`    | `/`                     | Crea un nuevo equipo.                              |
+| `GET`     | `/{equipmentId}`        | Obtiene un equipo por su ID.                       |
+| `GET`     | `/`                     | Lista todos los equipos.                           |
+| `PATCH`   | `/{equipmentId}/status` | Actualiza el estado (disponibilidad) de un equipo. |
+| `GET`     | `/status/{status}`      | Lista equipos por estado de disponibilidad.        |
+
+**Ejemplo de Request Crear equipo**
+
+```json
+POST /api/v1/equipment
+{
+  "name": "Excavadora X200",
+  "status": "AVAILABLE"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 8,
+  "name": "Excavadora X200",
+  "status": "AVAILABLE"
+}
+```
+
+**Ejemplo de Request Actualizar estado**
+
+```json
+PATCH /api/v1/equipment/8/status
+{
+  "status": "IN_USE"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 8,
+  "status": "IN_USE"
+}
+```
+
+### PositionController – /api/v1/positions
+
+| HTTP Verb | Endpoint        | Descripción                     |
+| --------- | --------------- | ------------------------------- |
+| `POST`    | `/`             | Crea un nuevo cargo o posición. |
+| `GET`     | `/{positionId}` | Obtiene una posición por su ID. |
+| `GET`     | `/`             | Lista todas las posiciones.     |
+
+**Ejemplo de Request Crear posición**
+
+```json
+POST /api/v1/positions
+{
+  "name": "Supervisor"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 2,
+  "name": "Supervisor"
+}
+```
+
+**Ejemplo de Request Obtener por ID**
+
+```json
+GET /api/v1/positions/2
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 2,
+  "name": "Supervisor"
+}
+```
+
+### ReservationController – /api/v1/reservations
+
+| HTTP Verb | Endpoint                           | Descripción                                                                |
+| --------- | ---------------------------------- | -------------------------------------------------------------------------- |
+| `POST`    | `/`                                | Crea una nueva reserva.                                                    |
+| `GET`     | `/{reservationId}`                 | Obtiene una reserva por su ID.                                             |
+| `GET`     | `/by-resource/{resourceType}/{id}` | Lista las reservas asociadas a un tipo e ID de recurso (equipo, empleado). |
+| `GET`     | `/`                                | Lista todas las reservas.                                                  |
+
+**Ejemplo de Request Crear reserva**
+
+```json
+POST /api/v1/reservations
+{
+  "employeeId": 12,
+  "equipmentId": 8,
+  "startTime": "2025-07-08T08:00:00",
+  "endTime": "2025-07-08T10:00:00"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 5,
+  "employee": "Carlos Ramírez",
+  "equipment": "Excavadora X200",
+  "startTime": "2025-07-08T08:00:00",
+  "endTime": "2025-07-08T10:00:00"
+}
+```
+
+### TeamController – /api/v1/teams
+
+| HTTP Verb | Endpoint                             | Descripción                                            |
+| --------- | ------------------------------------ | ------------------------------------------------------ |
+| `POST`    | `/`                                  | Crea un nuevo equipo.                                  |
+| `GET`     | `/{teamId}`                          | Obtiene un equipo por su ID.                           |
+| `GET`     | `/`                                  | Lista todos los equipos.                               |
+| `POST`    | `/teams/{teamId}/members`            | Crea un nuevo miembro de equipo y lo asigna al equipo. |
+| `GET`     | `/members/{memberId}`                | Obtiene un miembro de equipo por su ID.                |
+| `DELETE`  | `/teams/{teamId}/members/{memberId}` | Elimina (desactiva) un miembro de un equipo.           |
+
+**Ejemplo de Request Crear equipo**
+
+```json
+POST /api/v1/teams
+{
+  "name": "Equipo de Turno A"
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 3,
+  "name": "Equipo de Turno A"
+}
+```
+
+**Ejemplo de Request Agregar miembro**
+
+```json
+POST /api/v1/teams/3/members
+{
+  "employeeId": 12
+}
+```
+
+**Ejemplo de Response**
+
+```json
+{
+  "id": 7,
+  "employeeId": 12,
+  "teamId": 3
+}
+```
+
+**Ejemplo de Request Eliminar miembro**
+
+```http
+DELETE /api/v1/teams/3/members/7
+```
+
+**Response**
+
+```http
+204 No Content
+```
+
+---
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
@@ -3609,11 +3894,13 @@ El objetivo de estas entrevistas fue validar la **usabilidad**, **eficiencia** y
 La validación se centró en analizar cómo los usuarios interactúan con la plataforma web y móvil en escenarios reales de trabajo, incluyendo condiciones de conectividad limitada, alta carga operativa y necesidad de respuesta inmediata ante incidentes.
 
 #### Objetivo de la Entrevista
+
 Evaluar si PetroTask cumple con las expectativas de los usuarios finales en términos de facilidad de uso, comprensión de los flujos operativos y apoyo efectivo a la gestión de tareas petroleras, identificando oportunidades de mejora antes de su consolidación como solución funcional.
 
 Asimismo, se buscó validar la claridad de la trazabilidad operativa, el entendimiento de los dashboards y la percepción general de valor del sistema dentro del flujo diario de trabajo.
 
 #### Criterios Evaluados
+
 Durante las entrevistas se evaluaron los siguientes criterios:
 
 - **Usabilidad general de la plataforma**:  
@@ -3635,6 +3922,7 @@ Durante las entrevistas se evaluaron los siguientes criterios:
   Percepción global del sistema, utilidad real para el trabajo diario y disposición a utilizar PetroTask de forma continua.
 
 #### Perfiles Entrevistados
+
 Las entrevistas se realizaron considerando los siguientes perfiles:
 
 - **Supervisores y planificadores de campo**: responsables de la asignación, supervisión y reprogramación de tareas operativas.
