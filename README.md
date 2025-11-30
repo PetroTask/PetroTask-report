@@ -1894,17 +1894,50 @@ En **PetroTask**, se ha diseñado un sistema de navegación claro y directo para
 
 ## 4.4. Web Applications UX/UI Design
 
-// TODO: mejorar todas las imágenes del cap 4.4, hacerlas en figma
-
-![Web Applications UX/UI Design](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4%20ux%20ui%20design.JPG)
-
 ### 4.4.1. Web Applications Wireframes
 
-![Web Applications Wireframes](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.1%20wireframes.JPG)
+![WIREFRAME – INICIO DESKTOP](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20INICIO%20DESKTOP.png)
+
+![WIREFRAME – PLANIFICACIÓN DE TAREAS](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20PLANIFICACI%C3%93N%20DE%20TAREAS.png)
+
+![WIREFRAME – LISTA DE TAREAS](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20LISTA%20DE%20TAREAS.png)
+
+![WIREFRAME – GESTIÓN DE TAREAS OPERATIVAS](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20GESTI%C3%93N%20DE%20TAREAS%20OPERATIVAS.png)
+
+![WIREFRAME – SAFETY MONITORING](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20SAFETY%20MONITORING.png)
+
+![WIREFRAME – SAFETY ALERTS](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20SAFETY%20ALERTS.png)
+
+![WIREFRAME – DASHBOARD DE REPORTES](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20DASHBOARD%20DE%20REPORTES.png)
+
+![WIREFRAME – TASK EXECUTION HISTORY](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20TASK%20EXECUTION%20HISTORY.png)
+
+![WIREFRAME – LOGIN MOBILE](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20LOGIN%20MOBILE.png)
+
+![WIREFRAME – REGISTER MOBILE](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Wireframes/WIREFRAME%20%E2%80%93%20REGISTER.png)
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-![Web Applications Wireflow](https://raw.githubusercontent.com/PetroTask/PetroTask-report/0b3882fbbbe9ae612fdcdb6b5657d3878c53240b/TB2/4.4.2%20Web%20Applications%20Wireflow.png)
+![MOCKUP – INICIO DESKTOP](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCKUP%20%E2%80%93%20INICIO%20DESKTOP.png)
+
+![MOCK-UP – PLANIFICACIÓN DE TAREAS](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCK-UP%20%E2%80%93%20PLANIFICACI%C3%93N%20DE%20TAREAS.png)
+
+![MOCK-UP – LISTA DE TAREAS](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCK-UP%20%E2%80%93%20LISTA%20DE%20TAREAS.png)
+
+![MOCK-UP – GESTIÓN DE TAREAS OPERATIVAS](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCK-UP%20%E2%80%93%20GESTI%C3%93N%20DE%20TAREAS%20OPERATIVAS.png)
+
+![MOCK-UP – SAFETY MONITORING](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCK-UP%20%E2%80%93%20SAFETY%20MONITORING.png)
+
+![MOCK-UP – SAFETY ALERTS](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCK-UP%20%E2%80%93%20SAFETY%20ALERTS.png)
+
+![MOCK-UP – DASHBOARD DE REPORTES](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCK-UP%20%E2%80%93%20DASHBOARD%20DE%20REPORTES.png)
+
+![MOCK-UP – TASK EXECUTION HISTORY](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCK-UP%20%E2%80%93%20TASK%20EXECUTION%20HISTORY.png)
+
+![MOCK-UP – LOGIN MOBILE](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCK-UP%20%E2%80%93%20LOGIN%20MOBILE.png)
+
+![MOCK-UP – REGISTER MOBILE](https://raw.githubusercontent.com/PetroTask/PetroTask-report/772757f950a8db53ca522a0c879a379ea219fab1/img/Web%20Applications%20Mock-ups/MOCK-UP%20%E2%80%93%20REGISTER.png)
 
 ### 4.4.3. Web Applications Mock-ups
 
