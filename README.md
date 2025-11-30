@@ -15,6 +15,49 @@
 
 ---
 
+<div>
+  <p align="center"><b>Ciclo 2025 - 20</b></p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
 ## Team members:
 
 | **Nombre**                         | **Código** |
@@ -23,10 +66,6 @@
 | Rodrigo Fabrizio Aguilar Untiveros | U202318309 |
 | Santiago Valentino Solis Chang     | U20231B475 |
 | Johan Giovani Huamán Cuba          | u202417448 |
-
-<div>
-  <p align="center"><b>Ciclo 2025 - 20</b></p>
-</div>
 
 ## Versiones del Informe
 
