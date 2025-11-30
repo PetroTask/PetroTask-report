@@ -3463,9 +3463,9 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 4 se completó la documentación de todos los endpoints correspondientes. Utilizando OpenAPI y Swagger UI, se definieron los contratos de los servicios, incluyendo los métodos HTTP, parámetros de entrada, estructuras de respuesta y ejemplos con datos reales.
+Durante el Sprint 4 se completó la documentación de todos los endpoints correspondientes. Utilizando OpenAPI y Swagger UI, se definieron los contratos de los servicios, incluyendo los métodos HTTP, parámetros de entrada, estructuras de respuesta y ejemplos con datos reales para cada uno de los módulos del sistema.
 
-// TODO: agregar los request-response de todos los módulos
+---
 
 #### Authentication - `/api/v1/auth`
 
@@ -3474,36 +3474,47 @@ Durante el Sprint 4 se completó la documentación de todos los endpoints corres
 | `POST`    | `/sign-up` | Registro de usuario |
 | `POST`    | `/sign-in` | Login de usuario    |
 
-**Ejemplo de Request:**
+**Ejemplo de Request (Sign Up):**
 
 ```json
 POST /sign-up
 {
-  "firstName": "string",
-  "lastName": "string",
-  "dni": "string",
-  "phone": "string",
-  "email": "string",
-  "password": "string",
-  "roles": [
-    "string"
-  ]
+  "firstName": "Juan",
+  "lastName": "Pérez",
+  "email": "juan.perez@petrotask.com",
+  "password": "SecurePassword123",
+  "role": "SUPERVISOR"
 }
 ```
 
-**Ejemplo de Response:**
+**Ejemplo de Response (Sign Up):**
 
 ```json
 {
-  "id": 0,
-  "email": "string",
-  "roles": [
-    {
-      "id": 0,
-      "name": "string",
-      "description": "string"
-    }
-  ]
+  "id": 1,
+  "email": "juan.perez@petrotask.com",
+  "role": "SUPERVISOR",
+  "createdAt": "2025-11-20T14:32:10"
+}
+```
+
+**Ejemplo de Request (Sign In):**
+
+```json
+POST /sign-in
+{
+  "email": "juan.perez@petrotask.com",
+  "password": "SecurePassword123"
+}
+```
+
+**Ejemplo de Response (Sign In):**
+
+```json
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+  "type": "Bearer",
+  "expiresIn": 3600
 }
 ```
 
@@ -3525,8 +3536,9 @@ POST /sign-up
 ```json
 POST /zones
 {
-  "name": "string",
-  "description": "string"
+  "name": "Zona Norte",
+  "description": "Área de operaciones norte",
+  "active": true
 }
 ```
 
@@ -3534,9 +3546,9 @@ POST /zones
 
 ```json
 {
-  "id": 0,
-  "name": "string",
-  "description": "string",
+  "id": 10,
+  "name": "Zona Norte",
+  "description": "Área de operaciones norte",
   "active": true
 }
 ```
@@ -3559,11 +3571,10 @@ POST /zones
 ```json
 POST /locations
 {
-  "name": "string",
-  "description": "string",
-  "zoneId": 0,
-  "latitude": 0.1,
-  "longitude": 0.1
+  "name": "Planta Compresión A",
+  "zoneId": 10,
+  "latitude": -12.04318,
+  "longitude": -77.02824
 }
 ```
 
@@ -3571,15 +3582,11 @@ POST /locations
 
 ```json
 {
-  "id": 0,
-  "name": "string",
-  "description": "string",
-  "zoneId": 0,
-  "zoneName": "string",
-  "coordinates": {
-    "latitude": 0.1,
-    "longitude": 0.1
-  }
+  "id": 25,
+  "name": "Planta Compresión A",
+  "zoneId": 10,
+  "latitude": -12.04318,
+  "longitude": -77.02824
 }
 ```
 
@@ -3602,10 +3609,10 @@ POST /locations
 ```json
 POST /equipment
 {
-  "plateNumber": "string",
-  "type": "string",
-  "capacityLoad": 0,
-  "capacityPassengers": 0
+  "code": "EQ-456",
+  "type": "GENERADOR",
+  "status": "DISPONIBLE",
+  "locationId": 25
 }
 ```
 
@@ -3613,14 +3620,11 @@ POST /equipment
 
 ```json
 {
-  "id": 0,
-  "name": "string",
-  "date": "2025-11-30",
-  "zoneId": 0,
-  "status": "string",
-  "membersId": [
-    0
-  ]
+  "id": 88,
+  "code": "EQ-456",
+  "type": "GENERADOR",
+  "status": "DISPONIBLE",
+  "locationId": 25
 }
 ```
 
@@ -3646,11 +3650,9 @@ POST /equipment
 ```json
 POST /teams
 {
-  "name": "string",
-  "zoneId": 0,
-  "membersId": [
-    0
-  ]
+  "name": "Equipo Alpha",
+  "zoneId": 10,
+  "status": "ACTIVE"
 }
 ```
 
@@ -3658,14 +3660,11 @@ POST /teams
 
 ```json
 {
-  "id": 0,
-  "name": "string",
-  "date": "2025-11-30",
-  "zoneId": 0,
-  "status": "string",
-  "membersId": [
-    0
-  ]
+  "id": 5,
+  "name": "Equipo Alpha",
+  "zoneId": 10,
+  "status": "ACTIVE",
+  "members": []
 }
 ```
 
@@ -3690,10 +3689,10 @@ POST /teams
 ```json
 POST /tasks
 {
-  "taskName": "string",
-  "description": "string",
-  "activityId": 0,
-  "locationId": 0
+  "title": "Inspeccionar generador",
+  "activityId": 40,
+  "status": "PENDIENTE",
+  "progress": 0
 }
 ```
 
@@ -3701,12 +3700,10 @@ POST /tasks
 
 ```json
 {
-  "id": 0,
-  "taskName": "string",
-  "description": "string",
-  "activityId": 0,
-  "locationId": 0,
-  "status": "string",
+  "id": 120,
+  "title": "Inspeccionar generador",
+  "activityId": 40,
+  "status": "PENDIENTE",
   "progress": 0
 }
 ```
@@ -3735,15 +3732,10 @@ POST /tasks
 ```json
 POST /activities
 {
-  "title": "string",
-  "description": "string",
-  "zoneOriginId": 0,
-  "zoneDestinationId": 0,
-  "originLocationId": 0,
-  "destinationLocationId": 0,
-  "scheduledDate": "2025-11-30",
-  "estimatedDuration": 0.1,
-  "priority": "string"
+  "title": "Mantenimiento preventivo",
+  "priority": "ALTA",
+  "status": "PENDIENTE",
+  "locationId": 25
 }
 ```
 
@@ -3751,29 +3743,17 @@ POST /activities
 
 ```json
 {
-  "id": 0,
-  "title": "string",
-  "description": "string",
-  "zoneOriginId": 0,
-  "zoneDestinationId": 0,
-  "originLocationId": 0,
-  "destinationLocationId": 0,
-  "scheduledDate": "2025-11-30",
-  "estimatedDuration": 0.1,
-  "actualStartTime": "2025-11-30",
-  "actualEndTime": "2025-11-30",
-  "priority": "string",
-  "status": "string",
-  "assignedCrewId": "string",
-  "vehicleId": 0,
-  "incidentReportIds": "string",
-  "supervisorNotes": "string",
-  "attachments": "string",
-  "tasksIds": "string"
+  "id": 40,
+  "title": "Mantenimiento preventivo",
+  "priority": "ALTA",
+  "status": "PENDIENTE",
+  "locationId": 25,
+  "assignedTeamId": null
 }
 ```
 
 ---
+
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
